@@ -1,0 +1,20 @@
+{
+  "ENG": {
+    "title": "Purchase with complete confidence, with our 30-day money back guarantee.",
+    "theme": null,
+    "badges": [
+      {
+        "src": "/images/30_Day_Money_Back.webp",
+        "alt": "30 Day Money Back Guarantee"
+      },
+      {
+        "src": "/images/Free_Shipping.webp",
+        "alt": "Free Shipping"
+      },
+      {
+        "src": "/images/Shopify_Secure.webp",
+        "alt": "Shopify Secure"
+      }
+    ]
+  }
+}

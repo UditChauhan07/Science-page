@@ -1,0 +1,249 @@
+.SubscriptionBar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  height: auto;
+  z-index: 111;
+}
+
+.SubscriptoionInner {
+  padding: 15px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button03 {
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
+  color: #fff;
+}
+.button04 {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
+}
+.button03 .priceCross {
+  color: #fff;
+  font-weight: bold;
+}
+.button04 .priceCross {
+  font-weight: bold;
+  color: #000;
+}
+.colxl7 {
+  flex: 1 0 50%;
+}
+.colxl7Themed {
+  flex: 1 0 64%;
+}
+.colxl5Themed {
+  flex: 1 0 30%;
+}
+.colxl5 {
+  flex: 1 0 40%;
+}
+
+.firstLineHeader {
+  color: #ffbf3c;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.themedFirstLineHeader {
+  color: #ffbf3c;
+  font-size: 15px;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+.themedTextWhiteFont {
+  font-family: var(--bmd-font-Secondary);
+  text-transform: uppercase;
+}
+.themedTextWhite {
+  color: #fff;
+}
+.secondLineHeader {
+  color: #fff;
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.SubOneTime {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button01 {
+  background: #000;
+  color: #ffbf3c;
+  border: 1px solid #ffbf3c;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+}
+
+.button02 {
+  background: #ffbf3c;
+  color: #000;
+  border: 1px solid #ffbf3c;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+}
+
+.button02 .priceCross {
+  color: #000;
+  font-size: 22px;
+}
+
+.priceCross {
+  color: #ffbf3c;
+  font-size: 22px;
+}
+
+.btnText {
+  font-size: 12px;
+  line-height: 1;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1400px) {
+    .colxl7Themed {
+      margin-left: 5%;
+    }
+  .container {
+    max-width: 99%;
+    width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .colxl7Themed {
+    margin-left: 2%;
+  }
+  .themedFirstLineHeader,.secondLineHeader{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .colxl7 {
+    text-align: center;
+    margin: 0 5px;
+  }
+  .themedFirstLineHeader,.secondLineHeader{
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 90%;
+    width: 100%;
+  }
+  .colxl5Themed,
+  .colxl7Themed {
+    flex: 1 0 100%;
+  }
+  .button03,.button04{
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 455px) {
+  .container {
+    max-width: 70%;
+    width: 100%;
+  }
+  .colxl5Themed,
+  .colxl7Themed {
+    flex: 1 0 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .secondLineHeader {
+    font-size: 11px;
+  }
+  .firstLineHeader {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .secondLineHeader,
+  .firstLineHeader {
+    width: 100%;
+    margin: auto;
+  }
+  .button03,
+  .button04 {
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .secondLineHeader,
+  .firstLineHeader {
+    font-size: 10px;
+    line-height: 16px;
+    /* padding: 0 25px; */
+  }
+  .button02,
+  .button01,
+  .button03,
+  .button04 {
+    padding: 10px 10px;
+  }
+  .priceCross{
+    font-size: 18px;
+  }
+  .btnText{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .button02,
+  .button01 {
+    padding: 10px;
+  }
+  .button03,
+  .button04 {
+    margin: 0 2px;
+    padding: 10px;
+  }
+}

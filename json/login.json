@@ -1,0 +1,20 @@
+{
+    "ENG":{
+        "EmailLabel":"Email Address",
+        "PasswordLabel":"Password",
+        "btnLabel":"SIGN IN",
+        "Forget":{
+            "label":"Forgot Your Password?",
+            "href":"/account/forgot-password"
+        },
+        "create":{
+            "label":"Create account",
+            "href":"/account/register"
+        },
+        "cta":"Need help accessing your subscription?",
+        "Subscription":{
+            "label":"Manage Subscription",
+            "href":"https://www.brunomd.com/tools/recurring/get-subscription-access"
+        }
+    }
+}

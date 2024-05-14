@@ -1,0 +1,131 @@
+{
+    "ENG": {
+        "masterHead": {
+            "desktopImage": {
+                "src": "/images/storia-desk.webp",
+                "alt": ""
+            },
+            "mobileImage": {
+                "src": "/images/storia-mob.webp",
+                "alt": ""
+            },
+            "title": "Our Story"
+        },
+        "timelineDesc": "For 25 years, BRUNO MD has been offering some of the most innovative and effective prescription grade supplements available.",
+        "timeline": [
+            {
+                "src": "\\images\\Gennaio-1996.webp",
+                "alt": "",
+                "title": "1996",
+                "subTitle": "Jan 1996",
+                "Desc": "Bruno Farmaceutici was founded by Dr. Antonio Bruno and his son Vincenzo."
+            },
+            {
+                "src": "\\images\\Luglio-1996.webp",
+                "alt": "",
+                "title": "1996",
+                "subTitle": "July 1996",
+                "Desc": "Acquires a portfolio of Prescription Drugs from Hoechst Marion Roussel (Germany) and starts its commercial operations in Italy."
+            },
+            {
+                "src": "\\images\\1997-2001.webp",
+                "alt": "",
+                "title": "1997",
+                "subTitle": "1997 - 2001",
+                "Desc": "Enlarges its portfolio by in-licensing more Prescription Drugs from multinational pharma companies."
+            },
+            {
+                "src": "\\images\\2001.webp",
+                "alt": "",
+                "title": "2001",
+                "Desc": "Dr. Bruno’s daughter Mariolina joins the company."
+            },
+            {
+                "src": "\\images\\2001-2011.webp",
+                "alt": "",
+                "title": "2011",
+                "subTitle": "2001 - 2011",
+                "Desc": "Develops in Italy as a specialty company focused on Osteoporosis, Pain Management, and Cardiovascular."
+            },
+            {
+                "src": "\\images\\2012.1.webp",
+                "alt": "",
+                "title": "2012",
+                "Desc": "Acquires a portfolio of anti-diabetic products from Merck."
+            },
+            {
+                "src": "\\images\\2012.2.webp",
+                "alt": "",
+                "title": "2012",
+                "Desc": "Launches in Italy the first liquid drinkable Alendronate."
+            },
+            {
+                "src": "\\images\\2015.webp",
+                "alt": "",
+                "title": "2015",
+                "Desc": "Launches in Italy the first controlled release Flecainide."
+            },
+            {
+                "src": "\\images\\2017.webp",
+                "alt": "",
+                "title": "2017",
+                "Desc": "Starts its commercial operations in the US, establishing Bruno MD"
+            },
+            {
+                "src": "\\images\\2019.webp",
+                "alt": "",
+                "title": "2019",
+                "Desc": "Develops the first soft-gel capsule containing Calcidiol (Vitamin D)"
+            },
+            {
+                "src": "\\images\\2021.webp",
+                "alt": "",
+                "title": "2021",
+                "Desc": "Bruno Farmaceutici and Bruno MD achieve an international global commercial presence."
+            },
+            {
+                "src": "\\images\\2021.1.webp",
+                "alt": "",
+                "title": "2021",
+                "Desc": "Bruno Farmaceutici celebrates its 25th anniversary."
+            }
+        ],
+        "section": [
+            {
+                "title": "Our Company",
+                "sectionImg": {
+                    "src": "\\images\\La-nostra-compagnia.webp",
+                    "alt": "",
+                    "imgPostion": "left"
+                },
+                "sectionContent": [
+                    "We are a 2nd generation, family-owned business made up of scientists, doctors, and researchers. At our core, though, we are promoters of health, science, and wellness, sharing a passion for improving human health. Our philosophy is rooted in Italy and informed by the Mediterranean lifestyle of healthy living, family, friends, love, beauty, and feeling great, which has now been embraced worldwide.",
+                    "Dr. Antonio Bruno, the founder of Bruno Farmaceutici, grew up in a small southern town in the Italian province of Avellino, a region with rich, fertile soil, mountains, vast plains, and crystal-clear rivers.",
+                    "Graduating with honors in Chemistry from the University of Naples, Dr. Bruno worked for the Milanese pharmaceutical company Lepetit S.p.A., which specialized in corticosteroids for many years until a multinational corporation acquired them."
+                ]
+            },
+            {
+                "title": null,
+                "sectionImg": {
+                    "src": "\\images\\storia-2.webp",
+                    "alt": "",
+                    "imgPostion": "right"
+                },
+                "sectionContent": [
+                    "Dr. Bruno then approached the company and made an offer for a branch of the business that encompassed twelve prescription drugs. They accepted his proposal, and Bruno Farmaceutici was born in July 1996.",
+                    "Soon after, Dr. Bruno’s son, Vincenzo, and daughter Mariolina joined.",
+                    "Bruno Farmaceutici is the 3rd leading pharmaceutical company in Italy.",
+                    "Because of that family legacy and to honor our family name and legacy, Bruno MD will always provide you with reliable, factual information and complete transparency for our ingredients and processes. We will help you cut through the misinformation, misleading claims, and naivete of other supplement companies because, to us, Bruno MD is more than a business. Our mission is to celebrate good health, deep roots, and the joys of an extraordinary life to make the world a better place.",
+                    "That is our promise to you. And that is the MDiterranean Life®."
+                ]
+            }
+        ],
+        "newsletter": {
+            "title": "Join our newsletter",
+            "portalId": "19647191",
+            "formId": "7b270a73-336b-4895-8b55-286a3f49b1f2",
+            "desktopImage": "/images/newsletters/home-news-desk.webp",
+            "mobileImage": "/images/newsletters/home-news-mob.webp"
+        }
+    }
+}

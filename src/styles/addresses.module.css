@@ -1,0 +1,245 @@
+.header {
+  text-align: center;
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.addressesContainer,.addressesContainer1 {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  justify-content: center;
+}
+.addressesContainer{
+  grid-template-columns: repeat(auto-fill,32%);
+}
+.addressesContainer1{
+  grid-template-columns: repeat(auto-fill,49%);
+}
+.dFlex {
+  margin: auto;
+  position: relative;
+}
+.badge{
+  border-radius: 3rem;
+  border: 1px solid var(--bmd-royal-purple);
+  color: var(--bmd-royal-purple);
+  padding: .05rem .8rem .1rem;
+}
+.badge:hover{
+  background: var(--bmd-royal-purple);
+  color: #fff;
+}
+/* .aPhone:hover{
+  text-decoration: underline;
+} */
+.addressContainer {
+  text-align: center;
+  padding: 20px 10px;
+  /* border-bottom: 1px solid #ccc; */
+  background: linear-gradient(180deg,#fff,#eee);
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+}
+/* .addressButton {
+  font-family: Gotham-Book, Arial, serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2em;
+  background: #000000;
+  border: 1px solid #000000;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  transition: all 0.25s;
+  margin: 0px 10px;
+  min-width: 150px;
+} */
+.backLink {
+  position: absolute;
+  top: 30%;
+}
+.dft {
+  background: #d5d3d3;
+  padding: 5px;
+  border-radius: 20%;
+  font-weight: 400;
+  font-family: var(--bmd-font-Primary);
+}
+.aPhone {
+  display: block;
+  height: 40px;
+}
+.logOut {
+  color: #37246b;
+  display: block;
+  font-size: 14px;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  transition: all 0.25s linear;
+}
+.addressInfo {
+  font-style: normal;
+  font-family: var(--bmd-font-Secondary);
+  min-height: 150px;
+}
+.addressSection {
+  min-height: 50vh;
+}
+
+/* form css */
+.accountHeader {
+  text-align: center;
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.deleteButton {
+  cursor: pointer;
+  display: inline-block;
+  width: 175px;
+  padding: 10px;
+  color: #393e46;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: bold;
+}
+.addressButton {
+  font-family: var(--bmd-font-Secondary)!important;
+  cursor: pointer;
+  display: inline-block;
+  width: 175px;
+  padding: 10px;
+  color: #393e46;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: bold;
+}
+.addressForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  max-width: 1280px;
+  margin: auto;
+}
+.linkHolder {
+  margin: 1rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--bmd-font-Secondary)!important;
+  width: 100%;
+}
+.nameWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.label {
+  font-family: Gotham-Book, Arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  text-align: left;
+}
+.input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  border: none;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.input::placeholder {
+  color: #555;
+}
+.verticalInput {
+  display: flex;
+  flex-direction: column;
+  width:24%;
+}
+.inlineWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btnHover {
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+.btnHover:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 1301px) {
+  .addressForm{
+    width:95%
+  }
+}
+@media screen and (max-width: 1024px) {
+  .addressesContainer,.addressesContainer1 {
+    grid-template-columns: repeat(auto-fill,49%);
+  }
+}
+  @media screen and (max-width: 700px) {
+  .dFlex {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .addressesContainer,.addressesContainer1 {
+    grid-template-columns: repeat(auto-fill,99%);
+  }
+  .header{
+    font-size: 24px;
+  }
+  .addressForm {
+    margin: 0 20px;
+    width: unset;
+  }
+  .addressForm input {
+    width: inherit;
+  }
+  .nameContainer,
+  .inlineWrapper {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 426px) {
+  .addressButton,.deleteButton {
+    width: 150px;
+  }
+  .nameWrapper,
+  .verticalInput {
+    padding: 0;
+  }
+  .verticalInput,.nameWrapper{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .addressButton,.deleteButton {
+    font-size: 14px;
+  }
+}

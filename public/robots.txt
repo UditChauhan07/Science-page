@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /blog
+Disallow: /blog/*
+Disallow: /account/*
+Disallow: /account
+Disallow: /404
+Disallow: /offline
+Disallow: /search
+Disallow: /cart
+Disallow: /quiz
+Disallow: /pages/*
+Disallow: /s-bar
+Disallow: /themditerraneanlife/search 

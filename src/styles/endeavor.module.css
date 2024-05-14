@@ -1,0 +1,36 @@
+.ScienceBanner{
+    text-align: center;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    position: relative;
+    
+    
+}
+.ScienceBanner h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.ScienceBanner h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.paraDis {
+    font-size: 14px;
+    width: 88%;
+    margin: auto;
+    padding: 20px 10px 0px 0px;
+    height: 350px;
+    overflow: auto;
+}
+.paraDis p {
+    padding-bottom: 15px; 
+}
+.ScienceBanner h1{
+    position: absolute;
+    top: 18%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+    left: 8%;
+    text-shadow: 0px 4px 4px #353535ab;
+    
+}

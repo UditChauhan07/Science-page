@@ -1,0 +1,25 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%;
+}
+.desc{
+    font-family: var(--bmd-font-Secondary);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+    max-width: 400px;
+    padding: 6rem 16px 2rem;
+}
+@media screen and (max-width: 1024px) {
+    .desc{
+        padding: 4rem 16px 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .desc{
+        padding: 2rem 16px 2rem;
+    }
+}

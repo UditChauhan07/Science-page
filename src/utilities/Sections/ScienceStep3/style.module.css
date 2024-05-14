@@ -1,0 +1,616 @@
+.height100vh {
+  /* height: 100vh;
+    background-color: gray;    
+    background-image: url("/images/blue-zone-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+  position: relative;
+  width: 100%;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+  width: 100%;
+}
+.hiddenParagraph .container {
+  background-image: url("/images/DNA-icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 35%;
+}
+.RowFlex {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  height: 100vh;
+}
+.W70 {
+  width: 70%;
+}
+.W80 {
+  width: 65%;
+}
+.W80 p {
+  color: #000;
+}
+.hiddenParagraph p {
+  padding-bottom: 15px;
+  line-height: 24px;
+}
+.hiddenParagraph h3 {
+  padding-bottom: 20px;
+}
+
+.RowFlex h1 {
+  text-shadow: 0px 2px 15px rgba(255, 255, 255, 0.21);
+  -webkit-text-stroke-width: 3;
+  -webkit-text-stroke-color: #d9fffe;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 113px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px; /* 100.885% */
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #2f80cb 0%, #68defa 90.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+.RowFlex h2 {
+  text-shadow: 0px 2px 86px rgba(0, 0, 0, 0.23);
+  font-family: var(--bmd-font-Secondary);
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(98deg, #c7fffd 0.56%, #fff 89.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 160px;
+  top: -28px;
+  position: relative;
+}
+.RowFlex h3 {
+  color: #000;
+  font-size: 37px;
+  font-weight: 600;
+  font-family: var(--bmd-font-Secondary);
+  letter-spacing: 0px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.LiveHealter {
+  /* padding-top: 30px; */
+}
+.W80 p {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  margin: 20px 0px;
+  line-height: 24px;
+  margin-top: 0;
+}
+.W80 p {
+  line-height: 30px !important;
+}
+.ReadMoreBtn {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 22px;
+  margin: 15px 0px;
+  font-family: var(--bmd-font-Secondary);
+  cursor: pointer;
+}
+
+/* wave Animation */
+.W70 .ContentBox {
+  position: relative;
+}
+
+.W70 .ContentBox h3 {
+  color: #fff;
+  position: absolute;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 113px;
+  font-weight: 700;
+  line-height: 114px;
+  /* 100.885% */
+  text-transform: uppercase;
+}
+
+.W70 .ContentBox h3:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #d9fffe;
+  /* text-shadow: 0px 2px 15px rgba(255, 255, 255, 0.21); */
+}
+
+.W70 .ContentBox h3:nth-child(2) {
+  color: #63b8e6;
+  /* color:  linear-gradient(90deg, #2f80cb, #68defa 90.94%); */
+  /* color: linear-gradient(180deg, red, yellow); */
+  animation: animate 4s ease-in-out infinite;
+  background: -webkit-linear-gradient(#2f80cb, #68defa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+.RowFlex h1 {
+  visibility: hidden;
+}
+
+.hiddenParagraph {
+  position: fixed;
+  padding: 20px 15px;
+  width: 100%;
+  bottom: 0%;
+  left: 0;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  overflow-y: hidden;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  z-index: 11;
+  /* background-image: linear-gradient(to right, #031C44,#031C44, #04183B); */
+  /* background-image: linear-gradient(to right, #033153, #031c44cf, #04183bc9); */
+  background-color: #000000c7;
+  backdrop-filter: blur(10px);
+}
+.hiddenParagraph h3 {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: var(--bmd-font-Secondary);
+  padding: 0 10px;
+  width: 35%;
+  font-weight: 800;
+}
+.hiddenParagraph p {
+  color: #ffffff;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;  
+  padding-bottom: 15px;
+  line-height: 24px;
+  padding: 0 15px 25px 15px;
+  font-weight: 300;
+  text-shadow: 0px 2px 0px #000000;
+}
+
+.hiddenParagraph span {
+    background-color: #fff;
+    width: 30px;
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 900;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    font-size: 17px;
+    color: #000;
+    position: absolute;
+    top: 1%;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Fade up css */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes flipInX {
+  0% {
+    transform: perspective(800px) rotateX(-90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(800px) rotateX(-0deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(800px) rotateX(-0deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(800px) rotateX(-0deg);
+  }
+
+  to {
+    transform: perspective(800px);
+  }
+}
+
+.flipInX {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  animation-delay: 2s;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+/* fade up end */
+
+.containerModal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  transform: translate(0%, 8%);
+}
+@keyframes bounceInLeft {
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    }
+  
+    0% {
+        opacity: 0;
+        transform: translate3d(-3000px,0,0)
+    }
+  
+    60% {
+        opacity: 1;
+        transform: translate3d(25px,0,0)
+    }
+  
+    75% {
+        transform: translate3d(-10px,0,0)
+    }
+  
+    90% {
+        transform: translate3d(5px,0,0)
+    }
+  
+    to {
+        transform: translateZ(0)
+    }
+  }
+  
+  .bounceInLeft {
+    animation-name: bounceInLeft;
+    animation-delay: 1s;  
+  }
+  .InneerDiscription{
+    width: 38%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  .BottomDis{
+    /* position: absolute; */
+    bottom: -25%;
+  }
+  .BottomImg{ 
+    max-width: 150px;
+  }
+  .BottomDis{
+    width: 98%;
+    display: flex;
+    background-color: #92dcff57;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(4px);
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    
+  }
+  .BottomDis p{
+    font-weight: 300;
+  }
+  .BottomImg{    
+    width: 100%;
+    margin: auto;
+    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+    max-width: 270px;
+  }
+  .Discription{
+    margin: auto;
+    height: 270px;
+    overflow: auto;
+  }
+  
+
+  .diagram{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;    
+  }
+  .NatureSecretsImg {    
+    width: 58%;
+    align-items: center;
+}
+.Hand{
+    top: 11%;
+    position: absolute;
+    right: 5%;
+    width: max-content;
+}
+.HandPlant{
+    color: red;
+}
+
+.rotateimg1
+{
+  animation: rotateanti 15s ease-in infinite 0s;
+  animation-delay: 2.5s;
+  opacity: 0;
+}
+
+@keyframes rotateanti {
+    
+ 
+ to {
+      
+    opacity: 1;
+  }
+  from {
+    
+    opacity: 1;
+    
+  }
+  
+
+
+
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        scale: 1.1;
+    }
+  
+    to {
+        opacity: 1;
+  
+    }
+  }
+  
+  .fadeIn{
+    animation-name: fadeIn;
+   
+  }
+
+  @keyframes draw {
+    
+    0% {
+      stroke-dashoffset: 1200;
+      stroke-width: 0.5;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      stroke-width: 0.5;
+    }
+    
+  }
+  
+  .NatureSecretsImg .Hand .PathLine
+   {  
+    stroke: #65FFFF;
+    stroke-width: 0.5;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    -webkit-animation: draw 3s linear forwards ;
+    animation: draw 3s linear forwards;
+  }
+
+
+  @keyframes drawPlant {
+    
+    0% {
+      stroke-dashoffset: 1200;
+      stroke-width: 0.5;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      stroke-width: 0.5;
+    }
+    
+  }
+  
+  .NatureSecretsImg .HandPlant svg
+   {  
+    stroke: #65FFFF;
+    stroke-width: 0.5;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    -webkit-animation: drawPlant 6s linear forwards infinite ;
+    animation: drawPlant 6s linear forwards infinite;
+    /* -webkit-transform: rotateY(180deg); */
+  }
+  
+
+
+
+@media (max-width: 1599.98px) {
+    .BottomDis {
+        position: absolute;
+        bottom: -20%;
+        top: unset;
+    }
+    .Discription {
+        margin: auto;
+        height: 180px;
+        overflow: auto;
+    }
+    .InneerDiscription{
+        width: 60%;       
+    }
+    .diagram{       
+        width: 45%;
+      }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .RowFlex h1 {
+    font-size: 80px;
+    visibility: hidden;
+  }
+  .RowFlex h2 {
+    font-size: 92px;
+    bottom: 15px;
+    line-height: 112px;
+    height: 110px;
+  }
+  .RowFlex h3 {
+    font-size: 35px;
+  }
+  .W80 p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .InneerDiscription {
+    height: 350px;
+    overflow: auto;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    max-width: 90%;
+  }
+  .W70 .ContentBox h3 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+  .W70 {
+    width: 100%;
+  }
+  .RowFlex h2 {
+    line-height: 100px;
+  }
+  .W80 p {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 90%;
+  }
+  .W70 {
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff59;
+    border-radius: 10px;
+  }
+  .W80 {
+    width: 100%;
+  }
+  .RowFlex h2 {
+    font-size: 40px;
+    bottom: 5px;
+    line-height: 45px;
+  }
+
+  .RowFlex h1 {
+    font-size: 35px;
+    letter-spacing: normal;
+    line-height: 65px;
+  }
+  .RowFlex h3 {
+    font-size: 20px;
+  }
+  .W70 .ContentBox h3 {
+    font-size: 35px;
+    line-height: 114px;
+  }
+  .RowFlex h2 {
+    font-size: 40px;
+    bottom: 15px;
+    line-height: 112px;
+    height: 80px;
+  }
+
+  .hiddenParagraph h3 {
+    color: #000;
+    font-size: 30px;
+  }
+}
+@media (max-width: 475px) {
+  .container {
+    max-width: 90%;
+  }
+}
