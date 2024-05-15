@@ -1,0 +1,74 @@
+
+
+.royalContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.PhytoPara11{
+    margin: 20px 0 0 0;
+}
+
+.PhytoPara11 p{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-family: 'gotham' 'Open Sans', sans-serif;
+    line-height: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.PhytoPara11 p span{
+    font-weight: 800;
+    color: #AB19C2;
+
+}
+.royalYellow{
+    text-align: center;
+    height: 52px;
+
+}
+.royalYellow h4{
+    font-weight: 600;
+    font-size: 12px;
+font-family: 'gotham' 'Open Sans', sans-serif;
+}
+
+.royalYellow p{
+
+    font-weight: 400;
+    font-size: 10px;
+font-family: 'gotham' 'Open Sans', sans-serif;
+
+}
+
+.royalYellow{
+    background-color: #F9C300;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    margin: 0 0 0 -40px;
+    z-index: -1;
+    min-width: 173px;
+}
+
+.PhytoImages1{
+    display: flex;
+    align-items: center;
+}
+
+.PhytoMain1 button{
+    width: 130px;
+    height: 35px;
+    font-size:12px;
+    font-weight: 500;
+font-family: 'gotham' 'Open Sans', sans-serif;
+color:#fff;
+background-color: #AB19C2;
+border: 1px solid #AB19C2;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+;
+
+}
