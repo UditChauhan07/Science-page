@@ -4,6 +4,8 @@ import Link from "next/link";
 // import ImgGreen from "../../../../public/images/Images/"
 
 function SciencePage() {
+
+ 
   return (
     <div>
       <section>

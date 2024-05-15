@@ -4,14 +4,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "../styles/endeavor.module.css";
 
-const Endeavor = () => {
+const Endeavor = (index) => {
   const settings = {
     dots: false,
     arrows:true,
-    
+    initialSlide: index.index-1,
+    beforeChange: (_, next) => next,
   };
+  
   return (
     <div className={`${styles.Endeavor}`}>
+     
       <div className="image-slider-container">
         <Slider {...settings}>
           <div>

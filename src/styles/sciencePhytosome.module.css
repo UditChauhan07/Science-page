@@ -33,6 +33,12 @@
 .PhytoImg img{
     border-radius: 20px;
     /* width: 100%; */
+    width: 145px;
+    height: 145px;
+}
+
+.PhytoClass{
+visibility: visible;    
 }
 
 .PhytoImg h4{
@@ -132,6 +138,30 @@ margin-bottom: 40px;
     border-radius: 12px;
     border: 2px solid #ddd;
     
+}
+
+.PhytoMain1{
+    width: 90% !important;
+
+    margin: auto;
+    gap: 30px;
+    display: grid !important;
+}
+.PhytoImages1 img{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #AF0000;
+    border-radius: 35px;
+}
+
+.PhytoPara11 p{
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Gotham", "Arial", serif";
+    line-height: 22px;
+
 }
 
 @media(max-width:540px){
