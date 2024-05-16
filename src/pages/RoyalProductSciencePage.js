@@ -8,7 +8,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 function RoyalProductSciencePage(index) {
    
+    const [isOpen, setIsOpen] = useState(false);
 
+    const openModal = () => {
+      setIsOpen(true);
+    };
+  
+    const closeModal = () => {
+      setIsOpen(false);
+    };
 
     var settings = {
         dots: false,
@@ -24,10 +32,73 @@ function RoyalProductSciencePage(index) {
       
 
   return (
+
+    
     <div className={styles.royalContainer}>
+
+      {isOpen && (
+        <div className={styles.modal}>
+          <div className={styles.modalContent}>
+            <span className={styles.close} onClick={closeModal}>&times;</span>
+
+            <div className={styles.OneTimePurchaseModal}>
+                <input type='radio' name="price" id="1"/>
+                <div className={styles.OneTimePrice}>
+                    <h5>ONE-TIME PURCHASE</h5>
+                    <p><span>$</span>58.<span>98</span></p>
+                </div>
+            </div>
+
+            <div className={`${styles.OneTimePurchaseModal} ${styles.SubsSave}`}>
+                <input type='radio' name="price" id="2"/>
+                <div className={styles.OneTimePrice}>
+                    <h5>SUBSCRIBE & SAVE 20%</h5>
+                    <p><span>$</span>47.<span>18</span>  <p className={styles.linethoroughRate}>$58.98</p> </p>
+                </div>
+            </div>
+
+            <div className={styles.SubscribeSave}>
+
+            <p className={styles.ParaSubs} ><span>Save $11.80</span> with Subscription</p>
+
+            <p className={styles.ParaOneA}>Don&apos;t miss this opportunity to save <b>20%</b> on this order and all future subscribe and save orders</p>
+            <ul>
+                <li>No Fees</li>
+                <li>Cancel anytime</li>
+            </ul>
+
+            <h5 className={styles.HeadingLeranMore}>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 1024 1024" class="icon" version="1.1"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#000000"/></svg></h5>
+
+            <div className={styles.InStockQuantity}>
+                <p>In stock</p>
+                <div className={styles.QtySelect}>
+                <label for="quantity">QTY:</label>
+                <input type="number" id="quantity" name="quantity"/>  
+                </div>
+
+                <div className={styles.Delievery}>
+                    <p>Delievery every</p>
+
+                    <div className={styles.DelieveryDay}>
+                    <input type="number" id="day" name="quantity" min="0" max="100" step="5" />
+                    <label>day</label>
+                        </div>
+                        </div>
+
+            </div>
+
+            <button>SUBSCRIBE</button>
+
+            </div>
+
+          </div>
+        </div>
+      )}
+
+<div className={`${styles.controlSlider} ${isOpen ? styles.hidden : ''}`}> 
     <Slider {...settings}>
 <div className={styles.PhytoMain1}>
-<button>Buy Now</button>
+<button onClick={openModal}>Buy Now</button>
  
   <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
@@ -231,6 +302,7 @@ are involved in the development and functioning of immune cells and contribute t
         </div>
 </div>
 </Slider>
+</div>
 </div>
   )
 }
