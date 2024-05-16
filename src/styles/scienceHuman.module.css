@@ -250,8 +250,7 @@ padding: 5px;
 }
 
 .mainSlider img{
-    height: 351px;
-    width: 157px;
+  width: auto;
 }
 
 .mainSlider{
@@ -260,7 +259,7 @@ padding: 5px;
     justify-content:space-between;
     gap: 30px;
     margin: auto;
-    height: 442px;
+    height: 300px;
 
 }
 
@@ -271,13 +270,15 @@ padding: 5px;
 
  .SliderText h4,.SliderText1 h4,.SliderText2 h4,.SliderText3 h4{
  font-family: "Gotham", "Arial", serif !important;
-font-size: 15px;
+font-size: 12px;
 font-weight: 500;
 padding: 6px;
 text-align: center;
 place-content: center;
 background-color: aquamarine;
-word-break: break-all;
+/* word-break: break-all; */
+max-width: 100px;
+min-width: 100px;
 }
 
 .SliderText h4{
