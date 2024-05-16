@@ -41,6 +41,11 @@
 visibility: visible;    
 }
 
+.PhytoPara11 {
+    height: 300px;
+    overflow: auto;
+    padding: 16px 0;
+}
 .PhytoImg h4{
     position: absolute;
     bottom: 25px;

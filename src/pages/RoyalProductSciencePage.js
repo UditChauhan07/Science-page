@@ -136,7 +136,7 @@ Beauty</p>
 </div>
 
 <div className={styles.PhytoMain1}>
-<button>Buy Now</button>
+<button onClick={openModal}>Buy Now</button>
  
 <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
@@ -176,7 +176,7 @@ supports healthy blood vessel function and guards against chronic inflammation. 
 
 
 <div className={styles.PhytoMain1}>
-<button>Buy Now</button>
+<button onClick={openModal}>Buy Now</button>
  
   <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
@@ -212,27 +212,12 @@ are involved in the development and functioning of immune cells and contribute t
   <p><span>Quercitin Phytosome</span> blocks inflammatory enzymes and the creation of cytokines and, like Astaxanthin, is a potent antioxidant, but you’ll need to eat 100 kilos of broccoli each day to get enough. Riboflam delivers 2000% more quercitin than standard supplements.</p>
         </div>
 
-        <div className={styles.PhytoPara11}>
-            <p><span>For a lifetime of 360° vision care</span></p>
-            <p>Eye strain, Dry Eyes, Headaches & General Fatigue are all signs of Computer Vision Syndrome. Ingredients in Bluerex Vision® are clinically proven to help alleviate symptoms of digital overexposure and protect your eyes from harmful blue light before it can damage the retina..</p>
-            <p>The clinically proven, natural ingredients in Bluerex Vision® are delivered with <span>Phytosome® Technology</span>. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
-            
-            <p><span>Astaxanthin’</span>s potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
-
-            <p><span>Lutein & Zeaxanthin</span> increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
-
-            <p><span>Bilberry Extract</span> is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature.</p>
-
-            <p><span>D-Alpha Tocopheryl Succinate</span>, a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
-
-            <p><span>Docosahexaenoic acid (DHA)</span>, naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
-            
-        </div>
+     
 </div>
 
 <div className={styles.PhytoMain1}>
 
-    <button>Buy Now</button>
+    <button onClick={openModal}>Buy Now</button>
  
    <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
@@ -246,26 +231,7 @@ Sight</p>
 
 </div>
   </div>
-  <div className={styles.PhytoPara11}>
-          <p><span> For a healthy inflammatory response</span> </p>
-        
-          <p> Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check.</p>
-        
-          <p>Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check. </p>
-        
-          <p>The clinically proven, natural ingredients in Riboflam® are delivered with <span>Phytosome® Technology</span>. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability. </p>
-        
-          <p><span>Natural Astaxanthin Extract</span> is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health. </p>
-         
-          <p> <span>Curcumin Phytosome</span> comes from turmeric, which has been used in Asian cooking and cures since ancient times. It supports a healthy inflammation and immune response. Bruno MD’s Curcumin Phytosome is the #1 recommended formulation by the prestigious Cleveland Clinic.</p>
-       
-          <p><span>Boswellia Serra Phytosome,</span> commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries. </p>
-              
-          <p><span>Nucleoflam Proprietary Nucleotides & Nucleosides Yeast Extract Complex</span>
-are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.</p>
 
-  <p><span>Quercitin Phytosome</span> blocks inflammatory enzymes and the creation of cytokines and, like Astaxanthin, is a potent antioxidant, but you’ll need to eat 100 kilos of broccoli each day to get enough. Riboflam delivers 2000% more quercitin than standard supplements.</p>
-        </div>
 
         <div className={styles.PhytoPara11}>
            <p><span>For a lifetime of 360° vision care</span></p> 

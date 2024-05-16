@@ -206,6 +206,8 @@ place-content: center;
 
 .ClinicContent {
     /* width: 50%; */
+    height: 350px;
+    overflow: auto;
 }
 
 .ClinicMainImg {
