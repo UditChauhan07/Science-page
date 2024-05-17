@@ -113,7 +113,7 @@ font-size: 18px;
   /* border: 1px solid #000; */
   position: absolute;
   z-index: 1;
-  top: 250px;
+  top: 270px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -138,7 +138,7 @@ font-size: 18px;
   }
 
   .tabsControler1 {
-       top: 159px;
+       top: 220px;
        width: 214px;
   }
 
