@@ -55,9 +55,77 @@ const ScienceClinical = () => {
               ingredients, you’ve come to the right place.
             </p>
           </div>
+
           <div>
             <h1>Clinically proven ingredients. </h1>
+          </div>
+        </div>
 
+        <div className={styles.ClinicIngre}>
+          <div className={styles.ClinicContent}>
+            <h6>Clinically proven ingredients.</h6>
+
+            <p>What does clinically proven mean?</p>
+
+            <p>
+              Multiple studies substantiate all advertised health benefits and
+              claims
+            </p>
+            <p>
+              All clinical trials conducted on our ingredients are randomized,
+              double-blind, placebo-controlled, and published
+            </p>
+
+            <p>
+              Clinically proven claims represent the highest medical bar for any
+              benefit and are rarely used on nutraceutical products.
+            </p>
+
+            <p>
+              The efficacy of our clinically proven ingredients is guaranteed.
+            </p>
+          </div>
+
+          <div className={styles.ClinicMainImg}>
+            <div className={styles.ClinicImg}>
+              <div className={styles.ClinicButton}>
+                <button>LEARN MORE</button>
+              </div>
+
+              <div className={styles.ClinicInnerImg}>
+                <img src="/images/royalMarron.png" />
+              </div>
+            </div>
+
+            <div className={styles.ClinicImg}>
+              <div className={styles.ClinicButton}>
+                <button>LEARN MORE</button>
+              </div>
+
+              <div className={styles.ClinicInnerImg}>
+                <img src="/images/BDQuest10.png" />
+              </div>
+            </div>
+
+            <div className={styles.ClinicImg}>
+              <div className={styles.ClinicButton}>
+                <button>LEARN MORE</button>
+              </div>
+
+              <div className={styles.ClinicInnerImg}>
+                <img src="/images/RibhoFlam.png" />
+              </div>
+            </div>
+
+            <div className={styles.ClinicImg}>
+              <div className={styles.ClinicButton}>
+                <button>LEARN MORE</button>
+              </div>
+
+              <div className={styles.ClinicInnerImg}>
+                <img src="/images/Blurex12.png" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

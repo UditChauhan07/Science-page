@@ -243,3 +243,64 @@ padding: 5px;
   font-family: "ivypresto-display", "Times New Roman", Times, serif;
   font-weight: 400;
 }
+
+.ClinicContent h6{
+    font-size: 16px;
+    font-family: "Gotham", Arial, serif ;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+
+.ClinicImg{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+}
+
+.ClinicInnerImg img{
+   width: 100%;
+}
+
+.ClinicButton button{
+        font-size: 8px;
+    color: #000;
+    background-color: transparent;
+    border: none;
+place-content: center;
+ font-family: "Gotham", Arial, serif ;
+
+}
+
+.ClinicButton{
+    /* display: inline-flex; */
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    height: 25px;
+    background-color: #F9C300;
+    position: relative;
+    left: 13px;    
+
+}
+
+.ClinicIngre{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    margin: 30px  ;
+}
+
+.ClinicContent p{
+    font-size: 12px;
+    font-family: "Gotham", Arial, serif ;
+    font-weight: 400;
+}
+
+.ClinicContent {
+    width: 50%;
+}
+
+.ClinicMainImg {
+    width: 50%;
+}
