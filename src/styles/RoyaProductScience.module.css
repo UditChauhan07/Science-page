@@ -289,4 +289,17 @@ font-weight: 500;
 
 .SubscribeSave{
     padding: 20px 20px 20px 20px;
+    text-align: start;
+}
+
+.InStockQuantity input::placeholder{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.InStockQuantity input{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
 }

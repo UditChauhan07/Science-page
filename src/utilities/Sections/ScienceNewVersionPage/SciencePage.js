@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
+import ScienceTab from './ScienceTabs/ScienceTab'
 // import ImgGreen from "../../../../public/images/Images/"
 
 function SciencePage() {
@@ -19,18 +20,18 @@ function SciencePage() {
           </h5>
 
           <div className={styles.imageDiv}>
-            <Link href="/science-phytosome">
+            <Link href="/science-tab">
               <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
                 <img src="/images/greeneffect.png" />
               </div>
             </Link>
-            <Link href="/science-clinical">
+            <Link href="/science-tab">
               <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
                 <img src="/images/DoctrwithTube.png" />
               </div>
             </Link>
             
-            <Link href="/science-human">
+            <Link href="/science-tab">
               <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
                 <img src="/images/Swing.png" />
               </div>
@@ -38,6 +39,9 @@ function SciencePage() {
           </div>
         </div>
       </section>
+
+
+      {/* <ScienceTab></ScienceTab> */}
     </div>
   );
 }

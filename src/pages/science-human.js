@@ -76,7 +76,7 @@ const ScienceHuman = () => {
               </h5>
             </div>
 
-            <div className={styles.imageDiv}>
+            {/* <div className={styles.imageDiv}>
               <Link href="/science-phytosome">
                 <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
                   <img src="/images/greeneffect.png" />
@@ -93,7 +93,7 @@ const ScienceHuman = () => {
                   <img src="/images/Swing.png" />
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className={styles.sliderContainer}>

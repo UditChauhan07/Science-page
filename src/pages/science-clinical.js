@@ -3,6 +3,7 @@ import React, { useState, useRef } from 'react';
 import styles from "../styles/scienceClinical.module.css";
 import Link from "next/link";
 import RoyalProductSciencePage from './RoyalProductSciencePage'
+// import ScienceTab from '../utilities/Sections/ScienceNewVersionPage/ScienceTabs/ScienceTab'
 
 const ScienceClinical = () => {
 
@@ -35,6 +36,7 @@ const ScienceClinical = () => {
   return (
     
       <div>
+      
         <div className={styles.arrowTop}></div>
         <div className={styles.TopBruno}>
           <div className={styles.PhytoVideoTag}>
@@ -52,8 +54,8 @@ const ScienceClinical = () => {
                 Clinical Studies Natural Ingredients, clinically proven results
               </h5>
             </div>
-
-            <div className={styles.imageDiv}>
+            {/* <ScienceTab></ScienceTab> */}
+            {/* <div className={styles.imageDiv}>
               <Link href="/science-phytosome">
                 <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
                   <img src="/images/greeneffect.png" />
@@ -70,7 +72,7 @@ const ScienceClinical = () => {
                   <img src="/images/Swing.png" />
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
           </div>
 
