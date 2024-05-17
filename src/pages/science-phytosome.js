@@ -56,7 +56,7 @@ const SciencePhytosome = () => {
               <h5>Phytosome® Technology 3000% higher bioavailability</h5>
             </div>
 
-            <div className={styles.imageDiv}>
+            {/* <div className={styles.imageDiv}>
               <Link href="/science-phytosome">
                 <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
                   <img src="/images/greeneffect.png" />
@@ -74,7 +74,7 @@ const SciencePhytosome = () => {
                   <img src="/images/Swing.png" />
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         {isVisible && <div className={styles.container}>
@@ -138,6 +138,7 @@ const SciencePhytosome = () => {
         </div>}
         {isSliderVisible && <div className={styles.PhytoClass}>
           <Slider {...settings}>
+            
       <div className={styles.PhytoMain1}>
        
         <div className={styles.PhytoImages1}>

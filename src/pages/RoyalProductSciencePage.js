@@ -73,14 +73,14 @@ function RoyalProductSciencePage(index) {
                 <p>In stock</p>
                 <div className={styles.QtySelect}>
                 <label for="quantity">QTY:</label>
-                <input type="number" id="quantity" name="quantity"/>  
+                <input type="number" placeholder='1' id="quantity" name="quantity"/>  
                 </div>
 
                 <div className={styles.Delievery}>
                     <p>Delievery every</p>
 
                     <div className={styles.DelieveryDay}>
-                    <input type="number" id="day" name="quantity" min="0" max="100" step="5" />
+                    <input type="number"  placeholder='5' id="day" name="quantity" min="0" max="100" step="5" />
                     <label>day</label>
                         </div>
                         </div>
@@ -95,7 +95,7 @@ function RoyalProductSciencePage(index) {
         </div>
       )}
 
-<div className={`${styles.controlSlider} ${isOpen ? styles.hidden : ''}`}> 
+<div className={`${"controlSlider"} ${isOpen ? styles.hidden : ''}`}> 
     <Slider {...settings}>
 <div className={styles.PhytoMain1}>
 <button onClick={openModal}>Buy Now</button>
