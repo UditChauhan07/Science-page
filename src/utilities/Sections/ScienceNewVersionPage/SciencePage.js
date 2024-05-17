@@ -20,23 +20,22 @@ function SciencePage() {
           </h5>
 
           <div className={styles.imageDiv}>
-            <Link href="/science-tab">
-              <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
-                <img src="/images/greeneffect.png" />
-              </div>
-            </Link>
-            <Link href="/science-tab">
-              <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
-                <img src="/images/DoctrwithTube.png" />
-              </div>
-            </Link>
-            
-            <Link href="/science-tab">
-              <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
-                <img src="/images/Swing.png" />
-              </div>
-            </Link>
-          </div>
+      <Link href={{ pathname: '/science-tab', query: { tab: 0 } }}>
+        <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
+          <img src="/images/greeneffect.png"/>
+        </div>
+      </Link>
+      <Link href={{ pathname: '/science-tab', query: { tab: 1 } }}>
+        <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
+          <img src="/images/DoctrwithTube.png"/>
+        </div>
+      </Link>
+      <Link href={{ pathname: '/science-tab', query: { tab: 2 } }}>
+        <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
+          <img src="/images/Swing.png"/>
+        </div>
+      </Link>
+    </div>
         </div>
       </section>
 
