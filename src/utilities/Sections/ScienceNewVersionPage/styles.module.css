@@ -19,6 +19,8 @@ font-family: Gotham", "Arial", serif";
 }
 
 
+
+
 .destopNone{
     display: none;
 
@@ -85,7 +87,8 @@ font-family: Gotham", "Arial", serif";
     position: absolute;    
     bottom: 10px;
     font-size: 30px;
-    font-family: Gotham", "Arial", serif";
+    /* font-family: "Gotham", "Arial", serif; */
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-weight:400;    
     text-align: center;
     text-shadow: 0px 4px 4px #353535ab;
@@ -118,5 +121,13 @@ font-family: Gotham", "Arial", serif";
 @media (max-width:767px){
     .destopNone{
         display: block;
+    }
+}
+
+
+
+@media (max-width:450px){
+    .startSlider h3{
+        font-size: 20px;
     }
 }

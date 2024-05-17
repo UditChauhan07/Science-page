@@ -5,11 +5,17 @@ import SciencePageSlider from '../utilities/Sections/ScienceNewVersionPage/Scien
 import ScienceVideoPage from '../utilities/Sections/ScienceNewVersionPage/ScienceVideoPage'
 
 function ScienceNewVersionPage() {
+  
   return (
+
+
+
     <div className={styles.destopNone} >
-        <SciencePage></SciencePage>
+
+
+       
         <SciencePageSlider></SciencePageSlider>
-        <ScienceVideoPage></ScienceVideoPage>
+       
         </div>
   )
 }

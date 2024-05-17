@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState, useRef } from 'react';
+
 import styles from "../styles/scienceClinical.module.css";
 import Link from "next/link";
+import RoyalProductSciencePage from './RoyalProductSciencePage'
+// import ScienceTab from '../utilities/Sections/ScienceNewVersionPage/ScienceTabs/ScienceTab'
 
 const ScienceClinical = () => {
+
+  const [isVisible, setIsVisible] = useState(true);
+  const [isSliderVisible, setIsSliderVisible] = useState(false);
+  const [selectedTab, setSelectedTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+
+  const goToSlide = (index) => {
+    console.log("indexaa",index);
+    setActiveIndex(index);
+    setActiveTab(index);
+  };
+
+
+  const handleClick = (index) => {
+    console.log("index",index);
+    setIsVisible(!isVisible);
+    setIsSliderVisible(!isSliderVisible);
+    goToSlide(index);
+  };
+
+  const handleBack = () => {
+    setIsVisible(!isVisible);
+    setIsSliderVisible(!isSliderVisible);
+  };
+
   return (
-    <div>
+    
       <div>
+      
         <div className={styles.arrowTop}></div>
         <div className={styles.TopBruno}>
           <div className={styles.PhytoVideoTag}>
@@ -23,8 +54,8 @@ const ScienceClinical = () => {
                 Clinical Studies Natural Ingredients, clinically proven results
               </h5>
             </div>
-
-            <div className={styles.imageDiv}>
+            {/* <ScienceTab></ScienceTab> */}
+            {/* <div className={styles.imageDiv}>
               <Link href="/science-phytosome">
                 <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
                   <img src="/images/greeneffect.png" />
@@ -41,10 +72,13 @@ const ScienceClinical = () => {
                   <img src="/images/Swing.png" />
                 </div>
               </Link>
-            </div>
+            </div> */}
+          </div>
           </div>
 
-          <div className={`${styles.ImgCollagen}`}>
+
+          {isVisible && <div >
+           <div className={`${styles.ImgCollagen}`}>
             <img src="/images/collagen-balls3.png" />
           </div>
           <div className={`${styles.Discripton}`}>
@@ -55,80 +89,87 @@ const ScienceClinical = () => {
               ingredients, you’ve come to the right place.
             </p>
           </div>
+   
 
-          <div>
-            <h1>Clinically proven ingredients. </h1>
-          </div>
-        </div>
+<div className={styles.ClinicIngre}>
+        <div className={styles.ClinicContent}>
+<h6>Clinically proven ingredients. 
+</h6>
 
-        <div className={styles.ClinicIngre}>
-          <div className={styles.ClinicContent}>
-            <h6>Clinically proven ingredients.</h6>
+<p>
+What does clinically proven mean? 
+</p>
 
-            <p>What does clinically proven mean?</p>
+<p><b>Multiple studies </b>substantiate all advertised health benefits and claims</p>
+<p> <b>All clinical trials </b>conducted on our ingredients are <b>randomized, double-blind, placebo-controlled</b>, and published</p>
 
-            <p>
-              Multiple studies substantiate all advertised health benefits and
-              claims
-            </p>
-            <p>
-              All clinical trials conducted on our ingredients are randomized,
-              double-blind, placebo-controlled, and published
-            </p>
+<p>Clinically proven claims represent the highest medical bar for any benefit and are rarely used on nutraceutical products.</p>
 
-            <p>
-              Clinically proven claims represent the highest medical bar for any
-              benefit and are rarely used on nutraceutical products.
-            </p>
+<p>The efficacy of our clinically proven ingredients is<b> guaranteed</b>.</p>
+<p>Bruno MD® dietary supplements undergo the same rigorous manufacturing and internal regulatory processes as our pharmaceutical drugs.</p>
 
-            <p>
-              The efficacy of our clinically proven ingredients is guaranteed.
-            </p>
-          </div>
+       </div>
 
-          <div className={styles.ClinicMainImg}>
-            <div className={styles.ClinicImg}>
-              <div className={styles.ClinicButton}>
-                <button>LEARN MORE</button>
-              </div>
+        <div className={styles.ClinicMainImg}>
 
-              <div className={styles.ClinicInnerImg}>
-                <img src="/images/royalMarron.png" />
-              </div>
+
+        
+          <div className={styles.ClinicImg}>
+
+<div className={styles.ClinicButton}>
+  <button>LEARN MORE</button>
+</div>
+
+<div className={styles.ClinicInnerImg} onClick={() => handleClick(1)}>
+  <img src='/images/royalMarron.png'/>
             </div>
+</div>
 
-            <div className={styles.ClinicImg}>
-              <div className={styles.ClinicButton}>
-                <button>LEARN MORE</button>
-              </div>
+<div className={styles.ClinicImg}>
 
-              <div className={styles.ClinicInnerImg}>
-                <img src="/images/BDQuest10.png" />
-              </div>
+<div className={styles.ClinicButton}>
+  <button>LEARN MORE</button>
+</div>
+
+<div className={styles.ClinicInnerImg} onClick={() => handleClick(2)}>
+  <img src='/images/BDQuest10.png'/>
             </div>
+</div>
 
-            <div className={styles.ClinicImg}>
-              <div className={styles.ClinicButton}>
-                <button>LEARN MORE</button>
-              </div>
+<div className={styles.ClinicImg}>
 
-              <div className={styles.ClinicInnerImg}>
-                <img src="/images/RibhoFlam.png" />
-              </div>
+<div className={styles.ClinicButton}>
+  <button>LEARN MORE</button>
+</div>
+
+<div className={styles.ClinicInnerImg} onClick={() => handleClick(3)}>
+  <img src='/images/RibhoFlam.png'/>
             </div>
+</div>
 
-            <div className={styles.ClinicImg}>
-              <div className={styles.ClinicButton}>
-                <button>LEARN MORE</button>
-              </div>
+<div className={styles.ClinicImg}>
 
-              <div className={styles.ClinicInnerImg}>
-                <img src="/images/Blurex12.png" />
-              </div>
+<div className={styles.ClinicButton}>
+  <button>LEARN MORE</button>
+</div>
+
+<div className={styles.ClinicInnerImg} onClick={() => handleClick(4)}>
+  <img src='/images/Blurex12.png'/>
             </div>
-          </div>
-        </div>
+</div>
+{/* vinod */}
+
       </div>
+    </div>
+    </div>}
+    
+
+    {isSliderVisible &&
+   <div data-index1={activeIndex}>
+     <h2 className='ArrowControl'  onClick={() => handleBack()}><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 1024 1024" class="icon" version="1.1"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#000000"/></svg></h2>
+     <RoyalProductSciencePage index={activeIndex}></RoyalProductSciencePage>
+  </div>}
+   
     </div>
   );
 };

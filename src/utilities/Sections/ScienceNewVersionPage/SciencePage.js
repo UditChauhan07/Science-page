@@ -1,9 +1,12 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
+import ScienceTab from './ScienceTabs/ScienceTab'
 // import ImgGreen from "../../../../public/images/Images/"
 
 function SciencePage() {
+
+ 
   return (
     <div>
       <section>
@@ -17,25 +20,27 @@ function SciencePage() {
           </h5>
 
           <div className={styles.imageDiv}>
-            <Link href="/science-phytosome">
-              <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
-                <img src="/images/greeneffect.png" />
-              </div>
-            </Link>
-            <Link href="/science-clinical">
-              <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
-                <img src="/images/DoctrwithTube.png" />
-              </div>
-            </Link>
-            
-            <Link href="/science-human">
-              <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
-                <img src="/images/Swing.png" />
-              </div>
-            </Link>
-          </div>
+      <Link href={{ pathname: '/science-tab', query: { tab: 0 } }}>
+        <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
+          <img src="/images/greeneffect.png"/>
+        </div>
+      </Link>
+      <Link href={{ pathname: '/science-tab', query: { tab: 1 } }}>
+        <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
+          <img src="/images/DoctrwithTube.png"/>
+        </div>
+      </Link>
+      <Link href={{ pathname: '/science-tab', query: { tab: 2 } }}>
+        <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
+          <img src="/images/Swing.png"/>
+        </div>
+      </Link>
+    </div>
         </div>
       </section>
+
+
+      {/* <ScienceTab></ScienceTab> */}
     </div>
   );
 }

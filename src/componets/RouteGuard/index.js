@@ -179,6 +179,11 @@ function RouteGuard({ children, version }) {
         "/science-clinical",
         "/science-human",
         "/Endeavor",
+        "/science-tab",
+        "/science-tab?tab=0",
+        "/science-tab?tab=1",
+        "/science-tab?tab=2",
+
 
       ];
     // console.log(publicPaths.includes(url), { publicPaths, url });

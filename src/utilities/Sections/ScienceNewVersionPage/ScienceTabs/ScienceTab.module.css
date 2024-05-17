@@ -1,0 +1,160 @@
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.tab.active img{
+  scale: 1.05;
+  border-radius: 20px;
+  border: 2px solid #AF0000;
+  transition: 0.5s;
+
+}
+
+.tabContent{
+  width: 100%;
+}
+.tabs img{
+  transition: 0.5s;
+  width: 93px;
+  height: 93px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+
+}
+
+.active-tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 25%;
+  background-color: blue;
+  transition: left 0.3s ease-in-out;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.leftArrow {
+  position: absolute;
+  left: 0;
+  top: 58px;
+  transform: translateY(-50%);
+  z-index:1;
+  color: #fff;
+font-size: 18px;
+}
+
+.rightArrow {
+  position: absolute;
+  right: 0;
+  top: 58px;
+  transform: translateY(-50%);
+  z-index:1;
+  color: #fff;
+}
+
+.tabContent {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  /* padding: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.tabs{
+  display: flex;
+}
+
+.tabsControler{
+  display: flex;
+  background-color: #AF0000;
+  width: 100%;
+  /* justify-content: center; */
+
+
+}
+
+.tabsControler1{
+  display: flex;
+  width: 300px;
+  /* border: 1px solid #000; */
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tabsControler11{
+  /* position: relative; */
+  
+
+}
+
+
+@media (max-width: 540px) {
+  .tabs img {
+       width: 70px;
+       border-radius: 10px;
+    height: 70px;
+  }
+  
+
+  .tabsControler11{
+    width: 300px;
+  }
+
+  .tabsControler1 {
+       top: 200px;
+       width: 214px;
+  }
+
+  .tab.active img {
+    border-radius: 10px;
+   
+   
+}
+
+.leftArrow {
+  top: 43px;
+}
+
+.rightArrow {
+  top: 43px;
+
+}
+  
+}

@@ -2345,9 +2345,52 @@ footer ul a{
   border: 2px solid #000000 !important;
   border-radius: 10px;
 }
-header#header {
-  display: none;
+
+.slick-prev:before, .slick-next:before{
+  color: #000 !important;
 }
-footer.styles_footer__CvCxN.false {
+
+.ArrowControl svg{
+  padding: 5px;
+  }
+
+.ArrowControl svg path{
+  fill: #000000;
+}
+
+
+
+.ArrowControl{
   display: none;
-}     
+  margin: 10px 0 10px 10px;
+  width: 25px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  
+  height: 25px;
+  transform: rotate(180deg);
+}
+
+.RoyaProductScience_royalContainer__m1QBd .slick-prev, .RoyaProductScience_royalContainer__m1QBd .slick-next{
+top: 90px !important;
+}
+
+.RoyaProductScience_royalContainer__m1QBd .slick-prev{
+  left: 0px !important;
+
+}
+
+.endeavor_Endeavor__SXHDo .slick-prev, .endeavor_Endeavor__SXHDo .slick-next {
+
+  top: 18% !important;
+}
+
+.endeavor_Endeavor__SXHDo .slick-prev:before, .endeavor_Endeavor__SXHDo .slick-next:before {
+  color: #000 !important;
+  opacity: unset !important;
+}
+
+
+.sciencePhytosome_PhytoClass__BItGV{
+  
+}
