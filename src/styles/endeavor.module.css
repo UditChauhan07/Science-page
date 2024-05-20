@@ -6,8 +6,22 @@
     
 }
 
+.tabsBuyNowBTn{
+    width: 100%;
+    padding: 15px 10px;
+    /* height: 40px; */
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    font-family:"Gotham" sans-serif;
+    z-index: 9991;
+  }
+
 .Endeavor{
     background-color: #fff;
+    margin-bottom: 80px;
 }
 .ScienceBanner h2{
     font-size: 30px;
