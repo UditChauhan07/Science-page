@@ -199,5 +199,5 @@ Overall, phytosome technology represents an innovative approach to enhancing the
     </div>
   );
 };
-
+SciencePhytosome.hideLayout = true;
 export default SciencePhytosome;

@@ -272,5 +272,5 @@ Sight</p>
 </div>
   )
 }
-
+RoyalProductSciencePage.hideLayout = true;
 export default RoyalProductSciencePage

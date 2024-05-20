@@ -74,5 +74,5 @@ const Tabs = () => {
     </div>
   );
 };
-
+Tabs.hideLayout = true;
 export default Tabs;
