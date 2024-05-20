@@ -4,6 +4,8 @@ import styles from './ScienceTab.module.css';
 import Phytosome from '../../../../pages/science-phytosome'; 
 import ScienceClinical from '../../../../pages/science-clinical';
 import ScienceHuman from '../../../../pages/science-human';
+import SliderTabs from '../PracticeTab/PracticeTab'
+
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -42,6 +44,7 @@ const Tabs = () => {
   };
 
   return (
+    <>
     <div className={styles.tabsContainer}>
       <div className={styles.tabsControler}>
         <div className={styles.tabsControler11}>
@@ -72,6 +75,14 @@ const Tabs = () => {
         {tabContent[activeTab]}
       </div>
     </div>
+
+    <button className={styles.tabsBuyNowBTn}>
+      Buy Now
+    </button>
+
+{/* <SliderTabs></SliderTabs> */}
+
+    </>
   );
 };
 Tabs.hideLayout = true;

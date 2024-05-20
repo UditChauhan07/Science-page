@@ -13,10 +13,11 @@ const Endeavor = (index) => {
   };
   
   return (
+
     <div className={`${styles.Endeavor}`}>
-     
       <div className="image-slider-container">
         <Slider {...settings}>
+          
           <div>
             <div className={`${styles.ScienceBanner}`}>
               <h1>Science</h1>
@@ -35,7 +36,7 @@ const Endeavor = (index) => {
                 company in Italy today.
               </p>
               <p>
-                {" "}
+                
                 Knowing both sides, we understand that some solutions for
                 improving health outcomes are pharma&apos;s job. Still, we also know
                 that many diseases that lead to the necessity of pharmacological
@@ -43,24 +44,25 @@ const Endeavor = (index) => {
                 ingredients that Nature has to offer and unlocking some of
                 Nature&apos;s secrets that she is reluctant to share with us.
               </p>
-              <p>
-                {" "}
-                One of the seemingly insurmountable problems of deploying
+
+              <p>One of the seemingly insurmountable problems of deploying
                 nature-based solutions to improve health and longevity is the
                 issue of bioavailability. In our pharmaceutical business, we
                 customize molecules to interact with the human body in a precise
                 and targeted way with largely predictable outcomes because we
                 design them for specific receptors in the body. 
               </p>
-              <p>
-                Nature does not play this way. Our bodies block many plant-based
+
+              <p>Nature does not play this way. Our bodies block many plant-based
                 nutrients that would benefit our health. This low
                 bioavailability is a function of evolution, and the problem is
                 particularly acute with a special kind of plant nutrient known
                 as polyphenols.
               </p>
+
             </div>
           </div>
+
           <div>
             <div className={`${styles.ScienceBanner}`}>
               <h1>Nature</h1>
@@ -69,6 +71,7 @@ const Endeavor = (index) => {
               <h5>Unlocking Nature’s Secrets</h5>
             </div>
             <div className={`${styles.paraDis}`}>
+
               <p>
                 Polyphenols are compounds in many plant-based foods, such as
                 fruits, vegetables, tea, and wine. They are antioxidants, which
@@ -82,6 +85,7 @@ const Endeavor = (index) => {
                 supplement containing polyphenols we consume, very little of it
                 is absorbed. 
               </p>
+
               <p>
                 The low bioavailability problem is vexing. Our bodies block
                 botanical compounds like polyphenols in two ways: low water
@@ -97,6 +101,7 @@ const Endeavor = (index) => {
                 fluids) and lipophilicity (the ability to cross lipid
                 membranes).
               </p>
+
               <p>
                 Complicating this mission is that all plant-based polyphenols
                 carry a different pharmacokinetic profile, so Bruno MD utilizes
@@ -106,13 +111,16 @@ const Endeavor = (index) => {
                 supplements deliver a higher percentage (up to 3000% more) of
                 highly beneficial polyphenols into the bloodstream.
               </p>
+
               <p>
                 Importantly, Phytosome Technology does this without changing the
                 natural ingredients themselves or relying on drugs, making it
                 safe and tolerated by our bodies over time.
               </p>
+
             </div>
           </div>
+
           <div>
             <div className={`${styles.ScienceBanner}`}>
               <h1>Lifestyle</h1>
@@ -129,7 +137,7 @@ const Endeavor = (index) => {
                 family-owned operation that allows the company to innovate from
                 a different perspective. It is not hyperbole to say that we
                 treat our employees, scientists, doctors, and company
-                representatives like family. 
+                representatives like family.
               </p>
               <p>
                 This philosophy extends to our customers and the innovations we
@@ -139,7 +147,7 @@ const Endeavor = (index) => {
                 eating fresh food sourced daily, socializing regularly,
                 connecting with family and friends, and taking regular daily
                 walks are effective prescriptions for longevity, health, and
-                happiness. 
+                happiness.
               </p>
               <p>
                 This philosophy is born out of new scientific evidence
@@ -162,6 +170,7 @@ const Endeavor = (index) => {
               </p>
             </div>
           </div>
+
           <div>
             <div className={`${styles.ScienceBanner}`}>
               <h1>Rituals</h1>
@@ -227,6 +236,7 @@ const Endeavor = (index) => {
               </p>
             </div>
           </div>
+
           <div>
             <div className={`${styles.ScienceBanner}`}>
               <h1>Proven</h1>
@@ -251,11 +261,17 @@ const Endeavor = (index) => {
                 internal regulatory processes as our pharmaceutical products.
                 Finally, the efficacy of the actives in all of our
                 pharmacological or botanical products delivered with Phytosome
-                Technology is guaranteed.  
+                Technology is guaranteed.
               </p>
             </div>
           </div>
+
         </Slider>
+
+        <button className={styles.tabsBuyNowBTn}>
+      Buy Now
+    </button>
+
       </div>
     </div>
   );

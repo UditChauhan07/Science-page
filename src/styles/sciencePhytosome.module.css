@@ -1,6 +1,7 @@
 .container{
     padding: 0 25px;
     width: 100%;
+    margin: 0 0 80px 0;
 }
 
 .PhytoMain{
@@ -62,6 +63,7 @@ visibility: visible;
     font-weight: 600;
     background-color: #AB19C2;
     padding: 6px;
+    text-decoration: none;
 }
 
 
@@ -147,8 +149,9 @@ margin-bottom: 40px;
 
 .PhytoMain1{
     width: 90% !important;
+   
 
-    margin: auto;
+    margin:0 auto 80px;
     gap: 30px;
     display: grid !important;
 }
@@ -265,3 +268,5 @@ padding: 5px;
   font-family: "ivypresto-display", "Times New Roman", Times, serif;
   font-weight: 400;
 }
+
+

@@ -157,3 +157,16 @@ font-size: 18px;
 }
   
 }
+
+.tabsBuyNowBTn{
+  width: 100%;
+  padding: 15px 10px;
+  /* height: 40px; */
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  font-family:"Gotham" sans-serif;
+  z-index: 9991;
+}

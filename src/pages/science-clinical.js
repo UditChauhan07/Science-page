@@ -77,7 +77,7 @@ const ScienceClinical = () => {
           </div>
 
 
-          {isVisible && <div >
+          {isVisible && <div className={styles.ImgCollage1} >
            <div className={`${styles.ImgCollagen}`}>
             <img src="/images/collagen-balls3.png" />
           </div>
