@@ -20,4 +20,5 @@ function ScienceNewVersionPage() {
   )
 }
 
+ScienceNewVersionPage.hideLayout = true;
 export default ScienceNewVersionPage

@@ -127,5 +127,5 @@ const ScienceHuman = () => {
     </div>
   );
 };
-
+ScienceHuman.hideLayout = true;
 export default ScienceHuman;
