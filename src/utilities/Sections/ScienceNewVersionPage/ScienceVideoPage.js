@@ -7,7 +7,7 @@ function ScienceVideoPage() {
     <div>
       <div className={styles.scienceVideoPage}>
         <Link href="/science-video">
-         <img src="/images/VideoSnap.png"/>
+         <img src="/images/VideoSnap.webp"/>
         </Link>
       </div>
     </div>
