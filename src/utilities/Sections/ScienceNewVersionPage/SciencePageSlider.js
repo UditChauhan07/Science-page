@@ -64,28 +64,28 @@ function SciencePageSlider() {
           <Slider {...settings}>
             <div className={styles.startSlider} onClick={() => handleClick(1)}>
            
-                <img src="/images/doctor.png" />
+                <img src="/images/doctor.webp" />
                 <h3>Science: a human endeavor.</h3>
         
             </div>
 
             <div className={styles.startSlider} onClick={() => handleClick(2)}>
-              <img src="/images/jungle.png" />
+              <img src="/images/jungle.webp" />
               <h3>Understand the world.</h3>
             </div>
 
             <div className={styles.startSlider} onClick={() => handleClick(3)}>
-              <img src="/images/BlueZone.png" />
+              <img src="/images/BlueZone.webp" />
               <h3>Blue Zone Longevity.</h3>
             </div>
 
             <div className={styles.startSlider} onClick={() => handleClick(4)}>
-              <img src="/images/Fruitsss.png" />
+              <img src="/images/Fruitsss.webp" />
               <h3>Farm to Table.</h3>
             </div>
 
             <div className={styles.startSlider} onClick={() => handleClick(5)}>
-              <img src="/images/GrapesGirl.png" />
+              <img src="/images/GrapesGirl.webp" />
               <h3>Nature, Meet Pharma.</h3>
             </div>
           </Slider>

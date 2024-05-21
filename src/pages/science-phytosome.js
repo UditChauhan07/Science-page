@@ -56,25 +56,7 @@ const SciencePhytosome = () => {
               <h5>Phytosome® Technology 3000% higher bioavailability</h5>
             </div>
 
-            {/* <div className={styles.imageDiv}>
-              <Link href="/science-phytosome">
-                <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
-                  <img src="/images/greeneffect.png" />
-                </div>
-              </Link>
-
-              <Link href="/science-clinical">
-                <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
-                  <img src="/images/DoctrwithTube.png" />
-                </div>
-              </Link>
-
-              <Link href="/science-human">
-                <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
-                  <img src="/images/Swing.png" />
-                </div>
-              </Link>
-            </div> */}
+           
           </div>
         </div>
         {isVisible && <div className={styles.container}>
@@ -82,7 +64,7 @@ const SciencePhytosome = () => {
             <div className={styles.PhytoMain}>
               <div className={styles.PhytoImg} onClick={() => handleClick(1)}
 >
-                <img src="/images/phyto1.png" />
+                <img src="/images/phyto1.webp" />
                 <h4>
                   <a href="#">LEARN MORE</a>
                 </h4>
@@ -100,7 +82,7 @@ const SciencePhytosome = () => {
 
             <div className={styles.PhytoMain}>
               <div className={styles.PhytoImg} onClick={() => handleClick(2)}>
-                <img src="/images/phyto2.png" />
+                <img src="/images/phyto2.webp" />
                 <h4>
                   <a href="#">LEARN MORE</a>
                 </h4>
@@ -119,7 +101,7 @@ const SciencePhytosome = () => {
 
             <div className={styles.PhytoMain}>
               <div className={styles.PhytoImg} onClick={() => handleClick(3)}>
-                <img src="/images/phyto3.png" />
+                <img src="/images/phyto3.webp" />
                 <h4>
                   <a href="#">LEARN MORE</a>
                 </h4>
@@ -142,7 +124,7 @@ const SciencePhytosome = () => {
       <div className={styles.PhytoMain1}>
        
         <div className={styles.PhytoImages1}>
-        <img src="/images/PhytoBigImg.png" />
+        <img src="/images/PhytoBigImg.webp" />
         </div>
         <div className={styles.PhytoPara11}>
                 <p>
@@ -159,7 +141,7 @@ Overall, phytosome technology improves the efficacy and safety of plant extracts
       <div className={styles.PhytoMain1}>
        
         <div className={styles.PhytoImages1}>
-        <img src="/images/PhytoBigImg1.png" />
+        <img src="/images/PhytoBigImg1.webp" />
         </div>
         <div className={styles.PhytoPara11}>
                 <p>
@@ -178,7 +160,7 @@ With the curcumin molecule hidden inside, the lipid can pass through the gut and
       <div className={styles.PhytoMain1}>
        
         <div className={styles.PhytoImages1}>
-        <img src="/images/PhytoBigImg2.png" />
+        <img src="/images/PhytoBigImg2.webp" />
         </div>
         <div className={styles.PhytoPara11}>
                 <p>

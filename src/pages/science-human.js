@@ -7,7 +7,7 @@ const ScienceHuman = () => {
 
   const slides = [
     {
-      image: "/images/yellowdot.png",
+      image: "/images/yellowdot.webp",
       text1: "Hair + Skin",
       text2: "Bones",
       text3: "Nails",
@@ -16,7 +16,7 @@ const ScienceHuman = () => {
       className: "SliderText",
     },
     {
-      image: "/images/GreenDot.png",
+      image: "/images/GreenDot.webp",
       text1: "Heart",
       text2: "Liver",
       text3: "HDL",
@@ -25,7 +25,7 @@ const ScienceHuman = () => {
       className: "SliderText1",
     },
     {
-      image: "/images/redDot.png",
+      image: "/images/redDot.webp",
       text1: "Mental Health",
       text2: "Cardio Health",
       text3: "Liver Health",
@@ -34,7 +34,7 @@ const ScienceHuman = () => {
       className: "SliderText2",
     },
     {
-      image: "/images/blueDot.png",
+      image: "/images/blueDot.webp",
       text1: "Blue Light & Macula Shield",
       text2: "360° Eye Health",
       text3: "Computer Vision Syndrome",
@@ -45,10 +45,10 @@ const ScienceHuman = () => {
   ];
 
   const thumbnails = [
-    "/images/royalSlider1.png",
-    "/images/royalSlider2.png",
-    "/images/royalSlider3.png",
-    "/images/royalSlider4.png",
+    "/images/royalSlider1.webp",
+    "/images/royalSlider2.webp",
+    "/images/royalSlider3.webp",
+    "/images/royalSlider4.webp",
   ];
 
   const handleClickThumbnail = (index) => {
@@ -76,24 +76,7 @@ const ScienceHuman = () => {
               </h5>
             </div>
 
-            {/* <div className={styles.imageDiv}>
-              <Link href="/science-phytosome">
-                <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
-                  <img src="/images/greeneffect.png" />
-                </div>
-              </Link>
-
-              <Link href="/science-clinical">
-                <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
-                  <img src="/images/DoctrwithTube.png" />
-                </div>
-              </Link>
-              <Link href="/science-human">
-                <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
-                  <img src="/images/Swing.png" />
-                </div>
-              </Link>
-            </div> */}
+          
           </div>
 
           <div className={styles.sliderContainer}>
