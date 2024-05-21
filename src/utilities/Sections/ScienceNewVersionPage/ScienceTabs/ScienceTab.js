@@ -49,8 +49,8 @@ const Tabs = () => {
       <div className={styles.tabsControler}>
         <div className={styles.tabsControler11}>
           <div className={styles.tabsControler1}>
-            <button className={`${styles.arrow} ${styles.leftArrow}`} onClick={handlePrevClick}>
-              ⮜
+            <button className={`${styles.arrow} ${styles.arrowLeft}`} onClick={handlePrevClick}>
+              
             </button>
             <div className={styles.tabs}>
               {tabs.map((tab, index) => (
@@ -64,10 +64,10 @@ const Tabs = () => {
                 </div>
               ))}
             </div>
-            <button className={`${styles.arrow} ${styles.rightArrow}`} onClick={handleNextClick}>
-              ⮞
+            <button className={`${styles.arrow} ${styles.arrowRight}`} onClick={handleNextClick}>
+              
             </button>
-            <div className={styles.activeTabIndicator} style={{ left: `${styles.activeTab * 25}%` }} />
+            {/* <div className={styles.activeTabIndicator} style={{ left: `${styles.activeTab * 25}%` }} /> */}
           </div>
         </div>
       </div>
