@@ -54,32 +54,14 @@ const ScienceClinical = () => {
                 Clinical Studies Natural Ingredients, clinically proven results
               </h5>
             </div>
-            {/* <ScienceTab></ScienceTab> */}
-            {/* <div className={styles.imageDiv}>
-              <Link href="/science-phytosome">
-                <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
-                  <img src="/images/greeneffect.png" />
-                </div>
-              </Link>
-
-              <Link href="/science-clinical">
-                <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
-                  <img src="/images/DoctrwithTube.png" />
-                </div>
-              </Link>
-              <Link href="/science-human">
-                <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
-                  <img src="/images/Swing.png" />
-                </div>
-              </Link>
-            </div> */}
+          
           </div>
           </div>
 
 
           {isVisible && <div className={styles.ImgCollage1} >
            <div className={`${styles.ImgCollagen}`}>
-            <img src="/images/collagen-balls3.png" />
+            <img src="/images/collagen-balls3.webp" />
           </div>
           <div className={`${styles.Discripton}`}>
             <p>
@@ -121,7 +103,7 @@ What does clinically proven mean?
 </div>
 
 <div className={styles.ClinicInnerImg} onClick={() => handleClick(1)}>
-  <img src='/images/royalMarron.png'/>
+  <img src='/images/royalMarron.webp'/>
             </div>
 </div>
 
@@ -132,7 +114,7 @@ What does clinically proven mean?
 </div>
 
 <div className={styles.ClinicInnerImg} onClick={() => handleClick(2)}>
-  <img src='/images/BDQuest10.png'/>
+  <img src='/images/BDQuest10.webp'/>
             </div>
 </div>
 
@@ -143,7 +125,7 @@ What does clinically proven mean?
 </div>
 
 <div className={styles.ClinicInnerImg} onClick={() => handleClick(3)}>
-  <img src='/images/RibhoFlam.png'/>
+  <img src='/images/RibhoFlam.webp'/>
             </div>
 </div>
 
@@ -154,7 +136,7 @@ What does clinically proven mean?
 </div>
 
 <div className={styles.ClinicInnerImg} onClick={() => handleClick(4)}>
-  <img src='/images/Blurex12.png'/>
+  <img src='/images/Blurex12.webp'/>
             </div>
 </div>
 {/* vinod */}

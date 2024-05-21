@@ -102,7 +102,7 @@ function RoyalProductSciencePage(index) {
  
   <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
-  <img src="/images/royalMarron.png" />
+  <img src="/images/royalMarron.webp" />
 
 </div>
 <div className={styles.royalYellow}>
@@ -140,7 +140,7 @@ Beauty</p>
  
 <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
-  <img src="/images/BDQuest10.png" />
+  <img src="/images/BDQuest10.webp" />
 
 </div>
 <div className={styles.royalYellow}>
@@ -180,7 +180,7 @@ supports healthy blood vessel function and guards against chronic inflammation. 
  
   <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
-  <img src="/images/RibhoFlam.png" />
+  <img src="/images/RibhoFlam.webp" />
 
 </div>
 <div className={styles.royalYellow}>
@@ -221,7 +221,7 @@ are involved in the development and functioning of immune cells and contribute t
  
    <div className={styles.PhytoImages1}>
 <div className={styles.royalImage}>
-  <img src="/images/Blurex12.png" />
+  <img src="/images/Blurex12.webp" />
 
 </div>
 <div className={styles.royalYellow}>

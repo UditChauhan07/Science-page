@@ -22,17 +22,17 @@ function SciencePage() {
           <div className={styles.imageDiv}>
       <Link href={{ pathname: '/science-tab', query: { tab: 0 } }}>
         <div className={` ${styles.imageMain} ${styles.imageMain1} `}>
-          <img src="/images/greeneffect.png"/>
+          <img src="/images/greeneffect.webp"/>
         </div>
       </Link>
       <Link href={{ pathname: '/science-tab', query: { tab: 1 } }}>
         <div className={` ${styles.imageMain} ${styles.imageMain2} `}>
-          <img src="/images/DoctrwithTube.png"/>
+          <img src="/images/DoctrwithTube.webp"/>
         </div>
       </Link>
       <Link href={{ pathname: '/science-tab', query: { tab: 2 } }}>
         <div className={` ${styles.imageMain} ${styles.imageMain3} `}>
-          <img src="/images/Swing.png"/>
+          <img src="/images/Swing.webp"/>
         </div>
       </Link>
     </div>

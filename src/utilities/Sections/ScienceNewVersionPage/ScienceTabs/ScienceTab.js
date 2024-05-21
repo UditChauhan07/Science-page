@@ -12,9 +12,9 @@ const Tabs = () => {
   const router = useRouter();
 
   const tabs = [
-    { img: '/images/greeneffect.png' },
-    { img: '/images/DoctrwithTube.png' },
-    { img: '/images/Swing.png' },
+    { img: '/images/greeneffect.webp' },
+    { img: '/images/DoctrwithTube.webp' },
+    { img: '/images/Swing.webp' },
   ];
   const tabContent = [
     <Phytosome key="phytosome" />,
