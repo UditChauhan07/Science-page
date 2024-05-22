@@ -26,13 +26,24 @@ const ScienceVideo = () => {
         <div className={styles.BgBlack}>
           <h1>We are Bruno MD</h1>
         </div>
-        <video width="100%" height="100%" controls loop autoPlay muted>
+        <video className={styles.MobileShow} width="100%" height="100%" controls loop autoPlay muted>
           <source
             src="/images/Science Masthead Portrait720.mov"
             type="video/mp4"
           />
           <source
             src="/images/Science Masthead Portrait720.mov"
+            type="video/ogg"
+          />
+        </video>
+
+        <video className={styles.DeskShow} width="100%" height="100%" controls loop autoPlay muted>
+          <source
+            src="/images/Science Masthead web.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="/images/Science Masthead web.mp4"
             type="video/ogg"
           />
         </video>

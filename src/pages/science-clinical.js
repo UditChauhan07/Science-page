@@ -60,6 +60,7 @@ const ScienceClinical = () => {
 
 
           {isVisible && <div className={styles.ImgCollage1} >
+            <div className={styles.CollagenFlex}>
            <div className={`${styles.ImgCollagen}`}>
             <img src="/images/collagen-balls3.webp" />
           </div>
@@ -70,6 +71,7 @@ const ScienceClinical = () => {
               you’re ready for a deep dive into the clinical studies behind our
               ingredients, you’ve come to the right place.
             </p>
+          </div>
           </div>
    
 

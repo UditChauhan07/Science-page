@@ -4,12 +4,26 @@
     margin: 0 0 80px 0;
 }
 
+
+.PhytoTopope{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+
+
 .PhytoMain{
     display: flex;
-    gap: 30px;
+    gap: 15px;
+    text-align: start;
     align-items: start;
     margin-bottom: 50px;
     flex-direction: row-reverse;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    /* border: 1px solid #0f0f0f; */
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
 
@@ -26,6 +40,8 @@
     width: 145px;
     height: 145px;
 }
+
+
 
 .PhytoTopB{
     margin-top: 20px;
@@ -171,6 +187,51 @@ margin-bottom: 40px;
     line-height: 22px;
 
 }
+
+.MobileShow{
+display: none;
+}
+.DeskShow{
+display: block;
+}
+
+@media(max-width:767px){
+    .MobileShow{
+        display: block;
+        }
+        .DeskShow{
+        display: none;
+        }
+}
+
+
+@media(max-width:1299px){
+    .PhytoTopope{
+     grid-template-columns: repeat(2, auto);
+     
+     
+    }
+}
+
+@media(max-width:991px){
+    .PhytoTopope{
+     grid-template-columns: repeat(1, auto);
+         }
+
+         .PhytoMain{
+         
+            background-color: rgb(255, 255, 255);
+            padding: 0px;
+            /* border: 1px solid #0f0f0f; */
+            border-radius: 0px;
+            box-shadow:unset;
+            gap: 30px;
+            align-items: center;
+        
+        }
+}
+
+
 
 @media(max-width:540px){
 

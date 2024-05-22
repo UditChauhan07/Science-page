@@ -26,9 +26,11 @@
 .ScienceBanner h2{
     font-size: 30px;
     font-weight: 400;
+    margin: 20px 0 10px 0;
 }
 .ScienceBanner h5{
     font-size: 20px;
+    /* margin: 0 0 15px 0; */
     font-weight: 400;
 }
 .paraDis {
@@ -51,4 +53,10 @@
     left: 8%;
     text-shadow: 0px 4px 4px #353535ab;
     
+}
+
+.ScienceBanner img{
+    /* max-width: 615px;
+    max-height: 381px;
+    margin: auto; */
 }

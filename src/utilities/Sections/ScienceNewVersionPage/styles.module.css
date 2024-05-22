@@ -21,10 +21,10 @@ font-family: Gotham", "Arial", serif";
 
 
 
-.destopNone{
+/* .destopNone{
     display: none;
 
-}
+} */
 
 .TopBruno h1{
     font-size: 30px;
@@ -113,14 +113,17 @@ font-family: Gotham", "Arial", serif";
 }
 .scienceVideoPage{
     padding: 20px 20px;
+    width: 80%;
+    margin: auto;
 }
 
 
 
 
 @media (max-width:767px){
-    .destopNone{
-        display: block;
+    .scienceVideoPage{
+         width: 100%;
+       
     }
 }
 
