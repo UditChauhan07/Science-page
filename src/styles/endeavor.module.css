@@ -2,8 +2,57 @@
     text-align: center;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     position: relative;
+    /* max-width: 700px; */
+    margin: auto;
+    /* max-height: 400px; */
+    /* overflow: hidden; */
     
     
+}
+.ScienceBgImg1{
+    background-image: url("/images/BrunoMD-01.webp");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ScienceBgImg2{
+    background-image: url("/images/BrunoMD-02.webp");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ScienceBgImg3{
+    background-image: url("/images/BrunoMD-03.webp");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ScienceBgImg4{
+    background-image: url("/images/BrunoMD-04.webp");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ScienceBgImg5{
+    background-image: url("/images/BrunoMD-05.webp");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.ScienceBanner img{
+    height: 350px;
+    overflow: hidden;
+    background-size: cover;
 }
 
 .tabsBuyNowBTn{

@@ -41,21 +41,24 @@ function RoyalProductSciencePage(index) {
           <div className={styles.modalContent}>
             <span className={styles.close} onClick={closeModal}>&times;</span>
 
-            <div className={styles.OneTimePurchaseModal}>
+            <label><div className={styles.OneTimePurchaseModal}>
                 <input type='radio' name="price" id="1"/>
                 <div className={styles.OneTimePrice}>
                     <h5>ONE-TIME PURCHASE</h5>
                     <p><span>$</span>58.<span>98</span></p>
                 </div>
             </div>
+            </label>
 
-            <div className={`${styles.OneTimePurchaseModal} ${styles.SubsSave}`}>
+<label>
+            <div className={`${styles.OneTimePurchaseModal} ${styles.SubsSave}`} >
                 <input type='radio' name="price" id="2"/>
                 <div className={styles.OneTimePrice}>
                     <h5>SUBSCRIBE & SAVE 20%</h5>
                     <p><span>$</span>47.<span>18</span>  <p className={styles.linethoroughRate}>$58.98</p> </p>
                 </div>
             </div>
+            </label>
 
             <div className={styles.SubscribeSave}>
 
