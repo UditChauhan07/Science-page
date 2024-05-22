@@ -20,8 +20,10 @@ const Endeavor = (index) => {
           
           <div>
             <div className={`${styles.ScienceBanner}`}>
+              <div className={styles.ScienceBgImg1}>
+              {/* <img src="/images/BrunoMD-01.webp" /> */}
               <h1>Science</h1>
-              <img src="/images/BrunoMD-01.webp" />
+              </div>
               <h2>Science: a human endeavor.</h2>
               <h5>Pharma, meet nature</h5>
             </div>
@@ -65,8 +67,10 @@ const Endeavor = (index) => {
 
           <div>
             <div className={`${styles.ScienceBanner}`}>
+            <div className={styles.ScienceBgImg2}>
+              {/* <img src="/images/BrunoMD-02.webp" /> */}
               <h1>Nature</h1>
-              <img src="/images/BrunoMD-02.webp" />
+              </div>
               <h2>Understand the world</h2>
               <h5>Unlocking Nature’s Secrets</h5>
             </div>
@@ -123,8 +127,10 @@ const Endeavor = (index) => {
 
           <div>
             <div className={`${styles.ScienceBanner}`}>
+            <div className={styles.ScienceBgImg3}>
               <h1>Lifestyle</h1>
-              <img src="/images/BrunoMD-03.webp" />
+              {/* <img src="/images/BrunoMD-03.webp" /> */}
+              </div>
               <h2>Blue Zone Longevity.</h2>
               <h5>Live Healthier, Longer Lives</h5>
             </div>
@@ -173,8 +179,10 @@ const Endeavor = (index) => {
 
           <div>
             <div className={`${styles.ScienceBanner}`}>
+            <div className={styles.ScienceBgImg4}>
+              {/* <img src="/images/BrunoMD-04.webp" /> */}
               <h1>Rituals</h1>
-              <img src="/images/BrunoMD-04.webp" />
+              </div>
               <h2>Farm to Table.</h2>
               <h5>Rooted in Italian Soil</h5>
             </div>
@@ -239,8 +247,10 @@ const Endeavor = (index) => {
 
           <div>
             <div className={`${styles.ScienceBanner}`}>
+            <div className={styles.ScienceBgImg5}>
+              {/* <img src="/images/BrunoMD-05.webp" /> */}
               <h1>Proven</h1>
-              <img src="/images/BrunoMD-05.webp" />
+              </div>
               <h2>Nature, Meet Pharma.</h2>
               <h5>Clinically Proven Ingredients</h5>
             </div>

@@ -68,7 +68,8 @@ function SciencePageSlider() {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
-          infinite:false
+          infinite:false,
+          autoplay:false
         }
       },
       {

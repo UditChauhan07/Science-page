@@ -172,7 +172,7 @@ margin-bottom: 40px;
     display: grid !important;
 }
 .PhytoImages1 img{
-    width: 80%;
+    width: auto;
     margin: auto;
     border: 1px solid #AF0000;
     border-radius: 35px;
