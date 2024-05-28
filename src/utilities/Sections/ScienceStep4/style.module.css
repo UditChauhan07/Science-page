@@ -1,0 +1,514 @@
+.height100vh {
+  /* height: 100vh;
+  background-color: gray;
+  background-image: url("/images/Farm to Table.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  position: relative;
+  width: 100%;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+  width: 100%;
+}
+.hiddenParagraph .container{   
+  background-image: url("/images/DNA-icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 35%;
+}
+.RowFlex {
+  display: flex;
+  text-align: end;
+  align-items: center;
+  height: 100vh;
+}
+.hiddenParagraph p{
+  padding-bottom: 15px;
+  line-height: 24px;
+
+}
+.hiddenParagraph h3{
+  padding-bottom: 20px;
+
+}
+.RowFlex h1 {
+  color: #fff;
+  font-size: 130px;
+  font-weight: 800;
+  font-family: var(--bmd-font-Secondary);
+  letter-spacing: normal;
+  line-height: 129px;
+  -webkit-text-fill-color: #000000c7;
+  -webkit-text-stroke-color: #97af98;
+  /* -webkit-text-stroke-width: 2px; */
+  /* background: linear-gradient(96deg, #fff 0.59%, #eef9ff 96%); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px;
+  text-transform: capitalize;
+  width: 60%;
+  cursor: pointer;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 3s;
+  -webkit-transition-timing-function: ease-out;
+  color: #222;
+  text-shadow: 0px 0px 0px white;
+  /* z-index: 3; */
+  /* background: -webkit-linear-gradient(
+  left,
+  #ffcd00 0%,
+  #ffcd00 19%,
+  #ffcd00 38%,
+  #ffcd00 51%,
+  #3fafff 67%,
+  #3fafff 83%,
+  #3fafff 99%
+); */
+  -webkit-text-stroke: 5px rgba(255, 255, 255, 0.01);
+  -webkit-background-clip: text;
+}
+
+.RowFlex h3 {
+  color: #fff;
+  text-align: right;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  font-family: var(--bmd-font-Secondary);
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+}
+.W80 {
+  justify-content: end;
+  display: flex;
+}
+.W80 p {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  margin: 20px 0px;
+  color: #fff;
+  width: 60%;
+  line-height: 24px;
+}
+.ReadMoreBtnWhite {
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 22px;
+  margin: 15px 0px;
+  font-family: var(--bmd-font-Secondary);
+  cursor: pointer;
+  
+}
+.Mask {
+  -webkit-mask-image: url("/images/Science-page-Step-2.png");
+  mask-image: url("/images/Science-page-Step-2.png");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  justify-content: end;
+  display: flex;
+}
+
+
+.hiddenParagraph{
+  position: fixed;
+  padding: 20px 15px;
+  width: 100%;
+  bottom: 0%;
+  left: 0;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);  
+  overflow-y: hidden;  
+  height: 100%;
+  left: 0;
+  right: 0;    
+  margin:auto;
+  z-index: 11;
+  background-color: #2e241a8f;
+  backdrop-filter: blur(10px);
+  
+}
+.hiddenParagraph h3{
+  color: #000;
+  font-size: 52px;
+  font-family: var(--bmd-font-Secondary);
+  padding: 0 10px;
+  
+}
+.hiddenParagraph p{
+  color: #000;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  padding-bottom: 15px;
+  line-height: 24px;
+  padding: 0 15px 10px 15px;
+}
+.W80 p{
+  line-height: 30px !important;
+}
+
+/* BORDER FILL ANIMATION */
+.animateCh {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(
+    left,
+    #ffcd00 0%,
+    /* #ffcd00 19%, */
+    #ffcd00 38%,
+    #ffcd00 51%,
+    #3fafff 67%,
+    /* #3fafff 83%, */
+    #3fafff 99%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 8s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.hiddenParagraph span{
+          background-color: #fff;
+          width: 30px;
+  font-family: var(--bmd-font-Secondary);
+font-weight: 900;
+          height: 30px;
+          border-radius: 100%;
+          border: 2px solid #000;
+      font-size: 17px;
+      color: #000;
+      position: absolute;
+      top: 1%;
+      right: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  /* Fade up css */
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+@keyframes flipInX {
+  0% {
+      transform: perspective(800px) rotateX(-90deg);
+      animation-timing-function: ease-in;
+      opacity: 0
+  }
+
+  40% {
+      transform: perspective(800px) rotateX(-0deg);
+      animation-timing-function: ease-in
+  }
+
+  60% {
+      transform: perspective(800px) rotateX(-0deg);
+      opacity: 1
+  }
+
+  80% {
+      transform: perspective(800px) rotateX(-0deg)
+  }
+
+  to {
+      transform: perspective(800px)
+  }
+}
+
+.flipInX {
+  backface-visibility: visible!important;
+  animation-name: flipInX;
+  animation-delay: 2s;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+/* fade up end */
+
+.containerModal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  transform: translate(0%, 4%);
+  background-color: #FBFBFB;
+  border-radius: 30px;
+  padding: 30px 30px;
+}
+.HeadingItalianSoli h3, .HeadingItalianSoli h4{
+  font-size: 60px;
+  font-family: var(--bmd-font-Secondary);
+  color: #F5931B;
+  padding: 0 10px;
+}
+
+.HeadingItalianSoli h3{  
+  font-weight: 100;
+}
+.HeadingItalianSoli h4{ 
+  font-weight: 800;
+}
+
+.InneerDiscription{
+  width: 37.8%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.Discription{
+  margin: auto;
+  height: 175px;
+  overflow: auto;
+}
+.BottomDis{
+  width: 98%;
+  display: flex;
+  background-color: #f4931b26;
+  border-radius: 20px;
+  border: 1px solid #F9931B;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  margin: auto;
+  position: relative;
+  bottom: 25px;
+  
+}
+.BottomDis p{
+  font-weight: 300;
+}
+.BottomImg{    
+  width: 100%;
+  margin: auto;
+  border-radius: 13px;
+  overflow: hidden;
+  display: flex;
+  max-width: 200px;
+} 
+.GifVideo {
+    position: absolute;
+    top: -180px;
+    right: 3%;
+    width: 75%;
+}
+@keyframes bounceInLeft {
+  0%,60%,75%,90%,to {
+      animation-timing-function: cubic-bezier(.215,.61,.355,1)
+  }
+
+  0% {
+      opacity: 0;
+      transform: translate3d(-3000px,0,0)
+  }
+
+  60% {
+      opacity: 1;
+      transform: translate3d(25px,0,0)
+  }
+
+  75% {
+      transform: translate3d(-10px,0,0)
+  }
+
+  90% {
+      transform: translate3d(5px,0,0)
+  }
+
+  to {
+      transform: translateZ(0)
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+  animation-delay: 1s;  
+}
+
+@media  (max-width: 1599.98px){
+  .containerModal {    
+    transform: translate(0%, 2%);    
+    padding: 22px 30px;
+}
+
+  .BottomImg {   
+    max-width: 140px;
+}
+  .HeadingItalianSoli h3, .HeadingItalianSoli h4{
+    font-size: 50px;   
+  }
+
+  .Discription{    
+    height: 120px;   
+  }
+  .InneerDiscription{
+    width: 60%;
+   
+  }
+  .GifVideo{   
+    top: -60px;    
+    width: 60%;
+    z-index: -1;
+}
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .RowFlex h1{
+        font-size: 65px;
+        width: 60%;
+    }
+    .RowFlex h2{
+        font-size: 92px;
+        bottom: 15px;
+        line-height: 112px;
+    }
+    .RowFlex h3{
+        font-size: 35px;
+    }
+    .W80 p{        
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin-top: 0; 
+  }
+  .InneerDiscription{
+    height: 260px;
+    overflow: auto;
+  }
+   
+    
+
+}
+@media  (max-width: 1100px)
+{
+    .container {
+             max-width: 90%;
+       
+    }
+
+}
+@media  (max-width: 768px)
+{
+    .container {
+      max-width: 90%;
+       
+    }
+    .W70 {
+      padding: 10px;
+      width: 100%;
+      background-color: #12140f59;
+      border-radius: 10px;
+    }
+    .RowFlex h1 {
+      line-height: 75px;
+  }
+  .W80 p{        
+    display: block;
+    
+}
+
+}
+@media  (max-width: 575px)
+{
+    .container {
+      max-width: 90%;
+       
+    }
+    .W80 {
+        width: 100%;
+    }
+    .RowFlex h2 {
+        font-size: 40px;
+        bottom: 5px;
+        line-height: 45px;
+    }
+   
+    .RowFlex h1 {
+        font-size: 35px;
+        letter-spacing: normal;
+        line-height: 42px;
+        -webkit-text-stroke: 3px rgba(255, 255, 255, 0.01);
+        
+    }
+    .RowFlex h3 {
+        font-size: 20px;
+    }
+    .W80 p {
+      font-family: var(--bmd-font-Secondary);
+      font-size: 16px;
+      margin: 20px 0px;
+      color: #fff;
+      width: 100%;
+  }
+  .hiddenParagraph h3 {
+    color: #000;
+    font-size: 30px;
+   
+}
+
+}
+@media  (max-width: 475px)
+{
+    .container {
+      max-width: 90%;
+       
+    }
+    
+
+}

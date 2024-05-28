@@ -1,0 +1,39 @@
+.wrapperO {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperT {
+    padding: 30px;
+    text-align: center;
+}
+
+.wrapperT h1 {
+    font-size: 4em;
+    letter-spacing: 3px;
+    color: #37246b;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: var(--bmd-font-Primary);
+    font-weight: var(--bmd-Gotham-book);
+}
+
+.wrapperT p {
+    margin: 0;
+    font-size: 1.3em;
+    color: #aaa;
+    letter-spacing: 1px;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.goHome {
+    color: #fff;
+    background: #37246b;
+    border: none;
+    padding: 10px 50px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+}

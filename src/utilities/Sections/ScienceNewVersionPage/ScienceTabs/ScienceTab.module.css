@@ -1,0 +1,224 @@
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs .tab:nth-child(1):has(.active){
+  order: 1;
+  transition: 2s;
+}
+.tabs .tab:nth-child(1):not(.active){
+  order: 0;
+  transition: 2s;
+
+}
+.tabs .tab:nth-child(2):not(.active){
+  order: 2;
+  transition: 2s;
+}
+
+.tabs .tab:nth-child(3):not(.active){
+  order: 2;
+  transition: 2s;
+}
+
+.tabs .tab:nth-child(2):has(.active){
+  order: 1;
+  transition: 2s;
+}
+.tabs .tab:nth-child(3):has(.active){
+  order: 1;
+  transition: 2s;
+}
+
+
+.tab.active img{
+  scale: 1.05;
+  border-radius: 20px;
+  border: 2px solid #AF0000;
+  transition: 0.5s;
+
+}
+
+.tabContent{
+  width: 100%;
+}
+.tabs img{
+  transition: 0.5s;
+  width: 93px;
+  height: 93px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+
+}
+
+.active-tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 25%;
+  background-color: blue;
+  transition: left 0.3s ease-in-out;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  /* font-size: 24px; */
+  cursor: pointer;
+  outline: none;
+  /* padding: 10px; */
+  /* font-size: 18px; */
+}
+
+
+
+
+
+.arrowRight,
+.arrowLeft
+{
+display: block;
+/* margin: 30px auto; */
+width: 15px;
+height:15px;
+border-top: 2px solid #ffffff;
+border-left: 2px solid #ffffff;
+}
+
+.arrowRight,
+.long-arrow-right{
+ transform : rotate(135deg);
+}
+
+.arrowLeft,
+.long-arrow-left{
+ transform: rotate(-45deg);
+}
+/* vinod */
+
+
+.tabContent {
+  
+  width: 100%;
+  /* max-width: 600px; */
+  text-align: center;
+  
+  border-radius: 5px;
+  
+}
+
+.tabs{
+  display: flex;
+}
+
+.tabsControler{
+  display: flex;
+
+  width: 100%;
+  /* justify-content: center; */
+
+
+}
+
+.tabsControler1{
+  display: flex;
+  width: 300px;
+  /* border: 1px solid #000; */
+  position: absolute;
+  z-index: 1;
+  top: 270px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabsControler11{
+  /* position: relative; */
+  
+
+}
+
+@media(max-width:1064px){
+  .tabsControler1 {
+     top: 236px;
+    }
+}
+
+
+@media (max-width: 540px) {
+  .tabs img {
+       width: 70px;
+       border-radius: 10px;
+    height: 70px;
+  }
+  
+
+  .tabsControler11{
+    width: 300px;
+  }
+
+  .tabsControler1 {
+       top: 160px;
+       width: 214px;
+  }
+
+  .tab.active img {
+    border-radius: 10px;
+   
+   
+}
+
+.leftArrow {
+  top: 43px;
+}
+
+.rightArrow {
+  top: 43px;
+
+}
+  
+}
+
+.tabsBuyNowBTn{
+  width: 100%;
+  padding: 15px 10px;
+  /* height: 40px; */
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  font-family:"Gotham" sans-serif;
+  z-index: 9991;
+}
+
+@media (max-width: 400px) {
+  .tabs img {
+       width: 50px;
+       border-radius: 10px;
+    height: 50px;
+  }
+}

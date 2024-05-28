@@ -1,0 +1,368 @@
+.container{
+    padding: 0 25px;
+    width: 100%;
+    margin: 0 0 80px 0;
+}
+
+
+.PhytoTopope{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+
+
+
+
+
+.PhytoMain{
+    display: flex;
+    gap: 15px;
+    text-align: start;
+    align-items: start;
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    /* border: 1px solid #0f0f0f; */
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.PhytoPara{
+    font-size: 12px;
+    font-family:"Gotham", "Arial", serif ;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.PhytoImg{
+    width: 100%;
+    position: relative;
+    width: 145px;
+    height: 145px;
+}
+
+
+
+.PhytoTopB{
+    margin-top: 20px;
+}
+
+.PhytoImg img{
+    border-radius: 20px;
+    /* width: 100%; */
+    width: 145px;
+    height: 145px;
+}
+
+.PhytoClass{
+visibility: visible;    
+}
+
+.PhytoPara11 {
+    height: 300px;
+    overflow: auto;
+    padding: 16px 0;
+}
+.PhytoImg h4{
+    position: absolute;
+    bottom: 25px;
+    
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.PhytoImg h4 a{
+    color: #fff;
+    font-size: 12px;
+    font-family:"Gotham", "Arial", serif ;
+    font-weight: 600;
+    background-color: #AB19C2;
+    padding: 6px;
+    text-decoration: none;
+}
+
+
+/* top */
+
+
+.imageDiv{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+
+.videoContent{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.PhytoVideoTag{
+    width: 100%;
+    max-height: 370px !important;
+
+
+    overflow: hidden;
+    
+}
+
+
+.TopBruno{
+    position: relative;
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+text-align: center;
+font-family: Gotham", "Arial", serif";
+margin-bottom: 40px;
+
+    
+    color: #fff;
+}
+
+.backgroundShadow{
+    padding: 25px 0px ;
+    margin: 0 0 20px 0;
+    background-color: #00000073;
+}
+
+.destopNone{
+    display: none;
+}
+
+.TopBruno h1{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+
+
+.TopBruno p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.TopBruno p{
+    font-size: 16px;
+    font-weight:400;
+
+}.TopBruno h5{
+    margin: 10px 0 15px 0;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+.imageMain img{
+    max-width: 100%;
+    width: 93px;
+    height: 93px;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+    
+}
+
+.PhytoMain1{
+    width: 90% !important;
+   
+
+    margin:0 auto 80px;
+    gap: 30px;
+    display: grid !important;
+}
+.PhytoImages1 img{
+    width: auto;
+    margin: auto;
+    border: 1px solid #AF0000;
+    border-radius: 35px;
+}
+
+.PhytoPara11 p{
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Gotham", "Arial", serif";
+    line-height: 22px;
+
+}
+
+/* .MobileShow{
+display: none;
+} */
+
+.PhytoVideoTag{
+    width: 100%;
+    margin: 0 0 40px 0;
+    max-height: 370px;
+
+    overflow: hidden;
+}
+
+.PhytoVideoTag {
+    /* margin: -268px 0 0 0; */
+}
+
+
+.desktopShow{
+    display: block;
+    }
+
+    .MobileShow{
+        display:none;
+        } 
+
+
+
+
+@media(max-width:1299px){
+    .PhytoTopope{
+     grid-template-columns: repeat(2, auto);
+     
+     
+    }
+}
+
+@media(max-width:991px){
+    .PhytoTopope{
+     grid-template-columns: repeat(1, auto);
+         }
+
+         .PhytoMain{
+         
+            background-color: rgb(255, 255, 255);
+            padding: 0px;
+            /* border: 1px solid #0f0f0f; */
+            border-radius: 0px;
+            box-shadow:unset;
+            gap: 30px;
+            align-items: center;
+        
+        }
+}
+
+@media(max-width:767px){
+    .MobileShow{
+        display: block;
+        }     
+        .desktopShow{
+        display: none;
+        }
+
+        .PhytoVideoTag video{
+            min-width: 800px;
+        }
+}
+
+
+
+@media(max-width:540px){
+
+    .PhytoVideoTag video{
+        min-width: 580px;
+    }
+
+    .TopBruno h5 {
+        margin: 10px 0 15px 0;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .PhytoImg{
+    width: 100%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.PhytoImg img{
+    width: 100%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.PhytoImg h4 a {
+    
+    font-size: 10px;
+padding: 5px;
+}
+
+.PhytoMain {
+     gap: 15px;
+ }
+ .PhytoImg h4 {
+ bottom: 10px;
+    }
+  
+    .backgroundShadow {
+        padding: 10px 0px;
+        margin: 0 0 10px 0;
+        background-color: #00000073;
+        font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    }
+
+    .imageMain img{
+        max-width: 100%;
+        width: 70px;
+        height: 70px;
+        border-radius: 12px;
+        border: 2px solid #ddd;
+}
+
+.TopBruno h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.TopBruno p {
+    font-size: 12px;
+    
+}
+
+.TopBruno h5 {
+      font-size: 14px;
+   }
+}
+
+@media(max-width:415px){
+    .TopBruno{
+    margin-bottom: 50px;    
+    
+    }
+
+}
+
+@media(max-width:374px){
+
+    .PhytoImg{
+        margin: auto;
+    }
+
+    .PhytoMain{
+        display: grid;
+    }
+}
+.BgBlack {
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0px;
+}
+.BgBlack h1 {
+  font-size: 30px;
+  font-family: "ivypresto-display", "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+

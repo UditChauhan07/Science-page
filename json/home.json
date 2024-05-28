@@ -1,0 +1,150 @@
+{
+  "ENG": {
+    "PatnerData": true,
+    "wistia": {
+      "id": "ile0o2zvsm",
+      "content": {
+        "title": "Benvenuti <br/><h2> to the MDiterranean Life®</h2>",
+        "btnText": "SHOP NOW",
+        "btnLink": "/collections/all-products",
+        "subTitle": "Health and wellness products rooted in the heart of Italy, made from all-natural ingredients."
+      }
+    },
+    "video":{
+      "src":"https://cdn.shopify.com/videos/c/o/v/42d8c56b0acf4b3784433368dc9bf2c8.mp4",
+      "mob":"https://cdn.shopify.com/videos/c/o/v/57e3c0f84b394baeb7e9f4b721c8fcd2.mp4",
+      "alt":"..."
+    },
+    "categories": {
+      "title": "Our Solutions",
+      "items": [
+        {
+          "name": "Skin",
+          "link": "/collections/skin",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/skin.webp?v=1695373186",
+            "alt": "Skin"
+          },
+          "btnText":"Buy now"
+        },
+        {
+          "name": "Joints",
+          "link": "/collections/joints",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/MDjoints-mob_1.webp?v=1696242458",
+            "alt": "Joints"
+          },
+          "btnText":"Buy now"
+        },
+        {
+          "name": "Immunity",
+          "link": "/collections/immunity",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/hmimmunity.webp?v=1695373186",
+            "alt": "Immunity"
+          },
+          "btnText":"Buy now"
+        },
+        {
+          "name": "Heart",
+          "link": "/collections/heart",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/MDheart-mob_1.webp?v=1696242458",
+            "alt": "Heart"
+          },
+          "btnText":"Buy now"
+        },
+        {
+          "name": "Bone",
+          "link": "/collections/bone-health",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/MDBones-mob_1.webp?v=1696242457",
+            "alt": "Bone"
+          },
+          "btnText":"Buy now"
+        },
+        {
+          "name": "Vision",
+          "link": "/collections/vision",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/MDvision-mob_1.webp?v=1696242458",
+            "alt": "Vision"
+          },
+          "btnText":"Buy now"
+        }
+      ]
+    },
+    "purpose": {
+      "title": "Our Purpose",
+      "buttonText": "Learn More",
+      "buttonUrl": "/science",
+      "linkTitle":"navigate to our Science Page",
+      "image": {
+        "src": "/images/purpose_2.webp",
+        "alt": "La Nostra Missione"
+      },
+      "paragraphs": [
+        "Bruno MD empowers humans to live their healthiest lives with uncompromising natural ingredients and scientific imagination.",
+        "We're Italian, family owned, so connecting people to the best ingredients brings us joy. It also brings the benefits and purity of the Mediterranean Life to your mind and body. Two of the world's known blue zones are in the Mediterranean where people often live over 100 years.",
+        "Our journey began as a pharmaceutical company. We use the same scientific principles today to make our natural health products. Each ingredient we use is clinically proven to provide the highest health benefits. We've also made hard to absorb ingredients more bioavailable using Phytosome technology.",
+        "Bruno MD sits at the crossroads of the traditions and history that gave birth to the modern world. We embrace the simplicity of family, a shared table and fresh ingredients in every meal. We embrace innovative science to deliver those ingredients for your healthiest life.",
+        "The MDiterranean Life®"
+      ]
+    },
+    "homeGallery": {
+      "title": "Believers",
+      "subTitle": "Living<br />Their Best Life",
+      "id": "ahHyITcI0fkzYo7KejQeWGiBK2CXMKvLvTZ8KUBJ",
+      "galleryId": "5e7cf7950a4044179b4ab843"
+    },
+    "newsletter": {
+      "title": "Join our newsletter",
+      "portalId": "19647191",
+      "formId": "289774ba-21cc-4bb7-8be8-b3f043997ca2",
+      "desktopImage": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/home-news-desk.webp?v=1695379569",
+      "mobileImage": "https://cdn.shopify.com/s/files/1/0021/0573/7291/files/home-mob.webp?v=1695806558"
+    },
+    "testimonial": [
+      {
+        "title": "“One of my best kept beauty secrets is adding Royal Collagen Peptides to my beverages every single day.”",
+        "author": "Ashely C.",
+        "video": {
+          "src": "\\videos\\testimonials\\Ashley_Cummings_SQUARE.mp4",
+          "poster":"\\images\\testi-thumb\\Ashley_Cummings_SQUARE.webp"
+        }
+      },
+      {
+        "title": "“You really need to do the research of what you are putting into your body. Look for things coming from cuttable sources. And that is why I am obsessed with Bruno MD.”",
+        "author": "Megan Q.",
+        "video": {
+          "src": "\\videos\\testimonials\\Megan_Quist_SQUARE_a.mp4",
+          "poster":"\\images\\testi-thumb\\Megan_Quist_SQUARE.webp"
+        }
+      },
+      {
+        "title": "“I take it every day because it’s great for my skin, hair and nails.”",
+        "author": "Camila F.",
+        "video": {
+          "src": "\\videos\\testimonials\\Camila_Flaeschen_SQUARE_a.mp4",
+          "poster":"\\images\\testi-thumb\\Camila_Flaeschen_SQUARE-1.webp"
+        }
+      },
+      {
+        "title": "“Bruno MDs Royal Collagen Peptides ‘go packets’ are a gamechanger.”",
+        "author": "Stephanie M.",
+        "video": {
+          "src": "\\videos\\testimonials\\Stephanie_Mills_SQUARE.mp4",
+          "poster":"\\images\\testi-thumb\\Stephanie_Mills_SQUARE.webp"
+        }
+      },
+      {
+        "title": "“Working out is great, but having sore muscles afterwards isn’t that fun. And this little guy here helps you reduce inflammation which means a faster recovery from your workouts.”",
+        "author": "Camila F.",
+        "video": {
+          "src": "\\videos\\testimonials\\Camila_Flaeschen_SQUARE-1.mp4",
+          "poster":"\\images\\testi-thumb\\Camila_Flaeschen_SQUARE.webp"
+        }
+      }
+    ]
+  }
+}

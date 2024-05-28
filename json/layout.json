@@ -1,0 +1,171 @@
+{
+    "ENG": {
+        "announcementBar": {
+            "title": "FREE Shipping on All Orders Over $75. Automatically Applied at Checkout.",
+            "textColor": "#fff",
+            "backgroundColor": "#3a3a3a"
+        },
+        "links": [
+            {
+                "subMenuLinks": [
+                    {
+                        "url": "/collections/skin",
+                        "displayText": "Skin"
+                    },
+                    {
+                        "url": "/collections/joints",
+                        "displayText": "Joints"
+                    },
+                    {
+                        "url": "/collections/immunity",
+                        "displayText": "Immunity"
+                    },
+                    {
+                        "url": "/collections/heart",
+                        "displayText": "Heart"
+                    },
+                    {
+                        "url": "/collections/bone-health",
+                        "displayText": "Bone"
+                    },
+                    {
+                        "url": "/collections/vision",
+                        "displayText": "Vision"
+                    }
+                ],
+                "name": "Shop",
+                "url": "/collections/all-products",
+                "displayText": "Shop"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "our story",
+                "url": "/our-story",
+                "displayText": "our story"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "Our science",
+                "url": "/science",
+                "displayText": "our science"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "FAQ",
+                "url": "/faqs",
+                "displayText": "FAQ"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "BLOG",
+                "url": "https://blog.brunomd.com/",
+                "displayText": "BLOG"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "Contact",
+                "url": "/contact-us",
+                "displayText": "contact"
+            }
+        ],
+        "footer": {
+            "links": [
+                {
+                    "url": "",
+                    "title": "Join Us",
+                    "name": "Company",
+                    "navMenuLinks": [
+                        {
+                            "name": "Loyalty Rewards and Referral Program",
+                            "url": "https://www.brunomd.com/pages/rewards-page"
+                        }
+                    ]
+                },
+                {
+                    "url": "#",
+                    "title": "Products",
+                    "name": "Products",
+                    "navMenuLinks": [
+                        {
+                            "name": "Royal Collagen Peptides Collection",
+                            "url": "/collections/skin"
+                        },
+                        {
+                            "name": "Bluerex Vision",
+                            "url": "/collections/vision"
+                        },
+                        {
+                            "name": "CholestQ10",
+                            "url": "/collections/heart"
+                        },
+                        {
+                            "name": "Riboflam",
+                            "url": "/collections/immunity"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "title": "Company",
+                    "name": "Company",
+                    "navMenuLinks": [
+                        {
+                            "name": "Our Story",
+                            "url": "/our-story"
+                        },
+                        {
+                            "name": "Social Responsibility",
+                            "url": "/social-responsibility"
+                        },
+                        {
+                            "name": "FAQs",
+                            "url": "/faqs"
+                        },
+                        {
+                            "name": "Contact Us",
+                            "url": "/contact-us"
+                        },
+                        {
+                            "name": "Shipping Policy",
+                            "url": "/shipping-policy"
+                        },
+                        {
+                            "name": "Returns Portal",
+                            "url": "https://brunomd.returnscenter.com/"
+                        },
+                        {
+                            "name": "Return Policy",
+                            "url": "/return-and-cancellation-policy"
+                        },
+                        {
+                            "name": "Reviews",
+                            "url": "/reviews"
+                        },
+                        {
+                            "name": "Terms of Service",
+                            "url": "/terms-of-service"
+                        },
+                        {
+                            "name": "Privacy Policy",
+                            "url": "/privacy-policy"
+                        }
+                    ]
+                }
+            ],
+            "text": "<p>Statements made on this website have not been evaluated by the U.S. Food and Drug Administration. These products are not intended to diagnose, treat, cure or prevent any disease. Information provided by this website or this company is not a substitute for individual medical advice.</p><p>© 2022 brunomd.com. All Rights Reserved</p>"
+        },
+        "featureInfo": [
+            "Free shipping for all orders over $75.00",
+            "20% loyalty discount for subscribe & save customers",
+            "Purchase with confidence. 30-day money back guarantee."
+        ],
+        "cartLink":"/cart",
+        "login":{
+            "title":"Log in",
+            "autTitle":"Account",
+            "url":"/account/login",
+            "auturl":"/account"
+        },
+        "redirection":null
+    }
+}

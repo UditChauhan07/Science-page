@@ -1,0 +1,228 @@
+{
+    "3526581387339": {
+        "EXTERNALID": "3526581387339",
+        "SLUG": "riboflam-90-v-caps-30-servings",
+        "title": "RIBOFLAM",
+        "is_landing":true,
+        "Blog":   {
+                "title": "Blog",
+                "blog": true,
+                "details": [
+                    {
+                        "title": "Lifestyle",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Berries-banner.jpg",
+                                "title": "Berries: a precious reserve of antioxidants and more",
+                                "link": "https://blog.brunomd.com/berries-a-precious-reserve-of-antioxidants-and-more/"
+                            }
+                            
+                        ]
+                    },{
+                        "title": "Problems and symptoms",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\oxidative-stress-thumb.jpg",
+                                "title": "Oxidative stress and free radicals",
+                                "link": "https://blog.brunomd.com/oxidative-stress-and-free-radicals/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "title": "Ingredients and benefits",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\nucleotides-role-thumb.jpg",
+                                "title": "The role of nucleotides in nerve regeneration",
+                                "link": "https://blog.brunomd.com/the-role-of-nucleotides-in-nerve-regeneration/"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+          
+        
+    },
+    "4329882550347": {
+        "EXTERNALID": "4329882550347",
+        "SLUG": "cholestq10-60-v-caps-30-servings",
+        "title": "CHOLESTQ10",
+        "is_landing":true,
+        "Blog": {
+                "title": "Blog",
+                "blog": true,
+                "details": [
+                    {
+                        "title": "Lifestyle",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Sport image-banner.jpg",
+                                "title": "Incorporating Sports for Daily Fitness and Stamina Boost",
+                                "link": "https://blog.brunomd.com/integrating-sport-into-your-daily-routine-sports-in-everyday-life-better-fitness-and-stamina/"
+                            },
+                            {
+                                "thumb": "\\images\\products\\Capri mercato-banner.jpg",
+                                "title": "The heart project: foods friends and enemies",
+                                "link": "https://blog.brunomd.com/the-heart-project-foods-friends-and-enemies/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "title": "Problems and symptoms",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\walking in Rome-banner.jpg",
+                                "title": "Cholesterol and How to Manage It",
+                                "link": "https://blog.brunomd.com/cholesterol-and-how-to-manage-it/"
+                            }
+                            
+                            
+                        ]
+                    },
+                    {
+                        "title": "Ingredients and benefits",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Adriana cactus-banner.jpg",
+                                "title": "Blue Zone Diet & Heart Health",
+                                "link": "https://blog.brunomd.com/blue-zone-diet-heart-health/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        
+    },
+    "1547402084427": {
+        "EXTERNALID": "1547402084427",
+        "SLUG": "royal-collagen-peptides",
+        "title": "ROYAL COLLAGEN PEPTIDES",
+        "is_landing":true,
+        "Blog":  {
+                "title": "Blog",
+                "blog": true,
+                "details": [
+                    {
+                        "title": "Lifestyle",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Maria sleeping dorme-banner.png",
+                                "title": "The ideal environment for a healthy sleep",
+                                "link": "https://blog.brunomd.com/the-ideal-environment-for-a-healthy-sleep/"
+                            },
+                            {
+                                "thumb": "\\images\\products\\mercato-banner.png",
+                                "title": "Vitamins and minerals: health and vitality",
+                                "link": "https://blog.brunomd.com/vitamins-and-minerals-health-and-vitality/"
+                            },
+                            {
+                                "thumb": "\\images\\products\\Maria Sleeping 3-banner.png",
+                                "title": "Good sleep, good mood! Sleep well, rest more",
+                                "link": "https://blog.brunomd.com/good-sleep-good-mood-sleep-well-rest-more/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Problems and symptoms",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\skin-image-banner.webp",
+                                "title": "The functions of our skin",
+                                "link": "https://blog.brunomd.com/the-functions-of-our-skin/"
+                            },
+                            {
+                                "thumb": "\\images\\products\\GG_BMD-ROM3-3-banner.webp",
+                                "title": "How our skin is made: the skin structure",
+                                "link": "https://blog.brunomd.com/how-our-skin-is-made-the-skin-structure/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "title": "Ingredients and benefits",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\gloria mercato verdure firenze-banner.jpg",
+                                "title": "Vitamins: small amounts are essential for life!",
+                                "link": "https://blog.brunomd.com/vitamins-small-amounts-are-essential-for-life/"
+                            },
+                            {
+                                "thumb": "\\images\\products\\adri1-1-banner.png",
+                                "title": "Why Royal Collagen Peptides?",
+                                "link": "https://blog.brunomd.com/why-royal-collagen-peptides/"
+                            }
+                        ]
+                    }
+                ]
+            }
+    },
+    "3526554910795": {
+        "EXTERNALID": "3526554910795",
+        "SLUG": "bluerex-vision-60-caps-30-servings",
+        "title": "BLUEREX",
+        "is_landing":true,
+        "Blog":{
+                "title": "Blog",
+                "blog": true,
+                "details": [
+                    {
+                        "title": "Lifestyle",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Girl gloria with phone-banner.jpg",
+                                "title": "Dry eye: 10 tips for those who often use computers, tablets and mobile phones",
+                                "link": "https://blog.brunomd.com/dry-eye-10-tips-for-those-who-often-use-computers-tablets-and-mobile-phones/"
+                            }
+                            
+                        ]
+                    },{
+                        "title": "Problems and symptoms",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Vision1 image-banner.jpg",
+                                "title": "What are tears made of and what function do they have?",
+                                "link": "https://blog.brunomd.com/what-are-tears-made-of-and-what-function-do-they-have/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "title": "Ingredients and benefits",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\red girl portrait-banner.jpg",
+                                "title": "What is Computer Vision Syndrome?",
+                                "link": "https://blog.brunomd.com/what-is-computer-vision-syndrome/"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+         
+        
+    },
+    "4586005626955": {
+        "EXTERNALID": "4586005626955",
+        "SLUG": "royal-collagen-peptides-stick-packs-strawberry-acai-20-units",
+        "title": "Royal Collagen Peptides Beauty From Within Strawberry Açaí",
+         "is_landing":true
+    },
+    "4586005692491": {
+        "EXTERNALID": "4586005692491",
+        "SLUG": "royal-collagen-peptides-stick-packs-blood-orange-20-units",
+        "title": "Royal Collagen Peptides Beauty From Within Blood Orange",
+         "is_landing":true
+       
+    },
+    "4586005659723": {
+        "EXTERNALID": "4586005659723",
+        "SLUG": "royal-collagen-peptides-stick-packs-dragon-fruit-20-units",
+        "title": "Royal Collagen Peptides Beauty From Within Dragon Fruit 20 Units",
+         "is_landing":true
+    }
+    
+}

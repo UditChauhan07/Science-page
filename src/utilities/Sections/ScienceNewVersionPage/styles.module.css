@@ -1,0 +1,136 @@
+.imageMain{
+    /* background-image: url("./images/Screenshot\ 2024-02-07\ at\ 9.16\ 1.png"); */
+}
+
+.imageDiv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.TopBruno{
+    background-image: linear-gradient(to right bottom, #418301, #688200, #868104, #9f7f1d, #b47d33);
+text-align: center;
+font-family: Gotham", "Arial", serif";
+    padding: 0 35px;
+    color: #fff;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
+
+
+
+
+/* .destopNone{
+    display: none;
+
+} */
+
+.TopBruno h1{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+
+
+.TopBruno p{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.TopBruno p{
+    font-size: 16px;
+    font-weight: 500;
+
+}.TopBruno h5{
+    margin: 10px 0 15px 0;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+
+}
+
+
+.imageMain img{
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+}
+
+.imageMain{
+    width: 93px;
+    height: 93px;
+    overflow: hidden;
+    display: flex;   
+}
+
+.imageDiv{
+    padding: 0 0 30px 0;
+    margin: 0 0 30px 0;
+}
+
+
+
+
+
+/* second part */
+.startSlider{
+    position: relative;
+}
+
+
+.startSlider h3{
+    color: #fff;
+    position: absolute;    
+    bottom: 10px;
+    font-size: 30px;
+    /* font-family: "Gotham", "Arial", serif; */
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-weight:400;    
+    text-align: center;
+    text-shadow: 0px 4px 4px #353535ab;
+    width: 95%;
+}
+
+.startSlider img{
+    border-radius: 25px;
+    width: 100%;
+    
+}
+
+.startSlider{
+    padding: 0 0px 0 20px;
+    margin: 0 0 0 -40px;
+}
+
+.scienceVideoPage img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.scienceVideoPage{
+    padding: 20px 20px;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+@media (max-width:767px){
+    .scienceVideoPage{
+         width: 100%;
+       
+    }
+}
+
+
+
+@media (max-width:450px){
+    .startSlider h3{
+        font-size: 20px;
+    }
+}

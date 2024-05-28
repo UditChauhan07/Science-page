@@ -1,0 +1,445 @@
+.ImgCollagen{
+    /* width: 100%; */
+    margin: auto;
+    width: 40%;
+        
+}
+.Discripton{
+    width: 60%;
+}
+
+.Discripton p{
+    color: #000;
+    /* width: 90%; */
+    margin: auto;
+    /* margin-top: 5%; */
+    text-align: start;    
+}
+
+.container{
+    padding: 0 25px;
+    width: 100%;
+}
+
+.PhytoMain{
+    display: flex;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+
+}
+
+.PhytoPara{
+    font-size: 12px;
+    font-family:"Gotham", "Arial", serif ;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.PhytoImg{
+    width: 100%;
+    position: relative;
+    width: 145px;
+    height: 145px;
+}
+
+.PhytoTopB{
+    margin-top: 20px;
+}
+
+.PhytoImg img{
+    border-radius: 20px;
+    /* width: 100%; */
+}
+
+.PhytoImg h4{
+    position: absolute;
+    bottom: 25px;
+    
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.PhytoImg h4 a{
+    color: #fff;
+    font-size: 12px;
+    font-family:"Gotham", "Arial", serif ;
+    font-weight: 600;
+    background-color: #AB19C2;
+    padding: 6px;
+}
+
+
+/* top */
+
+
+.imageDiv{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+
+.videoContent{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.PhytoVideoTag{
+    width: 100%;
+    margin: 0 0 40px 0;
+    max-height: 370px;
+    overflow: hidden;
+    
+}
+
+.ImgCollage1{
+    margin:auto;
+    width: 90%;
+}
+
+
+.TopBruno{
+    position: relative;
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+text-align: center;
+font-family: Gotham", "Arial", serif";
+margin-bottom: 40px;
+
+    
+    color: #fff;
+}
+
+.backgroundShadow{
+    padding: 25px 0px ;
+    margin: 0 0 20px 0;
+    background-color: #00000073;
+}
+
+.destopNone{
+    display: none;
+}
+
+.TopBruno h1{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+
+
+.TopBruno p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.TopBruno p{
+    font-size: 16px;
+    font-weight:400;
+
+}.TopBruno h5{
+    margin: 10px 0 15px 0;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+.imageMain img{
+    max-width: 100%;
+    width: 93px;
+    height: 93px;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+    
+}
+
+.ClinicContent h6{
+    font-size: 32px;
+    font-family: "Gotham", Arial, serif ;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+
+.ClinicImg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 25%;
+}
+
+.ClinicInnerImg img{
+   max-width: 100%;
+   /* width: 115px; */
+
+}
+
+.CollagenFlex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ClinicButton button{
+        font-size: 14px;
+    color: #000;
+place-content: center;
+ font-family: "Gotham", Arial, serif ;
+ background-color:#F9C300;
+ border: none;
+ font-weight: 500;
+ padding: 10px;
+ width: 100%;
+ border-radius: 3px;
+
+}
+
+.ClinicButton{
+    /* display: inline-flex; */
+    /* display: flex; */
+    padding: 5px;
+    align-items: center;
+    /* height: 25px; */
+    /* background-color: #F9C300; */
+    /* position: absolute; */
+    left: 13px; 
+    bottom:-25px  ;
+    width: 100%; 
+
+}
+
+.ClinicIngre{
+    display: grid;
+    /* margin: auto; */
+    width: 100%;
+    justify-content: start;
+    margin: 30px 0 ;
+    gap: 20px;
+
+}
+
+.ClinicContent p{
+    margin: 0 0 20px 0;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: "Gotham", Arial, serif ;
+    font-weight: 400;
+}
+
+.ClinicContent {
+    /* width: 50%; */
+    max-height: 433px;
+    overflow: auto;
+    text-align: start;
+}
+
+.ClinicMainImg {
+    margin: 30px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ClinicInnerImg{
+    width: 100%;
+}
+
+.PhytoVideoTag{
+    width: 100%;
+    margin: 0 0 40px 0;
+    max-height: 370px;
+
+    overflow: hidden;
+}
+
+.desktopShow{
+display: block;
+}
+
+.MobileShow{
+display: none;
+}
+
+
+@media(max-width:767px){
+    .PhytoVideoTag video{
+        min-width: 800px;
+    }
+
+    .desktopShow{
+        display: none;
+        }
+        
+        .MobileShow{
+        display: block;
+        }
+
+    .ClinicButton {
+        left: 36px;
+        bottom: 0px;
+        width: 100px;
+        position: relative;
+    }
+
+    .ClinicContent {
+        width: 60%;
+     
+    }
+
+
+    .ClinicIngre{
+        display: flex;
+    }
+    .ClinicMainImg {
+        margin: 30px 0 50px 0;
+        display: grid;
+        width: 40%;
+        margin: auto;
+        justify-content: center;
+       
+    }
+    .ClinicButton button {
+        font-size: 10px;
+        color: #000;
+       
+        padding: 5px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    .ClinicImg {
+        min-width: 169px;  
+        width: 100%;
+    }
+    .ImgCollagen{
+        /* width: 100%; */
+        margin: auto;
+        width: 80%;
+            
+    }
+    .Discripton{
+        width: 100%;
+    }
+
+
+    .CollagenFlex {
+        display: grid;
+        align-items: center;
+    }
+
+    .ClinicContent h6{
+        font-size: 16px;
+         }
+
+         .ClinicContent p{
+            margin: 0 0 15px 0;
+                        font-size: 12px;   }
+}
+
+
+
+@media(max-width:540px){
+    .PhytoVideoTag video{
+        min-width: 580px;
+        max-height:400px ;
+    }
+
+    .TopBruno h5 {
+        margin: 10px 0 15px 0;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .PhytoImg{
+    width: 100%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.PhytoImg img{
+    width: 100%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.PhytoImg h4 a {
+    
+    font-size: 10px;
+padding: 5px;
+}
+
+.PhytoMain {
+     gap: 15px;
+ }
+ .PhytoImg h4 {
+ bottom: 10px;
+    }
+  
+    .backgroundShadow {
+        padding: 10px 0px;
+        margin: 0 0 10px 0;
+        background-color: #00000073;
+        font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    }
+
+    .imageMain img{
+        max-width: 100%;
+        width: 70px;
+        height: 70px;
+        border-radius: 12px;
+        border: 2px solid #ddd;
+}
+
+.TopBruno h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.TopBruno p {
+    font-size: 12px;
+    
+}
+
+.TopBruno h5 {
+      font-size: 14px;
+   }
+}
+
+@media(max-width:415px){
+    .TopBruno{
+    margin-bottom: 50px;    
+    
+    }
+
+}
+
+@media(max-width:374px){
+
+    .PhytoImg{
+        margin: auto;
+    }
+
+    .PhytoMain{
+        display: grid;
+    }
+}
+.BgBlack {
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0px;
+}
+.BgBlack h1 {
+  font-size: 30px;
+  font-family: "ivypresto-display", "Times New Roman", Times, serif;
+  font-weight: 400;
+}

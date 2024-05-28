@@ -1,0 +1,29 @@
+{
+    "ENG": {
+        "masterHead": {
+            "desktopImage": {
+                "src": "/images/respo-desk.webp",
+                "alt": ""
+            },
+            "mobileImage":{
+                "src":"\\images\\social.mob.webp"
+            },
+            "title": "Social Responsibility"
+        },
+        "sectionOne": {
+            "content": "<p>Bruno MD's commitment to environmental sustainability began with Dr. Bruno and his deep respect for nature. Our company has been advancing sustainability for over a quarter-century through water and energy conservation efforts and biodiversity protection.</p><p>Bruno MD sources our ingredients from small, environmentally sustainable, family farms. This harvesting and production philosophy avoids the waste and emissions marked by large-scale manufacturing operations. Furthermore, Bruno MDs' use of natural ingredients helps to support biodiversity by promoting the cultivation of various crops rather than relying on a small number of synthetic ingredients. This initiative helps maintain the wellbeing and diversity of ecosystems, which is essential for the planet's long-term health. In addition, manufacturing synthetic vitamins requires a larger carbon footprint and is far less beneficial for the consumer.</p><p>Scientific data demonstrates how the loss of natural habitat and climate change increasingly impact human health. Globally, humanity is under threat from many vectors; air pollution, water security, and severe weather change, to name a few. These threats are testing our healthcare systems at every level.</p><p>Bruno MD's efforts to address our environmental impact are at the core of our purpose. Setting and delivering sustainability targets is essential to the planet's global human health and our company's growth, stability, and innovation.</p><p>As more and more countries worldwide commit to low carbon targets in their healthcare systems, Bruno MD is witnessing an increased passion and demand for accountability from our customers, doctors, and patients for sustainable products.</p>"
+        },
+        "sectionTwo": [
+            {
+                "sectionContent": [
+                    "The health benefits of action on climate and sustainability are as clear as the risks of inaction. Internally, Bruno MD is committed to uniting science, nature, and human innovation to create products that help humans stay healthier and avoid disease. Externally, our Global Resource Stewardship program assesses our products, processes, natural sources, and worldwide suppliers for opportunities to reduce their impact.",
+                    "Our commitment to green chemistry, resource efficiency, eliminating toxic waste and wastewater discharge, and Earth-friendly packaging is not simply our way of doing business; it's the right thing to do."
+                ],
+                "sectionImg": {
+                    "src": "/images/respo-sec-2.webp",
+                    "imgPostion": "left"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+   "ENG": {
+      "home": {
+         "title": "Home",
+         "SEO": {
+            "title": "BrunoMD | Health and Wellness Products | Beauty Supplements",
+            "description": "Health and wellness products rooted in the heart of Italy, made from all-natural ingredients. Pharmaceutical grade supplements to fuel your future.",
+            "image": "\\images\\brunomd-share-image-4-1200x630.webp",
+            "siteName": "© 2022 brunomd.com. All Rights Reserved"
+         }
+      },
+      "storia": {
+         "title": "Our Story",
+         "SEO": {
+            "title": "BrunoMD | Collagen Powders | Prescription Grade Supplements",
+            "description": "For 25 years, BrunoMD has been offering some of the most innovative and effective prescription grade supplements available. Read our story.",
+            "image": "\\images\\brunomd-share-image-4-1200x630.webp",
+            "siteName": "© 2022 brunomd.com. All Rights Reserved"
+         }
+      },
+      "science": {
+         "title": "Science",
+         "SEO": {
+            "title": "BrunoMD | Royal Collagen Peptides | Phytosome Technology",
+            "description": "As Italians, we take enormous pride in perfecting things. The MDiterranean Life® begins by using science to perfect the best in Nature. Learn about our science.",
+            "image": "\\images\\brunomd-share-image-4-1200x630.webp",
+            "siteName": "© 2022 brunomd.com. All Rights Reserved"
+         }
+      },
+      "faq":{
+         "title": "FAQ",
+         "SEO": {
+            "title": "BrunoMD | FAQs | Learn About Collagen and BrunoMD Products",
+            "description": "Read frequently asked questions about BrunoMD Products including: Royal Collagen Peptides, Bluerex, Riboflam, Chondrorex, Ketorex, and CholestQ10.",
+            "image": "\\images\\brunomd-share-image-4-1200x630.webp",
+            "siteName": "© 2022 brunomd.com. All Rights Reserved"
+         }
+      }
+   }
+}
