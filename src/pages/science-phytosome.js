@@ -222,7 +222,7 @@ const SciencePhytosome = () => {
                 <img className={styles.Phyimg} src='/images/BrunoMD-02.png' alt='' />
                 <div className={styles.contentImg}>
                   <h3 className={styles.content2}>Understand the world</h3>
-                  <p className={styles.p2}>Unlocking Nature's Secrets</p>
+                  <p className={styles.p2}>Unlocking Nature&apos;s Secrets</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
