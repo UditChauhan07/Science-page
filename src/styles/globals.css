@@ -35,7 +35,7 @@ body {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
 }
 
@@ -2402,3 +2402,8 @@ top: 90px !important;
   background-color: #00ff5e;
 }
 
+@media only screen and  (min-width: 768px) and (max-width:2800px) {
+  .ArrowControl{
+display: none !important;
+  }
+}
