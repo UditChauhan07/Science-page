@@ -5,17 +5,20 @@ import Image from 'next/image';
 const MarkqueCarousel = ({ image }) => {
   
   if (image?.length) {
+    console.log(image,"image data")
     const Sliderimage = [];
     image.map(e=>Sliderimage.push(e))
-    image.map(e=>Sliderimage.push(e))
-    image.map(e=>Sliderimage.push(e))
     if(Sliderimage.length == 0) return null
+    console.log(Sliderimage,"sliderImage")
     return (
       <section className={styles.container}>
-        <div className={styles.photobanner}>
+      
+        <div className={styles.photobanner} id="test">
           {
             Sliderimage.map((element4,i) => {
+
               return (
+                
                 <Image src={element4.src} alt={element4.alt} key={i} width={142} height={64}/>
               )
             })

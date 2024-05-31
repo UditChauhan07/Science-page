@@ -43,6 +43,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
       >
         <div>
           <p>{announcement}</p>
+          
         </div>
       </section>
     )
