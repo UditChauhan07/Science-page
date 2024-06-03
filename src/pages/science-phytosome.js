@@ -6,10 +6,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PatnerData from "../../json/parters.json";
 import MarkqueCarousel from "@/utilities/MarkqueCarousel";
+import TrustBadgeData from "../../json/trustBages.json";
+import TrustBadge from '../../src/utilities/TrustBadges/index';
 
 
 
-const SciencePhytosome = () => {
+
+const SciencePhytosome = ({ productColorTheme, contents }) => {
   const [isVisible, setIsVisible] = useState(true);
   const [isSliderVisible, setIsSliderVisible] = useState(false);
   const [selectedTab, setSelectedTab] = useState(0);
@@ -25,7 +28,7 @@ const SciencePhytosome = () => {
     setIsSliderVisible(!isSliderVisible);
     goToSlide(index);
   };
-
+  console.log(contents, "gdgdh")
 
   var settings = {
     dots: false,
@@ -206,95 +209,116 @@ const SciencePhytosome = () => {
             {PatnerData && <MarkqueCarousel image={PatnerData} />}
 
           </div>
-
-
-          <div className={`container ${styles.PhytoImagTag}`}>
-            <div className={styles.InnerPhoto}>
-              <div className={styles.innerContent}>
-                <img className={styles.Phyimg} src='/images/Science-page-Step-1.png' alt='' />
-                <div className={styles.contentImg}>
+          <div className={styles.PhyImgContainer}>
+            <d iv className={styles.PhyImgall}>
+              <div className={styles.PhyImgsection}>
+                <img className={styles.PhyImg1} src='/images/Rectangle 35 (1).png' alt='' />
+                <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content1}>SCIENCE</h3>
                   <p className={styles.p1}>A human endeavor</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
-              <div className={styles.innerContent}>
-                <img className={styles.Phyimg} src='/images/BrunoMD-02.png' alt='' />
-                <div className={styles.contentImg}>
+
+
+              <div className={styles.PhyImgsection}>
+                <img className={styles.PhyImg1} src='/images/Rectangle 36 (1).png' alt='' />
+                <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content2}>Understand the world</h3>
                   <p className={styles.p2}>Unlocking Nature&apos;s Secrets</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
 
-              <div className={styles.innerContent}>
-                <img className={styles.Phyimg} src='/images/blue-zone-banner.png' alt='' />
-                <div className={styles.contentImg}>
+            </d>
+            <div className={styles.PhyImgall}>
+              <div className={styles.PhyImgsection}>
+                <img className={styles.PhyImg1} src='/images/Rectangle 37.png' alt='' />
+                <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content3}>BLUE ZONE</h3>
                   <p className={styles.p3}>LIVE HEALTHIER,LONGER LIVES </p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
-
-              <div className={styles.innerContent}>
-                <img className={styles.Phyimg} src='/images/Rectangle 40.png' alt='' />
-                <div className={styles.contentImg}>
+              <div className={styles.PhyImgsection}>
+                <img className={styles.PhyImg1} src='/images/Rectangle 40 (1).png' alt='' />
+                <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content4}>FORM TO TABLE</h3>
                   <p className={styles.p4}>Rooted in Italian Soil</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
-              <div className={styles.innerContent}>
-                <img className={styles.Phyimg} src='/images/BrunoMD-05.png' alt='' />
-                <div className={styles.contentImg}>
+            </div>
+            <div className={styles.PhyImgall}>
+              <div className={styles.PhyImgsection}>
+                <img className={styles.PhyImg1} src='/images/Rectangle 39.png' alt='' />
+                <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content5}>NATURE</h3>
                   <p className={styles.p5}>Meet Pharma.</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
-            </div>
-          </div>
-         
 
-          <div className={`container ${styles.Inner2ndImg}`}>
-            <div className={styles.imgBox}>
-              <div className={styles.contentSecond}>
-                <img className={styles.Phyimg2} src='/images/Screenshot 2024.png' alt='' />
-                <div className={styles.contentImg2}>
-                  <h3 className={styles.textContent}>Phytosome <br /> technology</h3>
-                  <div className={styles.textextra}>
-                    <p className={styles.description}>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes.  </p>
+            </div>
+
+          </div>
+
+        
+
+
+
+          <div id='test'>
+            {TrustBadgeData && (
+              <TrustBadge contents={TrustBadgeData['ENG']} productColorTheme={productColorTheme} />
+            )}
+          </div>
+          <div className={`container ${styles.Phymain}`}>
+            <div className={styles.PhymainContent}>
+              <div className={styles.PhyImg}>
+                <img className='' src='/images/Screenshot 2024.png' alt='' />
+              </div>
+              <div className={styles.PhyText}>
+                
+                <h3 className={styles.PhyTextHeading}>Phytosome <br />technology</h3>
+                <div className={styles.textextra}>
+                  <div className={styles.PhyContent}>
+                    <p>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes. The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
+                    <button className={styles.PhyBtn}>Learn more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.PhymainContent}>
+              <div className={styles.PhyText}>
+                <h3 className={styles.PhyTextHeading2}>Clinically proven <br />ingredients.</h3>
+                <div className={styles.textextra2}>
+                  <div className={styles.PhyContent2}>
                     <p className={styles.description}> The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stabilit</p>
                     <button className={styles.PhyBtn}>Learn more</button>
                   </div>
                 </div>
               </div>
-              <div className={styles.contentSecond}>
-                <div className={styles.contentImg3}>
-                  <h3 className={styles.textContent2}>Clinically proven <br />ingredients.</h3>
-                  <div className={styles.textextra2}>
-                    <p className={styles.description}>All Bruno MD products are backed by a strict and reliable pharmaceutical approach to manufacturing and ingredients. If you’re ready for a deep dive into the clinical studies behind our ingredients, you’ve come to the right place.  </p>
-                    <button className={styles.PhyBtn}>Learn more</button>
-                  </div>
-
-
-                </div>
-                <img className={styles.Phyimg3} src='/images/Screenshot 2024-02-06 at 10.03 1.png' alt='' />
+              <div className={styles.PhyImg}>
+                <img className='' src='/images/Screenshot 2024-02-06 at 10.03 1.png' alt='' />
               </div>
-              <div className={styles.contentSecond}>
-                <img className={styles.Phyimg2} src='/images/Screenshot 2024-02-06 at 9.58 3.png' alt='' />
-                <div className={styles.contentImg2}>
-                  <h3 className={styles.textContent}>Phytosome <br /> technology</h3>
-                  <div className={styles.textextra}>
-                    <p className={styles.description}>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes.  </p>
-                    <p className={styles.description}> The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stabilit</p>
+            </div>
+            <div className={styles.PhymainContent}>
+              <div className={styles.PhyImg}>
+                <img className='' src='/images/Screenshot 2024-02-06 at 9.58 3.png' alt='' />
+              </div>
+              <div className={styles.PhyText}>
+                <h3 className={styles.PhyTextHeading}>Phytosome <br />technology</h3>
+                <div className={styles.textextra}>
+                  <div className={styles.PhyContent}>
+                    <p>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes. The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
                     <button className={styles.PhyBtn}>Learn more</button>
                   </div>
-
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
 
       )}

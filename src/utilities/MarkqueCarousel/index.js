@@ -5,11 +5,9 @@ import Image from 'next/image';
 const MarkqueCarousel = ({ image }) => {
   
   if (image?.length) {
-    console.log(image,"image data")
     const Sliderimage = [];
     image.map(e=>Sliderimage.push(e))
     if(Sliderimage.length == 0) return null
-    console.log(Sliderimage,"sliderImage")
     return (
       <section className={styles.container}>
       

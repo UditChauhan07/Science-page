@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   background-color: var(--bmd-deep-purple);
+ 
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -27,7 +28,8 @@
   font-family: var(--bmd-font-Primary);
   font-size: 24px;
   font-weight: var(--bmd-IvyPresto-regular);
-  color: var(--bmd-white);
+  /* color: var(--bmd-white); */
+ color: white;
   line-height: 1;
   width: 100%;
   padding-top: 1rem;
