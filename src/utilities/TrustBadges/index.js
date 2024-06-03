@@ -1,13 +1,17 @@
 import styles from './styles.module.css'
 const TrustBadge = ({ contents, productColorTheme }) => {
   const { badges, title } = contents
-  if (!badges.length || !title) return null
+  // if (!badges.length || !title) return null
+  // console.log(c)
+  console.log(badges,"badgewss")
+ 
 
   return (
     <section className={styles.productBadgesContainer} style={{ backgroundColor: productColorTheme || '#37246b' }}>
       <div className={styles.productBadgesCenter}>
         <div className={styles.badgeGroup}>
           {badges && badges.map((e, i) => {
+            console.log(i,"test ")
             return (<div key={i}>
               {e.html ? <>
                 <div className={styles.svgHolder} dangerouslySetInnerHTML={{ __html: e.html }} />

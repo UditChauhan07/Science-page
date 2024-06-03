@@ -28,5 +28,5 @@ function ScienceTabComponent() {
   );
 }
 
-ScienceTabComponent.hideLayout = true;
+ScienceTabComponent.hideLayout =false;
 export default ScienceTabComponent;
