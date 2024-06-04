@@ -12,7 +12,7 @@
   left: 0px;
   overflow: hidden;
   white-space: nowrap;
-  animation: bannermove 10s linear infinite;
+  animation: bannermove 20s linear infinite;
 }
 
 .photobanner img {
