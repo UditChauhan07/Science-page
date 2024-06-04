@@ -216,7 +216,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content1}>SCIENCE</h3>
                   <p className={styles.p1}>A human endeavor</p>
-                  <button className={styles.PhyBtn}>Learn more</button>
+                  <button className={styles.PhyBtn}>Learn More</button>
                 </div>
               </div>
 
@@ -226,7 +226,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 <div className={styles.PhyImgcontents2}>
                   <h3 className={styles.content2}>Understand the world</h3>
                   <p className={styles.p2}>Unlocking Nature&apos;s Secrets</p>
-                  <button className={styles.PhyBtn}>Learn more</button>
+                  <button className={styles.PhyBtn}>Learn More</button>
                 </div>
               </div>
 
@@ -234,10 +234,10 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
             <div className={styles.PhyImgall}>
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg1} src='/images/Frame 27.png' alt='' />
-                <div className={styles.PhyImgcontents}>
+                <div className={styles.PhyImgcontents3}>
                   <h3 className={styles.content3}>BLUE ZONE</h3>
                   <p className={styles.p3}>LIVE HEALTHIER,LONGER LIVES </p>
-                  <button className={styles.PhyBtn}>Learn more</button>
+                  <button className={styles.PhyBtn}>Learn More</button>
                 </div>
               </div>
               <div className={styles.PhyImgsection}>
@@ -245,7 +245,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 <div className={styles.PhyImgcontents3}>
                   <h3 className={styles.content4}>Farm To Table</h3>
                   <p className={styles.p4}>Rooted in Italian Soil</p>
-                  <button className={styles.PhyBtn}>Learn more</button>
+                  <button className={styles.PhyBtn}>Learn More</button>
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content5}>NATURE</h3>
                   <p className={styles.p5}>Meet Pharma.</p>
-                  <button className={styles.PhyBtn}>Learn more</button>
+                  <button className={styles.PhyBtn}>Learn More</button>
                 </div>
               </div>
 

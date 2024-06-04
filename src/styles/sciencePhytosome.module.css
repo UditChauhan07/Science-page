@@ -223,7 +223,7 @@
 }
 
 .content2 {
-
+    font-weight: 900;
     width: 70%;
     display: inline-block;
     margin: 0;
@@ -262,7 +262,7 @@
 
 .content5 {
     font-size: 40px;
-
+    font-weight: 900;
     color: rgb(197, 216, 22);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(2, 2, 0);
@@ -333,31 +333,35 @@
 .textextra2 {
     height: 300px;
     overflow: auto;
-    /* border: 2px solid red; */
 }
 
 
 /* ....Responsive Tab  To Desktop.... */
 @media only screen and (max-width:1024px) and (min-width:768px) {
-
+.PhyImgContainer{
+        /* display: flex; */
+        width: 100%;
+        padding: 1rem 3rem;
+}
+.Phymain{
+    padding: 1rem 3rem;
+}
     .PhyBtn {
         padding: 5px 10px;
     }
 
     .PhyImgcontents {
-        top: 0;
-        padding: 1rem 1rem;
+        top: 25%;
+        left: 15px;
 
     }
 
     .PhyImgcontents2 {
-        top: 10%;
-        left: 15%;
+        top: 15%;
     }
 
     .PhyImgcontents3 {
-        left: 15%;
-        top: 18%;
+        top: 23%;
     }
 
     .PhyImgcontents4 {
@@ -365,25 +369,25 @@
     }
 
     .content1 {
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
 
     .content2 {
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
 
     .content3 {
-        font-size: 20px !important;
+        font-size: 30px !important;
 
     }
 
     .content4 {
-        font-size: 20px !important;
+        font-size: 30px !important;
 
     }
 
     .content5 {
-        font-size: 20px;
+        font-size: 30px !important;
 
     }
 
@@ -397,7 +401,7 @@
     }
 
     .p3 {
-        width: 80%;
+        width: 100%;
         font-size: 12px !important;
     }
 
@@ -518,11 +522,13 @@
 
 @media(min-width:1600px) {
     .content1 {
-        font-size: 55px;
+        font-size: 65px;
     }
 
-    .content2 {
-        font-size: 55px;
+    .content2 {   
+         width: 80%;
+        font-size: 60px;
+        line-height: 1;
     }
 
     .content3 {
@@ -530,11 +536,12 @@
     }
 
     .content4 {
-        font-size: 55px;
+        font-size: 60px;
     }
 
     .content5 {
-        font-size: 55px;
+        font-weight: 900;
+        font-size: 60px;
     }
 
     .PhyBtn {
@@ -543,50 +550,74 @@
     }
 
     .p1 {
-        font-size: 25px;
+        font-size: 28px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .p2 {
+        font-size: 28px;
+        text-shadow: 3px 2px 4px rgba(0, 0, 0, 1.5);
     }
 
     .p2 {
         font-size: 25px;
-    }
-
-    .p2 {
-        font-size: 25px;
+        text-shadow: 0px 5px 4px rgba(0, 0, 0, 1.5);
     }
 
     .p3 {
-        font-size: 25px;
+        font-size: 20px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
     }
 
     .p4 {
-        font-size: 25px;
+        font-size: 28px;
         font-weight: 100;
+        text-shadow: 3px 2px 4px rgba(0, 0, 0, 1.5);
     }
 
     .p5 {
         font-size: 25px;
+        text-shadow: 3px 2px 4px rgba(0, 0, 0, 1.5);
     }
 
     .PhyImgcontents {
-        left: 10%;
-        top: 25%;
+        top: 45%;
+        left: 30%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
     .PhyImgcontents2 {
-        left: 10%;
-        top: 16%;
+        top: 45%;
+        left: 40%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
-
+  
     .PhyImgcontents3 {
-
-        left: 10%;
-        top: 25%;
+        text-align: justify;
+        /* left: 10%;
+        top: 25%; */
     }
 
     .PhyImgsection {
         /* padding: 0px 30px 30px 0px; */
     }
-
+    .PhyContent p {
+        font-size: 18px;
+        width: 75%;
+        font-family: "Gotham", "Arial", serif;
+       
+    }
+    .PhyTextHeading{
+        font-size: 60px;
+    }
+    .PhyTextHeading2{
+        font-size: 60px;
+    }
+    .description{
+        font-size: 18px;
+    }
 }
 
 .PhytoTopope {
