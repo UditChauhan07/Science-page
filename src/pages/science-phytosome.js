@@ -210,7 +210,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
 
           </div>
           <div className={styles.PhyImgContainer}>
-            <d iv className={styles.PhyImgall}>
+            <div className={styles.PhyImgall}>
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg1} src='/images/Rectangle 35 (1).png' alt='' />
                 <div className={styles.PhyImgcontents}>
@@ -223,14 +223,14 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
 
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg1} src='/images/Rectangle 36 (1).png' alt='' />
-                <div className={styles.PhyImgcontents}>
+                <div className={styles.PhyImgcontents2}>
                   <h3 className={styles.content2}>Understand the world</h3>
                   <p className={styles.p2}>Unlocking Nature&apos;s Secrets</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
               </div>
 
-            </d>
+            </div>
             <div className={styles.PhyImgall}>
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg1} src='/images/Rectangle 37.png' alt='' />
@@ -242,7 +242,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
               </div>
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg1} src='/images/Rectangle 40 (1).png' alt='' />
-                <div className={styles.PhyImgcontents}>
+                <div className={styles.PhyImgcontents3}>
                   <h3 className={styles.content4}>FORM TO TABLE</h3>
                   <p className={styles.p4}>Rooted in Italian Soil</p>
                   <button className={styles.PhyBtn}>Learn more</button>
