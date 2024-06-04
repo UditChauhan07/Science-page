@@ -57,28 +57,32 @@
 
 .p1 {
     color: rgba(13, 73, 101, 1);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     font-weight: bold;
 }
 
 .p2 {
     color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
 }
 
 .p3 {
     color: rgba(0, 0, 0, 1);
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     font-size: 13px;
     font-weight: bold;
 }
 
 .p4 {
     color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     font-weight: bold;
 }
 
 .p5 {
     color: rgb(244, 247, 244);
-    font-weight: bold;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    /* font-weight: bold; */
 }
 
 .PhyBtn {
@@ -165,8 +169,10 @@
     /* border: 1px solid red; */
     display: flex;
 }
-.PhyImgsection{
-    padding: 0px 24px 18px 0px;
+
+.PhyImgsection {
+    padding-bottom: 25px;
+    /* padding-left: 20px; */
     width: 50%;
     position: relative;
 }
@@ -175,7 +181,7 @@
     padding: 0px 0px 0px 0px;
     width: 50%;
     position: relative;
-    
+
 }
 
 .PhyImgcontents {
@@ -184,13 +190,15 @@
     left: 10%;
     top: 30%;
 }
+
 .PhyImgcontents2 {
     position: absolute;
     text-align: left;
     left: 10%;
     top: 20%;
 }
-.PhyImgcontents3{
+
+.PhyImgcontents3 {
     position: absolute;
     text-align: left;
     left: 10%;
@@ -198,26 +206,38 @@
 }
 
 .PhyImg1 {
+    padding-right: 15px;
     width: 100%;
 }
 
 .PhyImg2 {
+    padding-left: 15px;
     width: 100%;
 }
 
 .content1 {
+    font-weight: 500;
     font-family: "Gotham", "Arial", serif;
     font-size: 40px;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2), 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .content2 {
-    color: #0808087d;
-    font-size: 40px;
+
     width: 70%;
+    display: inline-block;
+    margin: 0;
+    font-size: 40px;
+    background-image: url('/images/Rectangle 36 (4)wwqq.png');
+    color: #00000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgba(151, 175, 152, 1);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
 }
 
 .content3 {
@@ -286,6 +306,11 @@
     padding: 1rem 0rem 0rem 3rem;
 }
 
+.PhyContent p {
+    font-family: "Gotham", "Arial", serif;
+    padding-bottom: 10px;
+}
+
 .textextra {
     height: 500px;
     overflow: auto;
@@ -315,12 +340,30 @@
 /* ....Responsive Tab  To Desktop.... */
 @media only screen and (max-width:1024px) and (min-width:768px) {
 
+    .PhyBtn {
+        padding: 5px 10px;
+    }
 
     .PhyImgcontents {
         top: 0;
         padding: 1rem 1rem;
-       
+
     }
+
+    .PhyImgcontents2 {
+        top: 10%;
+        left: 15%;
+    }
+
+    .PhyImgcontents3 {
+        left: 15%;
+        top: 18%;
+    }
+
+    .PhyImgcontents4 {
+        left: 15%;
+    }
+
     .content1 {
         font-size: 20px !important;
     }
@@ -329,7 +372,7 @@
         font-size: 20px !important;
     }
 
-    .content3{
+    .content3 {
         font-size: 20px !important;
 
     }
@@ -436,9 +479,9 @@
         margin-left: 24px;
     }
 
-   
 
-   
+
+
 
     .Inner2ndImg {
         /* border: 2px solid red; */
@@ -472,59 +515,77 @@
         height: 270px !important;
     }
 }
+
 @media(min-width:1600px) {
-.content1{
-    font-size: 70px;
-}
-.content2{
-    font-size: 70px;
-}
-.content3{
-    font-size: 70px;
-}
-.content4{
-    font-size: 70px;
-}
-.content5{
-    font-size: 70px;
-}
-.PhyBtn{
-    font-size: 26px;
-    padding: 10px 20px;
-}
-.p1{
-    font-size: 25px;
-}
-.p2{
-    font-size: 25px;
-}
-.p2{
-    font-size: 25px;
-}
-.p3{
-    font-size: 25px;
-}
-.p4{
-    font-size: 25px;
-}
-.p5{
-    font-size: 25px;
-}
-.PhyImgcontents2 {
-    /* position: absolute;
-    text-align: left; */
-    left: 10%;
-    top: 10%;
-}
-.PhyImgcontents3 {
-    /* position: absolute;
-    text-align: left; */
-    left: 10%;
-    top: 10%;
-}
-.PhyImgsection{
-    padding: 0px 30px 30px 0px;
-}
+    .content1 {
+        font-size: 55px;
+    }
+
+    .content2 {
+        font-size: 55px;
+    }
+
+    .content3 {
+        font-size: 55px;
+    }
+
+    .content4 {
+        font-size: 55px;
+    }
+
+    .content5 {
+        font-size: 55px;
+    }
+
+    .PhyBtn {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .p1 {
+        font-size: 25px;
+    }
+
+    .p2 {
+        font-size: 25px;
+    }
+
+    .p2 {
+        font-size: 25px;
+    }
+
+    .p3 {
+        font-size: 25px;
+    }
+
+    .p4 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .p5 {
+        font-size: 25px;
+    }
+
+    .PhyImgcontents {
+        left: 10%;
+        top: 25%;
+    }
+
+    .PhyImgcontents2 {
+        left: 10%;
+        top: 16%;
+    }
+
+    .PhyImgcontents3 {
+
+        left: 10%;
+        top: 25%;
+    }
+
+    .PhyImgsection {
+        /* padding: 0px 30px 30px 0px; */
+    }
 
 }
 

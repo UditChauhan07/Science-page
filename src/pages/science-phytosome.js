@@ -212,7 +212,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
           <div className={styles.PhyImgContainer}>
             <div className={styles.PhyImgall}>
               <div className={styles.PhyImgsection}>
-                <img className={styles.PhyImg1} src='/images/Rectangle 35 (1).png' alt='' />
+                <img className={styles.PhyImg1} src='/images/Frame 26.png' alt='' />
                 <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content1}>SCIENCE</h3>
                   <p className={styles.p1}>A human endeavor</p>
@@ -222,7 +222,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
 
 
               <div className={styles.PhyImgsection}>
-                <img className={styles.PhyImg1} src='/images/Rectangle 36 (1).png' alt='' />
+                <img className={styles.PhyImg2} src='/images/Rectangle 36 (1).png' alt='' />
                 <div className={styles.PhyImgcontents2}>
                   <h3 className={styles.content2}>Understand the world</h3>
                   <p className={styles.p2}>Unlocking Nature&apos;s Secrets</p>
@@ -233,7 +233,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
             </div>
             <div className={styles.PhyImgall}>
               <div className={styles.PhyImgsection}>
-                <img className={styles.PhyImg1} src='/images/Rectangle 37.png' alt='' />
+                <img className={styles.PhyImg1} src='/images/Frame 27.png' alt='' />
                 <div className={styles.PhyImgcontents}>
                   <h3 className={styles.content3}>BLUE ZONE</h3>
                   <p className={styles.p3}>LIVE HEALTHIER,LONGER LIVES </p>
@@ -241,9 +241,9 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 </div>
               </div>
               <div className={styles.PhyImgsection}>
-                <img className={styles.PhyImg1} src='/images/Rectangle 40 (1).png' alt='' />
+                <img className={styles.PhyImg2} src='/images/Frame 28.png' alt='' />
                 <div className={styles.PhyImgcontents3}>
-                  <h3 className={styles.content4}>FORM TO TABLE</h3>
+                  <h3 className={styles.content4}>Farm To Table</h3>
                   <p className={styles.p4}>Rooted in Italian Soil</p>
                   <button className={styles.PhyBtn}>Learn more</button>
                 </div>
@@ -282,7 +282,8 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 <h3 className={styles.PhyTextHeading}>Phytosome <br />technology</h3>
                 <div className={styles.textextra}>
                   <div className={styles.PhyContent}>
-                    <p>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes. The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
+                    <p>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes.</p>
+                    <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
                     <button className={styles.PhyBtn}>Learn more</button>
                   </div>
                 </div>
@@ -310,7 +311,8 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
                 <h3 className={styles.PhyTextHeading}>Phytosome <br />technology</h3>
                 <div className={styles.textextra}>
                   <div className={styles.PhyContent}>
-                    <p>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes. The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
+                  <p>Phytosome® technology is a method used to improve the absorption and bioavailability of plant extracts. It involves the binding of plant extracts with phospholipids, which are natural substances found in cell membranes.</p>
+                    <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
                     <button className={styles.PhyBtn}>Learn more</button>
                   </div>
                 </div>
