@@ -241,7 +241,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
               </div>
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg2} src='/images/Frame 28.png' alt='' />
-                <div className={styles.PhyImgcontents3}>
+                <div className={styles.PhyImgcontents4}>
                   <h3 className={styles.content4}>Farm To Table</h3>
                   <p className={styles.p4}>Rooted in Italian Soil</p>
                   <button className={styles.PhyBtn}>Learn More</button>
