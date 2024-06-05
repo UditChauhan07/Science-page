@@ -41,19 +41,12 @@
 }
 
 
-
-
-
-
 .textContent2 {
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
     line-height: 40px;
     padding-top: 10rem;
 }
-
-
-
 
 .p1 {
     color: rgba(13, 73, 101, 1);
@@ -162,7 +155,7 @@
 .PhyImgContainer {
     /* display: flex; */
     width: 100%;
-    padding: 5rem 10rem 5rem;
+    padding: 1rem 10rem 3rem;
 }
 
 .PhyImgall {
@@ -187,13 +180,13 @@
 .PhyImgcontents {
     position: absolute;
     text-align: left;
-    left: 10%;
+    left: 8%;
     top: 30%;
 }
 .PhyImgcontents5 {
     position: absolute;
     text-align: left;
-    left: 10%;
+    left: 8%;
     top: 30%;
 }
 
@@ -205,6 +198,12 @@
 }
 
 .PhyImgcontents3 {
+    position: absolute;
+    text-align: left;
+    left: 8%;
+    top: 30%;
+}
+.PhyImgcontents4 {
     position: absolute;
     text-align: left;
     left: 10%;
@@ -587,24 +586,27 @@
     }
 
     .PhyImgcontents {
-        top: 45%;
-        left: 25%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        top: 30%;
+        left: 6%;
+        /* -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
     }
 
     .PhyImgcontents2 {
-        top: 45%;
-        left: 37%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        top: 25%;
+        left: 9%;
+        /* -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
     }
   
     .PhyImgcontents3 {
-      left: 5%;
+      left: 6%;
     }
+    .PhyImgcontents4 {
+        left: 9%;
+      }
     .PhyImgcontents5{
-        left: 5%;
+        left: 6%;
     }
 
     .PhyImgsection {
