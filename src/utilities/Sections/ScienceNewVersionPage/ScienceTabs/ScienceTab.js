@@ -85,5 +85,5 @@ const Tabs = () => {
     </>
   );
 };
-Tabs.hideLayout = true;
+// Tabs.hideLayout = true;
 export default Tabs;

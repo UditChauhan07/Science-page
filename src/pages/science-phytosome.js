@@ -198,7 +198,6 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
       ) : (
 
         <div className='Leptop'>
-
           <div className={styles.PhytoVideoTag}>
             <video width="100%" height="100%" loop autoPlay muted>
               <source src="/images/Science Masthead web.mp4" type="video/mp4" />
@@ -224,7 +223,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg2} src='/images/Rectangle 36 (1).png' alt='' />
                 <div className={styles.PhyImgcontents2}>
-                  <h3 className={styles.content2}>Understand the world</h3>
+                  <h3 className={styles.content2}>Understand the world.</h3>
                   <p className={styles.p2}>Unlocking Nature&apos;s Secrets</p>
                   <button className={styles.PhyBtn}>Learn More</button>
                 </div>
@@ -252,7 +251,7 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
             <div className={styles.PhyImgall}>
               <div className={styles.PhyImgsection}>
                 <img className={styles.PhyImg1} src='/images/Rectangle 39.png' alt='' />
-                <div className={styles.PhyImgcontents}>
+                <div className={styles.PhyImgcontents5}>
                   <h3 className={styles.content5}>NATURE</h3>
                   <p className={styles.p5}>Meet Pharma.</p>
                   <button className={styles.PhyBtn}>Learn More</button>
@@ -330,4 +329,5 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
   );
 };
 SciencePhytosome.hideLayout = true;
+
 export default SciencePhytosome;

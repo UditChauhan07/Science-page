@@ -157,5 +157,5 @@ What does clinically proven mean?
     </div>
   );
 };
-ScienceClinical.hideLayout = true;
+// ScienceClinical.hideLayout = true;
 export default ScienceClinical;

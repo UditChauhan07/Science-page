@@ -27,6 +27,18 @@ function ScienceTabComponent() {
     )
   );
 }
+ScienceTabComponent.hideLayout = true;
+if (typeof window !== 'undefined' && window.innerWidth < 768) {
+  console.log("hjdhdjhdjwhdhd")
+  ScienceTabComponent.hideLayout = true; // Hide layout for desktop
+}else if( typeof window !== 'undefined' && window.innerWidth >768){
+    console.log("hjdhdjhdjwhdhd")
 
-ScienceTabComponent.hideLayout =false;
+  ScienceTabComponent.hideLayout = false; // Hide layout for desktop
+
+}else{ 
+   ScienceTabComponent.hideLayout = false; // Hide layout for desktop
+}
+
+
 export default ScienceTabComponent;

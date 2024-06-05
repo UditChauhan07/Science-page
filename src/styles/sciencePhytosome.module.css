@@ -190,6 +190,12 @@
     left: 10%;
     top: 30%;
 }
+.PhyImgcontents5 {
+    position: absolute;
+    text-align: left;
+    left: 10%;
+    top: 30%;
+}
 
 .PhyImgcontents2 {
     position: absolute;
@@ -551,7 +557,7 @@
 
     .p1 {
         font-size: 28px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
     }
 
     .p2 {
@@ -582,22 +588,23 @@
 
     .PhyImgcontents {
         top: 45%;
-        left: 30%;
+        left: 25%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
 
     .PhyImgcontents2 {
         top: 45%;
-        left: 40%;
+        left: 37%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
   
     .PhyImgcontents3 {
-        text-align: justify;
-        /* left: 10%;
-        top: 25%; */
+      left: 5%;
+    }
+    .PhyImgcontents5{
+        left: 5%;
     }
 
     .PhyImgsection {
