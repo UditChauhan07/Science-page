@@ -49,7 +49,7 @@ const Tabs = () => {
       <div className={styles.tabsControler}>
         <div className={styles.tabsControler11}>
           <div className={styles.tabsControler1}>
-            <button className={`${styles.arrow} ${styles.arrowLeft}`} onClick={handlePrevClick}>
+            <button className={`${styles.arrowL} ${styles.arrowLeft}`} onClick={handlePrevClick}>
               
             </button>
             <div className={styles.tabs}>
@@ -64,7 +64,7 @@ const Tabs = () => {
                 </div>
               ))}
             </div>
-            <button className={`${styles.arrow} ${styles.arrowRight}`} onClick={handleNextClick}>
+            <button className={`${styles.arrowR} ${styles.arrowRight}`} onClick={handleNextClick}>
               
             </button>
             {/* <div className={styles.activeTabIndicator} style={{ left: `${styles.activeTab * 25}%` }} /> */}

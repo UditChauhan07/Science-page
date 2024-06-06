@@ -71,7 +71,7 @@ const ScienceHuman = () => {
               <h1>Bruno MD</h1>
               <p>A prescription to thrive</p>
               <h5>
-                Powering the Human Machine Explore the benefits of targeted
+                Powering the Human Machine <br/> Explore the benefits of targeted
                 natural ingredients
               </h5>
             </div>
