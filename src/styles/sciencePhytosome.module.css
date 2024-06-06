@@ -466,9 +466,6 @@
     background-color: #00000073;
 }
 
-.destopNone {
-    display: none;
-}
 
 .TopBruno h1 {
     font-size: 30px;
@@ -521,6 +518,7 @@
 }
 
 .PhytoPara11 p {
+    /* text-align: left; */
     width: 90%;
     margin: auto;
     font-size: 12px;
@@ -642,6 +640,14 @@
     .TopBruno h5 {
         font-size: 14px;
     }
+    .PhytoPara11 p {
+        text-align: left;
+    }
+    .PhytoImages1 img{
+        max-width: 100%;
+        margin: 15px 0px 0px 32px;
+        width: 85%;
+    }
 }
 
 @media(max-width:415px) {
@@ -649,7 +655,14 @@
         margin-bottom: 50px;
 
     }
-
+    .PhytoPara11 p {
+        text-align: left;
+    }
+    .PhytoImages1 img{
+        max-width: 100%;
+        width: 85%;      
+        margin: 20px 0px 0px 28px;
+    }
 }
 
 @media(max-width:374px) {
@@ -660,6 +673,14 @@
 
     .PhytoMain {
         display: grid;
+    }
+    .PhytoPara11 p {
+        text-align: left;
+    }
+    .PhytoImages1 img{
+        max-width: 100%;
+        width: 80%;
+        margin: 30px 0px 0px 32px
     }
 }
 

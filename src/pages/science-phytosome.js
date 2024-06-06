@@ -67,13 +67,14 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
           {isVisible && <div className={styles.container}>
             <div className={styles.PhytoTopope}>
               <div className={styles.PhytoMain}>
-                <div className={styles.PhytoImg} onClick={() => handleClick(1)}
+                <div className={styles.PhytoImg}
                 >
                   <img src="/images/phyto1.webp" />
                   <h4>
-                    <a href="#">LEARN MORE</a>
+                    <a  onClick={() => handleClick(1)} href="#">LEARN MORE</a>
                   </h4>
                 </div>
+               
 
                 <div className={styles.PhytoPara}>
                   <p>
@@ -86,10 +87,10 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
               </div>
 
               <div className={styles.PhytoMain}>
-                <div className={styles.PhytoImg} onClick={() => handleClick(2)}>
+                <div className={styles.PhytoImg} >
                   <img src="/images/phyto2.webp" />
                   <h4>
-                    <a href="#">LEARN MORE</a>
+                    <a onClick={() => handleClick(2)} href="#">LEARN MORE</a>
                   </h4>
                 </div>
 
@@ -105,10 +106,10 @@ const SciencePhytosome = ({ productColorTheme, contents }) => {
               </div>
 
               <div className={styles.PhytoMain}>
-                <div className={styles.PhytoImg} onClick={() => handleClick(3)}>
+                <div className={styles.PhytoImg} >
                   <img src="/images/phyto3.webp" />
                   <h4>
-                    <a href="#">LEARN MORE</a>
+                    <a onClick={() => handleClick(3)} href="#">LEARN MORE</a>
                   </h4>
                 </div>
 
