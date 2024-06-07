@@ -2330,11 +2330,13 @@ footer ul a{
 }
 
 .slick-prev  {
-  left: 15px !important;
+  margin-top: -20px;
+  left: 5px !important;
     
 }
 .slick-next  {  
-  right: 15px !important;
+  margin-top: -20px;
+  right: 10px !important;
 }
 .slick-prev:before, .slick-next:before {
   
@@ -2385,7 +2387,7 @@ top: 90px !important;
 
 .endeavor_Endeavor__SXHDo .slick-prev, .endeavor_Endeavor__SXHDo .slick-next {
 
-  top: 18% !important;
+  top: 22% !important;
 }
 
 .endeavor_Endeavor__SXHDo .slick-prev:before, .endeavor_Endeavor__SXHDo .slick-next:before {

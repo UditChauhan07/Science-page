@@ -133,4 +133,11 @@ font-family: Gotham", "Arial", serif";
     .startSlider h3{
         font-size: 20px;
     }
+
+}
+@media (max-width:320px){
+    .imageMain{
+        height: 76px;
+        width: 100%;
+    }
 }

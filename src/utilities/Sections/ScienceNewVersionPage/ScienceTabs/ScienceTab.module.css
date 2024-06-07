@@ -201,7 +201,7 @@
   }
 
   .tabsControler1 {
-    top: 200px;
+    top: 185px;
     width: 214px;
   }
 
@@ -239,6 +239,9 @@
 @media only screen and (min-width: 768px) and (max-width:2800px) {
   .tabsControler1 {
     display: none !important;
+  }
+  .tabsContainer{
+    display: none;
   }
 
   .tabsBuyNowBTn {

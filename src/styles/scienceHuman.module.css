@@ -86,7 +86,15 @@
 .PhytoVideoTag{
     width: 100%;
     margin: 0 0 40px 0;
-    
+    max-height: 300px;
+
+    overflow: hidden;
+}
+
+.PhytoVideoTag video{
+    /* min-height: 350px; */
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -147,7 +155,39 @@ margin-bottom: 40px;
     
 }
 
+.desktopShow{
+    display: block;
+    }
+
+    .MobileShow{
+        display:none;
+        } 
+
+@media(max-width:767px){
+
+    .PhytoVideoTag video{
+        min-width: 945px;
+        min-height: 400px;
+            overflow: hidden;
+           
+    }
+
+    .MobileShow{
+        display: block;
+        }     
+        .desktopShow{
+        display: none;
+        }
+}
+
 @media(max-width:540px){
+    .PhytoVideoTag {
+        max-height: 240px;
+           }
+
+    .PhytoVideoTag video{
+        max-width: 580px;
+    }
 
     .TopBruno h5 {
         margin: 10px 0 15px 0;
@@ -284,7 +324,6 @@ min-width: 100px;
 }
 
 .SliderText h4{
-    color: black;
 background-color: #F9C300;
 }
 .SliderText1 h4{
