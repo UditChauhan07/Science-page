@@ -38,7 +38,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         className={position ? styles.fixedAnnouncementBar : styles.announcementBar}
         style={{
           color: theme?.textColor,
-          backgroundColor: theme?.backgroundColor
+          // backgroundColor: theme?.backgroundColor
         }}
       >
         <div>
