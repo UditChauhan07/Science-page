@@ -32,5 +32,18 @@
   @media screen and (max-width: 500px) {
     .announcementBar , .fixedAnnouncementBar{
       font-size: 10px;
+        background-color: #ab19c2;
+        font-size: 13px;
+      
+    }
+    @media screen and (max-width: 475px) {
+      .announcementBar {
+        background-color: #ab19c2;
+        font-size: 13px;
+      }
+      .fixedAnnouncementBar{
+        background-color: #ab19c2;
+        font-size: 13px;
+      }
     }
   }

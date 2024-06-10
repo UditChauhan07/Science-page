@@ -5,6 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { MdArrowForwardIos } from "react-icons/md";
+import { MdArrowBackIos } from "react-icons/md";
 
 
 const SciencePhytosome = () => {
@@ -27,7 +29,8 @@ const SciencePhytosome = () => {
 
   var settings = {
     dots: false,
-    Arrows: true,
+    arrows: true,
+    // arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -68,7 +71,7 @@ const SciencePhytosome = () => {
         {isVisible && <div className={styles.container}>
           <div className={styles.PhytoTopope}>
             <div className={styles.PhytoMain}>
-              <div className={styles.PhytoImg} 
+              <div className={styles.PhytoImg}
               >
                 <img src="/images/phyto1.webp" />
                 <h4>
@@ -109,7 +112,7 @@ const SciencePhytosome = () => {
               <div className={styles.PhytoImg}>
                 <img src="/images/phyto3.webp" />
                 <h4>
-                  <a  onClick={() => handleClick(3)} href="#">LEARN MORE</a>
+                  <a onClick={() => handleClick(3)} href="#">LEARN MORE</a>
                 </h4>
               </div>
 
@@ -125,8 +128,17 @@ const SciencePhytosome = () => {
           </div>
         </div>}
         {isSliderVisible && <div className={styles.PhytoClass}>
-          <Slider {...settings}>
 
+          {/* ....Arrrow Btn... */}
+
+        {/* <div className={styles.arrowbuttons}>
+              <div><MdArrowBackIos /></div>
+              <div><MdArrowForwardIos/></div>
+              </div> */}
+
+              
+          <Slider {...settings}>
+            
             <div className={styles.PhytoMain1}>
 
               <div className={styles.PhytoImages1}>
@@ -180,7 +192,9 @@ const SciencePhytosome = () => {
                 </p>
               </div>
             </div>
+           
           </Slider>
+        
 
         </div>}
       </div>

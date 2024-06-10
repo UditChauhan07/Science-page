@@ -307,6 +307,7 @@ padding: 5px;
 
 .SliderText, .SliderText1, .SliderText2, .SliderText3{
     display: grid;
+    color: black;
     gap:10px ;
 }
 
