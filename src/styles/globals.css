@@ -2349,7 +2349,7 @@ footer ul a{
 }
 
 .slick-prev:before, .slick-next:before{
-  color: #000 !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .ArrowControl svg{
@@ -2401,7 +2401,7 @@ top: 90px !important;
 }
 
 .PracticeTab_tab__VSUq1.active{
-  background-color: #00ff5e;
+  background-color: #000000;
 }
 
 @media only screen and  (min-width: 768px) and (max-width:2800px) {

@@ -12,14 +12,15 @@
 }
 
 
-
-/* Custom arrow btn.... */
-/* .arrowbuttons {
+/* 
+Custom arrow btn.... */
+.arrowbuttons {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 24px;
     color: blue;
-} */
+    display: none;
+}
 
 
 

@@ -4,9 +4,10 @@ import Link from "next/link";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
+
+import { IoIosArrowBack,IoIosArrowForward  } from "react-icons/io";
 
 
 const SciencePhytosome = () => {
@@ -37,6 +38,8 @@ const SciencePhytosome = () => {
     slidesToScroll: 1,
     initialSlide: activeTab - 1,
     beforeChange: (_, next) => setActiveTab(next),
+    // prevArrow: <IoIosArrowBack />,
+    // nextArrow: <IoIosArrowBack/>,
   };
 
   return (
@@ -131,10 +134,10 @@ const SciencePhytosome = () => {
 
           {/* ....Arrrow Btn... */}
 
-        {/* <div className={styles.arrowbuttons}>
+        <div className={styles.arrowbuttons}>
               <div><MdArrowBackIos /></div>
               <div><MdArrowForwardIos/></div>
-              </div> */}
+              </div>
 
               
           <Slider {...settings}>
