@@ -295,10 +295,9 @@
 
     .ClinicContent {
         width: 60%;
-        margin-bottom: 0px;
+        margin-bottom: 5rem;
 
     }
-
 
     .ClinicIngre {
         display: flex;

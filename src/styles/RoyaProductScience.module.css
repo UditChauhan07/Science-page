@@ -6,6 +6,7 @@
 }
 
 .PhytoPara11{
+    text-align: left;
     margin: 20px 0 0 0;
     height: 300px;
     overflow: auto;
@@ -54,6 +55,7 @@ font-family: 'gotham' 'Open Sans', sans-serif;
 }
 
 .PhytoImages1{
+    justify-content: center;
     display: flex;
     align-items: center;
 }
