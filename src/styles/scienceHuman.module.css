@@ -1,21 +1,22 @@
-.ImgCollagen{
+.ImgCollagen {
     width: 70%;
     margin: auto;
-    margin-top: 8%;    
+    margin-top: 8%;
 }
-.Discripton p{
+
+.Discripton p {
     color: #000;
     width: 90%;
     margin: auto;
-    margin-top: 5%;    
+    margin-top: 5%;
 }
 
-.container{
+.container {
     padding: 0 25px;
     width: 100%;
 }
 
-.PhytoMain{
+.PhytoMain {
     display: flex;
     gap: 30px;
     align-items: start;
@@ -24,42 +25,42 @@
 
 }
 
-.PhytoPara{
+.PhytoPara {
     font-size: 12px;
-    font-family:"Gotham", "Arial", serif ;
+    font-family: "Gotham", "Arial", serif;
     font-weight: 400;
     line-height: 20px;
 }
 
-.PhytoImg{
+.PhytoImg {
     width: 100%;
     position: relative;
     width: 145px;
     height: 145px;
 }
 
-.PhytoTopB{
+.PhytoTopB {
     margin-top: 20px;
 }
 
-.PhytoImg img{
+.PhytoImg img {
     border-radius: 20px;
     /* width: 100%; */
 }
 
-.PhytoImg h4{
+.PhytoImg h4 {
     position: absolute;
     bottom: 25px;
-    
+
     left: 0;
     right: 0;
     text-align: center;
 }
 
-.PhytoImg h4 a{
+.PhytoImg h4 a {
     color: #fff;
     font-size: 12px;
-    font-family:"Gotham", "Arial", serif ;
+    font-family: "Gotham", "Arial", serif;
     font-weight: 600;
     background-color: #AB19C2;
     padding: 6px;
@@ -69,7 +70,7 @@
 /* top */
 
 
-.imageDiv{
+.imageDiv {
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -77,13 +78,13 @@
 }
 
 
-.videoContent{
+.videoContent {
     position: absolute;
     top: 0;
     width: 100%;
 }
 
-.PhytoVideoTag{
+.PhytoVideoTag {
     width: 100%;
     margin: 0 0 40px 0;
     max-height: 300px;
@@ -91,101 +92,99 @@
     overflow: hidden;
 }
 
-.PhytoVideoTag video{
+.PhytoVideoTag video {
     /* min-height: 350px; */
     width: 100%;
     overflow: hidden;
 }
 
 
-.TopBruno{
+.TopBruno {
     position: relative;
- 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-text-align: center;
-font-family: Gotham", "Arial", serif";
-margin-bottom: 40px;
-
-    
+    text-align: center;
+    font-family: Gotham", " Arial", serif";
+    margin-bottom: 40px;
     color: #fff;
 }
 
-.backgroundShadow{
-    padding: 25px 0px ;
+.backgroundShadow {
+    padding: 25px 0px;
     margin: 0 0 20px 0;
     background-color: #00000073;
 }
 
-.destopNone{
+.destopNone {
     display: none;
 }
 
-.TopBruno h1{
+.TopBruno h1 {
     font-size: 30px;
     font-weight: 400;
 
 }
 
-
-
-.TopBruno p{
+.TopBruno p {
     font-size: 16px;
     font-weight: 400;
 
 }
 
-.TopBruno p{
+.TopBruno p {
     font-size: 16px;
-    font-weight:400;
+    font-weight: 400;
 
-}.TopBruno h5{
+}
+
+.TopBruno h5 {
     margin: 10px 0 15px 0;
     text-align: center;
     font-size: 19px;
     font-weight: 500;
 }
-.imageMain img{
+
+.imageMain img {
     max-width: 100%;
     width: 93px;
     height: 93px;
     border-radius: 12px;
     border: 2px solid #ddd;
-    
 }
 
-.desktopShow{
+.desktopShow {
     display: block;
-    }
+}
 
-    .MobileShow{
-        display:none;
-        } 
+.MobileShow {
+    display: none;
+}
 
-@media(max-width:767px){
+@media(max-width:767px) {
 
-    .PhytoVideoTag video{
+    .PhytoVideoTag video {
         min-width: 945px;
         min-height: 400px;
-            overflow: hidden;
-           
+        overflow: hidden;
+
     }
 
-    .MobileShow{
+    .MobileShow {
         display: block;
-        }     
-        .desktopShow{
+    }
+
+    .desktopShow {
         display: none;
-        }
+    }
 }
 
-@media(max-width:540px){
+@media(max-width:540px) {
     .PhytoVideoTag {
         max-height: 240px;
-           }
+    }
 
-    .PhytoVideoTag video{
+    .PhytoVideoTag video {
         max-width: 580px;
     }
 
@@ -196,33 +195,34 @@ margin-bottom: 40px;
         font-weight: 400;
     }
 
-    .PhytoImg{
-    width: 100%;
-    position: relative;
-    width: 100px;
-    height: 100px;
-}
-
-.PhytoImg img{
-    width: 100%;
-    position: relative;
-    width: 100px;
-    height: 100px;
-}
-
-.PhytoImg h4 a {
-    
-    font-size: 10px;
-padding: 5px;
-}
-
-.PhytoMain {
-     gap: 15px;
- }
- .PhytoImg h4 {
- bottom: 10px;
+    .PhytoImg {
+        width: 100%;
+        position: relative;
+        width: 100px;
+        height: 100px;
     }
-  
+
+    .PhytoImg img {
+        width: 100%;
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    .PhytoImg h4 a {
+
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .PhytoMain {
+        gap: 15px;
+    }
+
+    .PhytoImg h4 {
+        bottom: 10px;
+    }
+
     .backgroundShadow {
         padding: 10px 0px;
         margin: 0 0 10px 0;
@@ -230,72 +230,75 @@ padding: 5px;
         font-family: "ivypresto-display", "Times New Roman", Times, serif;
     }
 
-    .imageMain img{
+    .imageMain img {
         max-width: 100%;
         width: 70px;
         height: 70px;
         border-radius: 12px;
         border: 2px solid #ddd;
+    }
+
+    .TopBruno h1 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .TopBruno p {
+        font-size: 12px;
+
+    }
+
+    .TopBruno h5 {
+        font-size: 14px;
+    }
 }
 
-.TopBruno h1 {
-    font-size: 18px;
-    font-weight: 400;
-}
+@media(max-width:415px) {
+    .TopBruno {
+        margin-bottom: 50px;
 
-.TopBruno p {
-    font-size: 12px;
-    
-}
-
-.TopBruno h5 {
-      font-size: 14px;
-   }
-}
-
-@media(max-width:415px){
-    .TopBruno{
-    margin-bottom: 50px;    
-    
     }
 
 }
 
-@media(max-width:374px){
+@media(max-width:374px) {
 
-    .PhytoImg{
+    .PhytoImg {
         margin: auto;
     }
 
-    .PhytoMain{
+    .PhytoMain {
         display: grid;
     }
 }
+
 .BgBlack {
-  background-color: #000;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  padding: 15px 0px;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
 }
+
 .BgBlack h1 {
-  font-size: 30px;
-  font-family: "ivypresto-display", "Times New Roman", Times, serif;
-  font-weight: 400;
+    font-size: 30px;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-weight: 400;
 }
-.sliderContainer{
-    margin:0 auto 134px;
+
+.sliderContainer {
+    margin: 0 auto 134px;
     width: 80%;
     position: relative;
-    top: 50px; 
+    top: 50px;
 
 }
 
-.mainSlider img{
-  width: auto;
+.mainSlider img {
+    width: auto;
 }
 
-.mainSlider{
+.mainSlider {
     display: flex;
     width: 100%;
     /* justify-content:space-between; */
@@ -305,41 +308,48 @@ padding: 5px;
     place-content: center;
 }
 
-.SliderText, .SliderText1, .SliderText2, .SliderText3{
+.SliderText,
+.SliderText1,
+.SliderText2,
+.SliderText3 {
     display: grid;
     color: black;
-    gap:10px ;
+    gap: 10px;
 }
 
- .SliderText h4,.SliderText1 h4,.SliderText2 h4,.SliderText3 h4{
- font-family: "Gotham", "Arial", serif !important;
-font-size: 12px;
-font-weight: 500;
-padding: 6px;
-text-align: center;
-place-content: center;
-background-color: aquamarine;
-/* word-break: break-all; */
-max-width: 100px;
-min-width: 100px;
+.SliderText h4,
+.SliderText1 h4,
+.SliderText2 h4,
+.SliderText3 h4 {
+    font-family: "Gotham", "Arial", serif !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px;
+    text-align: center;
+    place-content: center;
+    background-color: aquamarine;
+    /* word-break: break-all; */
+    max-width: 100px;
+    min-width: 100px;
 }
 
-.SliderText h4{
-background-color: #F9C300;
+.SliderText h4 {
+    background-color: #F9C300;
 }
-.SliderText1 h4{
+
+.SliderText1 h4 {
     background-color: #74CB59;
-    }
+}
 
-    .SliderText2 h4{
-        background-color: #F08056;
-        }
+.SliderText2 h4 {
+    background-color: #F08056;
+}
 
-        .SliderText3 h4{
-            background-color: #45D5FD;
-            }
+.SliderText3 h4 {
+    background-color: #45D5FD;
+}
 
-.thumbnailSlider{
+.thumbnailSlider {
     display: flex;
     gap: 10px;
     text-align: start;
@@ -347,7 +357,7 @@ background-color: #F9C300;
     justify-content: center;
 }
 
-.thumbnailSlider img{
+.thumbnailSlider img {
     width: 65px;
     height: 65px;
 }
@@ -360,8 +370,8 @@ background-color: #F9C300;
     color: red;
 }
 
-@media(max-width:767px){
-    .mainSlider{
+@media(max-width:767px) {
+    .mainSlider {
         display: flex;
         width: 100%;
         /* justify-content:space-between; */
