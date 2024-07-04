@@ -35,7 +35,7 @@ body {
 }
 
 img {
-  /* width: 100%; */
+  width: 100%;
   height: auto;
 }
 
@@ -2377,7 +2377,7 @@ footer ul a{
 }
 
 .RoyaProductScience_royalContainer__m1QBd .slick-prev, .RoyaProductScience_royalContainer__m1QBd .slick-next{
-top: 90px !important;
+top: 110px !important;
 }
 
 .RoyaProductScience_royalContainer__m1QBd .slick-prev{

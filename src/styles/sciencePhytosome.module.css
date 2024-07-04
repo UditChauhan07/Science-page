@@ -338,17 +338,16 @@ display: none;
     }
 
     .TopBruno h1 {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 400;
     }
 
     .TopBruno p {
-        font-size: 12px;
+        font-size: 16px;
 
     }
-
     .TopBruno h5 {
-        font-size: 14px;
+        font-size: 19px;
     }
 }
 
