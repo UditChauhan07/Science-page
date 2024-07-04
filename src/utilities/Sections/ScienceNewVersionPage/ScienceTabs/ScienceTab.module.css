@@ -213,6 +213,7 @@
     font-size: 30px;
     top: 30px;
     -webkit-top: 30px;
+    -webkit-left: 40px; 
 
   }
   .arrowRight{
@@ -220,7 +221,7 @@
     top: 30px;
     left: 175px;
     -webkit-top: 30px; 
-    -webkit-left: 175px; 
+    -webkit-left: 125px; 
   }
   .tabsControler11 {
     width: 300px;
