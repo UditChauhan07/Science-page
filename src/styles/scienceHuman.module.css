@@ -189,7 +189,7 @@
     }
 
     .TopBruno h5 {
-      margin: 10px 0 0px 0;
+      margin: 0px 0 0px 0;
         text-align: center;
         font-size: 16px;
         font-weight: 400;
@@ -239,6 +239,7 @@
     }
 
     .TopBruno h1 {
+        margin-top: 5px;
         font-size: 30px;
         font-weight: 400;
     }
