@@ -5,6 +5,8 @@ import Phytosome from '../../../../pages/science-phytosome';
 import ScienceClinical from '../../../../pages/science-clinical';
 import ScienceHuman from '../../../../pages/science-human';
 import SliderTabs from '../PracticeTab/PracticeTab'
+import { MdChevronLeft,MdKeyboardArrowRight } from "react-icons/md";
+
 
 
 const Tabs = () => {
@@ -49,7 +51,7 @@ const Tabs = () => {
       <div className={styles.tabsControler}>
         <div className={styles.tabsControler11}>
           <div className={styles.tabsControler1}>
-            <button className={`${styles.arrowL} ${styles.arrowLeft}`} onClick={handlePrevClick}>
+            <button className={`${styles.arrowL} ${styles.arrowLeft}`} onClick={handlePrevClick}><MdChevronLeft />
               
             </button>
             <div className={styles.tabs}>
@@ -64,7 +66,7 @@ const Tabs = () => {
                 </div>
               ))}
             </div>
-            <button className={`${styles.arrowR} ${styles.arrowRight}`} onClick={handleNextClick}>
+            <button className={`${styles.arrowR} ${styles.arrowRight}`} onClick={handleNextClick}><MdKeyboardArrowRight/>
               
             </button>
             {/* <div className={styles.activeTabIndicator} style={{ left: `${styles.activeTab * 25}%` }} /> */}
