@@ -210,20 +210,17 @@
   }
 
   .arrowLeft{
-    .arrowLeft {
-      font-size: 25px;
-      top: 43px;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%);
-    
-  }
+    font-size: 30px;
+    top: 30px;
+    -webkit-top: 30px;
 
   }
   .arrowRight{
-    font-size: 25px;
+    font-size: 30px;
+    top: 30px;
     left: 175px;
-    -webkit-transform: translateY(0%);
-
+    -webkit-top: 30px; 
+    -webkit-left: 175px; 
   }
   .tabsControler11 {
     width: 300px;
