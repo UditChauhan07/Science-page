@@ -74,11 +74,11 @@ const SciencePhytosome = () => {
         {isVisible && <div className={styles.container}>
           <div className={styles.PhytoTopope}>
             <div className={styles.PhytoMain}>
-              <div className={styles.PhytoImg}
+              <div className={styles.PhytoImg} onClick={() => handleClick(1)}
               >
                 <img src="/images/phyto1.webp" />
                 <h4>
-                  <a onClick={() => handleClick(1)} href="#">LEARN MORE</a>
+                  <a  href="#">LEARN MORE</a>
                 </h4>
               </div>
 
@@ -93,10 +93,10 @@ const SciencePhytosome = () => {
             </div>
 
             <div className={styles.PhytoMain}>
-              <div className={styles.PhytoImg} >
+              <div className={styles.PhytoImg}  onClick={() => handleClick(2)} >
                 <img src="/images/phyto2.webp" />
                 <h4>
-                  <a onClick={() => handleClick(2)} href="#">LEARN MORE</a>
+                  <a href="#">LEARN MORE</a>
                 </h4>
               </div>
 
@@ -112,10 +112,10 @@ const SciencePhytosome = () => {
             </div>
 
             <div className={styles.PhytoMain}>
-              <div className={styles.PhytoImg}>
+              <div className={styles.PhytoImg} onClick={() => handleClick(3)}>
                 <img src="/images/phyto3.webp" />
                 <h4>
-                  <a onClick={() => handleClick(3)} href="#">LEARN MORE</a>
+                  <a  href="#">LEARN MORE</a>
                 </h4>
               </div>
 
