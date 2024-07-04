@@ -113,9 +113,9 @@
 
 
 .arrowRight{
-  font-size: 50px;
-  top:20px;
-  left: 150px;
+  font-size: 25px;
+  top:33px;
+  left: 170px;
   color: #ffffff;
   display: block;
   /* border-top: 2px solid #ffffff;
@@ -123,9 +123,9 @@
 }
 
 .arrowLeft {
-  font-size: 50px;
+  font-size: 25px;
   left: 0px;
-  top:20px;
+  top:33px;
   color: #ffffff;
   display: block;
   /* border-top: 2px solid #ffffff;
@@ -175,7 +175,7 @@
   /* border: 1px solid #000; */
   position: absolute;
   z-index: 1;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -189,7 +189,19 @@
 
 }
 
+@media (max-width: 767px) {
+  .tabsControler1 {
+    top: 22%;
+  }
+  .arrowLeft{
+    font-size: 50px;
+  }
+  .arrowRight{
+    font-size: 50px;
+    left: 235px;
+  }
 
+}
 @media (max-width: 540px) {
   .tabs img {
     width: 70px;
@@ -197,7 +209,22 @@
     height: 70px;
   }
 
+  .arrowLeft{
+    .arrowLeft {
+      font-size: 25px;
+      top: 43px;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    
+  }
 
+  }
+  .arrowRight{
+    font-size: 25px;
+    left: 175px;
+    -webkit-transform: translateY(0%);
+
+  }
   .tabsControler11 {
     width: 300px;
   }
@@ -215,10 +242,12 @@
 
   .leftArrow {
     top: 43px;
+    -webkit-top: 43px; 
   }
 
   .rightArrow {
     top: 43px;
+    -webkit-top:43px
 
   }
 
