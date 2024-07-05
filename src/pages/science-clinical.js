@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-
 import styles from "../styles/scienceClinical.module.css";
 import Link from "next/link";
 import RoyalProductSciencePage from './RoyalProductSciencePage'
