@@ -358,6 +358,7 @@
 @media(max-width:540px) {
     .PhytoVideoTag {
         max-height: 240px;
+        margin-bottom: -15px;
     }
 
     .PhytoVideoTag video {

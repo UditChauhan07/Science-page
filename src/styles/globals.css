@@ -2345,7 +2345,7 @@ footer ul a{
 }
 .scienceHuman_thumbnailSlider__jp5v3 img.active{
   border: 2px solid #000000 !important;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .slick-prev:before, .slick-next:before{
