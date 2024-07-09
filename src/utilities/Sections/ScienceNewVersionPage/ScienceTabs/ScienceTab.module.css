@@ -212,6 +212,7 @@
   .arrowLeft{
     font-size: 30px;
     top: 30px;
+    left: 10px;
     -webkit-top: 30px;
     -webkit-left: 40px; 
 
@@ -219,7 +220,7 @@
   .arrowRight{
     font-size: 30px;
     top: 30px;
-    left: 175px;
+    left: 155px;
     -webkit-top: 30px; 
     -webkit-left: 125px; 
   }
@@ -234,8 +235,8 @@
 
   .tab.active img {
     border-radius: 10px;
-
-
+    width: 75px;
+    height: 75px;
   }
 
   .leftArrow {

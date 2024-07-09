@@ -4,9 +4,11 @@ import styles from "../styles/RoyaProductScience.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FaChevronLeft } from "react-icons/fa6";
 
 
 function RoyalProductSciencePage(index) {
+  
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,14 +20,38 @@ function RoyalProductSciencePage(index) {
     setIsOpen(false);
   };
 
+  const CustomPrevArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <div
+        className={className}
+        onClick={onClick}
+      >
+        <img src="/images/LeftArrow.png"  alt="Previous" />
+      </div>
+    );
+  };
+  const CustomNextArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <div
+        className={className}
+        onClick={onClick}
+      >
+        <img src="/images/rightArrow.png"  alt="Previous" />
+      </div>
+    );
+  };
   var settings = {
     dots: false,
-    Arrows: true,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: index.index - 1,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
     beforeChange: (_, next) => next,
   };
 

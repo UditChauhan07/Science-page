@@ -206,8 +206,9 @@ Custom arrow btn.... */
     margin: auto;
     font-size: 12px;
     font-weight: 500;
-    font-family: Gotham", " Arial", serif";
+    font-family: Inter, sans-serif;
     line-height: 22px;
+    padding-bottom: 5px;
 
 }
 

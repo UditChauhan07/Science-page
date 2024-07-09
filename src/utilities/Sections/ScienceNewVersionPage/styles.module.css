@@ -29,10 +29,9 @@ font-family: Gotham", "Arial", serif";
 .TopBruno h1{
     font-size: 30px;
     font-weight: 500;
+    padding-top: 2rem;
 
 }
-
-
 
 .TopBruno p{
     font-size: 16px;
