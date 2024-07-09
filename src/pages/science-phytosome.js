@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
 
-import { IoIosArrowBack,IoIosArrowForward  } from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
 const SciencePhytosome = () => {
@@ -34,7 +34,7 @@ const SciencePhytosome = () => {
         className={className}
         onClick={onClick}
       >
-        <img src="/images/LeftArrow.png"  alt="Previous" />
+        <img src="/images/LeftArrow.png" alt="Previous" />
       </div>
     );
   };
@@ -45,7 +45,7 @@ const SciencePhytosome = () => {
         className={className}
         onClick={onClick}
       >
-        <img src="/images/rightArrow.png"  alt="Previous" />
+        <img src="/images/rightArrow.png" alt="Previous" />
       </div>
     );
   };
@@ -100,7 +100,7 @@ const SciencePhytosome = () => {
               >
                 <img src="/images/phyto1.webp" />
                 <h4>
-                  <a  href="#">LEARN MORE</a>
+                  <a href="#">LEARN MORE</a>
                 </h4>
               </div>
 
@@ -115,7 +115,7 @@ const SciencePhytosome = () => {
             </div>
 
             <div className={styles.PhytoMain}>
-              <div className={styles.PhytoImg}  onClick={() => handleClick(2)} >
+              <div className={styles.PhytoImg} onClick={() => handleClick(2)} >
                 <img src="/images/phyto2.webp" />
                 <h4>
                   <a href="#">LEARN MORE</a>
@@ -137,7 +137,7 @@ const SciencePhytosome = () => {
               <div className={styles.PhytoImg} onClick={() => handleClick(3)}>
                 <img src="/images/phyto3.webp" />
                 <h4>
-                  <a  href="#">LEARN MORE</a>
+                  <a href="#">LEARN MORE</a>
                 </h4>
               </div>
 
@@ -154,20 +154,20 @@ const SciencePhytosome = () => {
         </div>}
         {isSliderVisible && <div className={styles.PhytoClass}>
 
-         
 
-              
+
+
           <Slider {...settings}>
-            
+
             <div className={styles.PhytoMain1}>
 
               <div className={styles.PhytoImages1}>
                 <img src="/images/PhytoBigImg.webp" />
               </div>
               <div className={styles.PhytoPara11}>
-                <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells.</p>
-                <p>Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function.</p>
-             <p>Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
+                <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability. The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells.</p>
+                <p>Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream. The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function.</p>
+                <p>Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
               </div>
             </div>
 
@@ -178,10 +178,10 @@ const SciencePhytosome = () => {
               </div>
               <div className={styles.PhytoPara11}>
                 <p>
-                Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous. 
+                  Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous.
                 </p>
                 <p>
-                For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream. No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck. </p>
+                  For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream. No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck. </p>
                 <p>With the curcumin molecule hidden inside, the lipid can pass through the gut and into your bloodstream with 3000% more bioavailability. Phytosome sets the new standard in prescription-grade natural ingredients.</p>
               </div>
             </div>
@@ -194,15 +194,15 @@ const SciencePhytosome = () => {
               </div>
               <div className={styles.PhytoPara11}>
                 <p>
-                The phospholipid shell in phytosomes mimics the natural structure of cell membranes, which enables them to bypass the digestive and hepatic barriers by selectively releasing their active compounds into the bloodstream. This enhances their therapeutic value and decreases the amount required to deliver therapeutic effects.
+                  The phospholipid shell in phytosomes mimics the natural structure of cell membranes, which enables them to bypass the digestive and hepatic barriers by selectively releasing their active compounds into the bloodstream. This enhances their therapeutic value and decreases the amount required to deliver therapeutic effects.
                 </p>
                 <p>Phytosome technology has been used to deliver a wide range of active ingredients, including antioxidants, anti-inflammatory compounds, vitamins, and minerals. It also provides a novel delivery option for poorly soluble substances, allowing for more efficient and effective delivery of these compounds to targeted tissues.</p>
-              <p>
-              Overall, phytosome technology represents an innovative approach to enhancing the bioavailability of plant-based compounds and improving their therapeutic value</p>
+                <p>
+                  Overall, phytosome technology represents an innovative approach to enhancing the bioavailability of plant-based compounds and improving their therapeutic value</p>
               </div>            </div>
-           
+
           </Slider>
-        
+
 
         </div>}
       </div>
