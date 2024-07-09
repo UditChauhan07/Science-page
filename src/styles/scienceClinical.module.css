@@ -307,7 +307,7 @@
         margin: 0px 0 50px 0;
         display: grid;
         width: 40%;
-        margin: auto;
+        /* margin: auto; */
         justify-content: center;
 
     }

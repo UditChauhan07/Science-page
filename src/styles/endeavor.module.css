@@ -75,18 +75,22 @@
 .ScienceBanner h2{
     font-size: 30px;
     font-weight: 400;
+    font-family: 'Neuton';
     margin: 20px 0 10px 0;
 }
 .ScienceBanner h5{
     font-size: 20px;
     margin: -15px 0 15px 0;
+    font-family: 'Neuton';
+    padding-top: 5px;
     font-weight: 400;
 }
 .paraDis {
     font-size: 14px;
     width: 88%;
     margin: auto;
-    padding: 20px 10px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    font-family: 'Neuton';
     height: 350px;
     overflow: auto;
 }
