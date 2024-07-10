@@ -2,13 +2,21 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import styles from '../styles/sciencedesktop.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Slider from "react-slick";
 
 
 
 const Sciencedesktoppage = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={10000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={221000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
@@ -21,9 +29,13 @@ const Sciencedesktoppage = () => {
           </div>
 
           <Carousel.Caption className={styles.imgcotent}>
-            <div className={styles.heroImgContent}>
-              <h3>1st slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <div className={`container ${styles.heroImgContent}`}>
+              <h3>Science </h3>
+              <h5>A Human Endeavor.</h5>
+              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <div className={styles.ancorLink}>
+                <button><a href="">Read More</a></button>
+              </div>
             </div>
 
           </Carousel.Caption>
@@ -35,14 +47,20 @@ const Sciencedesktoppage = () => {
             <img
 
               src="/images/heroSlide1.png"
-              alt="Second slide"
+              alt="First slide"
             />
           </div>
-          <Carousel.Caption>
-            <div className={styles.heroImgContent}>
-              <h3>2nd slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <Carousel.Caption className={styles.imgcotent}>
+            <div className={`container ${styles.heroImgContent}`}>
+              <h3>Science </h3>
+              <h5>A Human Endeavor.</h5>
+              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <div className={styles.ancorLink}>
+                <button><a href="">Read More</a></button>
+              </div>
             </div>
+
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -52,14 +70,20 @@ const Sciencedesktoppage = () => {
             <img
 
               src="/images/heroSlide1.png"
-              alt="Second slide"
+              alt="First slide"
             />
           </div>
-          <Carousel.Caption>
-            <div className={styles.heroImgContent}>
-              <h3>3th slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <Carousel.Caption className={styles.imgcotent}>
+            <div className={`container ${styles.heroImgContent}`}>
+              <h3>Science </h3>
+              <h5>A Human Endeavor.</h5>
+              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <div className={styles.ancorLink}>
+                <button><a href="">Read More</a></button>
+              </div>
             </div>
+
           </Carousel.Caption>
         </Carousel.Item>
         {/* Fourth Slide */}
@@ -68,14 +92,20 @@ const Sciencedesktoppage = () => {
             <img
 
               src="/images/heroSlide1.png"
-              alt="Second slide"
+              alt="First slide"
             />
           </div>
-          <Carousel.Caption>
-            <div className={styles.heroImgContent}>
-              <h3>Second slide label</h3>
-              <p>4th ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <Carousel.Caption className={styles.imgcotent}>
+            <div className={`container ${styles.heroImgContent}`}>
+              <h3>Science </h3>
+              <h5>A Human Endeavor.</h5>
+              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <div className={styles.ancorLink}>
+                <button><a href="">Read More</a></button>
+              </div>
             </div>
+
           </Carousel.Caption>
         </Carousel.Item>
         {/* Fifth Slide */}
@@ -84,19 +114,166 @@ const Sciencedesktoppage = () => {
             <img
 
               src="/images/heroSlide1.png"
-              alt="Second slide"
+              alt="First slide"
             />
           </div>
-          <Carousel.Caption>
-            <div className={styles.heroImgContent}>
-              <h3>5th slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <Carousel.Caption className={styles.imgcotent}>
+            <div className={`container ${styles.heroImgContent}`}>
+              <h3>Science </h3>
+              <h5>A Human Endeavor.</h5>
+              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <div className={styles.ancorLink}>
+                <button><a href="">Read More</a></button>
+              </div>
             </div>
+
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className={`container ${styles.brunoDecription}`}>
+        <h1>A prescription to thrive <b>Bruno MD</b></h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+
+      </div>
+      <div className={styles.PhytoVideoTag}>
+        <video width="100%" height="100%" loop autoPlay muted>
+          <source src="/images/Science Masthead web.mp4" type="video/mp4" />
+          <source src="/images/Science Masthead web.mp4" type="video/ogg" />
+        </video>
+      </div>
+      <div className={`container ${styles.brunoDecription}`}>
+        <h1>A prescription to thrive <b>Bruno MD</b></h1>
+        <p>Powering the Human Machine Explore the benefits of targeted natural ingredients</p>
+
+      </div>
       <div className={`container ${styles.customContainer}`}>
 
+      </div>
+      <div className={`container ${styles.brunoDecription}`}>
+        <h1>A prescription to thrive <b>Bruno MD</b></h1>
+        <p>Phytosome® Technology 3000% higher bioavailability </p>
+
+      </div>
+
+      <div className={`container ${styles.SliderDiv2}`}>
+        <Slider {...settings}>
+          <div className={styles.slideData}>
+            <div className={styles.contentbackdiv}>
+              <div className={styles.slideContent}>
+                <h3>The Process of <br /> <b>Phytosome Formation</b> </h3>
+                <div className={styles.pcontent}>
+                  <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
+                  <p> The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
+                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function. Overall, phytosome technology</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div className={styles.slide2Img}>
+              <img src="/images/slideImg2.png" alt='' />
+            </div>
+          </div>
+          <div className={styles.slideData}>
+            <div className={styles.contentbackdiv}>
+              <div className={styles.slideContent}>
+                <h3>The Process of <br /> <b>Phytosome Formation</b> </h3>
+                <div className={styles.pcontent}>
+                  <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
+                  <p> The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
+                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function. Overall, phytosome technology</p>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.slide2Img}>
+              <img src="/images/slideImg2.png" alt='' />
+            </div>
+          </div>
+
+        </Slider>
+
+      </div>
+      <div className={styles.nextCarousel}>
+        <div className={` ${styles.SliderDiv3}`}>
+          <Slider {...settings}>
+            <div className={styles.slider3data}>
+              <div className={styles.sliderContent}>
+                <h6>For healthy skin, hair & bones</h6>
+                <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Natural Vitamin C Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+              </div>
+              <div className={styles.sliderContentIMG}>
+                <img src='/images/BrunoPharmaSlider.png' />
+              </div>
+              <div className={styles.sliderContent3}>
+                <div>
+                  <h3>Royal Collagen Peptides</h3>
+                  <h5>The Science of Beauty</h5>
+                </div>
+                <div className={styles.roundeddiv}>
+                  <div className={styles.round}><p>Natural Vitamin C</p></div>
+                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
+                </div>
+                <div className={styles.roundeddiv2}>
+                  <div className={styles.round2}><p>Red Orange Complex</p></div>
+                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                </div>
+                <hr className={styles.blackHr2} />
+                <div className={styles.btnDivBuy}>
+                  <div className={styles.roundBtn}><p>Buy Now</p></div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.slider3data}>
+              <div className={styles.sliderContent}>
+                <h6>For healthy skin, hair & bones</h6>
+                <div className={styles.allPtext}>
+                <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Natural Vitamin C Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
+                <hr className={styles.blackHr} />
+                <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+                </div>
+              
+              </div>
+              <div className={styles.sliderContentIMG}>
+                <img src='/images/BrunoPharmaSlider.png' />
+              </div>
+              <div className={styles.sliderContent3}>
+                <div>
+                  <h3>Royal Collagen Peptides</h3>
+                  <h5>The Science of Beauty</h5>
+                </div>
+                <div className={styles.roundeddiv}>
+                  <div className={styles.round}><p>Natural Vitamin C</p></div>
+                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
+                </div>
+                <div className={styles.roundeddiv2}>
+                  <div className={styles.round2}><p>Red Orange Complex</p></div>
+                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                </div>
+                <hr className={styles.blackHr2} />
+                <div className={styles.btnDivBuy}>
+                  <div className={styles.roundBtn}><p>Buy Now</p></div>
+                </div>
+              </div>
+            </div>
+
+          </Slider>
+        </div>
       </div>
     </div>
 

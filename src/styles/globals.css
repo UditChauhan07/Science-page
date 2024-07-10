@@ -2728,7 +2728,7 @@ footer ul a {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -4rem !important;
   left: 0;
   z-index: 2;
   display: flex;
@@ -2738,18 +2738,13 @@ footer ul a {
   margin-bottom: 1rem;
   margin-left: 15%;
 }
-.carousel-indicators [data-bs-target] {
-  box-sizing: content-box;
-  flex: 0 1 auto;
+ .carousel-indicators [data-bs-target] {
+  
   width: 30px;
-  height: 3px;
-  padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #fa0d0d;
-  background-clip: padding-box;
+  height: 5px !important;
+  
+  background-color: #000000 !important;
+  background-clip: padding-box; 
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
