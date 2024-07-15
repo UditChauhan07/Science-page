@@ -98,7 +98,7 @@ const Sciencedesktoppage = () => {
 
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={100000000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={1000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
@@ -134,9 +134,9 @@ const Sciencedesktoppage = () => {
 
           <Carousel.Caption className={styles.imgcotent}>
             <div className={`container ${styles.heroImgContent}`}>
-              <h3>Science </h3>
-              <h5>A Human Endeavor.</h5>
-              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <h3>Nature</h3>
+              <h5>Understand the world.</h5>
+              <p>Polyphenols are compounds in many plant-based foods, such as fruits, vegetables, tea, and wine. They are antioxidants.</p>
               <div className={styles.ancorLink}>
                 <button><a href="">Read More</a></button>
               </div>
@@ -157,9 +157,9 @@ const Sciencedesktoppage = () => {
 
           <Carousel.Caption className={styles.imgcotent}>
             <div className={`container ${styles.heroImgContent}`}>
-              <h3>Science </h3>
-              <h5>A Human Endeavor.</h5>
-              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <h3>Lifestyle</h3>
+              <h5>Blue Zone Longevity.</h5>
+              <p>Many pharmacological companies are scaled international conglomerates. The names of these companies are familiar and, unfortunately.</p>
               <div className={styles.ancorLink}>
                 <button><a href="">Read More</a></button>
               </div>
@@ -179,9 +179,9 @@ const Sciencedesktoppage = () => {
 
           <Carousel.Caption className={styles.imgcotent}>
             <div className={`container ${styles.heroImgContent}`}>
-              <h3>Science </h3>
-              <h5>A Human Endeavor.</h5>
-              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <h3>Rituals</h3>
+              <h5>Farm to Table.</h5>
+              <p>If you take supplements, you should be aware that the ingredients you consume, such as Vitamin C or E, are often produced in a lab.</p>
               <div className={styles.ancorLink}>
                 <button><a href="">Read More</a></button>
               </div>
@@ -200,9 +200,9 @@ const Sciencedesktoppage = () => {
 
           <Carousel.Caption className={styles.imgcotent}>
             <div className={`container ${styles.heroImgContent}`}>
-              <h3>Science </h3>
-              <h5>A Human Endeavor.</h5>
-              <p>Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.</p>
+              <h3>Proven</h3>
+              <h5>Nature,Meet Pharma.</h5>
+              <p>When a company makes a claim, it should be transparent and verifiable. Because we are both a pharmacological company and a nutritional </p>
               <div className={styles.ancorLink}>
                 <button><a href="">Read More</a></button>
               </div>
@@ -238,7 +238,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.yellodiv} onClick={() => handleClick(0)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg.png'  alt=''/>
+                  <img src='/Images/medImg.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -252,7 +252,7 @@ const Sciencedesktoppage = () => {
               <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
             </button>
           </div>
-          <div className={styles.tabdiv}>
+          <div className={styles.tabdiv2}>
             <div className={styles.greendiv} onClick={() => handleClick(1)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -270,11 +270,11 @@ const Sciencedesktoppage = () => {
               <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
             </button>
           </div>
-          <div className={styles.tabdiv}>
+          <div className={styles.tabdiv3}>
             <div className={styles.orangediv} onClick={() => handleClick(2)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg3.png'  alt=''/>
+                  <img src='/Images/medImg3.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -288,7 +288,7 @@ const Sciencedesktoppage = () => {
               <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
             </button>
           </div>
-          <div className={styles.tabdiv}>
+          <div className={styles.tabdiv4}>
             <div className={styles.skyBluediv} onClick={() => handleClick(3)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -325,7 +325,7 @@ const Sciencedesktoppage = () => {
               <p>{slides[currentIndex].dec2}</p>
             </div>
           </div>
-        
+
           <div className={styles.HumanDetails}>
             <div className={styles.leftLine}></div>
             <div className={styles.humanText}>
@@ -396,13 +396,13 @@ const Sciencedesktoppage = () => {
         <div className={styles.bothButton}>
           <div className={styles.LeftBtn}>
             <div>
-              <img src='/Images/ArrowLeft.png' onClick={goToPrev} alt=''/>
+              <img src='/Images/ArrowLeft.png' onClick={goToPrev} alt='' />
             </div>
 
           </div>
           <div className={styles.RightBtn}>
             <div>
-              <img src='/Images/ArrowRight.png' onClick={goToNext} alt=''/>
+              <img src='/Images/ArrowRight.png' onClick={goToNext} alt='' />
             </div>
           </div>
         </div>
@@ -424,7 +424,7 @@ const Sciencedesktoppage = () => {
                 <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider.png'  alt=''/>
+                <img src='/images/BrunoPharmaSlider.png' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>
@@ -485,16 +485,24 @@ const Sciencedesktoppage = () => {
             </div>
 
           </Slider>
-          <div className={styles.bothButton}>
+          <div className={styles.bothButton2}>
             <div className={styles.LeftBtn}>
               <div>
-                <img src='/Images/ArrowLeft.png' onClick={goToPrev2} alt='' />
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" className={styles.svgIcon} onClick={goToPrev2}>
+                  <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
+                </svg>
+                {/* <img src='/Images/ArrowLeft.png' onClick={goToPrev2} alt='' /> */}
               </div>
 
             </div>
             <div className={styles.RightBtn}>
               <div>
-                <img src='/Images/ArrowRight.png' onClick={goToNext2} alt=''/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" onClick={goToNext2}>
+                  <path d="M36.834 26H6.50065" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z" fill="#7F7F7F" />
+                </svg>
+                {/* <img src='/Images/ArrowRight.png' onClick={goToNext2} alt=''/> */}
               </div>
             </div>
           </div>
