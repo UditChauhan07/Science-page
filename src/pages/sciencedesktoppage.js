@@ -202,7 +202,7 @@ const Sciencedesktoppage = () => {
             <div className={`container ${styles.heroImgContent}`}>
               <h3>Proven</h3>
               <h5>Nature,Meet Pharma.</h5>
-              <p>When a company makes a claim, it should be transparent and verifiable. Because we are both a pharmacological company and a nutritional </p>
+              <p>When a company makes a claim, it should be transparent and verifiable. Because we are both a pharmacological company and</p>
               <div className={styles.ancorLink}>
                 <button><a href="">Read More</a></button>
               </div>
@@ -375,6 +375,7 @@ const Sciencedesktoppage = () => {
               <img src="/images/slideImg2.png" alt='' />
             </div>
           </div>
+         
           <div className={styles.slideData}>
             <div className={styles.contentbackdiv}>
               <div className={styles.slideContent}>
