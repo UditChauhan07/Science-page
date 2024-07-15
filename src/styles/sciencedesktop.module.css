@@ -555,19 +555,3 @@
         margin-top: 1rem;
     }
 }
-
-@media (min-width:1600px) {
- 
-    .imgcotent {
-        top: 20rem;
-        left: 7.7rem !important;
-        width: 40%;
-    
-    }
-    .heroImgContent h3{
-        font-size: 130px;
-    }
-    .heroImgContent h5{
-        font-size: 70px;
-    }
-}

@@ -213,7 +213,7 @@ const Sciencedesktoppage = () => {
       </Carousel>
       <div className={`container ${styles.brunoDecription}`}>
         <h1>A prescription to thrive <b>Bruno MD</b></h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+        <p>Lorem Ipsum &apos;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard</p>
 
       </div>
       <div className={styles.PhytoVideoTag}>
@@ -238,7 +238,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.yellodiv} onClick={() => handleClick(0)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg.png' />
+                  <img src='/Images/medImg.png'  alt=''/>
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -256,7 +256,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.greendiv} onClick={() => handleClick(1)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg2.png' />
+                  <img src='/Images/medImg2.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -274,7 +274,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.orangediv} onClick={() => handleClick(2)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg3.png' />
+                  <img src='/Images/medImg3.png'  alt=''/>
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -292,7 +292,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.skyBluediv} onClick={() => handleClick(3)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg4.png' />
+                  <img src='/Images/medImg4.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -364,8 +364,8 @@ const Sciencedesktoppage = () => {
                 <h3>The Process of <br /> <b>Phytosome Formation</b> </h3>
                 <div className={styles.pcontent} >
                   <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
-                  <p> The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
-                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function. Overall, phytosome technology</p>
+                  <p> The phospholipid coating also enables the extract to bypass the digestive system &apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
+                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology</p>
                 </div>
 
               </div>
@@ -381,8 +381,8 @@ const Sciencedesktoppage = () => {
                 <h3>The Process of <br /> <b>Phytosome Formation</b> </h3>
                 <div className={styles.pcontent}>
                   <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
-                  <p> The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
-                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function. Overall, phytosome technology</p>
+                  <p> The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
+                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology</p>
                 </div>
               </div>
             </div>
@@ -396,13 +396,13 @@ const Sciencedesktoppage = () => {
         <div className={styles.bothButton}>
           <div className={styles.LeftBtn}>
             <div>
-              <img src='/Images/ArrowLeft.png' onClick={goToPrev}></img>
+              <img src='/Images/ArrowLeft.png' onClick={goToPrev} alt=''/>
             </div>
 
           </div>
           <div className={styles.RightBtn}>
             <div>
-              <img src='/Images/ArrowRight.png' onClick={goToNext}></img>
+              <img src='/Images/ArrowRight.png' onClick={goToNext} alt=''/>
             </div>
           </div>
         </div>
@@ -413,7 +413,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.slider3data}>
               <div className={styles.sliderContent}>
                 <h6>For healthy skin, hair & bones</h6>
-                <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.</p>
+                <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
                 <hr className={styles.blackHr} />
                 <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
                 <hr className={styles.blackHr} />
@@ -424,7 +424,7 @@ const Sciencedesktoppage = () => {
                 <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider.png' />
+                <img src='/images/BrunoPharmaSlider.png'  alt=''/>
               </div>
               <div className={styles.sliderContent3}>
                 <div>
@@ -449,7 +449,7 @@ const Sciencedesktoppage = () => {
               <div className={styles.sliderContent}>
                 <h6>For healthy skin, hair & bones</h6>
                 <div className={styles.allPtext}>
-                  <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.</p>
+                  <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
                   <hr className={styles.blackHr} />
                   <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
                   <hr className={styles.blackHr} />
@@ -462,7 +462,7 @@ const Sciencedesktoppage = () => {
 
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider.png' />
+                <img src='/images/BrunoPharmaSlider.png' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>
@@ -488,13 +488,13 @@ const Sciencedesktoppage = () => {
           <div className={styles.bothButton}>
             <div className={styles.LeftBtn}>
               <div>
-                <img src='/Images/ArrowLeft.png' onClick={goToPrev2}></img>
+                <img src='/Images/ArrowLeft.png' onClick={goToPrev2} alt='' />
               </div>
 
             </div>
             <div className={styles.RightBtn}>
               <div>
-                <img src='/Images/ArrowRight.png' onClick={goToNext2}></img>
+                <img src='/Images/ArrowRight.png' onClick={goToNext2} alt=''/>
               </div>
             </div>
           </div>
