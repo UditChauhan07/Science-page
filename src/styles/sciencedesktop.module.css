@@ -1,681 +1,573 @@
-/* .container {
-    padding: 0 25px;
-    width: 100%;
-    margin: 0 0 80px 0;
-} */
-
-/* .PhytoImagTag {
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    position: relative;
-
-} */
-
-/* .InnerPhoto {
-    width: 100%;
-} */
-
-
-
-/* .InnerPhoto img {
-    height: 250px;
-    width: 50%;
-} */
-
-
-
-/* .contentImg {
-    margin-top: 80px;
-    text-align: left;
-    position: absolute;
-    margin-left: 50px;
-} */
-
-
-/* .textContent2 {
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-    line-height: 40px;
-    padding-top: 10rem;
-} */
-
-/* .............new css start.............. */
-.PhyImgContainer {
-    /* display: flex; */
-    width: 100%;
-    padding: 1rem 10rem 3rem;
+.leptop {
+    /* border: 5px solid black; */
 }
 
-.PhyImgall {
+.carouselMain {}
+
+.carouselMain img {
+    width: 100%;
     /* border: 1px solid red; */
     display: flex;
+    margin: auto 6.7rem;
 }
 
-.PhyImgsection {
-    padding-bottom: 25px;
-    /* padding-left: 20px; */
-    width: 50%;
-    position: relative;
-}
-
-.PhyImg {
-    padding: 0px 0px 0px 0px;
-    width: 50%;
-    position: relative;
+.heroImgContent {
+    color: black;
 
 }
 
-.PhyImgcontents {
-    position: absolute;
-    text-align: left;
-    left: 8%;
-    top: 30%;
-}
-.PhyImgcontents5 {
-    position: absolute;
-    text-align: left;
-    left: 8%;
-    top: 30%;
-}
-
-.PhyImgcontents2 {
-    position: absolute;
-    text-align: left;
-    left: 10%;
-    top: 20%;
-}
-
-.PhyImgcontents3 {
-    position: absolute;
-    text-align: left;
-    left: 8%;
-    top: 30%;
-}
-.PhyImgcontents4 {
-    position: absolute;
-    text-align: left;
-    left: 10%;
-    top: 30%;
-}
-
-.PhyImg1 {
-    padding-right: 15px;
-    width: 100%;
-}
-
-.PhyImg2 {
-    padding-left: 15px;
-    width: 100%;
-}
-
-.content1 {
-    font-weight: 500;
-    font-family: "Gotham", "Arial", serif;
-    font-size: 40px;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2), 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.content2 {
-    font-weight: 900;
-    width: 70%;
-    display: inline-block;
-    margin: 0;
-    font-size: 40px;
-    background-image: url('/images/Rectangle 36 (4)wwqq.png');
-    color: #00000000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgba(151, 175, 152, 1);
-
-}
-
-.content3 {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(92, 190, 247);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(245, 244, 244);
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
-}
-
-.content4 {
-    font-size: 40px;
-    color: rgb(247, 247, 247);
-    -webkit-text-stroke-width: 1px;
-    /* -webkit-text-stroke-color:  #FFCD00; */
-    background: linear-gradient(to right, #FFCD00 0%, #3FAFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
-}
-
-.content5 {
-    font-size: 40px;
-    font-weight: 900;
-    color: rgb(197, 216, 22);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(2, 2, 0);
-}
-
-.Phymain {
-    width: 100%;
-    padding: 5rem 10rem 5rem;
-}
-
-.PhymainContent {
-    margin-top: -4px;
-    display: flex;
-}
-
-.PhyImg img {
-    width: 100%;
-}
-
-.PhyText {
-    width: 50%;
-    height: auto;
-    margin: auto;
-    /* background-color: rgb(102, 255, 0) !important; */
-}
-
-.PhyTextHeading {
-    /* margin-top: 2rem; */
-    text-align: left !important;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
-    padding: 1rem 0rem 0rem 3rem
-}
-
-.PhyContent {
-
-    text-align: left !important;
-    /* border: 1px solid red; */
-    padding: 1rem 0rem 0rem 3rem;
-}
-
-.PhyContent p {
-    font-family: "Gotham", "Arial", serif;
-    padding-bottom: 10px;
-}
-
-.textextra {
-    height: 500px;
-    overflow: auto;
-    /* border: 2px solid red; */
-}
-
-.PhyTextHeading2 {
-    margin-top: 7rem;
-    text-align: end !important;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
-    padding: 1rem 3rem 0rem 0rem;
-}
-
-.PhyContent2 {
-    text-align: -webkit-right;
-    padding-right: 3rem;
-}
-
-.textextra2 {
-    height: 300px;
-    overflow: auto;
-}
-
-.p1 {
-    color: rgba(13, 73, 101, 1);
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-}
-
-.p2 {
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-}
-
-.p3 {
-    color: rgba(0, 0, 0, 1);
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.p4 {
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-}
-
-.p5 {
-    color: rgb(244, 247, 244);
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-    /* font-weight: bold; */
-}
-
-.PhyBtn {
-    margin-top: 10px;
-    font-size: 14px;
-    padding: 6px 20px;
+.ancorLink button {
     background-color: black;
-    color: white;
     border: none;
-}
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 34px;
 
-.Inner2ndImg {
-    margin-top: 80px !important;
-    display: flex;
-    width: 69%;
-    /* border: 2px solid red; */
-    height: fit-content;
-    margin: auto;
-    position: relative;
-}
-
-.contentSecond {
-    width: 99%;
-    display: flex;
-}
-
-.Phyimg2 {
-    height: 600px;
-    width: 55%;
 
 }
 
-.Phyimg3 {
-    height: 600px;
-    width: 454px;
+.ancorLink a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gotham', Times, serif;
+
+
 }
 
-.contentImg2 {
+.imgcotent {
+    top: 17rem;
+    left: 6.7rem !important;
+    width: 35%;
+
+}
+
+.heroImgContent {
+
     text-align: left;
-    width: 52%;
-    padding-left: 25px;
-    font-size: 20px;
-    /* border: 2px solid red; */
 }
 
-.contentImg3 {
-    text-align: -webkit-right;
-    width: 52%;
-    padding-right: 25px;
-    font-size: 20px;
+.brunoDecription {
+    margin-top: 6rem;
 }
 
-.textContent {
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-    line-height: 40px;
-    padding-top: 7rem;
+.heroImgContent h3 {
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
 
-.textextra2 {
-    height: 170px;
-    overflow: auto;
-    /* border: 2px solid red; */
+.heroImgContent h5 {
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-size: 50px;
 }
 
-.description {
-    font-size: 14px;
-    line-height: 24px;
-    width: 80%;
+.heroImgContent p {
+    font-size: 24px;
 }
 
-/* ....Responsive Tab  To Desktop.... */
-@media only screen and (max-width:1024px) and (min-width:768px) {
-.PhyImgContainer{
-        /* display: flex; */
-        width: 100%;
-        padding: 1rem 3rem;
-}
-.Phymain{
-    padding: 1rem 3rem;
-}
-    .PhyBtn {
-        padding: 5px 10px;
-    }
-
-    .PhyImgcontents {
-        top: 25%;
-        left: 15px;
-
-    }
-
-    .PhyImgcontents2 {
-        top: 15%;
-    }
-
-    .PhyImgcontents3 {
-        top: 23%;
-    }
-
-    .PhyImgcontents4 {
-        left: 15%;
-    }
-
-    .content1 {
-        font-size: 30px !important;
-    }
-
-    .content2 {
-        font-size: 30px !important;
-    }
-
-    .content3 {
-        font-size: 30px !important;
-
-    }
-
-    .content4 {
-        font-size: 30px !important;
-
-    }
-
-    .content5 {
-        font-size: 30px !important;
-
-    }
-
-
-    .p1 {
-        font-size: 12px !important;
-    }
-
-    .p2 {
-        font-size: 12px !important;
-    }
-
-    .p3 {
-        width: 100%;
-        font-size: 12px !important;
-    }
-
-    .p4 {
-
-        font-size: 12px !important;
-    }
-
-    .p5 {
-
-        font-size: 12px !important;
-    }
-
-
-
-    .PhyTextHeading {
-        margin-top: 0rem;
-        font-size: 27px;
-    }
-
-    .textextra {
-        height: 150px;
-        overflow: auto;
-        /* font-size: 14px; */
-    }
-
-    .PhyContent {
-        font-size: 14px;
-    }
-
-    .PhyTextHeading2 {
-        margin-top: 0rem;
-        font-size: 27px;
-    }
-
-    .textextra2 {
-        height: 150px;
-        overflow: auto;
-        /* font-size: 14px; */
-    }
-
-    .PhyContent2 {
-        font-size: 14px;
-    }
-
-
-
-    /* .InnerPhoto {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 0px;
-        margin: auto;
-    } */
-/* 
-    .InnerPhoto img {
-        margin: 7px;
-    } */
-
-    .contentImg3 {
-        width: 46%;
-    }
-
-    .contentSecond {
-        /* margin: 7px; */
-    }
-
-    .PhytoImagTag {
-        width: 80% !important;
-    }
-
-    .Phyimg {
-        width: 285px !important;
-        height: 150px !important;
-    }
-
-    .contentImg {
-        margin-top: 20px;
-        margin-left: 24px;
-    }
-
-    .Inner2ndImg {
-        width: 80%;
-    }
-
-    .Phyimg2 {
-        width: 46%;
-    }
-
-    .Phyimg3 {
-        width: 315px;
-    }
+.brunoDecription {
+    margin-top: 6rem;
+    text-align: center;
 }
 
-@media only screen and (max-width:1350px) and (min-width:1025px) {
-    /* .InnerPhoto {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 20px;
-        margin: auto;
-
-    } */
-
-    .PhytoImagTag {
-        width: 80% !important;
-    }
-
-    .Phyimg {
-        width: 390px !important;
-        height: 270px !important;
-    }
+.brunoDecription h1 {
+    font-size: 50px;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
 
-@media(min-width:1600px) {
-    .content1 {
-        font-size: 65px;
-    }
-
-    .content2 {   
-         width: 80%;
-        font-size: 60px;
-        line-height: 1;
-    }
-
-    .content3 {
-        font-size: 55px;
-    }
-
-    .content4 {
-        font-size: 60px;
-    }
-
-    .content5 {
-        font-weight: 900;
-        font-size: 60px;
-    }
-
-    .PhyBtn {
-        font-size: 20px;
-        padding: 10px 20px;
-    }
-
-    .p1 {
-        font-size: 28px;
-        text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .p2 {
-        font-size: 28px;
-        text-shadow: 3px 2px 4px rgba(0, 0, 0, 1.5);
-    }
-
-    .p2 {
-        font-size: 25px;
-        text-shadow: 0px 5px 4px rgba(0, 0, 0, 1.5);
-    }
-
-    .p3 {
-        font-size: 20px;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
-    }
-
-    .p4 {
-        font-size: 28px;
-        font-weight: 100;
-        text-shadow: 3px 2px 4px rgba(0, 0, 0, 1.5);
-    }
-
-    .p5 {
-        font-size: 25px;
-        text-shadow: 3px 2px 4px rgba(0, 0, 0, 1.5);
-    }
-
-    .PhyImgcontents {
-        top: 30%;
-        left: 6%;
-        /* -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); */
-    }
-
-    .PhyImgcontents2 {
-        top: 25%;
-        left: 9%;
-        /* -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); */
-    }
-  
-    .PhyImgcontents3 {
-      left: 6%;
-    }
-    .PhyImgcontents4 {
-        left: 9%;
-      }
-    .PhyImgcontents5{
-        left: 6%;
-    }
-
-    .PhyImgsection {
-        /* padding: 0px 30px 30px 0px; */
-    }
-    .PhyContent p {
-        font-size: 18px;
-        width: 75%;
-        font-family: "Gotham", "Arial", serif;
-       
-    }
-    .PhyTextHeading{
-        font-size: 60px;
-    }
-    .PhyTextHeading2{
-        font-size: 60px;
-    }
-    .description{
-        font-size: 18px;
-    }
+.brunoDecription p {
+    width: 50%;
+    margin: auto;
 }
-
-/* .PhytoTopope {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 20px;
-} */
-
-
-/* .PhytoMain {
-    display: flex;
-    gap: 15px;
-    text-align: start;
-    align-items: start;
-    margin-bottom: 50px;
-    flex-direction: row-reverse;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
-} */
-
-/* .videoContent {
-    position: absolute;
-    top: 0;
-    width: 100%;
-} */
 
 .PhytoVideoTag {
+    margin-top: 3rem;
     width: 100%;
 
 }
 
-/* .destopNone {
-    display: none;
-} */
+/* TabDiv CSS Start */
+.customContainer {
+    margin-top: 3rem;
+    /* border: 1px solid rgb(255, 0, 0) !important; */
+    /* height: 200px; */
+    display: flex;
+    padding: 0rem !important;
+}
 
+.humanTab {
+    margin-top: 7rem;
+    width: 30%;
+    /* border: 1px solid rgb(255, 0, 0) !important; */
+}
 
+.tabdiv {
+    position: relative;
+    margin-bottom: 2rem;
+}
 
-/* .PhytoMain1 {
-    width: 90% !important;
-    margin: 0 auto 80px;
-    gap: 30px;
-    display: grid !important;
-} */
+.yellodiv {
+    border: 2px solid rgba(249, 195, 0, 1);
+    border-radius: 34px;
+}
 
-/* .PhytoImages1 img {
-    width: auto;
+.greendiv {
+    border: 2px solid rgba(116, 203, 89, 1);
+    border-radius: 34px;
+}
+
+.yellodivContent {
+    display: flex;
+    margin: 2rem 1rem;
+}
+
+.medImg {
     margin: auto;
-    border: 1px solid #AF0000;
-    border-radius: 35px;
-} */
-
-
-
-/* .MobileShow {
-    display: none;
+    padding-left: 1rem;
 }
 
-.DeskShow {
+.medContent h6 {
+    font-size: 18px;
+}
+
+.medContent p {
+    margin-right: 1rem;
+    font-size: 18px;
+}
+
+.medcoloryellow {
+    background-color: rgba(249, 195, 0, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.medcolorGreen {
+    background-color: rgba(116, 203, 89, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.orangediv {
+    border: 2px solid rgba(240, 128, 86, 1);
+    border-radius: 34px;
+}
+
+.medcolorOrange {
+    background-color: rgba(240, 128, 86, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.skyBluediv {
+    border: 2px solid rgba(69, 213, 253, 1);
+    border-radius: 34px;
+}
+
+.medcolorSky {
+    background-color: rgba(69, 213, 253, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.butNowBTN {
     display: block;
+    width: 10%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+    background-color: black;
+    color: white;
 }
 
-@media(max-width:767px) {
-    .MobileShow {
-        display: block;
+.spanBtn {
+    line-height: 17px;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.humanImg {
+    width: 40%;
+    padding: 3rem;
+    /* border: 1px solid rgb(255, 0, 0) !important; */
+}
+
+.humanContent {
+    margin-top: 7rem;
+    width: 30%;
+}
+.HumanDetails{
+    display: flex;
+    border: 2px solid rgba(215, 210, 240, 1);
+    border-radius: 34px;
+    background-color: rgba(215, 210, 240, 0.267);
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+.leftLine{
+   border-right: 4px solid rgb(255, 196, 0);
+   height: 140px;
+}
+.humanText{
+
+    padding: 0rem 2rem;
+}
+.humanText h6{
+    font-weight: bold;
+    font-family: 'Gotham', Times, serif;
+    font-size: 18px;
+}
+.humanText p{
+    font-family: 'Gotham', Times, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+
+/* TabDiv CSS End */
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 40px;
+    height: 5px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000000;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+/* ....Slider 2nd CSS Start */
+.SliderDiv2 {
+    margin-top: 3rem;
+    /* border: 1px solid rgb(179, 255, 0) !important; */
+    padding: 0rem !important;
+
+}
+
+.slideData {
+    width: 100% !important;
+    display: flex !important;
+}
+
+.contentbackdiv {
+    width: 65%;
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.slideContent {
+    padding: 2rem;
+}
+
+.slideContent h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
+
+.slideContent p {
+    font-size: 18px;
+}
+
+.pcontent {
+    max-height: 200px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: black rgb(209, 209, 209);
+}
+
+.slide2Img {
+    width: 35%;
+}
+
+.slide2Img img {
+    border-radius: 20px;
+}
+
+.bothButton {
+    float: right;
+    gap: 2rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.LeftBtn {
+    background-color: lightgray;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftBtn :hover {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.LeftBtn img {
+    width: 50px;
+}
+
+.RightBtn {
+    background-color: lightgray;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RightBtn :hover {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.RightBtn img {
+    width: 50px;
+}
+
+
+/* ....Slider 2nd CSS End */
+/* ....Slider 3nd CSS Start */
+.nextCarousel {
+    margin-top: 6rem;
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.SliderDiv3 {
+    /* border: 1px solid rgb(0, 255, 149);
+    padding: 0rem !important; */
+}
+
+.slider3data {
+    display: flex !important;
+    padding: 6.5rem;
+}
+
+.sliderContent {
+    /* border: 1px solid black !important; */
+    width: 35%;
+    margin-right: 2rem;
+}
+
+.sliderContent h6 {
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.Pcontent {
+    font-family: 'Gotham', Times, serif;
+    font-size: 13px;
+}
+
+.blackHr {
+    color: rgba(0, 0, 0, 1);
+}
+
+.sliderContentIMG {
+    width: 30%;
+}
+
+.sliderContentIMG img {
+    width: 95%;
+}
+
+.sliderContent3 {
+    /* border: 1px solid black !important; */
+    width: 35%;
+
+}
+
+.sliderContent3 h3 {
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.sliderContent3 h5 {
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+.roundeddiv {
+    display: flex;
+    justify-content: left;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.round {
+    border-radius: 34px;
+    border: 1px solid rgb(2, 2, 2);
+    /* margin-right: 2rem; */
+}
+
+.round p {
+    padding: 10px 8px;
+    margin-bottom: 0rem;
+    font-size: 15px;
+}
+
+.round2 {
+    margin-top: 1rem;
+    border-radius: 34px;
+    width: 50%;
+    border: 1px solid rgb(2, 2, 2);
+}
+
+.round2 p {
+    padding: 10px 8px;
+    align-items: center;
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blackHr2 {
+    color: rgba(0, 0, 0, 1);
+    margin-top: 3rem;
+}
+
+.roundBtn {
+    margin-top: 3rem;
+    border-radius: 34px;
+    border: 1px solid rgb(2, 2, 2);
+}
+
+.roundBtn p {
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 0rem;
+    display: flex;
+    border-radius: 34px;
+    justify-content: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+/* ....Slider 3nd CSS End */
+
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+    width: 40px !important;
+    height: 5px !important;
+    /* Use !important to ensure the style overrides default Bootstrap styles */
+}
+
+@media (max-width:1024px) {
+    .heroImgContent h3 {
+        font-size: 40px !important;
     }
 
-    .DeskShow {
-        display: none;
+    .imgcotent {
+        top: 13rem;
+        left: 6.7rem !important;
+        width: 30%;
     }
-} */
+
+    .heroImgContent h5 {
+        font-size: 26px;
+    }
+
+    .brunoDecription h1 {
+        font-size: 40px;
+    }
+
+    .slideContent {
+        padding: 1rem;
+    }
+
+    .sliderContent {
+        max-height: 430px;
+        overflow: auto;
+    }
+
+    .sliderContent3 h3 {
+        font-size: 40px;
+    }
+
+    .sliderContent3 h5 {
+        font-size: 30px;
+    }
+
+    .roundeddiv {
+        margin-top: 0rem;
+    }
+
+    .round {
+        font-size: 11px;
+    }
+
+    .round2 {
+        font-size: 11px;
+    }
+
+    .blackHr2 {
+        margin-top: 1rem;
+    }
+
+    .roundBtn {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:1600px) {
+ 
+    .imgcotent {
+        top: 20rem;
+        left: 7.7rem !important;
+        width: 40%;
+    
+    }
+    .heroImgContent h3{
+        font-size: 130px;
+    }
+    .heroImgContent h5{
+        font-size: 70px;
+    }
+}
