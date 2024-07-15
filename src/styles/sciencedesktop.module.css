@@ -15,19 +15,21 @@
     color: black;
 
 }
-.ancorLink button{
+
+.ancorLink button {
     background-color: black;
     border: none;
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 34px;
-    
-   
+
+
 }
-.ancorLink a{
-text-decoration: none;
-color: #ffffff;
-font-family: 'Gotham', Times, serif;
+
+.ancorLink a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gotham', Times, serif;
 
 
 }
@@ -43,23 +45,28 @@ font-family: 'Gotham', Times, serif;
 
     text-align: left;
 }
-.brunoDecription{
+
+.brunoDecription {
     margin-top: 6rem;
 }
+
 .heroImgContent h3 {
     font-size: 80px;
     color: rgb(0, 0, 0);
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
-.heroImgContent h5{
+
+.heroImgContent h5 {
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-size: 50px;
 }
-.heroImgContent p{
+
+.heroImgContent p {
     font-size: 24px;
 }
+
 .brunoDecription {
-    margin-top: 3rem;
+    margin-top: 6rem;
     text-align: center;
 }
 
@@ -79,12 +86,151 @@ font-family: 'Gotham', Times, serif;
 
 }
 
+/* TabDiv CSS Start */
 .customContainer {
     margin-top: 3rem;
-    border: 1px solid rgb(255, 0, 0) !important;
-    height: 200px;
+    /* border: 1px solid rgb(255, 0, 0) !important; */
+    /* height: 200px; */
+    display: flex;
+    padding: 0rem !important;
 }
 
+.humanTab {
+    margin-top: 7rem;
+    width: 30%;
+    /* border: 1px solid rgb(255, 0, 0) !important; */
+}
+
+.tabdiv {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.yellodiv {
+    border: 2px solid rgba(249, 195, 0, 1);
+    border-radius: 34px;
+}
+
+.greendiv {
+    border: 2px solid rgba(116, 203, 89, 1);
+    border-radius: 34px;
+}
+
+.yellodivContent {
+    display: flex;
+    margin: 2rem 1rem;
+}
+
+.medImg {
+    margin: auto;
+    padding-left: 1rem;
+}
+
+.medContent h6 {
+    font-size: 18px;
+}
+
+.medContent p {
+    margin-right: 1rem;
+    font-size: 18px;
+}
+
+.medcoloryellow {
+    background-color: rgba(249, 195, 0, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.medcolorGreen {
+    background-color: rgba(116, 203, 89, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.orangediv {
+    border: 2px solid rgba(240, 128, 86, 1);
+    border-radius: 34px;
+}
+
+.medcolorOrange {
+    background-color: rgba(240, 128, 86, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.skyBluediv {
+    border: 2px solid rgba(69, 213, 253, 1);
+    border-radius: 34px;
+}
+
+.medcolorSky {
+    background-color: rgba(69, 213, 253, 1);
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.butNowBTN {
+    display: block;
+    width: 10%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+    background-color: black;
+    color: white;
+}
+
+.spanBtn {
+    line-height: 17px;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.humanImg {
+    width: 40%;
+    padding: 3rem;
+    /* border: 1px solid rgb(255, 0, 0) !important; */
+}
+
+.humanContent {
+    margin-top: 7rem;
+    width: 30%;
+}
+.HumanDetails{
+    display: flex;
+    border: 2px solid rgba(215, 210, 240, 1);
+    border-radius: 34px;
+    background-color: rgba(215, 210, 240, 0.267);
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+.leftLine{
+   border-right: 4px solid rgb(255, 196, 0);
+   height: 140px;
+}
+.humanText{
+
+    padding: 0rem 2rem;
+}
+.humanText h6{
+    font-weight: bold;
+    font-family: 'Gotham', Times, serif;
+    font-size: 18px;
+}
+.humanText p{
+    font-family: 'Gotham', Times, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+
+/* TabDiv CSS End */
 .carousel-indicators {
     position: absolute;
     right: 0;
@@ -169,10 +315,60 @@ font-family: 'Gotham', Times, serif;
     border-radius: 20px;
 }
 
+.bothButton {
+    float: right;
+    gap: 2rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.LeftBtn {
+    background-color: lightgray;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftBtn :hover {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.LeftBtn img {
+    width: 50px;
+}
+
+.RightBtn {
+    background-color: lightgray;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RightBtn :hover {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.RightBtn img {
+    width: 50px;
+}
+
+
 /* ....Slider 2nd CSS End */
 /* ....Slider 3nd CSS Start */
 .nextCarousel {
-    margin-top: 3rem;
+    margin-top: 6rem;
     background-color: rgba(244, 244, 244, 1);
 }
 
@@ -203,6 +399,7 @@ font-family: 'Gotham', Times, serif;
     font-family: 'Gotham', Times, serif;
     font-size: 13px;
 }
+
 .blackHr {
     color: rgba(0, 0, 0, 1);
 }
@@ -210,7 +407,8 @@ font-family: 'Gotham', Times, serif;
 .sliderContentIMG {
     width: 30%;
 }
-.sliderContentIMG img{
+
+.sliderContentIMG img {
     width: 95%;
 }
 
@@ -219,56 +417,67 @@ font-family: 'Gotham', Times, serif;
     width: 35%;
 
 }
-.sliderContent3 h3{
+
+.sliderContent3 h3 {
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-size: 44px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
-.sliderContent3 h5{
+
+.sliderContent3 h5 {
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-size: 40px;
     margin-top: 1rem;
 }
-.roundeddiv{
+
+.roundeddiv {
     display: flex;
     justify-content: left;
     margin-top: 3rem;
+    gap: 1rem;
 }
-.round{
+
+.round {
     border-radius: 34px;
     border: 1px solid rgb(2, 2, 2);
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
-.round p{
+
+.round p {
     padding: 10px 8px;
     margin-bottom: 0rem;
     font-size: 15px;
 }
-.round2{
+
+.round2 {
     margin-top: 1rem;
     border-radius: 34px;
     width: 50%;
     border: 1px solid rgb(2, 2, 2);
 }
-.round2 p{
+
+.round2 p {
     padding: 10px 8px;
     align-items: center;
     margin-bottom: 0rem;
     display: flex;
     justify-content: center;
-    
+
 }
-.blackHr2{
+
+.blackHr2 {
     color: rgba(0, 0, 0, 1);
     margin-top: 3rem;
 }
-.roundBtn{
+
+.roundBtn {
     margin-top: 3rem;
     border-radius: 34px;
     border: 1px solid rgb(2, 2, 2);
 }
-.roundBtn p{
+
+.roundBtn p {
     padding: 10px;
     align-items: center;
     margin-bottom: 0rem;
@@ -278,6 +487,7 @@ font-family: 'Gotham', Times, serif;
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
+
 /* ....Slider 3nd CSS End */
 
 
@@ -289,50 +499,75 @@ font-family: 'Gotham', Times, serif;
     /* Use !important to ensure the style overrides default Bootstrap styles */
 }
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
     .heroImgContent h3 {
         font-size: 40px !important;
     }
-    .imgcotent{
-            top: 13rem;
-            left: 6.7rem !important;
-            width: 30%;
+
+    .imgcotent {
+        top: 13rem;
+        left: 6.7rem !important;
+        width: 30%;
     }
-    .heroImgContent h5{
+
+    .heroImgContent h5 {
         font-size: 26px;
     }
-    .brunoDecription h1{
+
+    .brunoDecription h1 {
         font-size: 40px;
     }
-    .slideContent{
+
+    .slideContent {
         padding: 1rem;
     }
-    .sliderContent{
+
+    .sliderContent {
         max-height: 430px;
         overflow: auto;
     }
-    .sliderContent3 h3{
+
+    .sliderContent3 h3 {
         font-size: 40px;
     }
-    .sliderContent3 h5{
+
+    .sliderContent3 h5 {
         font-size: 30px;
     }
-    .roundeddiv{
+
+    .roundeddiv {
         margin-top: 0rem;
     }
-    .round{
+
+    .round {
         font-size: 11px;
     }
-    .round2{
+
+    .round2 {
         font-size: 11px;
     }
-    .blackHr2{
+
+    .blackHr2 {
         margin-top: 1rem;
     }
-    .roundBtn{
+
+    .roundBtn {
         margin-top: 1rem;
     }
 }
-@media (max-width:1400px){
 
+@media (min-width:1600px) {
+ 
+    .imgcotent {
+        top: 20rem;
+        left: 7.7rem !important;
+        width: 40%;
+    
+    }
+    .heroImgContent h3{
+        font-size: 130px;
+    }
+    .heroImgContent h5{
+        font-size: 70px;
+    }
 }
