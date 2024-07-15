@@ -238,7 +238,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.yellodiv} onClick={() => handleClick(0)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg.png' alt='' />
+                  <img src='/images/medImg.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
