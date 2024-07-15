@@ -6,14 +6,12 @@
 
 .carouselMain img {
     width: 100%;
-    /* border: 1px solid red; */
     display: flex;
     margin: auto 6.7rem;
 }
 
 .heroImgContent {
     color: black;
-
 }
 
 .ancorLink button {
@@ -22,8 +20,8 @@
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 34px;
-
-
+    font-size: 16px;
+    padding: 8px 16px;
 }
 
 .ancorLink a {
@@ -35,14 +33,12 @@
 }
 
 .imgcotent {
-    top: 17rem;
+    top: 21rem;
     left: 6.7rem !important;
     width: 35%;
-
 }
 
 .heroImgContent {
-
     text-align: left;
 }
 
@@ -104,17 +100,51 @@
 .tabdiv {
     position: relative;
     margin-bottom: 2rem;
-}
-
-.yellodiv {
+    background-color: rgb(255, 255, 255);
+    border-radius: 34px;
     border: 2px solid rgba(249, 195, 0, 1);
+    cursor: pointer;
+}
+.tabdiv2 {
+    position: relative;
+    margin-bottom: 2rem;
+    background-color: rgba(169, 163, 195, 0.1);
     border-radius: 34px;
+    border:  2px solid rgba(215, 210, 240, 1);
+    cursor: pointer;
+}
+.tabdiv2:hover{
+    border:  2px solid rgba(116, 203, 89, 1);
+    background-color: rgb(255, 255, 255);
 }
 
-.greendiv {
-    border: 2px solid rgba(116, 203, 89, 1);
+.tabdiv3 {
+    position: relative;
+    margin-bottom: 2rem;
+    background-color: rgba(169, 163, 195, 0.1);
     border-radius: 34px;
+    border:  2px solid rgba(215, 210, 240, 1);
+    cursor: pointer;
 }
+.tabdiv3:hover{
+    border:  2px solid rgba(240, 128, 86, 1);
+    background-color: rgb(255, 255, 255);
+}
+.tabdiv4 {
+    position: relative;
+    margin-bottom: 2rem;
+    background-color: rgba(169, 163, 195, 0.1);
+    border-radius: 34px;
+    border:  2px solid rgba(215, 210, 240, 1);
+    cursor: pointer;
+
+}
+.tabdiv4:hover{
+    border:  2px solid rgba(69, 213, 253, 1);
+    background-color: rgb(255, 255, 255);
+}
+
+
 
 .yellodivContent {
     display: flex;
@@ -148,24 +178,12 @@
     border-radius: 3px;
     width: 30%;
 }
-
-.orangediv {
-    border: 2px solid rgba(240, 128, 86, 1);
-    border-radius: 34px;
-}
-
 .medcolorOrange {
     background-color: rgba(240, 128, 86, 1);
     height: 20px;
     border-radius: 3px;
     width: 30%;
 }
-
-.skyBluediv {
-    border: 2px solid rgba(69, 213, 253, 1);
-    border-radius: 34px;
-}
-
 .medcolorSky {
     background-color: rgba(69, 213, 253, 1);
     height: 20px;
@@ -179,16 +197,18 @@
     border: 5px solid #ffffff;
     border-radius: 10px;
     position: absolute;
-    top: 1.5rem;
-    left: -1rem;
+    top: 0.4rem;
+    left: -0.5rem;
     background-color: black;
     color: white;
+    padding: 8px 6px;
 }
 
 .spanBtn {
-    line-height: 17px;
+    line-height: 16px;
     word-wrap: break-word;
-    font-size: 18px;
+    font-size: 23px;
+    /* padding: 113px 0px; */
 }
 
 .humanImg {
@@ -299,13 +319,21 @@
 .slideContent p {
     font-size: 18px;
 }
-
+.pcontent::-webkit-scrollbar {
+    width: 6px; 
+  }
+  .pcontent::-webkit-scrollbar-track {
+    background: #afafaf; 
+  }
+  .pcontent::-webkit-scrollbar-thumb {
+    background: #000000; 
+    border-radius: 20px;
+  }
 .pcontent {
     max-height: 200px;
     overflow: auto;
-    scrollbar-width: thin;
-    scrollbar-color: black rgb(209, 209, 209);
 }
+
 
 .slide2Img {
     width: 35%;
@@ -321,6 +349,13 @@
     display: flex;
     margin-top: 1rem;
 }
+.bothButton2 {
+    float: right;
+    gap: 2rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 11.5rem;
+}
 
 .LeftBtn {
     background-color: lightgray;
@@ -330,6 +365,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease;
 }
 
 .LeftBtn :hover {
@@ -337,11 +373,11 @@
     height: 70px;
     width: 70px;
     border-radius: 100%;
+   
 }
-
-.LeftBtn img {
-    width: 50px;
-}
+.svgIcon:hover {
+    fill: red;
+  }
 
 .RightBtn {
     background-color: lightgray;
@@ -482,6 +518,7 @@
     align-items: center;
     margin-bottom: 0rem;
     display: flex;
+    font-size: 20px;
     border-radius: 34px;
     justify-content: center;
     background-color: #000000;
@@ -499,7 +536,7 @@
     /* Use !important to ensure the style overrides default Bootstrap styles */
 }
 
-@media (max-width:1024px) {
+/* @media (max-width:1024px) {
     .heroImgContent h3 {
         font-size: 40px !important;
     }
@@ -553,5 +590,61 @@
 
     .roundBtn {
         margin-top: 1rem;
+    }
+} */
+@media(max-width:990px){
+    .imgcotent {
+        top: 9.5rem;
+        left: 6.7rem !important;
+        width: 50%;
+    }
+   
+    
+    .heroImgContent h3 {
+        font-size: 40px;
+    }
+    
+    .heroImgContent h5 {
+        font-size: 30px;
+    }
+
+    .heroImgContent p {
+        font-size: 16px;
+    }
+    .ancorLink button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .brunoDecription h1{
+        font-size: 40px;
+    }
+    .brunoDecription p{
+        width: 100%;
+    }
+    .medContent h6{
+        font-size: 12px;
+    }
+    .medContent p{
+        width: 100%;
+        letter-spacing: 0px;
+        font-size: 12px;
+    }
+    .medImg{
+        padding-left: 0rem;
+    }
+    .yellodivContent{
+        margin: 10px 0px;
+    }
+    .medcoloryellow{
+        height: 10px;
+    }
+    .medcolorGreen{
+        height: 10px;
+    }
+    .medcolorOrange{
+        height: 10px;
+    }
+    .medcolorSky{
+        height: 10px;
     }
 }
