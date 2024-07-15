@@ -256,7 +256,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.greendiv} onClick={() => handleClick(1)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg2.png' alt='' />
+                  <img src='/images/medImg2.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -274,7 +274,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.orangediv} onClick={() => handleClick(2)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg3.png' alt='' />
+                  <img src='/images/medImg3.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
@@ -292,7 +292,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.skyBluediv} onClick={() => handleClick(3)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
-                  <img src='/Images/medImg4.png' alt='' />
+                  <img src='/images/medImg4.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
