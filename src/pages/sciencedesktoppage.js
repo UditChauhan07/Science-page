@@ -98,7 +98,7 @@ const Sciencedesktoppage = () => {
 
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={3000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={3000000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
@@ -249,7 +249,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
+              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={styles.tabdiv2}>
@@ -267,7 +267,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
+              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={styles.tabdiv3}>
@@ -285,7 +285,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
+              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={styles.tabdiv4}>
@@ -303,7 +303,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <spn className={styles.spanBtn}>Buy&nbsp; Now</spn>
+              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
         </div>
@@ -422,6 +422,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.slider3data}>
               <div className={styles.sliderContent}>
                 <h6>For healthy skin, hair & bones</h6>
+                <div className={styles.forscrollbar}>
                 <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
                 <hr className={styles.blackHr} />
                 <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
@@ -431,6 +432,7 @@ const Sciencedesktoppage = () => {
                 <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
                 <hr className={styles.blackHr} />
                 <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+              </div>
               </div>
               <div className={styles.sliderContentIMG}>
                 <img src='/images/BrunoPharmaSlider.png' alt='' />
@@ -457,7 +459,7 @@ const Sciencedesktoppage = () => {
             <div className={styles.slider3data}>
               <div className={styles.sliderContent}>
                 <h6>For healthy skin, hair & bones</h6>
-                <div className={styles.allPtext}>
+                <div className={styles.forscrollbar}>
                   <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
                   <hr className={styles.blackHr} />
                   <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>

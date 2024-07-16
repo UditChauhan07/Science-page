@@ -43,7 +43,7 @@
 }
 
 .brunoDecription {
-    margin-top: 6rem;
+    margin-top: 6rem !important;
 }
 
 .heroImgContent h3 {
@@ -105,16 +105,18 @@
     border: 2px solid rgba(249, 195, 0, 1);
     cursor: pointer;
 }
+
 .tabdiv2 {
     position: relative;
     margin-bottom: 2rem;
     background-color: rgba(169, 163, 195, 0.1);
     border-radius: 34px;
-    border:  2px solid rgba(215, 210, 240, 1);
+    border: 2px solid rgba(215, 210, 240, 1);
     cursor: pointer;
 }
-.tabdiv2:hover{
-    border:  2px solid rgba(116, 203, 89, 1);
+
+.tabdiv2:hover {
+    border: 2px solid rgba(116, 203, 89, 1);
     background-color: rgb(255, 255, 255);
 }
 
@@ -123,24 +125,27 @@
     margin-bottom: 2rem;
     background-color: rgba(169, 163, 195, 0.1);
     border-radius: 34px;
-    border:  2px solid rgba(215, 210, 240, 1);
+    border: 2px solid rgba(215, 210, 240, 1);
     cursor: pointer;
 }
-.tabdiv3:hover{
-    border:  2px solid rgba(240, 128, 86, 1);
+
+.tabdiv3:hover {
+    border: 2px solid rgba(240, 128, 86, 1);
     background-color: rgb(255, 255, 255);
 }
+
 .tabdiv4 {
     position: relative;
     margin-bottom: 2rem;
     background-color: rgba(169, 163, 195, 0.1);
     border-radius: 34px;
-    border:  2px solid rgba(215, 210, 240, 1);
+    border: 2px solid rgba(215, 210, 240, 1);
     cursor: pointer;
 
 }
-.tabdiv4:hover{
-    border:  2px solid rgba(69, 213, 253, 1);
+
+.tabdiv4:hover {
+    border: 2px solid rgba(69, 213, 253, 1);
     background-color: rgb(255, 255, 255);
 }
 
@@ -178,12 +183,14 @@
     border-radius: 3px;
     width: 30%;
 }
+
 .medcolorOrange {
     background-color: rgba(240, 128, 86, 1);
     height: 20px;
     border-radius: 3px;
     width: 30%;
 }
+
 .medcolorSky {
     background-color: rgba(69, 213, 253, 1);
     height: 20px;
@@ -221,7 +228,8 @@
     margin-top: 7rem;
     width: 30%;
 }
-.HumanDetails{
+
+.HumanDetails {
     display: flex;
     border: 2px solid rgba(215, 210, 240, 1);
     border-radius: 34px;
@@ -229,20 +237,24 @@
     padding: 2rem 1rem;
     margin-bottom: 2rem;
 }
-.leftLine{
-   border-right: 4px solid rgb(255, 196, 0);
-   height: 140px;
+
+.leftLine {
+    border-right: 4px solid rgb(255, 196, 0);
+    height: 140px;
 }
-.humanText{
+
+.humanText {
 
     padding: 0rem 2rem;
 }
-.humanText h6{
+
+.humanText h6 {
     font-weight: bold;
     font-family: 'Gotham', Times, serif;
     font-size: 18px;
 }
-.humanText p{
+
+.humanText p {
     font-family: 'Gotham', Times, serif;
     font-size: 14px;
     line-height: 1.5;
@@ -318,16 +330,20 @@
 .slideContent p {
     font-size: 18px;
 }
+
 .pcontent::-webkit-scrollbar {
-    width: 6px; 
-  }
-  .pcontent::-webkit-scrollbar-track {
-    background: #afafaf; 
-  }
-  .pcontent::-webkit-scrollbar-thumb {
-    background: #000000; 
+    width: 6px;
+}
+
+.pcontent::-webkit-scrollbar-track {
+    background: #afafaf;
+}
+
+.pcontent::-webkit-scrollbar-thumb {
+    background: #000000;
     border-radius: 20px;
-  }
+}
+
 .pcontent {
     max-height: 200px;
     overflow: auto;
@@ -348,6 +364,7 @@
     display: flex;
     margin-top: 2rem;
 }
+
 .bothButton2 {
     float: right;
     gap: 2rem;
@@ -372,11 +389,12 @@
     height: 70px;
     width: 70px;
     border-radius: 100%;
-   
+
 }
+
 .svgIcon:hover {
     fill: red;
-  }
+}
 
 .RightBtn {
     background-color: lightgray;
@@ -536,52 +554,373 @@
     /* Use !important to ensure the style overrides default Bootstrap styles */
 }
 
-/* @media (max-width:1024px) {
-    .heroImgContent h3 {
-        font-size: 40px !important;
+
+@media(max-width:1400px) {
+    .imgcotent{
+        top: 17rem;
+        left: 6.5rem !important;
+        width: 55%;
+    }
+    /* human Tab Css Start */
+    .butNowBTN{
+        width: 11%;
+    }
+    .humanText{
+        padding: 0rem 0rem 0rem 1rem;
+    }
+    .humanText p{
+        font-size: 13px;
+    }
+    /* human Tab Css Start */
+/* slider Css start */
+.slider3data{
+    padding: 8rem;
+}
+    /*Slider Css End   */
+}
+
+@media(max-width:1024px) {
+    .imgcotent {
+
+        top: 12.5rem;
+        left: 6.8rem !important;
+        width: 50%;
     }
 
-    .imgcotent {
-        top: 13rem;
-        left: 6.7rem !important;
-        width: 30%;
+    .heroImgContent h3 {
+        font-size: 45px;
     }
 
     .heroImgContent h5 {
-        font-size: 26px;
+        font-size: 35px;
+    }
+
+    .heroImgContent p {
+        font-size: 18px;
+    }
+
+    .ancorLink button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .brunoDecription h1 {
+        font-size: 45px;
+    }
+
+    .brunoDecription p {
+        width: 70%;
+    }
+
+    /* tabDiv css Start */
+
+    .medContent h6 {
+        font-size: 16px;
+    }
+
+    .medContent p {
+        width: 100%;
+        letter-spacing: 0px;
+        font-size: 14px;
+    }
+
+    .medImg {
+        padding-left: 0rem;
+    }
+
+    .yellodivContent {
+        margin: 10px 0px;
+    }
+
+    .medcoloryellow {
+        height: 10px;
+    }
+
+    .medcolorGreen {
+        height: 10px;
+    }
+
+    .medcolorOrange {
+        height: 10px;
+    }
+
+    .medcolorSky {
+        height: 10px;
+    }
+
+    .butNowBTN {
+        width: 90%;
+        top: -1.5rem;
+        left: 0.7rem;
+        padding: 0px 1px;
+    }
+
+    .spanBtn {
+        font-size: 16px;
+    }
+
+    .HumanDetails {
+        padding: 1.05rem 1rem;
+        border-radius: 15px;
+    }
+
+    .leftLine {
+        height: 100px;
+    }
+
+    .humanTab {
+        margin-top: 4rem;
+    }
+
+    .humanContent {
+        margin-top: 4rem;
+    }
+
+    .humanText {
+        padding: 0rem 0rem 0rem 1rem;
+    }
+
+    .humanText h6 {
+        font-size: 16px;
+    }
+
+    .humanText p {
+        font-size: 12px;
+        overflow: auto;
+        height: 65px;
+        margin-bottom: 0rem;
+    }
+
+    /* tabDiv Css end */
+
+    /* slide Content Css start */
+    .slideContent h3 {
+        font-size: 35px;
+    }
+
+    /* slide Content Css End */
+    /* slider 2  Css Start */
+    .slider3data {
+        padding: 2rem;
+    }
+
+    .sliderContent h6 {
+        font-size: 31px;
+    }
+
+    .sliderContent3 h3 {
+        font-size: 31px;
+    }
+
+    .sliderContent3 h5 {
+        font-size: 24px;
+    }
+
+    .forscrollbar {
+        overflow: auto;
+        height: 370px;
+    }
+
+    .roundeddiv {
+        margin-top: 2rem;
+    }
+
+    .round p {
+        font-size: 12px;
+    }
+
+    .round2 {
+        width: 55%;
+    }
+
+    .round2 p {
+        font-size: 12px;
+    }
+
+    .bothButton2 {
+        margin-right: 1rem;
+    }
+
+    /* Slider 2 Css End */
+
+
+}
+
+@media(max-width:991px) {
+    .imgcotent {
+        top: 9.5rem;
+        left: 6.7rem !important;
+        width: 50%;
+    }
+
+
+    .heroImgContent h3 {
+        font-size: 40px;
+    }
+
+    .heroImgContent h5 {
+        font-size: 30px;
+    }
+
+    .heroImgContent p {
+        font-size: 16px;
+    }
+
+    .ancorLink button {
+        font-size: 16px;
+        padding: 8px 16px;
     }
 
     .brunoDecription h1 {
         font-size: 40px;
     }
 
+    .brunoDecription p {
+        width: 100%;
+    }
+
+    .tabdiv {
+        border-radius: 15px;
+    }
+
+    .tabdiv2 {
+        border-radius: 15px;
+    }
+
+    .tabdiv3 {
+        border-radius: 15px;
+    }
+
+    .tabdiv4 {
+        border-radius: 15px;
+    }
+
+    .medContent h6 {
+        font-size: 12px;
+    }
+
+    .medContent p {
+        width: 100%;
+        letter-spacing: 0px;
+        font-size: 12px;
+    }
+
+    .medImg {
+        padding-left: 0rem;
+    }
+
+    .yellodivContent {
+        margin: 10px 0px;
+    }
+
+    .medcoloryellow {
+        height: 10px;
+    }
+
+    .medcolorGreen {
+        height: 10px;
+    }
+
+    .medcolorOrange {
+        height: 10px;
+    }
+
+    .medcolorSky {
+        height: 10px;
+    }
+
+    .butNowBTN {
+        width: 90%;
+        top: -1.6rem;
+        left: 0.5rem;
+        padding: 0px 1px;
+    }
+
+    .spanBtn {
+        font-size: 16px;
+    }
+
+    .HumanDetails {
+        padding: 1.05rem 1rem;
+        border-radius: 15px;
+    }
+
+    .leftLine {
+        height: 85px;
+    }
+
+    .humanTab {
+        margin-top: 4rem;
+    }
+
+    .humanContent {
+        margin-top: 4rem;
+    }
+
+    .humanText {
+        padding: 0rem 0rem 0rem 1rem;
+    }
+
+    .humanText h6 {
+        font-size: 12px;
+    }
+
+    .humanText p {
+        font-size: 10px;
+        overflow: auto;
+        height: 50px;
+        margin-bottom: 0rem;
+    }
+
+    /* Slider CSS Start */
     .slideContent {
         padding: 1rem;
     }
 
-    .sliderContent {
-        max-height: 430px;
-        overflow: auto;
-    }
-
-    .sliderContent3 h3 {
-        font-size: 40px;
-    }
-
-    .sliderContent3 h5 {
+    .slideContent h3 {
         font-size: 30px;
     }
 
-    .roundeddiv {
-        margin-top: 0rem;
+    .slideContent p {
+        font-size: 16px;
     }
 
-    .round {
-        font-size: 11px;
+    /* Slider CSS End */
+    /* SliderContent 3 CSS START */
+
+    .forscrollbar {
+        overflow: auto;
+        height: 280px;
+    }
+
+    .slider3data {
+        padding: 1.5rem;
+    }
+
+    .sliderContent3 h3 {
+        font-size: 24px;
+
+    }
+
+    .sliderContent3 h5 {
+        font-size: 24px;
+
+    }
+
+    .roundeddiv {
+        margin-top: 1rem;
+    }
+
+    .round p {
+        font-size: 10px;
     }
 
     .round2 {
-        font-size: 11px;
+        width: 51%;
+    }
+
+    .round2 p {
+        font-size: 10px;
     }
 
     .blackHr2 {
@@ -591,60 +930,15 @@
     .roundBtn {
         margin-top: 1rem;
     }
-} */
-@media(max-width:990px){
-    .imgcotent {
-        top: 9.5rem;
-        left: 6.7rem !important;
-        width: 50%;
-    }
-   
-    
-    .heroImgContent h3 {
-        font-size: 40px;
-    }
-    
-    .heroImgContent h5 {
-        font-size: 30px;
+
+    .roundBtn p {
+        font-size: 16px;
     }
 
-    .heroImgContent p {
-        font-size: 16px;
+    .bothButton2 {
+        margin-right: 1.5rem;
     }
-    .ancorLink button {
-        font-size: 16px;
-        padding: 8px 16px;
-    }
-    .brunoDecription h1{
-        font-size: 40px;
-    }
-    .brunoDecription p{
-        width: 100%;
-    }
-    .medContent h6{
-        font-size: 12px;
-    }
-    .medContent p{
-        width: 100%;
-        letter-spacing: 0px;
-        font-size: 12px;
-    }
-    .medImg{
-        padding-left: 0rem;
-    }
-    .yellodivContent{
-        margin: 10px 0px;
-    }
-    .medcoloryellow{
-        height: 10px;
-    }
-    .medcolorGreen{
-        height: 10px;
-    }
-    .medcolorOrange{
-        height: 10px;
-    }
-    .medcolorSky{
-        height: 10px;
-    }
+
+    /* SliderContent 3 CSS ENd */
+
 }
