@@ -12,7 +12,7 @@ const Sciencedesktoppage = () => {
 
   const slides = [
     {
-      image: "/images/humanImg.png",
+      image: "/images/yellowDots.png",
       text1: "Hair + Skin",
       dec: "Revitalize from Root to Tip: Medically Backed Solutions for Hair and Skin Health. Discover the Science Behind Your Glow!",
       text2: "Bones",
@@ -20,12 +20,13 @@ const Sciencedesktoppage = () => {
       text3: "Gut",
       dec3: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
       text4: "Tendons",
-      dec4: "Strong bones for a life in motion. Build your strength, embrace your vitality."
+      dec4: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
+      className: "SliderText",
 
-      // className: "SliderText",
+
     },
     {
-      image: "/images/humanImg.png",
+      image: "/images/greenDots.png",
       text1: "Heart",
       dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text2: "Liver",
@@ -34,10 +35,10 @@ const Sciencedesktoppage = () => {
       dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text4: "LDL",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      // className: "SliderText1",
+      className: "SliderText1",
     },
     {
-      image: "/images/humanImg.png",
+      image: "/images/orangeDots.png",
       text1: "Mental Health",
       dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text2: "Cardio Health",
@@ -46,10 +47,10 @@ const Sciencedesktoppage = () => {
       dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text4: "Digestive Health",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      // className: "SliderText2",
+      className: "SliderText2",
     },
     {
-      image: "/images/humanImg.png",
+      image: "/images/skyDots.png",
       text1: "Blue Light & Macula Shield",
       dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text2: "360° Eye Health",
@@ -58,6 +59,7 @@ const Sciencedesktoppage = () => {
       dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text4: "Focus & Recovery Dry Eye",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
+      className: "SliderText3",
     },
   ];
 
@@ -93,12 +95,13 @@ const Sciencedesktoppage = () => {
 
   // human Tab function///
   const handleClick = (index) => {
+    console.log(index)
     setCurrentIndex(index);
   };
 
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={3000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={3000000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
@@ -234,8 +237,9 @@ const Sciencedesktoppage = () => {
 
       <div className={`container ${styles.customContainer}`}>
         <div className={styles.humanTab}>
-          <div className={styles.tabdiv}>
-            <div className={styles.yellodiv} onClick={() => handleClick(0)}>
+          <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33}>
+            <div className={styles.yellodiv} onClick={() => handleClick(0)}
+            >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
                   <img src='/images/medImg.png' alt='' />
@@ -252,7 +256,9 @@ const Sciencedesktoppage = () => {
               <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
-          <div className={styles.tabdiv2}>
+
+
+          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33}>
             <div className={styles.greendiv} onClick={() => handleClick(1)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -270,8 +276,12 @@ const Sciencedesktoppage = () => {
               <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
-          <div className={styles.tabdiv3}>
-            <div className={styles.orangediv} onClick={() => handleClick(2)}>
+          <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} >
+
+            <div
+
+              //  className={styles.orangediv}
+              onClick={() => handleClick(2)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
                   <img src='/images/medImg3.png' alt='' />
@@ -288,7 +298,7 @@ const Sciencedesktoppage = () => {
               <span className={styles.spanBtn}>Buy&nbsp; Now</span>
             </button>
           </div>
-          <div className={styles.tabdiv4}>
+          <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33}>
             <div className={styles.skyBluediv} onClick={() => handleClick(3)}>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -308,18 +318,22 @@ const Sciencedesktoppage = () => {
           </div>
         </div>
         <div className={styles.humanImg}>
+          <div className={styles.dotsDiv}>
+            <span></span>
+          </div>
           <img src={slides[currentIndex].image} alt="Main Slide" />
         </div>
         <div className={styles.humanContent}>
           <div className={styles.HumanDetails}>
-            <div className={styles.leftLine}></div>
+           
+            <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text1}</h6>
               <p>{slides[currentIndex].dec}</p>
             </div>
           </div>
           <div className={styles.HumanDetails}>
-            <div className={styles.leftLine}></div>
+          <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text2}</h6>
               <p>{slides[currentIndex].dec2}</p>
@@ -327,14 +341,14 @@ const Sciencedesktoppage = () => {
           </div>
 
           <div className={styles.HumanDetails}>
-            <div className={styles.leftLine}></div>
+          <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text3}</h6>
               <p>{slides[currentIndex].dec3}</p>
             </div>
           </div>
           <div className={styles.HumanDetails}>
-            <div className={styles.leftLine}></div>
+          <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text4}</h6>
               <p>{slides[currentIndex].dec4}</p>
@@ -375,7 +389,7 @@ const Sciencedesktoppage = () => {
               <img src="/images/slideImg2.png" alt='' />
             </div>
           </div>
-         
+
           <div className={styles.slideData}>
             <div className={styles.contentbackdiv}>
               <div className={styles.slideContent}>
@@ -397,21 +411,21 @@ const Sciencedesktoppage = () => {
         <div className={styles.bothButton}>
           <div className={styles.LeftBtn}>
             <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" className={styles.svgIcon}  onClick={goToPrev} >
-                  <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
-                </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" className={styles.svgIcon} onClick={goToPrev} >
+                <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
+              </svg>
 
             </div>
 
           </div>
           <div className={styles.RightBtn}>
             <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" onClick={goToNext}>
-                  <path d="M36.834 26H6.50065" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z" fill="#7F7F7F" />
-                </svg>
-             
+              <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" onClick={goToNext}>
+                <path d="M36.834 26H6.50065" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z" fill="#7F7F7F" />
+              </svg>
+
             </div>
           </div>
         </div>
@@ -423,16 +437,16 @@ const Sciencedesktoppage = () => {
               <div className={styles.sliderContent}>
                 <h6>For healthy skin, hair & bones</h6>
                 <div className={styles.forscrollbar}>
-                <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
-                <hr className={styles.blackHr} />
-                <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
-                <hr className={styles.blackHr} />
-                <p className={styles.Pcontent}>Natural Vitamin C Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
-                <hr className={styles.blackHr} />
-                <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
-                <hr className={styles.blackHr} />
-                <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
-              </div>
+                  <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Natural Vitamin C Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+                </div>
               </div>
               <div className={styles.sliderContentIMG}>
                 <img src='/images/BrunoPharmaSlider.png' alt='' />
@@ -458,27 +472,103 @@ const Sciencedesktoppage = () => {
             </div>
             <div className={styles.slider3data}>
               <div className={styles.sliderContent}>
-                <h6>For healthy skin, hair & bones</h6>
+                <h6>For healthy cholesterol levels</h6>
                 <div className={styles.forscrollbar}>
-                  <p className={styles.Pcontent}>Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body&apos;s own endogenous collagen production.</p>
+                  <p className={styles.Pcontent}>Heart disease is one of the leading causes of death globally, so keeping cholesterol levels in check is crucial for preventing these serious health issues.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}>Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
+                  <p className={styles.Pcontent}>The clinically proven, natural ingredients in CholestQ10® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}>Natural Vitamin C Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
+                  <p className={styles.Pcontent}>Coenzyme Q10 Phytosome® promotes healthy aging, heart & cardiovascular health, brain health, and all activities involving energetic expenditure.</p>
                   <hr className={styles.blackHr} />
                   <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}>Red Orange Complex maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+                  <p className={styles.Pcontent}> Cardoon contains active biophenols and flavonoids from an endemic variety of Cardoon leaf inhibit the creation of.</p>
                 </div>
 
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider.png' alt='' />
+                <img src='/images/BrunoPharmaSlider2.png' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>
-                  <h3>Royal Collagen Peptides</h3>
-                  <h5>The Science of Beauty</h5>
+                  <h3>CholestQ10</h3>
+                  <h5>The Science of Heart Health</h5>
+                </div>
+                <div className={styles.roundeddiv}>
+                  <div className={styles.round}><p>Natural Vitamin C</p></div>
+                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
+                </div>
+                <div className={styles.roundeddiv2}>
+                  <div className={styles.round2}><p>Red Orange Complex</p></div>
+                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                </div>
+                <hr className={styles.blackHr2} />
+                <div className={styles.btnDivBuy}>
+                  <div className={styles.roundBtn}><p>Buy Now</p></div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.slider3data}>
+              <div className={styles.sliderContent}>
+                <h6>For a healthy inflammatory response</h6>
+                <div className={styles.forscrollbar}>
+                  <p className={styles.Pcontent}>For a healthy inflammatory response Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>The clinically proven, natural ingredients in Riboflam® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Natural Astaxanthin Extract is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Boswellia Serra Phytosome, commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Nucleoflam Proprietary Nucleotides & Nucleosides Yeast Extract Complex are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.</p>
+                </div>
+
+              </div>
+              <div className={styles.sliderContentIMG}>
+                <img src='/images/BrunoPharmaSlider3.png' alt='' />
+              </div>
+              <div className={styles.sliderContent3}>
+                <div>
+                  <h3>Riboflam </h3>
+                  <h5>The Science of Longevity</h5>
+                </div>
+                <div className={styles.roundeddiv}>
+                  <div className={styles.round}><p>Natural Vitamin C</p></div>
+                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
+                </div>
+                <div className={styles.roundeddiv2}>
+                  <div className={styles.round2}><p>Red Orange Complex</p></div>
+                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                </div>
+                <hr className={styles.blackHr2} />
+                <div className={styles.btnDivBuy}>
+                  <div className={styles.roundBtn}><p>Buy Now</p></div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.slider3data}>
+              <div className={styles.sliderContent}>
+                <h6>For a lifetime of 360° vision care</h6>
+                <div className={styles.forscrollbar}>
+                  <p className={styles.Pcontent}>For a lifetime of 360° vision care Eye strain, Dry Eyes, Headaches & General Fatigue are all signs of Computer Vision Syndrome. Ingredients in Bluerex Vision® are clinically proven to help alleviate symptoms of digital overexposure and protect your eyes from harmful blue light before it can damage the retina.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>The clinically proven, natural ingredients in Bluerex Vision® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Astaxanthin&apos;s potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.</p>
+                  <hr className={styles.blackHr} />
+                  <p className={styles.Pcontent}>Lutein & Zeaxanthin increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
+                </div>
+
+              </div>
+              <div className={styles.sliderContentIMG}>
+                <img src='/images/BrunoPharmaSlider4.png' alt='' />
+              </div>
+              <div className={styles.sliderContent3}>
+                <div>
+                  <h3>Blurex </h3>
+                  <h5>The Science of Sight</h5>
                 </div>
                 <div className={styles.roundeddiv}>
                   <div className={styles.round}><p>Natural Vitamin C</p></div>

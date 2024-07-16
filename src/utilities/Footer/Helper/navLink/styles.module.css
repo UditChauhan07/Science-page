@@ -73,6 +73,7 @@
   }
   .listNone{
     list-style: none;
+    padding-left: 0rem;
   }
   .menuItem a:hover {
     text-decoration: underline;
