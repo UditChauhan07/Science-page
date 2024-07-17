@@ -686,17 +686,23 @@
     .round p {
         font-size: 16px;
         line-height: 30px;
-        padding: 10px 10px;
+        padding: 10px 20px;
+        width: max-content;
     }
     .round2{
-        width: 50%;
+        width:max-content;
     }
     .round2 p{
         font-size: 16px;
         line-height: 30px;
+        padding: 10px 20px;
     }
     .roundBtn p{
         font-size: 30px;
+    }
+    .bothButton2{
+        margin-top: -20rem;
+    margin-right: 26.5rem;
     }
 }
 
