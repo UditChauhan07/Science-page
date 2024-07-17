@@ -101,7 +101,7 @@ const Sciencedesktoppage = () => {
 
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={3000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={300000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
@@ -393,17 +393,33 @@ const Sciencedesktoppage = () => {
           <div className={styles.slideData}>
             <div className={styles.contentbackdiv}>
               <div className={styles.slideContent}>
-                <h3>The Process of <br /> <b>Phytosome Formation</b> </h3>
+                <h3>Phytosome technology is a <br /> <b>Form of Biomimicry</b> </h3>
                 <div className={styles.pcontent}>
-                  <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
-                  <p> The phospholipid coating also enables the extract to bypass the digestive system&apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
-                  <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology</p>
+                  <p>Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous.</p>
+                  <p> For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream. </p>
+                  <p>No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck. </p>
                 </div>
               </div>
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2.png" alt='' />
+              <img src="/images/slideImg2b.png" alt='' />
+            </div>
+          </div>
+          <div className={styles.slideData}>
+            <div className={styles.contentbackdiv}>
+              <div className={styles.slideContent}>
+                <h3>The phospholipid shell in <br /> <b>Phytosomes Mimics</b> </h3>
+                <div className={styles.pcontent}>
+                  <p>The phospholipid shell in phytosomes mimics the natural structure of cell membranes, which enables them to bypass the digestive and hepatic barriers by selectively releasing their active compounds into the bloodstream.</p>
+                  <p>This enhances their therapeutic value and decreases the amount required to deliver therapeutic effects.</p>
+                  <p>Phytosome technology has been used to deliver a wide range of active ingredients, including antioxidants, anti-inflammatory compounds, vitamins, and minerals.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.slide2Img}>
+              <img src="/images/slideImg2c.png" alt='' />
             </div>
           </div>
 
@@ -415,6 +431,7 @@ const Sciencedesktoppage = () => {
                 <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
               </svg>
+              
 
             </div>
 
