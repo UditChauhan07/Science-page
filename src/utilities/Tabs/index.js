@@ -15,7 +15,7 @@ const Tabs = ({ data, productColorTheme, productString }) => {
   if (BlogData) {
     BlogData = BlogData.Blog;
   }
-  console.log("ddddd" + JSON.stringify(BlogData.details));
+  // console.log("ddddd" + JSON.stringify(BlogData.details));
 
   if (!data) return null;
   let width = 0;

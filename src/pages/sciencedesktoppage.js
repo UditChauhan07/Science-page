@@ -1,15 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import styles from '../styles/sciencedesktop.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
-import { IoIosArrowRoundBack } from "react-icons/io";
-// import TabScience from '../utilities/Sections/TabSection/TabScience'
+import Modal from 'react-bootstrap/Modal';
 
 
-const Sciencedesktoppage = () => {
+
+const Sciencedesktoppage = ({page}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [show, setShow] = useState(false);
 
+
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
+
+
+ 
   const slides = [
     {
       image: "/images/yellowDots.png",
@@ -214,6 +224,11 @@ const Sciencedesktoppage = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className={styles.RectangleDiv}>
+        <div className={styles.Rectangle1}><img src='/images/Rectangle1.png'/></div>
+        <div className={styles.Rectangle2}><img src='/images/Rectangle2.png'/></div>
+
+      </div>
       <div className={`container ${styles.brunoDecription}`}>
         <h1>A prescription to thrive <b>Bruno MD</b></h1>
         <p>Lorem Ipsum &apos;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard</p>
@@ -233,9 +248,33 @@ const Sciencedesktoppage = () => {
       {/* Human Tab Section Start */}
 
       {/* <TabScience /> */}
-{/* Modal start */}
+      {/* Modal start */}
 
-{/* Modale Open */}
+      <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+
+        </Modal.Header>
+        <div className={styles.mainModalDiv}>
+          <div className={styles.modalImg}>
+            <img src='/images/modalImg1.png' />
+          </div>
+
+          <div className={styles.modalContent}>
+            {/* <span className={styles.close} >&times;</span> */}
+
+          </div>
+        </div>
+
+      </Modal>
+      {/* Modale Open */}
 
       <div className={`container ${styles.customContainer}`}>
         <div className={styles.humanTab}>
@@ -255,7 +294,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
+              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
             </button>
           </div>
 
@@ -275,7 +314,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
+              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} >
@@ -297,7 +336,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
+              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33}>
@@ -315,7 +354,7 @@ const Sciencedesktoppage = () => {
               </div>
             </div>
             <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn}>Buy&nbsp; Now</span>
+              <span className={styles.spanBtn}  onClick={handleShow}>Buy&nbsp; Now</span>
             </button>
           </div>
         </div>
@@ -327,7 +366,7 @@ const Sciencedesktoppage = () => {
         </div>
         <div className={styles.humanContent}>
           <div className={styles.HumanDetails}>
-           
+
             <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text1}</h6>
@@ -335,7 +374,7 @@ const Sciencedesktoppage = () => {
             </div>
           </div>
           <div className={styles.HumanDetails}>
-          <div className={styles[slides[currentIndex].className]}></div>
+            <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text2}</h6>
               <p>{slides[currentIndex].dec2}</p>
@@ -343,14 +382,14 @@ const Sciencedesktoppage = () => {
           </div>
 
           <div className={styles.HumanDetails}>
-          <div className={styles[slides[currentIndex].className]}></div>
+            <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text3}</h6>
               <p>{slides[currentIndex].dec3}</p>
             </div>
           </div>
           <div className={styles.HumanDetails}>
-          <div className={styles[slides[currentIndex].className]}></div>
+            <div className={styles[slides[currentIndex].className]}></div>
             <div className={styles.humanText}>
               <h6>{slides[currentIndex].text4}</h6>
               <p>{slides[currentIndex].dec4}</p>
@@ -433,7 +472,7 @@ const Sciencedesktoppage = () => {
                 <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
               </svg>
-              
+
 
             </div>
 
