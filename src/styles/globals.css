@@ -2751,3 +2751,7 @@ footer ul a {
   opacity: .5;
   transition: opacity .6s ease;
 }
+.modal-lg, .modal-xl {
+  --bs-modal-width: 1000px !important;
+  
+}

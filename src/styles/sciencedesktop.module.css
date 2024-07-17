@@ -29,7 +29,19 @@
 
 
 }
-
+.RectangleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -4rem;
+    position: relative;
+}
+.Rectangle1 img{
+    height: 200px;
+}
+.Rectangle2 img{
+    height: 200px;
+}
 .imgcotent {
     top: 21rem;
     left: 6.7rem !important;
@@ -582,231 +594,22 @@
 
 
 /* modale Css Start */
-.OneTimePurchaseModal{
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-color: #F4F3F4;
-    padding: 15px 10px;
+.modalContent{
+    width: 40%;
+    border-radius: 23px;
+    border: solid 2px black;
+    display: grid;
+}
+.mainModalDiv{
+    /* border: 2px solid red; */
     display: flex;
-    align-items: flex-start;
-    gap: 5px;
+}
+.modalImg{
+    border: 2px solid red;
+    width: 60%;
+    margin: auto;
 }
 
-
-.SubsSave{
-    background-color: #fff !important;
-} 
-
-.QtySelect{
-    display: flex;
-    /* width: 200px; */
-}
-
-.QtySelect input{
-    width: 50px;
-}
-
-.OneTimePurchaseModal h5{
-    font-size: 12px;
-    font-weight: 800;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #000;
-}
-
-.OneTimePurchaseModal .OneTimePrice p{
-    font-size: 15px;
-    font-weight: 900;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #000;
-    display: flex;
-    align-items: flex-start;
-    margin: 5px 0 0 0;
-}
-
-.OneTimePurchaseModal .OneTimePrice p span{
-    font-size: 10px;
-    font-weight: 600;
-}
-
-.SubscribeSave .OneTimePurchaseModal .linethoroughRate{
-    font-size: 12px;
-    color: #484848;
-    display: flex;
-    text-decoration: line-through;
-    margin: auto 0 auto 5px;
-}
-
-.ParaSubs{
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #000;
-}
-
-.ParaSubs span{
-    font-size: 15px;
-    font-weight: 900;
-    background-color: #80DB69;
-    padding: 4px;
-}
-
-p.ParaOneA{
-    margin: 15px 0 0 0;
-font-size: 12px;
-font-weight: 500;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #000;
-}
-.SubscribeSave ul{
-    list-style: disc;
-    margin: 5px 0 15px 25px;
-
-}
-
-.hidden {
-    display: none !important;
-  }
-
-.SubscribeSave ul li{
-    font-size: 12px;
-font-weight: 500;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #000;
-    
-}
-
-.HeadingLeranMore{
-    font-size: 12px;
-    font-weight: 600;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #8c23cd;
-    margin: 0 0 10px 0;
-}
-
-.HeadingLeranMore svg {
-    width: 12px;
-    height: 12px;
-    transform: rotate(90deg);
-}
-
-.HeadingLeranMore svg path{
-    fill: #8c23cd;
-    
-} 
-
-.InStockQuantity p{
-    margin: 0 0 5px 0;
-    font-size: 12px;
-    font-weight: 900;
-        font-family: 'Gotham' 'Open Sans', sans-serif;
-        color: #589555;
-}
-.QtySelect{
-    display: inline-block;
-    border: 1px solid #484848;
-    padding: 2px 5px;
-    margin: 0 0 15px 0;
-    border-radius: 10px;
-
-}
-.QtySelect input{
-    border: none;
-    width: 25px;
-
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.QtySelect label{
-    font-size: 12px;
-    font-weight: 800;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-    color: #000;
-}
-.Delievery{
-    margin: 0 0 20px 0;
-    
-}
-
-.Delievery p{
-    margin: 0 0 5px 0;
-    font-size: 12px;
-    font-weight: 900;
-        font-family: 'Gotham' 'Open Sans', sans-serif;
-        color: #000;   
-}
-
-.DelieveryDay{
-    border: 1px solid #000;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 4px;
-}
-
-.DelieveryDay input {
-    border: none;
-    width: 25px;
-
-    
-}
-.DelieveryDay label{
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.SubscribeSave button{
-    display: flex;
-    width: 100%;
-    background-color: #000;
-    padding: 10px;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'Gotham' 'Open Sans', sans-serif;
-
-}
-
-.modal{
-    position: absolute;
-    border: 2px solid #000;
-    border-radius: 20px;
-    /* padding: 10px; */
-}
-
-.modalContent .close{
-    position: absolute;
-    top: -35px;
-    right: 2%;
-    font-size: 22px;
-    border: 1px solid #000;
-    border-radius: 20px;
-    width: 25px;
-    height: 25px;
-    place-content: baseline;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-}
-
-.SubscribeSave{
-    padding: 20px 20px 20px 20px;
-    text-align: start;
-}
-
-.InStockQuantity input::placeholder{
-    color: #000;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.InStockQuantity input{
-    color: #000;
-    font-size: 15px;
-    font-weight: 600;
-}
 
 /* Modal Css End */
 
