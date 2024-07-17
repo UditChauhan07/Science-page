@@ -8,6 +8,10 @@
     color: black;
 }
 
+.ancorLink {
+    line-height: 30px;
+}
+
 .ancorLink button {
     background-color: black;
     border: none;
@@ -41,7 +45,7 @@
 }
 
 .heroImgContent h3 {
-    font-size: 80px;
+    font-size: 80px !important;
     color: rgb(0, 0, 0);
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     -webkit-text-stroke: 0.5px #b7b7b7;
@@ -51,13 +55,15 @@
 
 .heroImgContent h5 {
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
-    font-size: 50px;
+    font-size: 40px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
 }
 
 .heroImgContent p {
-    font-size: 24px;
+    font-size: 24px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
+    line-height: 20px;
+    font-family: 'Gotham', Times, serif;
 }
 
 .brunoDecription {
@@ -66,13 +72,15 @@
 }
 
 .brunoDecription h1 {
-    font-size: 50px;
+    font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
 
 .brunoDecription p {
-    width: 50%;
+    width: 70%;
     margin: auto;
+    font-family: 'Gotham', Times, serif;
+    line-height: 24px !important;
 }
 
 .PhytoVideoTag {
@@ -128,6 +136,7 @@
     border: 2px solid rgba(215, 210, 240, 1);
     cursor: pointer;
 }
+
 .tabdiv4 {
     position: relative;
     margin-bottom: 2rem;
@@ -150,7 +159,7 @@
 }
 
 .medContent h6 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .medContent p {
@@ -192,7 +201,7 @@
     border: 5px solid #ffffff;
     border-radius: 10px;
     position: absolute;
-    top: 0.4rem;
+    top: 0.2rem;
     left: -0.5rem;
     background-color: black;
     color: white;
@@ -226,23 +235,24 @@
     margin-bottom: 2rem;
 }
 
-.SliderText  {
+.SliderText {
     border-right: 4px solid rgb(255, 196, 0);
     height: 140px;
 }
 
 .SliderText1 {
-   
-    border-right: 4px solid #74CB59;;
+
+    border-right: 4px solid #74CB59;
+    ;
     height: 140px;
 }
 
-.SliderText2  {
+.SliderText2 {
     border-right: 4px solid #F08056;
     height: 140px;
 }
 
-.SliderText3  {
+.SliderText3 {
     border-right: 4px solid #45D5FD;
     height: 140px;
 }
@@ -266,8 +276,8 @@
 .humanText p {
     font-family: 'Gotham', Times, serif;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0px;
+    line-height: 18px;
+
 }
 
 
@@ -338,6 +348,7 @@
 
 .slideContent p {
     font-size: 18px;
+    line-height: 28px;
 }
 
 .pcontent::-webkit-scrollbar {
@@ -386,8 +397,8 @@
 
 .LeftBtn {
     background-color: lightgray;
-    height: 70px;
-    width: 70px;
+    height: 67px;
+    width: 67px;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -397,20 +408,21 @@
 
 .LeftBtn :hover {
     background-color: rgb(0, 0, 0);
-    height: 70px;
-    width: 70px;
+    height: 67px;
+    width: 67px;
     border-radius: 100%;
-
 }
 
-.svgIcon:hover {
-    fill: red;
+.LeftBtn:hover svg path{
+    fill: #ffffff;
+    stroke: #ffffff;
+   
 }
 
 .RightBtn {
     background-color: lightgray;
-    height: 70px;
-    width: 70px;
+    height: 67px;
+    width: 67px;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -419,14 +431,16 @@
 
 .RightBtn :hover {
     background-color: rgb(0, 0, 0);
-    height: 70px;
-    width: 70px;
+    height: 67px;
+    width: 67px;
     border-radius: 100%;
 }
-
-.RightBtn img {
-    width: 50px;
+.RightBtn:hover svg path{
+    fill: #ffffff;
+    stroke: #ffffff;
 }
+
+
 
 
 /* ....Slider 2nd CSS End */
@@ -512,7 +526,8 @@
 .round p {
     padding: 10px 8px;
     margin-bottom: 0rem;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Gotham', Times, serif;
 }
 
 .round2 {
@@ -565,6 +580,123 @@
     /* Use !important to ensure the style overrides default Bootstrap styles */
 }
 
+@media only screen and (max-width:2560px) and (min-width:1920px) {
+    .imgcotent {
+        top: 24rem;
+        left: 7.2rem !important;
+        width: 40%;
+    }
+
+    .heroImgContent h3 {
+        font-size: 130px !important;
+    }
+
+    .heroImgContent h5 {
+        font-size: 70px !important;
+    }
+
+    .heroImgContent p {
+        font-size: 30px !important;
+        line-height: 30px;
+    }
+
+    .ancorLink button {
+        font-size: 18px !important;
+    }
+
+    .brunoDecription h1 {
+        line-height: 102px;
+        font-size: 60px !important;
+    }
+
+    .brunoDecription p {
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .medContent h6 {
+        font-size: 18px;
+        width: 75%;
+    }
+
+    .medContent p {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .medcoloryellow {
+        height: 14px;
+        width: 50px;
+    }
+
+    .medcolorGreen {
+        height: 14px;
+        width: 50px;
+    }
+
+    .medcolorOrange {
+        height: 14px;
+        width: 50px;
+    }
+
+    .medcolorSky {
+        height: 14px;
+        width: 50px;
+    }
+
+    .butNowBTN {
+        top: 0.3rem;
+        left: -0.5rem;
+        padding: 5px 9px;
+    }
+
+    .spanBtn {
+        line-height: 14px;
+        font-size: 16px;
+        padding: 16px 0px;
+    }
+
+    .slideContent h3 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .sliderContent h6 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .sliderContent p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sliderContent3{
+        padding: 1rem;
+    }
+    .sliderContent3 h3{
+        font-size: 55px !important;
+        line-height: 60px;
+    }
+    .slideContent h5{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .round p {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 10px 15px;
+    }
+    .round2{
+        width: 34%;
+    }
+    .round2 p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .roundBtn p{
+        font-size: 30px;
+    }
+}
+
 @media(max-width:1600px) {
     .imgcotent {
         top: 18rem;
@@ -582,11 +714,23 @@
 
 }
 
-@media(max-width:1400px) {
+@media(max-width:1440px) {
     .imgcotent {
-        top: 16rem;
+        top: 16.5rem;
         left: 6.5rem !important;
         width: 40%;
+    }
+
+    .heroImgContent h3 {
+        font-size: 85px;
+    }
+
+    .heroImgContent h3 {
+        font-size: 50px;
+    }
+
+    .ancorLink button {
+        font-size: 18px;
     }
 
     /* human Tab Css Start */
@@ -697,22 +841,23 @@
         padding: 1.05rem 1rem;
         border-radius: 15px;
     }
-    .SliderText  {
+
+    .SliderText {
         height: 100px;
     }
-    
+
     .SliderText1 {
         height: 100px;
     }
-    
-    .SliderText2  {
+
+    .SliderText2 {
         height: 100px;
     }
-    
-    .SliderText3  {
+
+    .SliderText3 {
         height: 100px;
     }
-  
+
 
     .humanTab {
         margin-top: 4rem;
@@ -736,18 +881,22 @@
         height: 65px;
         margin-bottom: 0rem;
     }
-    .tabdiv{
+
+    .tabdiv {
         border-radius: 15px;
     }
+
     .tabdiv33 {
         border-radius: 15px;
     }
+
     /* tabDiv Css end */
 
     /* slide Content Css start */
     .slideContent h3 {
         font-size: 35px;
     }
+
     /* slide Content Css End */
 
     /* slider 2  Css Start */
@@ -845,6 +994,7 @@
     .tabdiv4 {
         border-radius: 15px;
     }
+
     .tabdiv33 {
         border-radius: 15px;
     }
@@ -898,24 +1048,25 @@
         padding: 1.05rem 1rem;
         border-radius: 15px;
     }
-    .SliderText  {
+
+    .SliderText {
         height: 100px;
     }
-    
+
     .SliderText1 {
         height: 85px;
     }
-    
-    .SliderText2  {
+
+    .SliderText2 {
         height: 85px;
-    
+
     }
-    
-    .SliderText3  {
+
+    .SliderText3 {
         height: 85px;
-    
+
     }
-  
+
     .humanTab {
         margin-top: 4rem;
     }
