@@ -20,7 +20,7 @@ const GeoRedirect = ({ redirect }) => {
         }
       })
       .then((country) => {
-        if (country == "DE" || country == "IT") {
+        if (country == "DE") {
           if (country == "DE") {
             window.location = deSite;
           } else {
