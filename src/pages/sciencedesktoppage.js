@@ -233,7 +233,9 @@ const Sciencedesktoppage = () => {
       {/* Human Tab Section Start */}
 
       {/* <TabScience /> */}
+{/* Modal start */}
 
+{/* Modale Open */}
 
       <div className={`container ${styles.customContainer}`}>
         <div className={styles.humanTab}>
