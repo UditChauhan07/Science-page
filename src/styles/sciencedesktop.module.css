@@ -669,6 +669,9 @@
         font-size: 16px;
         line-height: 22px;
     }
+    .slider3data{
+        padding: 19rem;
+    }
     .sliderContent3{
         padding: 1rem;
     }
@@ -683,10 +686,10 @@
     .round p {
         font-size: 16px;
         line-height: 30px;
-        padding: 10px 15px;
+        padding: 10px 10px;
     }
     .round2{
-        width: 34%;
+        width: 50%;
     }
     .round2 p{
         font-size: 16px;
