@@ -1,78 +1,11 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import styles from '../styles/sciencedesktop.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
-import Modal from 'react-bootstrap/Modal';
+import TabScience from '@/pages/TabScience';
 
-
-
-const Sciencedesktoppage = ({page}) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [show, setShow] = useState(false);
-
-
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
-
-
-
- 
-  const slides = [
-    {
-      image: "/images/yellowDots.png",
-      text1: "Hair + Skin",
-      dec: "Revitalize from Root to Tip: Medically Backed Solutions for Hair and Skin Health. Discover the Science Behind Your Glow!",
-      text2: "Bones",
-      dec2: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
-      text3: "Gut",
-      dec3: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
-      text4: "Tendons",
-      dec4: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
-      className: "SliderText",
-
-
-    },
-    {
-      image: "/images/greenDots.png",
-      text1: "Heart",
-      dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text2: "Liver",
-      dec2: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text3: "HDL",
-      dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text4: "LDL",
-      dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      className: "SliderText1",
-    },
-    {
-      image: "/images/orangeDots.png",
-      text1: "Mental Health",
-      dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text2: "Cardio Health",
-      dec2: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text3: "Liver Health",
-      dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text4: "Digestive Health",
-      dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      className: "SliderText2",
-    },
-    {
-      image: "/images/skyDots.png",
-      text1: "Blue Light & Macula Shield",
-      dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text2: "360° Eye Health",
-      dec2: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text3: "Computer Vision Syndrome",
-      dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text4: "Focus & Recovery Dry Eye",
-      dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      className: "SliderText3",
-    },
-  ];
-
+const Sciencedesktoppage = () => {
   const settings = {
     dots: false, // Hide dots
     infinite: true,
@@ -102,12 +35,6 @@ const Sciencedesktoppage = ({page}) => {
   };
   let slider2;
   // .......Slider 2nd Function End.///
-
-  // human Tab function///
-  const handleClick = (index) => {
-    console.log(index)
-    setCurrentIndex(index);
-  };
 
   return (
     <div className={styles.leptop}>
@@ -224,11 +151,14 @@ const Sciencedesktoppage = ({page}) => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+
+
       <div className={styles.RectangleDiv}>
-        <div className={styles.Rectangle1}><img src='/images/Rectangle1.png'/></div>
-        <div className={styles.Rectangle2}><img src='/images/Rectangle2.png'/></div>
+        <div className={styles.Rectangle1}><img src='/images/Rectangle1.png' /></div>
+        <div className={styles.Rectangle2}><img src='/images/Rectangle2.png' /></div>
 
       </div>
+
       <div className={`container ${styles.brunoDecription}`}>
         <h1>A prescription to thrive <b>Bruno MD</b></h1>
         <p>Lorem Ipsum &apos;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard</p>
@@ -245,166 +175,16 @@ const Sciencedesktoppage = ({page}) => {
         <p>Powering the Human Machine Explore the benefits of targeted natural ingredients</p>
 
       </div>
-      {/* Human Tab Section Start */}
 
-      {/* <TabScience /> */}
-      {/* Modal start */}
-
-      <Modal
-        show={show}
-        onHide={handleClose}
-        backdrop="static"
-        keyboard={false}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
-        <Modal.Header closeButton>
-
-        </Modal.Header>
-        <div className={styles.mainModalDiv}>
-          <div className={styles.modalImg}>
-            <img src='/images/modalImg1.png' />
-          </div>
-
-          <div className={styles.modalContent}>
-            {/* <span className={styles.close} >&times;</span> */}
-
-          </div>
-        </div>
-
-      </Modal>
-      {/* Modale Open */}
-
-      <div className={`container ${styles.customContainer}`}>
-        <div className={styles.humanTab}>
-          <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33}>
-            <div className={styles.yellodiv} onClick={() => handleClick(0)}
-            >
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
-                  <div className={styles.medcoloryellow}></div>
-                </div>
-
-              </div>
-            </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
-            </button>
-          </div>
-
-
-          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33}>
-            <div className={styles.greendiv} onClick={() => handleClick(1)}>
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg2.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
-                  <div className={styles.medcolorGreen}></div>
-                </div>
-
-              </div>
-            </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
-            </button>
-          </div>
-          <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} >
-
-            <div
-
-              //  className={styles.orangediv}
-              onClick={() => handleClick(2)}>
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg3.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
-                  <div className={styles.medcolorOrange}></div>
-                </div>
-
-              </div>
-            </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
-            </button>
-          </div>
-          <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33}>
-            <div className={styles.skyBluediv} onClick={() => handleClick(3)}>
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg4.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
-                  <div className={styles.medcolorSky}></div>
-                </div>
-
-              </div>
-            </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn}  onClick={handleShow}>Buy&nbsp; Now</span>
-            </button>
-          </div>
-        </div>
-        <div className={styles.humanImg}>
-          <div className={styles.dotsDiv}>
-            <span></span>
-          </div>
-          <img src={slides[currentIndex].image} alt="Main Slide" />
-        </div>
-        <div className={styles.humanContent}>
-          <div className={styles.HumanDetails}>
-
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text1}</h6>
-              <p>{slides[currentIndex].dec}</p>
-            </div>
-          </div>
-          <div className={styles.HumanDetails}>
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text2}</h6>
-              <p>{slides[currentIndex].dec2}</p>
-            </div>
-          </div>
-
-          <div className={styles.HumanDetails}>
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text3}</h6>
-              <p>{slides[currentIndex].dec3}</p>
-            </div>
-          </div>
-          <div className={styles.HumanDetails}>
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text4}</h6>
-              <p>{slides[currentIndex].dec4}</p>
-            </div>
-          </div>
-
-        </div>
+      <div className={styles.imgRotation}>
+        <img src='/images/rotaionImg1.png' />
       </div>
-
-
-
-
-
+      {/* Human Tab Section Start */}
+      <TabScience />
       {/* Human Tab Section End */}
-
+      <div className={styles.imgRotation2}>
+        <img src='/images/rotaionImg1.png' />
+      </div>
       <div className={`container ${styles.brunoDecription}`}>
         <h1>A prescription to thrive <b>Bruno MD</b></h1>
         <p>Phytosome® Technology 3000% higher bioavailability </p>
