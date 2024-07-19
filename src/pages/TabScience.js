@@ -36,7 +36,9 @@ function TabScience() {
   };
 
 
-
+const handleClick=(index)=>{
+  setCurrentIndex(index);
+}
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
