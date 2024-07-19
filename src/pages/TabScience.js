@@ -105,7 +105,11 @@ const handleClick=(index)=>{
         </Modal.Header>
         <div className={styles.mainModalDiv}>
           <div className={styles.modalImg}>
-            <img src='/images/modalImg1.png' />
+            <div><img src='/images/modalimg.png' /></div>
+            <div className={styles.medTitle}>
+              <h3>Royal Collagen Peptides</h3>
+              <p>The Science of Beauty</p>
+            </div>
           </div>
 
           <div className={styles.modalContent}>
@@ -113,7 +117,7 @@ const handleClick=(index)=>{
 
             <div className={`accordion ${styles.Accordian}`}>
               <div className="accordion-item">
-                <div className={styles.Accordian1}>
+                <div className={`${styles.Accordian1} ${activeIndex === 0 ? styles.active : ''}`}>
                   <input
                     type="radio"
                     id="section1"
@@ -134,7 +138,7 @@ const handleClick=(index)=>{
                 </div>
                 {activeIndex === 0 && (
                   <div className={`accordion-content ${styles.accordionContent}`}>
-                    <div className={styles.stocDiv2}>
+                    <div className={styles.stocDiv}>
                       <h6 className={styles.stock}>In Stock.</h6>
                       <div className={styles.customSelect}>
                         <select className={styles.selectDiv} value={selectedOption} onChange={handleSelectChange}>
@@ -153,7 +157,7 @@ const handleClick=(index)=>{
                 )}
               </div>
               <div className="accordion-item">
-                <div className={styles.Accordian2}>
+                <div className={`${styles.Accordian2} ${activeIndex === 1 ? styles.active2 : ''}`}>
                   <input
                     className={styles.radioButton}
                     type="radio"
@@ -250,8 +254,8 @@ const handleClick=(index)=>{
       {/* Human Tab Section Start */}
       <div className={`container ${styles.customContainer}`}>
         <div className={styles.humanTab}>
-          <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33}>
-            <div className={styles.yellodiv} onClick={() => handleClick(0)}
+          <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33} onClick={() => handleClick(0)}>
+            <div className={styles.yellodiv} 
             >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -271,8 +275,8 @@ const handleClick=(index)=>{
           </div>
 
 
-          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33}>
-            <div className={styles.greendiv} onClick={() => handleClick(1)}>
+          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33}  onClick={() => handleClick(1)}>
+            <div className={styles.greendiv} >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
                   <img src='/images/medImg2.png' alt='' />
@@ -289,12 +293,12 @@ const handleClick=(index)=>{
               <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
             </button>
           </div>
-          <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} >
+          <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} onClick={() => handleClick(2)}>
 
             <div
 
               //  className={styles.orangediv}
-              onClick={() => handleClick(2)}>
+              >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
                   <img src='/images/medImg3.png' alt='' />
@@ -311,8 +315,8 @@ const handleClick=(index)=>{
               <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
             </button>
           </div>
-          <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33}>
-            <div className={styles.skyBluediv} onClick={() => handleClick(3)}>
+          <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33} onClick={() => handleClick(3)}>
+            <div className={styles.skyBluediv} >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
                   <img src='/images/medImg4.png' alt='' />

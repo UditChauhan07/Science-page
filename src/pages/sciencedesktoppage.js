@@ -170,7 +170,7 @@ const Sciencedesktoppage = () => {
           <source src="/images/Science Masthead web.mp4" type="video/ogg" />
         </video>
       </div>
-      <div className={`container ${styles.brunoDecription}`}>
+      <div className={`container ${styles.brunoDecription2}`}>
         <h1>A prescription to thrive <b>Bruno MD</b></h1>
         <p>Powering the Human Machine Explore the benefits of targeted natural ingredients</p>
 
@@ -185,7 +185,7 @@ const Sciencedesktoppage = () => {
       <div className={styles.imgRotation2}>
         <img src='/images/rotaionImg1.png' />
       </div>
-      <div className={`container ${styles.brunoDecription}`}>
+      <div className={`container ${styles.brunoDecription3}`}>
         <h1>A prescription to thrive <b>Bruno MD</b></h1>
         <p>Phytosome® Technology 3000% higher bioavailability </p>
 

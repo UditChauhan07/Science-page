@@ -1,5 +1,5 @@
 .carouselMain img {
-    width: 100%;
+    width: 97%;
     display: flex;
     margin: auto 6.7rem;
 }
@@ -29,19 +29,65 @@
 
 
 }
-.RectangleDiv{
+
+.RectangleDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* top: -4rem; */
+    top: -4rem;
     position: relative;
+    z-index: 1;
 }
-.Rectangle1 img{
+
+.Rectangle1 {
+
+    animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.Rectangle1 img {
     height: 200px;
 }
-.Rectangle2 img{
+
+.Rectangle2 {
+    animation: slide2 5s linear infinite;
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(10%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.Rectangle1 img {
     height: 200px;
 }
+
+.Rectangle2 img {
+    height: 200px;
+}
+
 .imgcotent {
     top: 21rem;
     left: 6.7rem !important;
@@ -79,7 +125,15 @@
 }
 
 .brunoDecription {
-    margin-top: 6rem;
+    margin-top: 0rem !important;
+    text-align: center;
+}
+.brunoDecription2 {
+    margin-top: 3rem !important;
+    text-align: center;
+}
+.brunoDecription3 {
+    margin-top: 3rem !important;
     text-align: center;
 }
 
@@ -114,16 +168,19 @@
     position: relative;
     right: 1.5rem;
 
-  }
-  @keyframes float {
+}
+
+@keyframes float {
     from {
-      transform: rotate(0deg) translate3d(5px, 0, 0) rotate(0deg);
+        transform: rotate(0deg) translate3d(5px, 0, 0) rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg) translate3d(5px, 0, 0) rotate(-360deg);
+        transform: rotate(360deg) translate3d(5px, 0, 0) rotate(-360deg);
     }
-  }
-  .imgRotation2 {
+}
+
+.imgRotation2 {
     width: 270px;
     height: 1rem;
     animation: float 3s infinite linear;
@@ -132,15 +189,18 @@
     left: 5rem;
     top: -5rem;
 
-  }
-  @keyframes float {
+}
+
+@keyframes float {
     from {
-      transform: rotate(0deg) translate3d(5px, 0, 0) rotate(0deg);
+        transform: rotate(0deg) translate3d(5px, 0, 0) rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg) translate3d(5px, 0, 0) rotate(-360deg);
+        transform: rotate(360deg) translate3d(5px, 0, 0) rotate(-360deg);
     }
-  }
+}
+
 /* Rotation img Css End */
 
 
@@ -420,7 +480,7 @@
 }
 
 .pcontent {
-    max-height: 200px;
+    max-height: 255px;
     overflow: auto;
 }
 
@@ -468,10 +528,10 @@
     border-radius: 100%;
 }
 
-.LeftBtn:hover svg path{
+.LeftBtn:hover svg path {
     fill: #ffffff;
     stroke: #ffffff;
-   
+
 }
 
 .RightBtn {
@@ -490,7 +550,8 @@
     width: 67px;
     border-radius: 100%;
 }
-.RightBtn:hover svg path{
+
+.RightBtn:hover svg path {
     fill: #ffffff;
     stroke: #ffffff;
 }
@@ -637,35 +698,41 @@
 
 
 /* modale Css Start */
-.modalContent{
+.modalContent {
     width: 40%;
     /* border-radius: 23px; */
     /* border: solid 2px rgb(255, 0, 0); */
     display: grid;
 }
-.mainModalDiv{
-    /* border: 2px solid red; */
+
+.mainModalDiv {
+    margin: 2rem 4rem 2rem 4rem;
     display: flex;
 }
-.Accordian{
+
+.Accordian {
     /* border: 2px solid black; */
     /* border-radius: 15px; */
 }
-.stocDiv{
+
+.stocDiv {
     padding: 0rem 2rem 0rem 2rem;
 }
-.stock{
+
+.stock {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     color: #589555;
     margin: 0px 0px 10px;
 }
-.customSelect{
+
+.customSelect {
     display: flex;
     align-items: center;
 }
-.selectDiv{
+
+.selectDiv {
     height: 25px;
     background: #f0f1f2;
     border: .5px solid #bbb;
@@ -674,7 +741,8 @@
     padding: 0 12px;
 
 }
-.addCartButton{
+
+.addCartButton {
     width: 100%;
     height: 45px;
     background: #000;
@@ -688,7 +756,8 @@
     margin: 20px 0;
     cursor: pointer;
 }
-.offprice{
+
+.offprice {
     color: #575959;
     text-decoration: line-through;
     font-style: normal;
@@ -697,19 +766,46 @@
     line-height: 20px;
     padding-left: 4px;
 }
-.unit{
+
+.unit {
     padding: 0px 5px 0px !important;
     margin-bottom: 0px;
 }
 
-.saveContent{
+.saveContent {
+    overflow: auto;
+    height: 200px;
     padding: 0rem 2rem 0rem 2rem;
 }
-.stocDiv2{
-   
+
+
+.saveContent::-webkit-scrollbar {
+    width: 3px;
+}
+
+.p_content::-webkit-scrollbar-track {
+    background: #afafaf;
+}
+
+.saveContent::-webkit-scrollbar-thumb {
+    background: #7a7a7a;
+    border-radius: 20px;
+}
+
+.saveContent::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+}
+
+.stocDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.stocDiv2 {
     display: flex;
 }
-.save{
+
+.save {
     padding: 3px 10px;
     font-size: 16px;
     font-weight: 700;
@@ -717,23 +813,27 @@
     color: #000;
     background: #80db69;
 }
- .savetext{
+
+.savetext {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     margin: auto 0;
     padding-left: 5px;
 }
-.sectionbar2{
+
+.sectionbar2 {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 10px;
 }
-.sectionbar2 ul{
+
+.sectionbar2 ul {
     list-style: disc;
 }
-.sectionbar3{
+
+.sectionbar3 {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -741,26 +841,32 @@
     display: flex;
     align-items: center;
 }
-.LearnbText{
+
+.LearnbText {
     cursor: pointer;
     margin-right: 5px;
 }
-.UpArrow{
+
+.UpArrow {
     width: 13px;
     height: 13px;
     transform: rotate(270deg);
     margin: auto 4px;
     transition: transform 0.3s ease;
 }
-.UpArrow svg path{
-    fill:  rgb(86, 0, 140);
+
+.UpArrow svg path {
+    fill: rgb(86, 0, 140);
     stroke: rgb(86, 0, 140);
-   
+
 }
+
 .rotate90 {
-    transform: rotate(90deg); /* Rotate arrow 90 degrees */
+    transform: rotate(90deg);
+    /* Rotate arrow 90 degrees */
 }
-.desclimerText{
+
+.desclimerText {
     padding: 0rem 10px 0rem !important;
     flex-direction: column;
     row-gap: 10px;
@@ -768,39 +874,44 @@
     margin-top: 15px;
 }
 
-.sectionbar4{
+.sectionbar4 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.informatonText p{
+
+.informatonText p {
     margin-bottom: 0rem;
     font-family: Gotham-Book, Arial, serif;
     font-size: 14px;
     font-weight: 400;
     color: #000;
 }
-.infoBtn{
+
+.infoBtn {
     margin-bottom: 4px;
 }
 
-.stocDiv3{
+.stocDiv3 {
     padding: 0rem 2rem 0rem 0rem;
     display: flex;
     flex-direction: column;
 }
-.stock2{
+
+.stock2 {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     color: #589555;
     margin: 0px 0px 10px;
 }
-.customSelect2{
+
+.customSelect2 {
     display: flex;
     align-items: center;
 }
-.selectDiv2{
+
+.selectDiv2 {
     height: 25px;
     background: #f0f1f2;
     border: .5px solid #bbb;
@@ -809,12 +920,14 @@
     padding: 0 12px;
 
 }
-.customSelect3{
+
+.customSelect3 {
     margin-top: 1rem;
     display: flex;
     align-items: center;
 }
-.selectDiv3{
+
+.selectDiv3 {
     height: 25px;
     background: #f0f1f2;
     border: .5px solid #bbb;
@@ -823,6 +936,7 @@
     padding: 0 12px;
 
 }
+
 /* .activeAccordion {
     background-color: rgb(255, 1, 1);
 }
@@ -832,41 +946,73 @@
 } */
 
 
-.modalImg{
+.modalImg {
     /* border: 2px solid red; */
     width: 60%;
     margin: auto;
+    display: flex;
 }
-.Accordian1{
+
+.medTitle {
+    margin: auto;
+    left: -2.8rem;
+    padding: 1rem;
+    background-color: rgba(249, 195, 0, 1);
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.medTitle h3 {
+    font-size: 24px;
+}
+
+.Accordian1 {
     align-items: baseline;
     display: flex;
     justify-content: center;
     padding: 1rem 1rem 0rem;
-    /* background-color: gray; */
+    background-color: #f4f3f4;
 }
-.Accordian1 label{
-        flex-direction: column;
-        align-items: flex-start;
-        font-weight: bold;
-        font-size: 16px;
+
+.active {
+    background-color: rgb(255, 255, 255);
 }
-.Accordian2{
-    align-items: baseline;
-    display: flex;
-    justify-content: center;
-}
-.Accordian2 label{
+
+.Accordian1 label {
     flex-direction: column;
     align-items: flex-start;
     font-weight: bold;
-        font-size: 16px;
+    font-size: 16px;
 }
-.radioButton{
+
+.Accordian2 {
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f3f4;
+}
+
+.active2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.Accordian2 label {
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.radioButton {
     margin-left: 1rem;
 }
-.accordionContent p{
+
+.accordionContent p {
     padding: 0rem 1rem 0rem;
 }
+
 /* Modal Css End */
 
 @media only screen and (max-width:2560px) and (min-width:1920px) {
@@ -891,6 +1037,14 @@
 
     .ancorLink button {
         font-size: 18px !important;
+    }
+
+    .Rectangle1 img {
+        height: 350px;
+    }
+
+    .Rectangle2 img {
+        height: 350px;
     }
 
     .brunoDecription h1 {
@@ -954,48 +1108,61 @@
         font-size: 25px;
         line-height: 45px;
     }
-    .sliderContent p{
+
+    .sliderContent p {
         font-size: 16px;
         line-height: 22px;
     }
-    .slider3data{
+
+    .slider3data {
         padding: 19rem;
     }
-    .sliderContent3{
+
+    .sliderContent3 {
         padding: 1rem;
     }
-    .sliderContent3 h3{
+
+    .sliderContent3 h3 {
         font-size: 55px !important;
         line-height: 60px;
     }
-    .slideContent h5{
+
+    .slideContent h5 {
         font-size: 40px;
         line-height: 48px;
     }
+
     .round p {
         font-size: 16px;
         line-height: 30px;
         padding: 10px 20px;
         width: max-content;
     }
-    .round2{
-        width:max-content;
+
+    .round2 {
+        width: max-content;
     }
-    .round2 p{
+
+    .round2 p {
         font-size: 16px;
         line-height: 30px;
         padding: 10px 20px;
     }
-    .roundBtn p{
+
+    .roundBtn p {
         font-size: 30px;
     }
-    .bothButton2{
+
+    .bothButton2 {
         margin-top: -20rem;
-    margin-right: 26.5rem;
+        margin-right: 26.5rem;
     }
 }
 
 @media(max-width:1600px) {
+    .carouselMain img {
+        width: 95.5%;
+    }
     .imgcotent {
         top: 18rem;
         left: 7.2rem !important;
@@ -1460,7 +1627,7 @@
 
 }
 
-.carouselMain{
-    background: #ffffff!important;
-   
+.carouselMain {
+    background: #ffffff !important;
+
 }
