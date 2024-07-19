@@ -4,11 +4,17 @@
     margin: auto 6.7rem;
 }
 
+
+
+
+
+
 .heroImgContent {
     color: black;
 }
 
 .ancorLink {
+    margin-top: 2rem;
     line-height: 30px;
 }
 
@@ -108,10 +114,13 @@
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     -webkit-text-stroke: 0.5px #b7b7b7;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
+    font-weight: bold;
+    margin-bottom: 0rem;
 
 }
 
 .heroImgContent h5 {
+    margin-bottom: 1rem;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-size: 40px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
@@ -128,13 +137,25 @@
     margin-top: 0rem !important;
     text-align: center;
 }
+
 .brunoDecription2 {
     margin-top: 3rem !important;
     text-align: center;
 }
+
+.brunoDecription2 p {
+    font-family: 'Gotham', Times, serif;
+    line-height: 24px !important;
+}
+
 .brunoDecription3 {
     margin-top: 3rem !important;
     text-align: center;
+}
+
+.brunoDecription3 p {
+    font-family: 'Gotham', Times, serif;
+    line-height: 24px !important;
 }
 
 .brunoDecription h1 {
@@ -252,6 +273,63 @@
     cursor: pointer;
 }
 
+.tabdiv::after {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(255, 208, 0);
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    top: 5.6rem;
+    right: -24px;
+    transform: rotate(270deg)
+}
+
+.tabdiv2::after {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgba(116, 203, 89, 1);
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    right: -24px;
+    top: 5.8rem;
+    right: -24px;
+    transform: rotate(270deg)
+}
+
+.tabdiv3::after {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgba(240, 128, 86, 1);
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    top: 5.8rem;
+    right: -24px;
+    transform: rotate(270deg)
+}
+
+.tabdiv4::after {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgba(69, 213, 253, 1);
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    top: 5.7rem;
+    right: -24px;
+    transform: rotate(270deg)
+}
+
 .tabdiv4 {
     position: relative;
     margin-bottom: 2rem;
@@ -270,7 +348,12 @@
 
 .medImg {
     margin: auto;
-    padding-left: 1rem;
+
+    width: 30%;
+}
+
+.medContent {
+    width: 70%;
 }
 
 .medContent h6 {
@@ -280,6 +363,12 @@
 .medContent p {
     margin-right: 1rem;
     font-size: 18px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    min-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .medcoloryellow {
@@ -462,12 +551,13 @@
 }
 
 .slideContent p {
+    padding-right: 1.5rem;
     font-size: 18px;
     line-height: 28px;
 }
 
 .pcontent::-webkit-scrollbar {
-    width: 6px;
+    width: 3px;
 }
 
 .pcontent::-webkit-scrollbar-track {
@@ -1163,6 +1253,7 @@
     .carouselMain img {
         width: 95.5%;
     }
+
     .imgcotent {
         top: 18rem;
         left: 7.2rem !important;
@@ -1181,8 +1272,8 @@
 
 @media(max-width:1440px) {
     .imgcotent {
-        top: 16.5rem;
-        left: 6.5rem !important;
+        top: 15rem;
+        left: 5.5rem !important;
         width: 40%;
     }
 
@@ -1215,7 +1306,7 @@
 
     /* slider Css start */
     .slider3data {
-        padding: 8rem;
+        padding: 6.5rem;
     }
 
     /*Slider Css End   */
