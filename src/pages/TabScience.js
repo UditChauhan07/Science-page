@@ -132,7 +132,7 @@ function TabScience() {
                 </div>
                 {activeIndex === 0 && (
                   <div className={`accordion-content ${styles.accordionContent}`}>
-                    <div className={styles.stocDiv}>
+                    <div className={styles.stocDiv2}>
                       <h6 className={styles.stock}>In Stock.</h6>
                       <div className={styles.customSelect}>
                         <select className={styles.selectDiv} value={selectedOption} onChange={handleSelectChange}>
@@ -212,7 +212,7 @@ function TabScience() {
                           </div>
                         </div>
                       )}
-                      <div className={styles.stocDiv2}>
+                      <div className={styles.stocDiv3}>
                         <h6 className={styles.stock2}>In Stock.</h6>
                         <div className={styles.customSelect2}>
                           <select className={styles.selectDiv2} value={selectedOption2} onChange={handleSelectChange2}>
