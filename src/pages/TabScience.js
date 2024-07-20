@@ -10,6 +10,7 @@ function TabScience() {
   const [selectedDay, setSelectedDay] = useState("30 Day");
   const [isVisible, setIsVisible] = useState(false);
 
+  
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
   };
@@ -269,8 +270,8 @@ const handleClick=(index)=>{
 
               </div>
             </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
+            <button className={styles.butNowBTN} onClick={handleShow}>
+              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
             </button>
           </div>
 
@@ -283,36 +284,32 @@ const handleClick=(index)=>{
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
+                  <p>5 IN 1 Heart, Liver, HDL, LDL,TG</p>
                   <div className={styles.medcolorGreen}></div>
                 </div>
 
               </div>
             </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
+            <button className={styles.butNowBTN} onClick={handleShow}>
+              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} onClick={() => handleClick(2)}>
-
-            <div
-
-              //  className={styles.orangediv}
-              >
+            <div>
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
                   <img src='/images/medImg3.png' alt='' />
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
+                  <p>5 IN 1 Mental, Cardio, Liver, Digestive</p>
                   <div className={styles.medcolorOrange}></div>
                 </div>
 
               </div>
             </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
+            <button className={styles.butNowBTN} onClick={handleShow}>
+              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
             </button>
           </div>
           <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33} onClick={() => handleClick(3)}>
@@ -323,14 +320,14 @@ const handleClick=(index)=>{
                 </div>
                 <div className={styles.medContent}>
                   <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
+                  <p>5 IN 1 Blue Light & Macula Shield,360° Eye Health, Computer Vision Syndrome</p>
                   <div className={styles.medcolorSky}></div>
                 </div>
 
               </div>
             </div>
-            <button className={styles.butNowBTN}>
-              <span className={styles.spanBtn} onClick={handleShow}>Buy&nbsp; Now</span>
+            <button className={styles.butNowBTN} onClick={handleShow}>
+              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
             </button>
           </div>
         </div>

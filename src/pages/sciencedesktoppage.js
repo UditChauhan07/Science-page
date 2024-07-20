@@ -165,7 +165,7 @@ const Sciencedesktoppage = () => {
 
       </div>
       <div className={styles.PhytoVideoTag}>
-        <video width="100%" height="100%" loop autoPlay muted>
+        <video width="100%" height="100%" loop autoPlay muted controls>
           <source src="/images/Science Masthead web.mp4" type="video/mp4" />
           <source src="/images/Science Masthead web.mp4" type="video/ogg" />
         </video>
@@ -218,7 +218,7 @@ const Sciencedesktoppage = () => {
                 <div className={styles.pcontent}>
                   <p>Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous.</p>
                   <p> For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream. </p>
-                  <p>No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck. </p>
+                  <p>No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck.With the curcumin molecule hidden inside, the lipid can pass through the gut and into your bloodstream with 3000% more bioavailability. Phytosome sets the new standard in prescription-grade natural ingredients. </p>
                 </div>
               </div>
             </div>
