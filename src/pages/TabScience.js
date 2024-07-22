@@ -10,7 +10,7 @@ function TabScience() {
   const [selectedDay, setSelectedDay] = useState("30 Day");
   const [isVisible, setIsVisible] = useState(false);
 
-  
+
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
   };
@@ -37,16 +37,16 @@ function TabScience() {
   };
 
 
-const handleClick=(index)=>{
-  setCurrentIndex(index);
-}
+  const handleClick = (index) => {
+    setCurrentIndex(index);
+  }
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   const slides = [
     {
-      image: "/images/yellowDots.png",
+      image: "/images/humantab.png",
       text1: "Hair + Skin",
       dec: "Revitalize from Root to Tip: Medically Backed Solutions for Hair and Skin Health. Discover the Science Behind Your Glow!",
       text2: "Bones",
@@ -56,11 +56,14 @@ const handleClick=(index)=>{
       text4: "Tendons",
       dec4: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
       className: "SliderText",
-
-
+      className2: "yelloDotsBlink2",
+      className3: "yelloDotsBlink3",
+      className4: "yelloDotsBlink4",
+      className5: "yelloDotsBlink5",
+      className6: "yelloDotsBlink6",
     },
     {
-      image: "/images/greenDots.png",
+      image: "/images/humantab.png",
       text1: "Heart",
       dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text2: "Liver",
@@ -70,6 +73,11 @@ const handleClick=(index)=>{
       text4: "LDL",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       className: "SliderText1",
+      className2: "greenDotsBlink2",
+      className3: "greenDotsBlink3",
+      className4: "greenDotsBlink4",
+      className5: "greenDotsBlink5",
+      className6: "greenDotsBlink6",
     },
     {
       image: "/images/orangeDots.png",
@@ -82,6 +90,7 @@ const handleClick=(index)=>{
       text4: "Digestive Health",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       className: "SliderText2",
+      className2: "orangeDotsBlink"
     },
     {
       image: "/images/skyDots.png",
@@ -94,6 +103,7 @@ const handleClick=(index)=>{
       text4: "Focus & Recovery Dry Eye",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       className: "SliderText3",
+      className2: "skyDotsBlink"
     },
   ];
   return (
@@ -256,7 +266,7 @@ const handleClick=(index)=>{
       <div className={`container ${styles.customContainer}`}>
         <div className={styles.humanTab}>
           <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33} onClick={() => handleClick(0)}>
-            <div className={styles.yellodiv} 
+            <div className={styles.yellodiv}
             >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -276,7 +286,7 @@ const handleClick=(index)=>{
           </div>
 
 
-          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33}  onClick={() => handleClick(1)}>
+          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33} onClick={() => handleClick(1)}>
             <div className={styles.greendiv} >
               <div className={styles.yellodivContent}>
                 <div className={styles.medImg}>
@@ -333,9 +343,15 @@ const handleClick=(index)=>{
         </div>
         <div className={styles.humanImg}>
           <div className={styles.dotsDiv}>
-            <span></span>
+            <span className={styles[slides[currentIndex].className2]}></span>
+            <span className={styles[slides[currentIndex].className3]}></span>
+            <span className={styles[slides[currentIndex].className4]}></span>
+            <span className={styles[slides[currentIndex].className5]}></span>
+            <span className={styles[slides[currentIndex].className6]}></span>
           </div>
-          <img src={slides[currentIndex].image} alt="Main Slide" />
+          <div>
+            <img src={slides[currentIndex].image} alt="Main Slide" />
+          </div>
         </div>
         <div className={styles.humanContent}>
           <div className={styles.HumanDetails}>

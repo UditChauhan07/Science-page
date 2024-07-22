@@ -191,6 +191,7 @@ const Sciencedesktoppage = () => {
 
       </div>
 
+
       <div className={`container ${styles.SliderDiv2}`}>
         <Slider ref={c => (slider = c)} {...settings}>
           <div className={styles.slideData}>
@@ -268,8 +269,10 @@ const Sciencedesktoppage = () => {
           </div>
         </div>
       </div>
+
+
       <div className={styles.nextCarousel}>
-        <div className={` ${styles.SliderDiv3}`}>
+        <div className={`container ${styles.SliderDiv3}`}>
           <Slider ref={c => (slider2 = c)}{...settings}>
             <div className={styles.slider3data}>
               <div className={styles.sliderContent}>

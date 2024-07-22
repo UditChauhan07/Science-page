@@ -47,7 +47,7 @@
 
 .Rectangle1 {
 
-    animation: slide 5s linear infinite;
+    /* animation: slide 5s linear infinite; */
 }
 
 @keyframes slide {
@@ -69,7 +69,7 @@
 }
 
 .Rectangle2 {
-    animation: slide2 5s linear infinite;
+    /* animation: slide2 5s linear infinite; */
 }
 
 @keyframes slide2 {
@@ -129,7 +129,7 @@
 .heroImgContent p {
     font-size: 24px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
-    line-height: 20px;
+    line-height: 30px;
     font-family: 'Gotham', Times, serif;
 }
 
@@ -185,7 +185,7 @@
 .imgRotation {
     width: 270px;
     height: 1rem;
-    animation: float 3s infinite linear;
+    /* animation: float 3s infinite linear; */
     position: relative;
     right: 1.5rem;
 
@@ -204,10 +204,10 @@
 .imgRotation2 {
     width: 270px;
     height: 1rem;
-    animation: float 3s infinite linear;
+    /* animation: float 3s infinite linear; */
     position: relative;
     float: right;
-    left: 5rem;
+    /* left: 5rem; */
     top: -5rem;
 
 }
@@ -226,6 +226,31 @@
 
 
 /* TabDiv CSS Start */
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply animation to .blinkdots class */
+.skyDotsBlink {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: red;
+    border-color: rgb(128, 125, 125);
+    animation: blink 1s infinite;
+}
+
 .customContainer {
     margin-top: 3rem;
     display: flex;
@@ -420,6 +445,7 @@
 }
 
 .humanImg {
+    position: relative;
     width: 40%;
     padding: 3rem;
 
@@ -443,6 +469,456 @@
     border-right: 4px solid rgb(255, 196, 0);
     height: 140px;
 }
+
+/* Dots Blink Css Start */
+.dotsDiv{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* border: 1px solid red; */
+
+}
+.yelloDotsBlink2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    left: 16rem;
+
+}
+
+.yelloDotsBlink2::before {
+    content: "";
+    border: 5px solid rgb(255, 196, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.yelloDotsBlink3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 16rem;
+    left: 16rem;
+}
+
+.yelloDotsBlink3::before {
+    content: "";
+    border: 5px solid rgb(255, 196, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.yelloDotsBlink4 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 26rem;
+    left: 18rem;
+}
+
+.yelloDotsBlink4::before {
+    content: "";
+    border: 5px solid rgb(255, 196, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.yelloDotsBlink5 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 7rem;
+    top: 26rem;   
+}
+
+.yelloDotsBlink5::before {
+    content: "";
+    border: 5px solid rgb(255, 196, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.yelloDotsBlink6 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 37rem;
+    left: 10rem;
+
+    
+
+    
+}
+
+.yelloDotsBlink6::before {
+    content: "";
+    border: 5px solid rgb(255, 196, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+
+
+
+
+.greenDotsBlink2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(116, 203, 89, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14rem;
+    left: 8rem;
+    
+}
+.greenDotsBlink2::before {
+    content: "";
+    border: 5px solid rgb(51, 255, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.greenDotsBlink3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(116, 203, 89, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 17rem;
+    left: 11rem;
+
+}
+.greenDotsBlink3::before {
+    content: "";
+    border: 5px solid rgba(116, 203, 89, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.greenDotsBlink4 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(116, 203, 89, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20rem;
+    left: 6rem;
+    
+}
+.greenDotsBlink4::before {
+    content: "";
+    border: 5px solid rgba(116, 203, 89, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.greenDotsBlink5 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(116, 203, 89, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 21rem;
+    left: 8.5rem;
+
+    
+}
+.greenDotsBlink5::before {
+    content: "";
+    border: 5px solid rgba(116, 203, 89, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.greenDotsBlink6 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(116, 203, 89, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25rem;
+    left: 7.5rem;
+    
+}
+.greenDotsBlink6::before {
+    content: "";
+    border: 5px solid rgb(51, 255, 0);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+
+
+/* Dots Blink Css End */
+
+
 
 .SliderText1 {
 
@@ -594,8 +1070,9 @@
     float: right;
     gap: 2rem;
     display: flex;
-    margin-top: -10rem;
-    margin-right: 6.5rem;
+    margin-top: -6rem;
+    margin-right: -0.8rem;
+
     position: relative;
 
 }
@@ -650,6 +1127,11 @@
 
 
 /* ....Slider 2nd CSS End */
+
+
+
+
+
 /* ....Slider 3nd CSS Start */
 .nextCarousel {
     margin-top: 9rem;
@@ -664,7 +1146,7 @@
 
 .slider3data {
     display: flex !important;
-    padding: 6.5rem;
+    /* padding: 6.5rem; */
 }
 
 .sliderContent {
@@ -1205,11 +1687,12 @@
     }
 
     .slider3data {
-        padding: 19rem;
+        /* padding: 19rem; */
+        margin-top: 5rem;
     }
 
     .sliderContent3 {
-        padding: 1rem;
+        /* padding: 1rem; */
     }
 
     .sliderContent3 h3 {
@@ -1244,14 +1727,14 @@
     }
 
     .bothButton2 {
-        margin-top: -20rem;
-        margin-right: 26.5rem;
+        margin-top: -10rem;
+        margin-right: -0.5rem;
     }
 }
 
 @media(max-width:1600px) {
     .carouselMain img {
-        width: 95.5%;
+        width: 96%;
     }
 
     .imgcotent {
@@ -1292,6 +1775,7 @@
     /* human Tab Css Start */
     .butNowBTN {
         width: 11%;
+        padding: 7px 8px;
     }
 
     .humanText {
@@ -1305,8 +1789,25 @@
     /* human Tab Css Start */
 
     /* slider Css start */
+
+    .slideContent h3 {
+    margin-top: -3rem;
+    }
     .slider3data {
-        padding: 6.5rem;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+    .sliderContentIMG{
+        text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    }
+    .sliderContentIMG img{
+        width: 75%;
+    }
+    .bothButton2{
+        margin-top: -8rem;
     }
 
     /*Slider Css End   */
@@ -1465,6 +1966,7 @@
     }
 
     .sliderContent3 h3 {
+
         font-size: 31px;
     }
 
@@ -1508,18 +2010,20 @@
         left: 6.7rem !important;
         width: 50%;
     }
-
+.carouselMain img{
+    width: 87%;
+}
 
     .heroImgContent h3 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
 
     .heroImgContent h5 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
 
     .heroImgContent p {
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     .ancorLink button {
@@ -1535,20 +2039,44 @@
         width: 100%;
     }
 
+    .imgRotation {
+        width: 200px;
+    }
+
+    .imgRotation2 {
+        width: 200px;
+    }
+
     .tabdiv {
         border-radius: 15px;
+    }
+
+    .tabdiv::after {
+        top: 3.5rem;
     }
 
     .tabdiv2 {
         border-radius: 15px;
     }
 
+    .tabdiv2::after {
+        top: 3.5rem;
+    }
+
     .tabdiv3 {
         border-radius: 15px;
     }
 
+    .tabdiv3::after {
+        top: 3.5rem;
+    }
+
     .tabdiv4 {
         border-radius: 15px;
+    }
+
+    .tabdiv4::after {
+        top: 3.5rem;
     }
 
     .tabdiv33 {
