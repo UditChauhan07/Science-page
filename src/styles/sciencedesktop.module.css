@@ -471,7 +471,7 @@
 }
 
 /* Dots Blink Css Start */
-.dotsDiv{
+.dotsDiv {
     display: flex;
     /* align-items: center;
     justify-content: center; */
@@ -481,6 +481,7 @@
     /* border: 1px solid red; */
 
 }
+
 .yelloDotsBlink2 {
     border-radius: 50%;
     width: 20px;
@@ -567,6 +568,7 @@
         border-width: 2px;
     }
 }
+
 .yelloDotsBlink4 {
     border-radius: 50%;
     width: 20px;
@@ -609,6 +611,7 @@
         border-width: 2px;
     }
 }
+
 .yelloDotsBlink5 {
     border-radius: 50%;
     width: 20px;
@@ -619,7 +622,7 @@
     justify-content: center;
     align-items: center;
     left: 7rem;
-    top: 26rem;   
+    top: 26rem;
 }
 
 .yelloDotsBlink5::before {
@@ -651,6 +654,7 @@
         border-width: 2px;
     }
 }
+
 .yelloDotsBlink6 {
     border-radius: 50%;
     width: 20px;
@@ -663,9 +667,9 @@
     top: 37rem;
     left: 10rem;
 
-    
 
-    
+
+
 }
 
 .yelloDotsBlink6::before {
@@ -713,8 +717,9 @@
     align-items: center;
     top: 14rem;
     left: 8rem;
-    
+
 }
+
 .greenDotsBlink2::before {
     content: "";
     border: 5px solid rgb(51, 255, 0);
@@ -744,6 +749,7 @@
         border-width: 2px;
     }
 }
+
 .greenDotsBlink3 {
     border-radius: 50%;
     width: 20px;
@@ -757,6 +763,7 @@
     left: 11rem;
 
 }
+
 .greenDotsBlink3::before {
     content: "";
     border: 5px solid rgba(116, 203, 89, 1);
@@ -786,6 +793,7 @@
         border-width: 2px;
     }
 }
+
 .greenDotsBlink4 {
     border-radius: 50%;
     width: 20px;
@@ -797,8 +805,9 @@
     align-items: center;
     top: 20rem;
     left: 6rem;
-    
+
 }
+
 .greenDotsBlink4::before {
     content: "";
     border: 5px solid rgba(116, 203, 89, 1);
@@ -828,6 +837,7 @@
         border-width: 2px;
     }
 }
+
 .greenDotsBlink5 {
     border-radius: 50%;
     width: 20px;
@@ -840,8 +850,9 @@
     top: 21rem;
     left: 8.5rem;
 
-    
+
 }
+
 .greenDotsBlink5::before {
     content: "";
     border: 5px solid rgba(116, 203, 89, 1);
@@ -852,6 +863,7 @@
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .greenDotsBlink6 {
     border-radius: 50%;
     width: 20px;
@@ -863,8 +875,9 @@
     align-items: center;
     top: 25rem;
     left: 7.5rem;
-    
+
 }
+
 .greenDotsBlink6::before {
     content: "";
     border: 5px solid rgb(51, 255, 0);
@@ -914,7 +927,450 @@
     }
 }
 
+.orangeDotsBlink2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(240, 128, 86, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2rem;
+    left: 10.5rem;
 
+}
+
+.orangeDotsBlink2::before {
+    content: "";
+    border: 5px solid rgba(240, 128, 86, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.orangeDotsBlink3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(240, 128, 86, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 13rem;
+    left: 9rem;
+
+}
+
+.orangeDotsBlink3::before {
+    content: "";
+    border: 5px solid rgba(240, 128, 86, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.orangeDotsBlink4 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(240, 128, 86, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 16rem;
+    left: 6rem;
+
+}
+
+.orangeDotsBlink4::before {
+    content: "";
+    border: 5px solid rgba(240, 128, 86, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.orangeDotsBlink5 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(240, 128, 86, 1);
+    ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 22rem;
+    left: 6rem;
+
+}
+
+.orangeDotsBlink5::before {
+    content: "";
+    border: 5px solid rgba(240, 128, 86, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.orangeDotsBlink6 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(240, 128, 86, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 26rem;
+    left: 5.6rem;
+
+}
+
+.orangeDotsBlink6::before {
+    content: "";
+    border: 5px solid rgba(240, 128, 86, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+
+.skyDotsBlink2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(86, 204, 240);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 3rem;
+    
+}
+
+.skyDotsBlink2::before {
+    content: "";
+    border: 5px solid rgba(69, 213, 253, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.skyDotsBlink3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(86, 204, 240);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 5.5rem;
+}
+
+.skyDotsBlink3::before {
+    content: "";
+    border: 5px solid rgba(69, 213, 253, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+    
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.skyDotsBlink4 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(86, 204, 240);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 8rem;
+}
+
+.skyDotsBlink4::before {
+    content: "";
+    border: 5px solid rgba(69, 213, 253, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.skyDotsBlink5 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(69, 213, 253, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 11rem;
+}
+
+.skyDotsBlink5::before {
+    content: "";
+    border: 5px solid rgba(69, 213, 253, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
+.skyDotsBlink6 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(69, 213, 253, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 13rem;
+}
+
+.skyDotsBlink6::before {
+    content: "";
+    border: 5px solid rgba(69, 213, 253, 1);
+    ;
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        /* border-color:10px solid #ffda0a; */
+        background-color: none;
+        border-width: 2px;
+    }
+}
 
 /* Dots Blink Css End */
 
@@ -1791,22 +2247,26 @@
     /* slider Css start */
 
     .slideContent h3 {
-    margin-top: -3rem;
+        margin-top: -3rem;
     }
+
     .slider3data {
         margin-top: 6rem;
         margin-bottom: 6rem;
     }
-    .sliderContentIMG{
+
+    .sliderContentIMG {
         text-align: center;
-    margin: auto;
-    justify-content: center;
-    display: flex;
+        margin: auto;
+        justify-content: center;
+        display: flex;
     }
-    .sliderContentIMG img{
+
+    .sliderContentIMG img {
         width: 75%;
     }
-    .bothButton2{
+
+    .bothButton2 {
         margin-top: -8rem;
     }
 
@@ -2010,9 +2470,10 @@
         left: 6.7rem !important;
         width: 50%;
     }
-.carouselMain img{
-    width: 87%;
-}
+
+    .carouselMain img {
+        width: 87%;
+    }
 
     .heroImgContent h3 {
         font-size: 40px !important;

@@ -80,7 +80,7 @@ function TabScience() {
       className6: "greenDotsBlink6",
     },
     {
-      image: "/images/orangeDots.png",
+      image: "/images/humantab.png",
       text1: "Mental Health",
       dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text2: "Cardio Health",
@@ -90,10 +90,15 @@ function TabScience() {
       text4: "Digestive Health",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       className: "SliderText2",
-      className2: "orangeDotsBlink"
+      className2: "orangeDotsBlink2",
+      className3: "orangeDotsBlink3",
+      className4: "orangeDotsBlink4",
+      className5: "orangeDotsBlink5",
+      className6: "orangeDotsBlink6",
+    
     },
     {
-      image: "/images/skyDots.png",
+      image: "/images/humantab.png",
       text1: "Blue Light & Macula Shield",
       dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       text2: "360° Eye Health",
@@ -103,7 +108,11 @@ function TabScience() {
       text4: "Focus & Recovery Dry Eye",
       dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
       className: "SliderText3",
-      className2: "skyDotsBlink"
+      className2: "skyDotsBlink2",
+      className3: "skyDotsBlink3",
+      className4: "skyDotsBlink4",
+      className5: "skyDotsBlink5",
+      className6: "skyDotsBlink6",
     },
   ];
   return (
