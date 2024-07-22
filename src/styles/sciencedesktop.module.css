@@ -1687,11 +1687,12 @@
     }
 
     .slider3data {
-        padding: 19rem;
+        /* padding: 19rem; */
+        margin-top: 5rem;
     }
 
     .sliderContent3 {
-        padding: 1rem;
+        /* padding: 1rem; */
     }
 
     .sliderContent3 h3 {
@@ -1726,8 +1727,8 @@
     }
 
     .bothButton2 {
-        margin-top: -20rem;
-        margin-right: 26.5rem;
+        margin-top: -10rem;
+        margin-right: -0.5rem;
     }
 }
 
