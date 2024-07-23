@@ -38,7 +38,7 @@ const Sciencedesktoppage = () => {
 
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={3000000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={3000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
