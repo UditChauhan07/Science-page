@@ -38,7 +38,7 @@ const Sciencedesktoppage = () => {
 
   return (
     <div className={styles.leptop}>
-      <Carousel fade={true} interval={3000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={3000000} controls={false} pause={false} className={styles.carousel}>
 
         {/* First Slide */}
         <Carousel.Item>
@@ -142,7 +142,7 @@ const Sciencedesktoppage = () => {
             <div className={`container ${styles.heroImgContent}`}>
               <h3>Proven</h3>
               <h5>Nature,Meet Pharma.</h5>
-              <p>When a company makes a claim, it should be transparent and verifiable. Because we are both a pharmacological company and</p>
+              <p>When a company makes a claim, it should be transparent and verifiable. Because we are both a pharmacological company and a nutritional.</p>
               <div className={styles.ancorLink}>
                 <button><a href="">Read More</a></button>
               </div>
