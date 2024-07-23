@@ -163,6 +163,11 @@
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
 
+.brunoDecription2 h1 {
+    font-size: 50px !important;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
+
 .brunoDecription p {
     width: 70%;
     margin: auto;
@@ -536,7 +541,7 @@
     justify-content: center;
     align-items: center;
     top: 16rem;
-    left: 16rem;
+    left: 17rem;
 }
 
 .yelloDotsBlink3::before {
@@ -1165,7 +1170,7 @@
     align-items: center;
     top: 4rem;
     left: 3rem;
-    
+
 }
 
 .skyDotsBlink2::before {
@@ -1198,6 +1203,7 @@
         border-width: 2px;
     }
 }
+
 .skyDotsBlink3 {
     border-radius: 50%;
     width: 20px;
@@ -1221,7 +1227,7 @@
     opacity: 0;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
-    
+
 }
 
 @keyframes expand {
@@ -1242,6 +1248,7 @@
         border-width: 2px;
     }
 }
+
 .skyDotsBlink4 {
     border-radius: 50%;
     width: 20px;
@@ -1285,6 +1292,7 @@
         border-width: 2px;
     }
 }
+
 .skyDotsBlink5 {
     border-radius: 50%;
     width: 20px;
@@ -1328,6 +1336,7 @@
         border-width: 2px;
     }
 }
+
 .skyDotsBlink6 {
     border-radius: 50%;
     width: 20px;
@@ -1613,7 +1622,7 @@
 
 .sliderContent h6 {
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
-    font-size: 24px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 1);
     font-weight: bold;
 }
@@ -1643,7 +1652,7 @@
 
 .sliderContent3 h3 {
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
-    font-size: 44px;
+    font-size: 40px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
@@ -2186,8 +2195,23 @@
         margin-top: -10rem;
         margin-right: -0.5rem;
     }
+    
 }
-
+@media(max-width:1920px){
+    .sliderContentIMG{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .sliderContentIMG img{
+        width: 75%;
+    }
+    .slider3data{
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+}
 @media(max-width:1600px) {
     .carouselMain img {
         width: 96%;
@@ -2206,7 +2230,26 @@
     .ancorLink button {
         font-size: 18px;
     }
+.sliderContentIMG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sliderContentIMG img{
+    width: 75%;
+}
+}
 
+@media only screen and (max-width:1920px) and (min-width:1400px) {
+    .yelloDotsBlink2 {
+        left: 20rem;
+    }
+
+    .yelloDotsBlink3 {
+        top: 19rem;
+        left: 20.5rem;
+    }
 }
 
 @media(max-width:1440px) {
@@ -2242,7 +2285,90 @@
         font-size: 13px;
     }
 
-    /* human Tab Css Start */
+    /* Blink Css Start */
+    .yelloDotsBlink5 {
+        top: 32rem;
+        left: 9rem;
+    }
+
+    .yelloDotsBlink4 {
+        top: 28rem;
+        left: 21rem;
+    }
+
+    .yelloDotsBlink6 {
+        top: 43rem;
+        left: 13rem;
+
+    }
+
+    .greenDotsBlink2 {
+        left: 13rem;
+    }
+
+    .greenDotsBlink3 {
+        top: 19rem;
+        left: 8rem;
+    }
+
+    .greenDotsBlink4 {
+        left: 12.5rem;
+        top: 19rem;
+    }
+
+    .greenDotsBlink5 {
+        left: 11.3rem;
+        top: 22rem;
+    }
+
+    .greenDotsBlink6 {
+        left: 10.1rem;
+        top: 25rem;
+    }
+
+    .orangeDotsBlink2 {
+        left: 13rem;
+    }
+
+    .orangeDotsBlink3 {
+        left: 12rem;
+        top: 14rem;
+    }
+
+    .orangeDotsBlink4 {
+        left: 6.5rem;
+        top: 18rem;
+    }
+
+    .orangeDotsBlink5 {
+        left: 6rem;
+        top: 25rem;
+    }
+    .orangeDotsBlink6 {
+        top: 32rem;
+        left: 8rem;
+    }
+
+    .skyDotsBlink2{
+        left: 4rem;
+    }
+    .skyDotsBlink3{
+        left: 7rem;
+    }
+    .skyDotsBlink4{
+        left: 10rem;
+    }
+    .skyDotsBlink5{
+        left: 14rem;
+    }
+    .skyDotsBlink6{
+        left: 17rem;
+    }
+
+    /* Blink Css Start */
+
+
+    /* human Tab Css End */
 
     /* slider Css start */
 
@@ -2269,9 +2395,11 @@
     .bothButton2 {
         margin-top: -8rem;
     }
+   
 
     /*Slider Css End   */
 }
+
 
 @media(max-width:1024px) {
     .imgcotent {
@@ -2283,15 +2411,15 @@
     }
 
     .heroImgContent h3 {
-        font-size: 45px;
+        font-size: 45px !important;
     }
 
     .heroImgContent h5 {
-        font-size: 35px;
+        font-size: 35px !important;
     }
 
     .heroImgContent p {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .ancorLink button {
@@ -2307,9 +2435,145 @@
         width: 70%;
     }
 
+    .imgRotation {
+        width: 200px;
+        margin-bottom: 4rem;
+    }
+
+    .imgRotation2 {
+        margin-top: 2rem;
+        width: 200px;
+    }
+
+    .imgRotation2 {
+        margin-top: 2rem;
+        width: 200px;
+    }
+
+    .tabdiv::after {
+        top: 4rem;
+    }
+
+    .tabdiv2::after {
+        top: 4rem;
+    }
+
+    .tabdiv3::after {
+        top: 4rem;
+    }
+
+    .tabdiv4::after {
+        top: 4rem;
+    }
+
+    /* Blink Css Start */
+
+    .yelloDotsBlink2 {
+        top: 3rem;
+        left: 13rem;
+    }
+
+    .yelloDotsBlink3 {
+        left: 12.5rem;
+        top: 12rem;
+    }
+
+    .yelloDotsBlink4 {
+        left: 13rem;
+        top: 20rem;
+    }
+
+    .yelloDotsBlink5 {
+        left: 4.6rem;
+        top: 21rem;
+    }
+
+    .yelloDotsBlink6 {
+        left: 5.6rem;
+        top: 32rem;
+    }
+
+    .greenDotsBlink2 {
+        top: 11rem;
+        left: 7rem;
+    }
+
+    .greenDotsBlink3 {
+        left: 9rem;
+        top: 14rem;
+    }
+
+    .greenDotsBlink4 {
+        left: 4rem;
+        top: 16rem;
+    }
+
+    .greenDotsBlink5 {
+        left: 6.5rem;
+        top: 17rem;
+    }
+
+    .greenDotsBlink6 {
+        left: 5.3rem;
+        top: 20rem;
+    }
+
+    .orangeDotsBlink2 {
+        left: 8.5rem;
+        top: 1rem;
+    }
+
+    .orangeDotsBlink3 {
+        top: 10rem;
+        left: 7rem;
+    }
+
+    .orangeDotsBlink4 {
+        top: 12rem;
+        left: 4rem;
+    }
+
+    .orangeDotsBlink5 {
+        top: 16rem;
+        left: 3rem;
+    }
+
+    .orangeDotsBlink6 {
+        top: 21rem;
+        left: 3.3rem;
+    }
+
+    .skyDotsBlink2 {
+        top: 3rem;
+        left: 0rem;
+    }
+
+    .skyDotsBlink3 {
+        top: 3rem;
+        left: 2.3rem;
+    }
+
+    .skyDotsBlink4 {
+        top: 3rem;
+        left: 6rem;
+    }
+
+    .skyDotsBlink5 {
+        top: 3rem;
+        left: 9.4rem;
+    }
+
+    .skyDotsBlink6 {
+        top: 3rem;
+        left: 11.5rem;
+    }
+
+
     /* tabDiv css Start */
 
-    .medContent h6 {
+
+
+    .yellodivContent .medContent h6 {
         font-size: 16px;
     }
 
@@ -2410,6 +2674,9 @@
     /* tabDiv Css end */
 
     /* slide Content Css start */
+    .pcontent{
+        height: 180px;
+    }
     .slideContent h3 {
         font-size: 35px;
     }
@@ -2422,7 +2689,7 @@
     }
 
     .sliderContent h6 {
-        font-size: 31px;
+        font-size: 16px;
     }
 
     .sliderContent3 h3 {
@@ -2456,7 +2723,9 @@
     }
 
     .bothButton2 {
-        margin-right: 1rem;
+        margin-right: -1rem;
+        padding-top: 2rem;
+
     }
 
     /* Slider 2 Css End */
@@ -2465,6 +2734,8 @@
 }
 
 @media(max-width:991px) {
+
+
     .imgcotent {
         top: 7.5rem;
         left: 6rem !important;
@@ -2489,8 +2760,9 @@
         line-height: 20px;
         font-size: 16px !important;
     }
-    .ancorLink{
-     margin-top: 10px;
+
+    .ancorLink {
+        margin-top: 10px;
     }
 
     .ancorLink button {
@@ -2499,7 +2771,8 @@
     }
 
     .brunoDecription h1 {
-        font-size: 40px;
+        font-size: 40px !important;
+
     }
 
     .brunoDecription p {
@@ -2508,10 +2781,20 @@
 
     .imgRotation {
         width: 200px;
+
+    }
+
+    .brunoDecription2 h1 {
+        font-size: 40px !important;
+    }
+
+    .brunoDecription3 h1 {
+        padding-top: 3rem;
     }
 
     .imgRotation2 {
         width: 200px;
+        margin-top: 4rem;
     }
 
     .tabdiv {
@@ -2641,6 +2924,110 @@
         margin-bottom: 0rem;
     }
 
+    /* Blink Css start */
+    .yelloDotsBlink2 {
+        top: 2rem;
+        left: 9rem;
+    }
+
+    .yelloDotsBlink3 {
+        top: 8rem;
+        left: 8rem;
+    }
+
+    .yelloDotsBlink4 {
+        top: 13.5rem;
+        left: 8rem;
+    }
+
+    .yelloDotsBlink5 {
+        top: 13.5rem;
+        left: 1.7rem;
+    }
+
+    .yelloDotsBlink6 {
+        top: 19rem;
+        left: 2.5rem;
+    }
+
+    .greenDotsBlink2 {
+        top: 7rem;
+        left: 4.2rem;
+    }
+
+    .greenDotsBlink3 {
+        top: 9rem;
+        left: 5rem;
+    }
+
+    .greenDotsBlink4 {
+        top: 10rem;
+        left: 1.8rem;
+    }
+
+    .greenDotsBlink5 {
+        left: 2.5rem;
+        top: 11rem;
+    }
+
+    .greenDotsBlink6 {
+        left: 1.3rem;
+        top: 13rem;
+    }
+
+    .orangeDotsBlink2 {
+        top: 1rem;
+        left: 5.4rem;
+    }
+
+    .orangeDotsBlink3 {
+        top: 6.5rem;
+        left: 4rem;
+    }
+
+    .orangeDotsBlink4 {
+        top: 8rem;
+        left: 1.4rem;
+    }
+
+    .orangeDotsBlink5 {
+        top: 11rem;
+        left: 0.6rem;
+    }
+
+    .orangeDotsBlink6 {
+        top: 13.5rem;
+        left: 0.4rem;
+    }
+
+    .skyDotsBlink2 {
+        top: 1rem;
+        left: -1.6rem;
+    }
+
+    .skyDotsBlink3 {
+        top: 1rem;
+        left: 0.4rem
+    }
+
+    .skyDotsBlink4 {
+        top: 1rem;
+        left: 2.9rem;
+    }
+
+    .skyDotsBlink5 {
+        top: 1rem;
+        left: 5.4rem;
+    }
+
+    .skyDotsBlink6 {
+        top: 1rem;
+        left: 7.5rem;
+    }
+
+    /* Blink Css End */
+
+
     /* Slider CSS Start */
     .slideContent {
         padding: 1rem;
@@ -2659,7 +3046,7 @@
 
     .forscrollbar {
         overflow: auto;
-        height: 280px;
+        height: 250px;
     }
 
     .slider3data {
@@ -2673,7 +3060,9 @@
 
     .sliderContent3 h5 {
         font-size: 24px;
-
+    }
+    .sliderContent3 h6{
+        font-size: 18px;
     }
 
     .roundeddiv {
@@ -2706,9 +3095,11 @@
 
     .bothButton2 {
         margin-top: -4.6875rem;
-        margin-right: 1.5rem;
+        margin-right: -1rem;
     }
-
+.pcontent{
+    height: 130px;
+}
     /* SliderContent 3 CSS ENd */
 
 }
@@ -2716,4 +3107,10 @@
 .carouselMain {
     background: #ffffff !important;
 
+}
+
+@media only screen and (max-width:991px) and (min-width:800px) {
+    .carouselMain img {
+        width: 93.5%;
+    }
 }
