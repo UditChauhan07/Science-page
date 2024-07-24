@@ -2317,7 +2317,7 @@
 @media(max-width:1440px) {
     .imgcotent {
         top: 29rem;
-        padding: 20px !important;
+        padding: 0rem 
 
     }
 
@@ -2446,6 +2446,7 @@
     .slider3data {
         margin-top: 6rem;
         margin-bottom: 6rem;
+
     }
 
     .sliderContentIMG {
@@ -2477,6 +2478,10 @@
     .imgcotent {
         top: 22rem !important
     }
+    .slider3data {
+    
+        padding: 0px;
+     }
 }
 
 @media (max-width:1200px) {
@@ -2490,6 +2495,7 @@
     .pcontent{
         max-height: 170px;
     }
+
 }
 
 @media(max-width:1024px) {
@@ -2775,9 +2781,7 @@
     /* slide Content Css End */
 
     /* slider 2  Css Start */
-    .slider3data {
-        padding: 2rem;
-    }
+   
 
     .sliderContent h6 {
         font-size: 16px;
