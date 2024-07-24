@@ -95,7 +95,7 @@ function TabScience() {
       className4: "orangeDotsBlink4",
       className5: "orangeDotsBlink5",
       className6: "orangeDotsBlink6",
-    
+
     },
     {
       image: "/images/humantab.png",
@@ -124,7 +124,7 @@ function TabScience() {
 
         </Modal.Header>
         <div className={styles.mainModalDiv}>
-          
+
           <div className={styles.modalImg}>
             <div><img src='/images/modalimg.png' /></div>
             <div className={styles.medTitle}>
@@ -274,130 +274,137 @@ function TabScience() {
 
       {/* Human Tab Section Start */}
       <div className={styles.tabMain} >
-      <div className={`container ${styles.customContainer}`}>
-        <div className={styles.humanTab}>
-          <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33} onClick={() => handleClick(0)}>
-            <div className={styles.yellodiv}
-            >
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
-                  <div className={styles.medcoloryellow}></div>
-                </div>
+        <div className={`container ${styles.customContainer}`}>
+          <div className={styles.humanTab}>
+            <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33} onClick={() => handleClick(0)}>
+              <div className={styles.yellodiv}
+              >
+                <div className={styles.yellodivContent}>
+                  <div className={styles.medImg}>
+                    <img src='/images/medImg.png' alt='' />
+                  </div>
+                  <div className={styles.medContent}>
+                    <h6>Royal Collagen Peptides</h6>
+                    <b>Bruno MD</b>
+                    <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
+                    <div className={styles.BuyBtn}>
+                      <div className={styles.medcoloryellow}></div>
+                      <div><button onClick={handleShow}>Buy Now</button></div>
+                    </div>
+                  </div>
 
+                </div>
               </div>
             </div>
-            <button className={styles.butNowBTN} onClick={handleShow}>
-              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
-            </button>
-          </div>
 
 
-          <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33} onClick={() => handleClick(1)}>
-            <div className={styles.greendiv} >
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg2.png' alt='' />
+            <div className={currentIndex === 1 ? styles.tabdiv2 : styles.tabdiv33} onClick={() => handleClick(1)}>
+              <div className={styles.greendiv} >
+                <div className={styles.yellodivContent}>
+                  <div className={styles.medImg}>
+                    <img src='/images/medImg2.png' alt='' />
+                  </div>
+                  <div className={styles.medContent}>
+                    <h6>Bluerex vision 60 softgels</h6>
+                    <b>Bruno MD</b>
+                    <p>5 IN 1 Heart, Liver, HDL, LDL,TG</p>
+                    <div className={styles.BuyBtn}>
+                      <div className={styles.medcolorGreen}></div>
+                      <div><button onClick={handleShow}>Buy Now</button></div>
+                    </div>
+
+                  </div>
+
                 </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Heart, Liver, HDL, LDL,TG</p>
-                  <div className={styles.medcolorGreen}></div>
-                </div>
+              </div>
 
+            </div>
+            <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} onClick={() => handleClick(2)}>
+              <div>
+                <div className={styles.yellodivContent}>
+                  <div className={styles.medImg}>
+                    <img src='/images/medImg3.png' alt='' />
+                  </div>
+                  <div className={styles.medContent}>
+                    <h6>Riboflam 90 v-caps</h6>
+                    <b>Bruno MD</b>
+                    <p>5 IN 1 Mental, Cardio, Liver, Digestive</p>
+                    <div className={styles.BuyBtn}>
+                      <div className={styles.medcolorOrange}></div>
+                      <div><button onClick={handleShow}>Buy Now</button></div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33} onClick={() => handleClick(3)}>
+              <div className={styles.skyBluediv} >
+                <div className={styles.yellodivContent}>
+                  <div className={styles.medImg}>
+                    <img src='/images/medImg4.png' alt='' />
+                  </div>
+                  <div className={styles.medContent}>
+                    <h6>CholestQ10 60 v-caps </h6>
+                    <b>Bruno MD</b>
+                    <p>5 IN 1 Blue Light & Macula Shield,360° Eye Health, Computer Vision Syndrome</p>
+                    <div className={styles.BuyBtn}>
+                      <div className={styles.medcolorSky}></div>
+                      <div><button onClick={handleShow}>Buy Now</button></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <button className={styles.butNowBTN} onClick={handleShow}>
-              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
-            </button>
           </div>
-          <div className={currentIndex === 2 ? styles.tabdiv3 : styles.tabdiv33} onClick={() => handleClick(2)}>
+          <div className={styles.humanImg}>
+            <div className={styles.dotsDiv}>
+              <span className={styles[slides[currentIndex].className2]}></span>
+              <span className={styles[slides[currentIndex].className3]}></span>
+              <span className={styles[slides[currentIndex].className4]}></span>
+              <span className={styles[slides[currentIndex].className5]}></span>
+              <span className={styles[slides[currentIndex].className6]}></span>
+            </div>
             <div>
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg3.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Mental, Cardio, Liver, Digestive</p>
-                  <div className={styles.medcolorOrange}></div>
-                </div>
+              <img src={slides[currentIndex].image} alt="Main Slide" />
+            </div>
+          </div>
+          <div className={styles.humanContent}>
+            <div className={styles.HumanDetails}>
 
+              <div className={styles[slides[currentIndex].className]}></div>
+              <div className={styles.humanText}>
+                <h6>{slides[currentIndex].text1}</h6>
+                <p>{slides[currentIndex].dec}</p>
               </div>
             </div>
-            <button className={styles.butNowBTN} onClick={handleShow}>
-              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
-            </button>
-          </div>
-          <div className={currentIndex === 3 ? styles.tabdiv4 : styles.tabdiv33} onClick={() => handleClick(3)}>
-            <div className={styles.skyBluediv} >
-              <div className={styles.yellodivContent}>
-                <div className={styles.medImg}>
-                  <img src='/images/medImg4.png' alt='' />
-                </div>
-                <div className={styles.medContent}>
-                  <h6>Royal Collagen Peptides <b>Bruno MD</b></h6>
-                  <p>5 IN 1 Blue Light & Macula Shield,360° Eye Health, Computer Vision Syndrome</p>
-                  <div className={styles.medcolorSky}></div>
-                </div>
-
+            <div className={styles.HumanDetails}>
+              <div className={styles[slides[currentIndex].className]}></div>
+              <div className={styles.humanText}>
+                <h6>{slides[currentIndex].text2}</h6>
+                <p>{slides[currentIndex].dec2}</p>
               </div>
             </div>
-            <button className={styles.butNowBTN} onClick={handleShow}>
-              <span className={styles.spanBtn} >Buy&nbsp; Now</span>
-            </button>
+
+            <div className={styles.HumanDetails}>
+              <div className={styles[slides[currentIndex].className]}></div>
+              <div className={styles.humanText}>
+                <h6>{slides[currentIndex].text3}</h6>
+                <p>{slides[currentIndex].dec3}</p>
+              </div>
+            </div>
+            <div className={styles.HumanDetails}>
+              <div className={styles[slides[currentIndex].className]}></div>
+              <div className={styles.humanText}>
+                <h6>{slides[currentIndex].text4}</h6>
+                <p>{slides[currentIndex].dec4}</p>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div className={styles.humanImg}>
-          <div className={styles.dotsDiv}>
-            <span className={styles[slides[currentIndex].className2]}></span>
-            <span className={styles[slides[currentIndex].className3]}></span>
-            <span className={styles[slides[currentIndex].className4]}></span>
-            <span className={styles[slides[currentIndex].className5]}></span>
-            <span className={styles[slides[currentIndex].className6]}></span>
-          </div>
-          <div>
-            <img src={slides[currentIndex].image} alt="Main Slide" />
-          </div>
-        </div>
-        <div className={styles.humanContent}>
-          <div className={styles.HumanDetails}>
-
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text1}</h6>
-              <p>{slides[currentIndex].dec}</p>
-            </div>
-          </div>
-          <div className={styles.HumanDetails}>
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text2}</h6>
-              <p>{slides[currentIndex].dec2}</p>
-            </div>
-          </div>
-
-          <div className={styles.HumanDetails}>
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text3}</h6>
-              <p>{slides[currentIndex].dec3}</p>
-            </div>
-          </div>
-          <div className={styles.HumanDetails}>
-            <div className={styles[slides[currentIndex].className]}></div>
-            <div className={styles.humanText}>
-              <h6>{slides[currentIndex].text4}</h6>
-              <p>{slides[currentIndex].dec4}</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
       </div>
       {/* Human Tab Section End */}
     </div>
