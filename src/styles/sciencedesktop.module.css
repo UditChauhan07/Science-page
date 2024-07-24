@@ -1489,9 +1489,10 @@
 /* ....Slider 2nd CSS Start */
 .SliderDiv2 {
     max-width: 1380px !important;
-    margin: 4rem 0rem 0rem 0rem !important;
+    /* margin: 4rem 0rem 0rem 0rem !important; */
     padding-left: 20px !important;
     padding-right: 20px !important;
+    margin:  4rem auto !important;
 
 }
 
