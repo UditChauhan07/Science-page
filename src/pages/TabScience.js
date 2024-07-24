@@ -124,6 +124,7 @@ function TabScience() {
 
         </Modal.Header>
         <div className={styles.mainModalDiv}>
+          
           <div className={styles.modalImg}>
             <div><img src='/images/modalimg.png' /></div>
             <div className={styles.medTitle}>
@@ -272,6 +273,7 @@ function TabScience() {
       {/* Modale Open */}
 
       {/* Human Tab Section Start */}
+      <div className={styles.tabMain} >
       <div className={`container ${styles.customContainer}`}>
         <div className={styles.humanTab}>
           <div className={currentIndex === 0 ? styles.tabdiv : styles.tabdiv33} onClick={() => handleClick(0)}>
@@ -395,6 +397,7 @@ function TabScience() {
           </div>
 
         </div>
+      </div>
       </div>
       {/* Human Tab Section End */}
     </div>

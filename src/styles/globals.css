@@ -2779,3 +2779,10 @@ footer ul a {
   border-top-left-radius: var(--bs-modal-inner-border-radius);
   border-top-right-radius: var(--bs-modal-inner-border-radius);
 }
+
+
+.carousel-caption{
+  /* position: unset !important; */
+  right: 0 !important;
+  padding: 20px !important;
+}

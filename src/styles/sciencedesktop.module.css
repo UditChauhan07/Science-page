@@ -1,7 +1,14 @@
 .carouselMain img {
-    width: 97%;
+    width: 100%;
+    max-width: 1686px;
     display: flex;
-    margin: auto 6.7rem;
+    /* margin: auto 6.7rem; */
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+.carouselMain {
+    padding: 0 20px;
 }
 
 
@@ -11,6 +18,11 @@
 
 .heroImgContent {
     color: black;
+    max-width: 1380px !important;
+}
+
+.heroImgContent p {
+    width: 50%;
 }
 
 .ancorLink {
@@ -95,13 +107,18 @@
 }
 
 .imgcotent {
-    top: 21rem;
-    left: 6.7rem !important;
-    width: 35%;
+    top: 25.5rem !important;
+    left: 0 !important;
+    /* width: 35%; */
+    transform: translate(0%, -50%);
+    max-width: 1380px;
+    margin: 0 auto !important;
+    width: 100%;
 }
 
 .heroImgContent {
     text-align: left;
+    padding: 0 !important;
 }
 
 .brunoDecription {
@@ -139,8 +156,10 @@
 }
 
 .brunoDecription2 {
+    width: 100% !important;
     margin-top: 3rem !important;
     text-align: center;
+    max-width: 1380px !important;
 }
 
 .brunoDecription2 p {
@@ -149,8 +168,10 @@
 }
 
 .brunoDecription3 {
-    margin-top: 3rem !important;
+    width: 100% !important;
+    margin-top: 5rem !important;
     text-align: center;
+    max-width: 1380px !important;
 }
 
 .brunoDecription3 p {
@@ -213,7 +234,7 @@
     position: relative;
     float: right;
     /* left: 5rem; */
-    top: -5rem;
+    top: -3rem;
 
 }
 
@@ -257,9 +278,14 @@
 }
 
 .customContainer {
+    max-width: 1380px !important;
     margin-top: 3rem;
     display: flex;
     padding: 0rem !important;
+}
+
+.tabMain {
+    padding: 0 20px;
 }
 
 .humanTab {
@@ -431,7 +457,7 @@
 
 .butNowBTN {
     display: block;
-    width: 10%;
+    width: 43px !important;
     border: 5px solid #ffffff;
     border-radius: 10px;
     position: absolute;
@@ -1462,13 +1488,16 @@
 
 /* ....Slider 2nd CSS Start */
 .SliderDiv2 {
-    margin-top: 3rem;
-    padding: 0rem !important;
+    max-width: 1380px !important;
+    margin: 4rem 0rem 0rem 0rem !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 
 }
 
 .slideData {
     width: 100% !important;
+    max-width: 1380px !important;
     display: flex !important;
 }
 
@@ -1537,6 +1566,7 @@
     display: flex;
     margin-top: -6rem;
     margin-right: -0.8rem;
+    padding: 20px !important;
 
     position: relative;
 
@@ -1605,8 +1635,10 @@
 }
 
 .SliderDiv3 {
-    /* border: 5px solid rgb(255, 123, 0); */
-    /* padding: 0rem !important; */
+    margin: 0rem;
+    width: 100% !important;
+    max-width: 1380px !important;
+    padding: 20px;
 }
 
 .slider3data {
@@ -1617,7 +1649,7 @@
 .sliderContent {
     /* border: 1px solid black !important; */
     width: 35%;
-    margin-right: 2rem;
+    margin-right: 0rem !important;
 }
 
 .sliderContent h6 {
@@ -1647,6 +1679,7 @@
 .sliderContent3 {
     /* border: 1px solid black !important; */
     width: 35%;
+    padding-right: 10px !important;
 
 }
 
@@ -1992,17 +2025,24 @@
 
 .medTitle {
     margin: auto;
-    left: -2.8rem;
+    left: -1.8rem;
     padding: 1rem;
+    width: 100%;
     background-color: rgba(249, 195, 0, 1);
     position: relative;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-
 }
 
 .medTitle h3 {
     font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gotham', Times, serif;
+}
+
+.medTitle p {
+    font-size: 24px;
+    font-family: 'Gotham', Times, serif;
 }
 
 .Accordian1 {
@@ -2054,9 +2094,9 @@
 
 @media only screen and (max-width:2560px) and (min-width:1920px) {
     .imgcotent {
-        top: 24rem;
+        /* top: 24rem;
         left: 7.2rem !important;
-        width: 40%;
+        width: 40%; */
     }
 
     .heroImgContent h3 {
@@ -2195,33 +2235,28 @@
         margin-top: -10rem;
         margin-right: -0.5rem;
     }
-    
+
 }
-@media(max-width:1920px){
-    .sliderContentIMG{
+
+@media(max-width:1920px) {
+    .sliderContentIMG {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: auto;
     }
-    .sliderContentIMG img{
+
+    .sliderContentIMG img {
         width: 75%;
     }
-    .slider3data{
+
+    .slider3data {
         margin-top: 6rem;
         margin-bottom: 6rem;
     }
 }
-@media(max-width:1600px) {
-    .carouselMain img {
-        width: 96%;
-    }
 
-    .imgcotent {
-        top: 18rem;
-        left: 7.2rem !important;
-        width: 40%;
-    }
+@media(max-width:1600px) {
 
     .heroImgContent h3 {
         font-size: 100px;
@@ -2230,18 +2265,31 @@
     .ancorLink button {
         font-size: 18px;
     }
-.sliderContentIMG{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-.sliderContentIMG img{
-    width: 75%;
-}
-}
 
+    .sliderContentIMG {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .sliderContentIMG img {
+        width: 75%;
+    }
+}
+@media(max-width:2800px) {
+    .carouselMain img{
+        margin-left: 0rem !important;
+    }
+    .imgcotent{
+        margin-left: 0rem !important;
+    }
+}
 @media only screen and (max-width:1920px) and (min-width:1400px) {
+    .container {
+        max-width: 1380px !important;
+    }
+
     .yelloDotsBlink2 {
         left: 20rem;
     }
@@ -2252,15 +2300,41 @@
     }
 }
 
-@media(max-width:1440px) {
+@media(max-width:1920px) {
+    .carouselMain img {
+        margin-left: 0rem;
+    }
+
     .imgcotent {
-        top: 15rem;
-        left: 5.5rem !important;
-        width: 40%;
+        top: 32rem !important;
+        padding: 20px !important;
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media(max-width:1600px) {
+    .imgcotent {
+        top: 32rem !important;
+        padding: 20px !important;
+        margin-left: 0rem !important;
+
     }
 
     .heroImgContent h3 {
-        font-size: 85px;
+        font-size: 65px !important;
+    }
+}
+
+@media(max-width:1440px) {
+    .imgcotent {
+        top: 29rem;
+        padding: 20px !important;
+
+    }
+
+    .heroImgContent h3 {
+        font-size: 65px !important;
     }
 
     .heroImgContent h3 {
@@ -2344,24 +2418,29 @@
         left: 6rem;
         top: 25rem;
     }
+
     .orangeDotsBlink6 {
         top: 32rem;
         left: 8rem;
     }
 
-    .skyDotsBlink2{
+    .skyDotsBlink2 {
         left: 4rem;
     }
-    .skyDotsBlink3{
+
+    .skyDotsBlink3 {
         left: 7rem;
     }
-    .skyDotsBlink4{
+
+    .skyDotsBlink4 {
         left: 10rem;
     }
-    .skyDotsBlink5{
+
+    .skyDotsBlink5 {
         left: 14rem;
     }
-    .skyDotsBlink6{
+
+    .skyDotsBlink6 {
         left: 17rem;
     }
 
@@ -2395,18 +2474,38 @@
     .bothButton2 {
         margin-top: -8rem;
     }
-   
+
 
     /*Slider Css End   */
 }
 
+@media (max-width:1400px) {
+    .imgcotent {
+        top: 25rem !important
+    }
+}
+
+@media (max-width:1300px) {
+    .imgcotent {
+        top: 22rem !important
+    }
+}
+
+@media (max-width:1200px) {
+    .imgcotent {
+        top: 19rem !important
+    }
+
+    .heroImgContent h3 {
+        font-size: 50px !important;
+    }
+}
 
 @media(max-width:1024px) {
     .imgcotent {
 
-        top: 13.1rem;
-        left: 7rem !important;
-        width: 50%;
+        top: 19rem !important;
+
 
     }
 
@@ -2608,7 +2707,7 @@
     }
 
     .butNowBTN {
-        width: 90%;
+        width: 90% !important;
         top: -1.5rem;
         left: 0.7rem;
         padding: 0px 1px;
@@ -2674,9 +2773,10 @@
     /* tabDiv Css end */
 
     /* slide Content Css start */
-    .pcontent{
+    .pcontent {
         height: 180px;
     }
+
     .slideContent h3 {
         font-size: 35px;
     }
@@ -2737,13 +2837,12 @@
 
 
     .imgcotent {
-        top: 7.5rem;
-        left: 6rem !important;
-        width: 50%;
+        top: 16rem !important;
+
     }
 
     .carouselMain img {
-        width: 87%;
+        width: 100% !important;
     }
 
     .heroImgContent h3 {
@@ -3050,7 +3149,7 @@
     }
 
     .slider3data {
-        padding: 1.5rem;
+        padding: 15px !important;
     }
 
     .sliderContent3 h3 {
@@ -3061,7 +3160,8 @@
     .sliderContent3 h5 {
         font-size: 24px;
     }
-    .sliderContent3 h6{
+
+    .sliderContent3 h6 {
         font-size: 18px;
     }
 
@@ -3097,9 +3197,11 @@
         margin-top: -4.6875rem;
         margin-right: -1rem;
     }
-.pcontent{
-    height: 130px;
-}
+
+    .pcontent {
+        height: 130px;
+    }
+
     /* SliderContent 3 CSS ENd */
 
 }
@@ -3107,6 +3209,15 @@
 .carouselMain {
     background: #ffffff !important;
 
+}
+
+@media(max-width:850px) {
+
+
+    .imgcotent {
+        top: 14rem !important;
+
+    }
 }
 
 @media only screen and (max-width:991px) and (min-width:800px) {
