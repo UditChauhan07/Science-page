@@ -2298,7 +2298,9 @@
     .imgcotent {
         /* transform: translate(0%, -40%); */
     }
-
+.heroImgContent p{
+        width: 60%;
+}
     /* blink Css Start */
     .yelloDotsBlink2 {
         left: 22rem;
