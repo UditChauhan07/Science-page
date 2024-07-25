@@ -35,6 +35,7 @@
 }
 
 .ancorLink button {
+    font-family: 'Gotham', Times, serif;
     background-color: black;
     border: none;
     font-size: 24px;
@@ -42,15 +43,31 @@
     border-radius: 34px;
     font-size: 16px;
     padding: 8px 16px;
-}
-
-.ancorLink a {
-    text-decoration: none;
     color: #ffffff;
-    font-family: 'Gotham', Times, serif;
-
-
 }
+
+.modalBody::-webkit-scrollbar {
+    width: 3px; 
+  }
+  
+  .modalBody::-webkit-scrollbar-track {
+    background: #afafaf; 
+  }
+  
+  .modalBody::-webkit-scrollbar-thumb {
+    background: #000000; 
+    border-radius: 20px;
+  }
+  
+  .modalBody::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+  }
+.modalBody{
+    overflow: auto;
+    height: 300px;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
 
 .RectangleDiv {
     display: flex;
@@ -2173,11 +2190,7 @@
         width: 50px;
     }
 
-    .butNowBTN {
-        top: 0.3rem;
-        left: -0.5rem;
-        padding: 18px 9px !important;
-    }
+  
 
     .spanBtn {
         line-height: 14px;
@@ -2345,10 +2358,7 @@
     }
 
     /* human Tab Css Start */
-    .butNowBTN {
-        width: 11%;
-        padding: 7px 8px;
-    }
+  
 
     .humanText {
         padding: 0rem 0rem 0rem 1rem;
@@ -2481,7 +2491,7 @@
 
 @media (max-width:1400px) {
     .imgcotent {
-        top: 25rem !important
+        top: 18rem !important
     }
 }
 
@@ -2716,12 +2726,7 @@
         height: 10px;
     }
 
-    .butNowBTN {
-        width: 90% !important;
-        top: -1.5rem;
-        left: 0.7rem;
-        padding: 0px 1px;
-    }
+  
 
     .spanBtn {
         font-size: 16px;
