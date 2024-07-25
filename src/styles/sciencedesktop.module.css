@@ -1747,8 +1747,9 @@
 .round2 {
     margin-top: 1rem;
     border-radius: 34px;
-    width: 50%;
+    width: max-content;
     border: 1px solid rgb(2, 2, 2);
+
 }
 
 .round2 p {
@@ -2235,6 +2236,7 @@
     .slideContent h3 {
         font-size: 60px;
         line-height: 65px;
+        margin-bottom: 2rem;
     }
 
     .sliderContent h6 {
@@ -2245,6 +2247,9 @@
     .sliderContent p {
         font-size: 16px;
         line-height: 22px;
+    }
+    .pcontent{
+        max-height: 260px;
     }
 
     .slider3data {
