@@ -130,11 +130,11 @@ function TabScience() {
           <p>Save an additional 10% use HEART at checkout</p>
           </div>
           <div className={styles.modalContentData}>
-            <div>
+            <div className={styles.brunoImgModal}>
               <img src='/images/modalImgBrunoMd.png'/>
               </div>
             <div className={styles.modaltitle}>
-              <h3>Royal Collagen Peptides</h3>
+              <h6>Royal Collagen Peptides</h6>
               <p>The Science of Beauty</p>
             </div>
           </div>
