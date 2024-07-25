@@ -2047,14 +2047,19 @@
 
 .modalImg {
     width: 60%;
+    margin: auto;
+}
+.modalImgTitle{
+    position: relative;
+    bottom: 3rem;
 }
 .modalImgTitle p{
     text-align: center;
     background-color: rgba(86, 0, 140, 1);
     color: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px;
-    width: 65%;
+    width: 70%;
     margin: auto;
     font-weight: bold;
     font-family: 'Gotham', Times, serif;
@@ -2073,20 +2078,30 @@
 .modalContentData{
     display: flex;
 }
+.brunoImgModal{
+    position: relative;
+    left: 10px;
+}
 .modaltitle{
     margin: auto 0px;
     text-align: center;
     background-color: rgba(249, 195, 0, 1);
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
-.medTitle h3 {
+.medTitle h6 {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Gotham', Times, serif;
+    margin-bottom: 0rem;
+    color: #000000;
 }
 
 .medTitle p {
     font-size: 24px;
     font-family: 'Gotham', Times, serif;
+    margin-bottom: 0rem;
+    color: #000000;
 }
 
 .Accordian1 {

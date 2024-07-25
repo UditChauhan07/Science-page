@@ -2823,3 +2823,7 @@ footer ul a {
   margin-right: auto;
   margin-left: auto;
 }
+
+input[type=radio] {
+  accent-color: #000;
+}
