@@ -2784,7 +2784,7 @@ footer ul a {
 .carousel-caption{
   /* position: unset !important; */
   right: 0 !important;
-  padding: 20px !important;
+  /* padding: 20px !important; */
 }
 
 .modal-content {
@@ -2810,4 +2810,16 @@ footer ul a {
   border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
   border-top-left-radius: var(--bs-modal-inner-border-radius);
   border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  /* padding-right: calc(var(--bs-gutter-x)* .5); */
+  /* padding-left: calc(var(--bs-gutter-x)* .5); */
+  margin-right: auto;
+  margin-left: auto;
 }
