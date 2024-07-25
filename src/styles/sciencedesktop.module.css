@@ -1806,6 +1806,7 @@
 .mainModalDiv {
     margin: 2rem 4rem 2rem 4rem;
     display: flex;
+    border: 1px solid red;
 }
 
 .Accordian {
@@ -2045,10 +2046,18 @@
 
 
 .modalImg {
-    /* border: 2px solid red; */
     width: 60%;
+}
+.modalImgTitle p{
+    text-align: center;
+    background-color: rgba(86, 0, 140, 1);
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px;
+    width: 65%;
     margin: auto;
-    display: flex;
+    font-weight: bold;
+    font-family: 'Gotham', Times, serif;
 }
 
 .medTitle {
@@ -2061,7 +2070,14 @@
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
-
+.modalContentData{
+    display: flex;
+}
+.modaltitle{
+    margin: auto 0px;
+    text-align: center;
+    background-color: rgba(249, 195, 0, 1);
+}
 .medTitle h3 {
     font-size: 24px;
     font-weight: bold;
@@ -2926,7 +2942,7 @@
 
     .bothButton2 {
         margin-right: -1rem;
-        padding-top: 2rem;
+        padding-top: 3rem !important;
 
     }
 
@@ -3354,8 +3370,8 @@
     }
 
     .bothButton2 {
-        margin-top: -4.6875rem;
-        margin-right: -1rem;
+        margin-top: -8rem;
+        margin-right: 1rem;
     }
 
     .pcontent {

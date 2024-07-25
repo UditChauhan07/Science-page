@@ -124,13 +124,20 @@ function TabScience() {
 
         </Modal.Header>
         <div className={styles.mainModalDiv}>
-
+         
           <div className={styles.modalImg}>
-            <div><img src='/images/modalimg.png' /></div>
-            <div className={styles.medTitle}>
+            <div className={styles.modalImgTitle}>
+          <p>Save an additional 10% use HEART at checkout</p>
+          </div>
+          <div className={styles.modalContentData}>
+            <div>
+              <img src='/images/modalImgBrunoMd.png'/>
+              </div>
+            <div className={styles.modaltitle}>
               <h3>Royal Collagen Peptides</h3>
               <p>The Science of Beauty</p>
             </div>
+          </div>
           </div>
 
           <div className={styles.modalContent}>
