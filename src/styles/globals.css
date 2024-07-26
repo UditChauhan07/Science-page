@@ -2724,11 +2724,26 @@ footer ul a {
 }
 
 
+@media(max-width:1920px) {
+  .carousel-indicators {
+    bottom: -9rem !important;
+  }
 
+}
+@media(max-width:1440px) {
+  .carousel-indicators {
+    bottom: -5rem !important;
+  }
+}
+@media(max-width:1400px) {
+  .carousel-indicators {
+    bottom: -4rem !important;
+  }
+}
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: -4rem !important;
+  bottom: -4rem;
   left: 0;
   z-index: 2;
   display: flex;
