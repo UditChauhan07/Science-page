@@ -167,7 +167,7 @@
 }
 
 .heroImgContent p {
-    font-size: 24px !important;
+    font-size: 20px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
     line-height: 30px;
     font-family: 'Gotham', Times, serif;
@@ -200,6 +200,11 @@
 .brunoDecription3 p {
     font-family: 'Gotham', Times, serif;
     line-height: 24px !important;
+}
+
+.brunoDecription3 h1 {
+    font-size: 50px !important;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
 
 .brunoDecription h1 {
@@ -437,10 +442,14 @@
 
 .medContent h6 {
     font-size: 16px;
+    font-family: 'Gotham', Times, serif;
+}
+
+.medContent b {
+    font-family: 'Gotham', Times, serif;
 }
 
 .medContent p {
-
     font-size: 18px;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -449,6 +458,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0px;
+    font-family: 'Gotham', Times, serif;
 }
 
 .medcoloryellow {
@@ -487,7 +497,7 @@
 
 .BuyBtn button {
     font-family: 'Gotham', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     background-color: black;
     color: white;
@@ -1549,6 +1559,7 @@
 }
 
 .slideContent p {
+    font-family: 'Gotham', Times, serif;
     padding-right: 1.5rem;
     font-size: 18px;
     line-height: 28px;
@@ -1754,6 +1765,7 @@
 }
 
 .round2 p {
+    font-family: 'Gotham', Times, serif;
     padding: 10px 8px;
     align-items: center;
     margin-bottom: 0rem;
@@ -1775,6 +1787,7 @@
 }
 
 .roundBtn p {
+    font-family: 'Gotham', Times, serif;
     padding: 10px;
     align-items: center;
     margin-bottom: 0rem;
@@ -2081,6 +2094,14 @@
     border-top-right-radius: 10px;
 }
 
+.modaltitle h6 {
+    margin-bottom: 0rem;
+}
+
+.modaltitle p {
+    margin-bottom: 0rem;
+}
+
 .modalContentData {
     display: flex;
 }
@@ -2094,8 +2115,10 @@
     margin: auto 0px;
     text-align: center;
     background-color: rgba(249, 195, 0, 1);
-    padding: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 4rem 1rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .medTitle h6 {
@@ -2112,6 +2135,7 @@
     margin-bottom: 0rem;
     color: #000000;
 }
+
 
 .Accordian1 {
     align-items: baseline;
@@ -2161,18 +2185,13 @@
 /* Modal Css End */
 
 @media only screen and (max-width:2560px) and (min-width:1920px) {
-    .imgcotent {
-        /* top: 24rem;
-        left: 7.2rem !important;
-        width: 40%; */
-    }
 
     .heroImgContent h3 {
-        font-size: 130px !important;
+        font-size: 80px !important;
     }
 
     .heroImgContent h5 {
-        font-size: 70px !important;
+        font-size: 60px !important;
     }
 
     .heroImgContent p {
@@ -2193,6 +2212,16 @@
     }
 
     .brunoDecription h1 {
+        line-height: 102px;
+        font-size: 60px !important;
+    }
+
+    .brunoDecription2 h1 {
+        line-height: 102px;
+        font-size: 60px !important;
+    }
+
+    .brunoDecription3 h1 {
         line-height: 102px;
         font-size: 60px !important;
     }
@@ -2300,9 +2329,11 @@
     .roundBtn p {
         font-size: 30px;
     }
-.bothButton{
-    margin-right: 0rem;
-}
+
+    .bothButton {
+        margin-right: 0rem;
+    }
+
     .bothButton2 {
         margin-top: -10rem;
         margin-right: -1.5rem;
@@ -2311,6 +2342,9 @@
 }
 
 @media(max-width:1920px) {
+    .BuyBtn button {
+        font-size: 20px;
+    }
 
     .brunoDecription2 {
         margin-top: 5rem !important;
@@ -2482,11 +2516,11 @@
 @media(max-width:1440px) {
 
     .heroImgContent h3 {
-        font-size: 65px !important;
+        font-size: 50px !important;
     }
 
     .heroImgContent h3 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .ancorLink button {
@@ -2616,9 +2650,11 @@
     .sliderContentIMG img {
         width: 75%;
     }
-.bothButton{
-    margin-right: 0rem;
-}
+
+    .bothButton {
+        margin-right: 0rem;
+    }
+
     .bothButton2 {
         margin-top: -8rem;
         margin-right: -1.3rem;
@@ -2642,17 +2678,21 @@
     .nextCarousel {
         padding: 0 20px;
     }
-    .brunoDecription2{
-        margin-top:3rem !important;
+
+    .brunoDecription2 {
+        margin-top: 3rem !important;
     }
-    .bothButton{
+
+    .bothButton {
         margin-right: 1rem !important;
     }
-    .bothButto2{
+
+    .bothButto2 {
         margin-right: 0rem;
     }
 
 }
+
 @media (max-width:1300px) {
     .imgcotent {
         /* top: 16rem !important */
@@ -3423,9 +3463,11 @@
     .roundBtn p {
         font-size: 16px;
     }
-.bothButton{
-    margin-right: 1rem !important;
-}
+
+    .bothButton {
+        margin-right: 1rem !important;
+    }
+
     .bothButton2 {
         margin-top: -8rem;
         margin-right: -1.3rem;
