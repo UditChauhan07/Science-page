@@ -445,7 +445,7 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     display: -webkit-box;
-    min-height: 50px;
+    min-height: 45px;
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0px;
@@ -1586,6 +1586,7 @@
     gap: 2rem;
     display: flex;
     margin-top: 2rem;
+    margin-right: 1.2rem;
 }
 
 .bothButton2 {
@@ -1593,7 +1594,7 @@
     gap: 2rem;
     display: flex;
     margin-top: -6rem;
-    margin-right: -0.8rem;
+    margin-right: -0.7rem;
     padding: 20px !important;
 
     position: relative;
@@ -1764,6 +1765,7 @@
 .blackHr2 {
     color: rgba(0, 0, 0, 1);
     margin-top: 3rem;
+    opacity: 1;
 }
 
 .roundBtn {
@@ -2050,11 +2052,13 @@
     width: 60%;
     margin: auto;
 }
-.modalImgTitle{
+
+.modalImgTitle {
     position: relative;
     bottom: 3rem;
 }
-.modalImgTitle p{
+
+.modalImgTitle p {
     text-align: center;
     background-color: rgba(86, 0, 140, 1);
     color: #ffffff;
@@ -2076,20 +2080,24 @@
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
-.modalContentData{
+
+.modalContentData {
     display: flex;
 }
-.brunoImgModal{
+
+.brunoImgModal {
     position: relative;
     left: 10px;
 }
-.modaltitle{
+
+.modaltitle {
     margin: auto 0px;
     text-align: center;
     background-color: rgba(249, 195, 0, 1);
     padding: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .medTitle h6 {
     font-size: 24px;
     font-weight: bold;
@@ -2248,7 +2256,8 @@
         font-size: 16px;
         line-height: 22px;
     }
-    .pcontent{
+
+    .pcontent {
         max-height: 260px;
     }
 
@@ -2291,21 +2300,22 @@
     .roundBtn p {
         font-size: 30px;
     }
-
+.bothButton{
+    margin-right: 0rem;
+}
     .bothButton2 {
         margin-top: -10rem;
-        margin-right: -0.5rem;
+        margin-right: -1.5rem;
     }
 
 }
 
 @media(max-width:1920px) {
-    .imgcotent {
-        /* transform: translate(0%, -40%); */
+
+    .brunoDecription2 {
+        margin-top: 5rem !important;
     }
-/* .heroImgContent p{
-        width: 60%;
-} */
+
     /* blink Css Start */
     .yelloDotsBlink2 {
         left: 22rem;
@@ -2587,7 +2597,7 @@
     /* slider Css start */
 
     .slideContent h3 {
-        margin-top: -3rem;
+        margin-top: -6rem;
     }
 
     .slider3data {
@@ -2606,21 +2616,43 @@
     .sliderContentIMG img {
         width: 75%;
     }
-
+.bothButton{
+    margin-right: 0rem;
+}
     .bothButton2 {
         margin-top: -8rem;
+        margin-right: -1.3rem;
     }
 
 
     /*Slider Css End   */
 }
 
-@media (max-width:1400px) {
-    .imgcotent {
-        /* top: 18rem !important */
-    }
-}
 
+@media(max-width:1400px) {
+
+    .imgcotent {
+        padding: 0 20px;
+    }
+
+    .slideData {
+        padding: 0 20px;
+    }
+
+    .nextCarousel {
+        padding: 0 20px;
+    }
+    .brunoDecription2{
+        margin-top:3rem !important;
+    }
+    .bothButton{
+        margin-right: 1rem !important;
+    }
+    .bothButto2{
+        margin-right: 0rem;
+    }
+
+}
 @media (max-width:1300px) {
     .imgcotent {
         /* top: 16rem !important */
@@ -2955,7 +2987,7 @@
     }
 
     .round2 {
-        width: 55%;
+        width: max-content;
     }
 
     .round2 p {
@@ -3390,10 +3422,12 @@
     .roundBtn p {
         font-size: 16px;
     }
-
+.bothButton{
+    margin-right: 1rem !important;
+}
     .bothButton2 {
         margin-top: -8rem;
-        margin-right: 1rem;
+        margin-right: -1.3rem;
     }
 
     .pcontent {
@@ -3409,20 +3443,7 @@
 
 }
 
-@media(max-width:1400px) {
 
-    .imgcotent {
-        padding: 0 20px;
-    }
-
-    .slideData {
-        padding: 0 20px;
-    }
-
-    .nextCarousel {
-        padding: 0 20px;
-    }
-}
 
 
 @media(max-width:850px) {
