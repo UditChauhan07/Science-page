@@ -47,14 +47,14 @@ function TabScience() {
   const slides = [
     {
       image: "/images/humantab.png",
-      text1: "Hair + Skin",
-      dec: "Revitalize from Root to Tip: Medically Backed Solutions for Hair and Skin Health. Discover the Science Behind Your Glow!",
-      text2: "Bones",
-      dec2: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
-      text3: "Gut",
-      dec3: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
-      text4: "Tendons",
-      dec4: "Strong bones for a life in motion. Build your strength, embrace your vitality.",
+      text1: "Youthfull Skin, Hair & Nails",
+      dec: "Stimulates collagen production in fibroblasts to help reduce wrinkles and promote growth and health of hair and nails.",
+      text2: " Joints and Cartilage",
+      dec2: "Stimulates collagen production in chondrocytes to support joint and collagen function",
+      text3: "Stronger Bones",
+      dec3: "Stimulates collagen production in osteoblasts & reduces bone fractures in women by 75%",
+      text4: "Reduces Inflammtion & Boots Immunity",
+      dec4: "Contains natural vitamin C and Red Orange Complex with over 278% daily recommended value of Vitamin C.",
       className: "SliderText",
       className2: "yelloDotsBlink2",
       className3: "yelloDotsBlink3",
@@ -64,14 +64,14 @@ function TabScience() {
     },
     {
       image: "/images/humantab.png",
-      text1: "Heart",
-      dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text2: "Liver",
-      dec2: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text3: "HDL",
-      dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text4: "LDL",
-      dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
+      text1: " Support Cardiovascular Health",
+      dec: "Clinically-proven ingredients help support healthy cholesterol levels",
+      text2: "Fatty Lipids",
+      dec2: "Clinically-proven ingredients inhibit the creation of fatty lipids in the liver",
+      text3: " Oxidative Damage and Coq10",
+      dec3: "Clinically-proven ingredients help protect mitochondrial DNA against oxidative damage that can lead to heart disease and significantly boost CoQ10 116% over baseline",
+      text4: "Vegan-Friendly",
+      dec4: "All ingredients in CholestQ10 are certified vegan, including the capsules",
       className: "SliderText1",
       className2: "greenDotsBlink2",
       className3: "greenDotsBlink3",
@@ -81,14 +81,14 @@ function TabScience() {
     },
     {
       image: "/images/humantab.png",
-      text1: "Mental Health",
-      dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text2: "Cardio Health",
-      dec2: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text3: "Liver Health",
-      dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text4: "Digestive Health",
-      dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
+      text1: "Exercise Pain Relief",
+      dec: "Clinically-proven ingredients help relieve post-exercise pain naturally",
+      text2: "Immunity",
+      dec2: "Stimulates overall immune health, which is directly linked to your body’s ability to fight inflammation and work better, and longer",
+      text3: "Multisystem Health",
+      dec3: "Clinically-proven ingredients help maintain a healthy heart and vascular system, help manage bad cholesterol levels by increasing bile production, which traps cholesterol for elimination, help reduce inflammation in the gut, improve colon health and decrease gas and bloating, and balance gut flora",
+      text4: "Mental Health",
+      dec4: "Clinically-proven ingredients support mental clarity, focus, and cognition",
       className: "SliderText2",
       className2: "orangeDotsBlink2",
       className3: "orangeDotsBlink3",
@@ -99,14 +99,14 @@ function TabScience() {
     },
     {
       image: "/images/humantab.png",
-      text1: "Blue Light & Macula Shield",
-      dec: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text2: "360° Eye Health",
-      dec2: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text3: "Computer Vision Syndrome",
-      dec3: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
-      text4: "Focus & Recovery Dry Eye",
-      dec4: "orem Ipsum is simply dummy text of the printing and typesetting industry.",
+      text1: " Shields the front of Eye",
+      dec: "Protects the front of the eye, and lens, and strengthens ciliary muscles",
+      text2: " Shields the Back of the Eye",
+      dec2: "Protects the retina from blue light damage and oxidative stress",
+      text3: "Clinically Proven ingredients",
+      dec3: "Ingredients that deliver clinically proven results to ease symptoms of CVS (Computer Vision Syndrome)",
+      text4: " Antioxidant Protection",
+      dec4: "Protects the eye from damaging free radicals",
       className: "SliderText3",
       className2: "skyDotsBlink2",
       className3: "skyDotsBlink3",
@@ -312,7 +312,7 @@ function TabScience() {
                     <img src='/images/medImg2.png' alt='' />
                   </div>
                   <div className={styles.medContent}>
-                    <h6>Bluerex vision 60 softgels</h6>
+                    <h6>CholestQ10 60 v-caps </h6>
                     <b>Bruno MD</b>
                     <p>5 IN 1 Heart, Liver, HDL, LDL,TG</p>
                     <div className={styles.BuyBtn}>
@@ -354,7 +354,7 @@ function TabScience() {
                     <img src='/images/medImg4.png' alt='' />
                   </div>
                   <div className={styles.medContent}>
-                    <h6>CholestQ10 60 v-caps </h6>
+                    <h6>Bluerex vision 60 softgels </h6>
                     <b>Bruno MD</b>
                     <p>5 IN 1 Blue Light & Macula Shield,360° Eye Health, Computer Vision Syndrome</p>
                     <div className={styles.BuyBtn}>
