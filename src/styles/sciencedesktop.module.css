@@ -148,7 +148,7 @@
     margin-top: 6rem !important;
 }
 
-.heroImgContent h3 {
+.heroImgContent h1 {
     font-size: 80px !important;
     color: rgb(0, 0, 0);
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -159,7 +159,7 @@
 
 }
 
-.heroImgContent h5 {
+.heroImgContent h2 {
     margin-bottom: 1rem;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-size: 40px !important;
@@ -225,7 +225,7 @@
 }
 
 .PhytoVideoTag {
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100%;
 
 }
@@ -1529,7 +1529,7 @@
     /* margin: 4rem 0rem 0rem 0rem !important; */
     /* padding-left: 20px !important;
     padding-right: 20px !important; */
-    margin: 4rem auto !important;
+    margin: 5rem auto !important;
 
 }
 
@@ -1552,7 +1552,12 @@
     padding: 2rem;
 }
 
-.slideContent h3 {
+.slideContent h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
+.slideContent h2{
     color: rgba(0, 0, 0, 1);
     font-size: 40px;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -2186,11 +2191,11 @@
 
 @media only screen and (max-width:2560px) and (min-width:1920px) {
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 80px !important;
     }
 
-    .heroImgContent h5 {
+    .heroImgContent h2 {
         font-size: 60px !important;
     }
 
@@ -2468,7 +2473,7 @@
 
 @media(max-width:1600px) {
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 100px;
     }
 
@@ -2508,18 +2513,18 @@
 @media(max-width:1600px) {
 
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 65px !important;
     }
 }
 
 @media(max-width:1440px) {
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 50px !important;
     }
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 40px;
     }
 
@@ -2709,7 +2714,7 @@
         /* top: 14rem !important */
     }
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 50px !important;
     }
 
@@ -2724,11 +2729,11 @@
         /* top: 14rem !important; */
     }
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 45px !important;
     }
 
-    .heroImgContent h5 {
+    .heroImgContent h3 {
         font-size: 35px !important;
     }
 
@@ -2782,6 +2787,7 @@
 
     .BuyBtn button {
         margin-right: 1rem;
+        font-size: 16px;
     }
 
     /* Blink Css Start */
@@ -3057,11 +3063,11 @@
         width: 100% !important;
     }
 
-    .heroImgContent h3 {
+    .heroImgContent h1 {
         font-size: 36px !important;
     }
 
-    .heroImgContent h5 {
+    .heroImgContent h2 {
         margin-bottom: 0rem;
         font-size: 26px !important;
     }
