@@ -206,7 +206,21 @@
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
+.brunoDecription4{
+    width: 100% !important;
+    margin-top: 3rem !important;
+    text-align: center;
+    max-width: 1380px !important;
+}
+.brunoDecription4 p {
+    font-family: 'Gotham', Times, serif;
+    line-height: 24px !important;
+}
 
+.brunoDecription4 h1 {
+    font-size: 50px !important;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
 .brunoDecription h1 {
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -2230,6 +2244,10 @@
         line-height: 102px;
         font-size: 60px !important;
     }
+    .brunoDecription4 h1 {
+        line-height: 102px;
+        font-size: 60px !important;
+    }
 
     .brunoDecription p {
         width: 50%;
@@ -2640,7 +2658,7 @@
     }
 
     .slider3data {
-        margin-top: 6rem;
+        margin-top: 4rem;
         margin-bottom: 6rem;
 
     }
@@ -3108,6 +3126,9 @@
     .brunoDecription3 h1 {
         padding-top: 3rem;
     }
+    .brunoDecription4 h1 {
+        padding-top: 3rem;
+    }
 
     .imgRotation2 {
         width: 200px;
@@ -3426,6 +3447,7 @@
 
     .slider3data {
         padding: 15px !important;
+        margin-top: 2rem;
     }
 
     .sliderContent3 h3 {
