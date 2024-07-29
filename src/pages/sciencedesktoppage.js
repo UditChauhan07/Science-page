@@ -129,8 +129,8 @@ const Sciencedesktoppage = () => {
             </div>
             <Carousel.Caption className={styles.imgcotent}>
               <div className={`container ${styles.heroImgContent}`}>
-                <h3>{slide.title}</h3>
-                <h5>{slide.subtitle}</h5>
+                <h1>{slide.title}</h1>
+                <h2>{slide.subtitle}</h2>
                 <p>{slide.content}</p>
 
                 {slide.readmore && (
@@ -178,8 +178,8 @@ const Sciencedesktoppage = () => {
         <img src='/images/rotaionImg1.png' />
       </div>
       <div className={`container ${styles.brunoDecription3}`}>
-        <h1>Clinical Studies</h1>
-        <p>Natural Ingredients, clinically proven results</p>
+        <h1>Phytosome Technology</h1>
+        <p>Up to 3000% higher bioavailability</p>
 
       </div>
 
@@ -189,7 +189,8 @@ const Sciencedesktoppage = () => {
           <div className={styles.slideData}>
             <div className={styles.contentbackdiv}>
               <div className={styles.slideContent} >
-                <h3>The Process of <br /> <b>Phytosome Formation</b> </h3>
+                <h1><b>Better by Nature</b> </h1>
+                <h2> Making Phytosome</h2>
                 <div className={styles.pcontent} >
                   <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
                   <p> The phospholipid coating also enables the extract to bypass the digestive system &apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
@@ -207,7 +208,8 @@ const Sciencedesktoppage = () => {
           <div className={styles.slideData}>
             <div className={styles.contentbackdiv}>
               <div className={styles.slideContent}>
-                <h3>Phytosome technology is a <br /> <b>Form of Biomimicry</b> </h3>
+                <h1><b>Biomimicry</b></h1>
+                <h2>Delivering More</h2>
                 <div className={styles.pcontent}>
                   <p>Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous.</p>
                   <p> For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream. </p>
@@ -223,7 +225,8 @@ const Sciencedesktoppage = () => {
           <div className={styles.slideData}>
             <div className={styles.contentbackdiv}>
               <div className={styles.slideContent}>
-                <h3>The phospholipid shell in <br /> <b>Phytosomes Mimics</b> </h3>
+                <h1><b>Phospholipids</b></h1>
+                <h2>Nature’s Delivery Truck</h2>
                 <div className={styles.pcontent}>
                   <p>The phospholipid shell in phytosomes mimics the natural structure of cell membranes, which enables them to bypass the digestive and hepatic barriers by selectively releasing their active compounds into the bloodstream.</p>
                   <p>This enhances their therapeutic value and decreases the amount required to deliver therapeutic effects.</p>
