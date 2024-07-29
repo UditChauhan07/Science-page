@@ -288,7 +288,7 @@ function TabScience() {
               >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medImg.png' alt='' />
+                    <img src='/images/medBottel0.png' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>Royal Collagen Peptides</h6>
@@ -309,7 +309,7 @@ function TabScience() {
               <div className={styles.greendiv} >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medImg2.png' alt='' />
+                    <img src='/images/medBottel1.png' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>CholestQ10 60 v-caps </h6>
@@ -330,7 +330,7 @@ function TabScience() {
               <div>
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medImg3.png' alt='' />
+                    <img src='/images/medBottel2.png' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>Riboflam 90 v-caps</h6>
@@ -351,7 +351,7 @@ function TabScience() {
               <div className={styles.skyBluediv} >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medImg4.png' alt='' />
+                    <img src='/images/medBottel3.png' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>Bluerex vision 60 softgels </h6>

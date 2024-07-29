@@ -268,6 +268,11 @@ const Sciencedesktoppage = () => {
 
       <div className={styles.nextCarousel}>
         <div className={`container ${styles.SliderDiv3}`}>
+        <div className={`container ${styles.brunoDecription4}`}>
+        <h1>Clinical Studies</h1>
+        <p>Natural Ingredients, clinically proven results</p>
+
+      </div>
           <Slider ref={c => (slider2 = c)}{...settings}>
             <div className={styles.slider3data}>
               <div className={styles.sliderContent}>
