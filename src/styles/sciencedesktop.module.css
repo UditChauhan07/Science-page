@@ -146,6 +146,7 @@
 
 .brunoDecription {
     margin-top: 6rem !important;
+    
 }
 
 .heroImgContent h1 {
@@ -205,6 +206,7 @@
 .brunoDecription3 h1 {
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
 }
 .brunoDecription4{
     width: 100% !important;
@@ -220,15 +222,18 @@
 .brunoDecription4 h1 {
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
 }
 .brunoDecription h1 {
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
 }
 
 .brunoDecription2 h1 {
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
 }
 
 .brunoDecription p {
@@ -1753,6 +1758,7 @@
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     font-size: 40px;
     margin-top: 1rem;
+    color: #000000;
 }
 
 .roundeddiv {
@@ -1773,6 +1779,7 @@
     margin-bottom: 0rem;
     font-size: 14px;
     font-family: 'Gotham', Times, serif;
+    color: #000000;
 }
 
 .round2 {
@@ -1790,6 +1797,7 @@
     margin-bottom: 0rem;
     display: flex;
     justify-content: center;
+    color: #000000;
 
 }
 
