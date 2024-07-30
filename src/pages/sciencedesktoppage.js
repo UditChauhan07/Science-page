@@ -146,8 +146,8 @@ const Sciencedesktoppage = () => {
 
 
       <div className={styles.RectangleDiv}>
-        <div className={styles.Rectangle1}><img src='/images/Rectangle1.png' /></div>
-        <div className={styles.Rectangle2}><img src='/images/Rectangle2.png' /></div>
+        <div className={styles.Rectangle1}><img src='/images/Rectangle1.webp' /></div>
+        <div className={styles.Rectangle2}><img src='/images/Rectangle2.webp' /></div>
 
       </div>
 
@@ -169,13 +169,13 @@ const Sciencedesktoppage = () => {
       </div>
 
       <div className={styles.imgRotation}>
-        <img src='/images/rotaionImg1.png' />
+        <img src='/images/rotaionImg1.webp' />
       </div>
       {/* Human Tab Section Start */}
       <TabScience />
       {/* Human Tab Section End */}
       <div className={styles.imgRotation2}>
-        <img src='/images/rotaionImg1.png' />
+        <img src='/images/rotaionImg1.webp' />
       </div>
       <div className={`container ${styles.brunoDecription3}`}>
         <h1>Phytosome Technology</h1>
