@@ -151,7 +151,7 @@ function TabScience() {
                     checked={activeIndex === 0}
                     onChange={() => handleRadioChange(0)}
                   />
-                  <label className="accordion-button" htmlFor="section1">
+                  <label className={`accordion-button ${styles.accordianButton}`} htmlFor="section1">
                     ONE-TIME PURCHASE
                     <div className={styles.price}>
                       <span className={styles.dollar}>$</span>

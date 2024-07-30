@@ -1497,8 +1497,7 @@
 }
 
 .slideContent {
-    /* padding: 0rem 2rem 1rem 2rem; */
-    padding: 2rem;
+    padding: 0rem 2rem 1rem 2rem;
 }
 
 .slideContent h1 {
@@ -1828,6 +1827,7 @@
     overflow: auto;
     height: 200px;
     padding: 0rem 2rem 0rem 2rem;
+    font-family: 'Gotham', Times, serif;
 }
 
 
@@ -1851,6 +1851,7 @@
 .stocDiv {
     display: flex;
     flex-direction: column;
+    font-family: 'Gotham', Times, serif;
 }
 
 .stocDiv2 {
@@ -2023,10 +2024,13 @@
 
 .modaltitle h6 {
     margin-bottom: 0rem;
+    font-family: 'Gotham', Times, serif;
+
 }
 
 .modaltitle p {
     margin-bottom: 0rem;
+    font-family: 'Gotham', Times, serif;
 }
 
 .modalContentData {
@@ -2080,6 +2084,7 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
+    font-family: 'Gotham', Times, serif;
 }
 
 .Accordian2 {
@@ -2098,6 +2103,7 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
+    font-family: 'Gotham', Times, serif;
 }
 
 .radioButton {
