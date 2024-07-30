@@ -359,17 +359,15 @@ const Sciencedesktoppage = () => {
                 <div className={styles.forscrollbar}>
                   <p className={styles.Pcontent}><b>For a healthy inflammatory response</b> Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check.The clinically proven, natural ingredients in Riboflam® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Coenzyme Q10 Phytosome®</b> promotes healthy aging, heart & cardiovascular health, brain health, and all activities involving energetic expenditure.</p>
+                  <p className={styles.Pcontent}><b>Natural Astaxanthin Extract</b> is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.  </p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Cardoon</b> contains active biophenols and flavonoids from an endemic variety of Cardoon leaf inhibiting the creation of fatty lipids in the liver</p>
+                  <p className={styles.Pcontent}><b>Curcumin Phytosome</b> comes from turmeric, which has been used in Asian cooking and cures since ancient times. It supports a healthy inflammation and immune response. Bruno MD’s Curcumin Phytosome is the #1 recommended formulation by the prestigious Cleveland Clinic.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Natural Vitamin (E-d-alpha-tocopheryl succinate)</b> shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
+                  <p className={styles.Pcontent}><b>Boswellia Serra Phytosome,</b> commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Bergamot Orange Extract Phytosome®</b>
-                    supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.
+                  <p className={styles.Pcontent}> <b>Nucleoflam Proprietary Nucleotides & Nucleosides Yeast Extract Complex</b> are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.
                   </p>
-                  <p className={styles.Pcontent}><b>Curcumin Phytosome® (Turmeric Extract)</b>
-                    supports healthy blood vessel function and guards against chronic inflammation.
+                  <p className={styles.Pcontent}><b>Quercitin Phytosome</b> blocks inflammatory enzymes and the creation of cytokines and, like Astaxanthin, is a potent antioxidant, but you’ll need to eat 100 kilos of broccoli each day to get enough. Riboflam delivers 2000% more quercitin than standard supplements.
                   </p>
                 </div>
 
