@@ -46,7 +46,7 @@ function TabScience() {
 
   const slides = [
     {
-      image: "/images/humantab.png",
+      image: "/images/humantab.webp",
       text1: "YOUTHFUL SKIN, HAIR & NAILS",
       dec: "Stimulates collagen production in fibroblasts to help reduce wrinkles and promote growth and health of hair and nails.",
       text2: " JOINTS AND CARTILAGE",
@@ -63,7 +63,7 @@ function TabScience() {
       className6: "yelloDotsBlink6",
     },
     {
-      image: "/images/humantab.png",
+      image: "/images/humantab.webp",
       text1: " SUPPORT CARDIOVASCULAR HEALTH",
       dec: "Clinically-proven ingredients help support healthy cholesterol levels",
       text2: "FATTY LIPIDS",
@@ -80,7 +80,7 @@ function TabScience() {
       className6: "greenDotsBlink6",
     },
     {
-      image: "/images/humantab.png",
+      image: "/images/humantab.webp",
       text1: "EXERCISE PAIN RELIEF",
       dec: "Clinically-proven ingredients help relieve post-exercise pain naturally",
       text2: "IMMUNITY",
@@ -98,7 +98,7 @@ function TabScience() {
 
     },
     {
-      image: "/images/humantab.png",
+      image: "/images/humantab.webp",
       text1: " SHIELDS THE FRONT OF THE EYE",
       dec: "Protects the front of the eye, and lens, and strengthens ciliary muscles",
       text2: " SHIELDS THE BACK OF THE EYE",
@@ -131,7 +131,7 @@ function TabScience() {
           </div>
           <div className={styles.modalContentData}>
             <div className={styles.brunoImgModal}>
-              <img src='/images/modalImgBrunoMd.png'/>
+              <img src='/images/modalImgBrunoMd.webp'/>
               </div>
             <div className={styles.modaltitle}>
               <h6>Royal Collagen Peptides</h6>
@@ -288,7 +288,7 @@ function TabScience() {
               >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medBottel0.png' alt='' />
+                    <img src='/images/medBottel0.webp' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>Royal Collagen Peptides</h6>
@@ -309,7 +309,7 @@ function TabScience() {
               <div className={styles.greendiv} >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medBottel1.png' alt='' />
+                    <img src='/images/medBottel1.webp' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>CholestQ10 60 v-caps </h6>
@@ -330,7 +330,7 @@ function TabScience() {
               <div>
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medBottel2.png' alt='' />
+                    <img src='/images/medBottel2.webp' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>Riboflam 90 v-caps</h6>
@@ -351,7 +351,7 @@ function TabScience() {
               <div className={styles.skyBluediv} >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medBottel3.png' alt='' />
+                    <img src='/images/medBottel3.webp' alt='' />
                   </div>
                   <div className={styles.medContent}>
                     <h6>Bluerex vision 60 softgels </h6>

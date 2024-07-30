@@ -49,7 +49,7 @@ const Sciencedesktoppage = () => {
 
   const slides = [
     {
-      image: '/images/heroSlide1.png',
+      image: '/images/heroSlide1.webp',
       title: 'Science: a human endeavor.',
       subtitle: 'Pharma, Meet Nature.',
       content: 'Bruno MD is committed to furthering our understanding of the power of natural substances to improve human health and longevity.',
@@ -60,7 +60,7 @@ const Sciencedesktoppage = () => {
       readmore5: "Nature does not play this way. Our bodies block many plant-based nutrients that would benefit our health. This low bioavailability is a function of evolution, and the problem is particularly acute with a special kind of plant nutrient known as polyphenols."
     },
     {
-      image: '/images/heroSlide2.png',
+      image: '/images/heroSlide2.webp',
       title: 'Understand the world.',
       subtitle: 'Unlocking Nature’s Secrets',
       content: 'Polyphenols are compounds in many plant-based foods, such as fruits, vegetables, tea, and wine. They are antioxidants.',
@@ -69,7 +69,7 @@ const Sciencedesktoppage = () => {
       readmore3: "Complicating this mission is that all plant-based polyphenols carry a different pharmacokinetic profile, so Bruno MD utilizes a new technology called Phytosome that optimizes the bioavailability of each botanical. Hence, our bodies absorb them in the best possible way.With Phytosome Technology, Bruno MD supplements deliver a higher percentage (up to 3000% more) of highly beneficial polyphenols into the bloodstream. Importantly, Phytosome Technology does this without changing the natural ingredients themselves or relying on drugs, making it safe and tolerated by our bodies over time."
     },
     {
-      image: '/images/heroSlide3.png',
+      image: '/images/heroSlide3.webp',
       title: 'Blue Zone Longevity',
       subtitle: ' Live Healthier, Longer Lives',
       content: 'Many pharmacological companies are scaled international conglomerates. The names of these companies are familiar and, unfortunately.',
@@ -79,7 +79,7 @@ const Sciencedesktoppage = () => {
       readmore4: "In contrast, lifespan in many industrialized countries has stalled or is decreasing, as in the United States. This trend brings us back to our philosophy: we believe in medicine. We are very good at creating pharmacological solutions, but we embrace the lifestyle and diet of Mediterranean Blue Zones to reduce the need for pharmaceutical intervention in the first place."
     },
     {
-      image: '/images/heroSlide4.png',
+      image: '/images/heroSlide4.webp',
       title: 'Farm to Table.',
       subtitle: 'Rooted in Italian Soil',
       content: 'If you take supplements, you should be aware that the ingredients you consume, such as Vitamin C or E, are often produced in a lab.',
@@ -91,7 +91,7 @@ const Sciencedesktoppage = () => {
       readmore6: "We also know the mineral-rich soil fed by the volcano imparts other beneficial co-factors like a higher percentage of anthocyanins, a compound of flavonoids representing a potent group of antioxidants proven to help tame free radicals and provide anti-inflammatory benefits. The over 60+ flavonoids found in our Red Orange Complex can encourage heart health, help maintain cholesterol levels in the healthy range, and boost cognitive function. If our ingredients can't be grown on Italian soil, Bruno MD searches worldwide for farmers and ingredients that live up to the same standards, then transforms them into products that deliver 100% food-grade composition and the highest bioavailability available."
     },
     {
-      image: '/images/heroSlide5.png',
+      image: '/images/heroSlide5.webp',
       title: 'Nature, Meet Pharma',
       subtitle: 'Clinically Proven Ingredients.',
       content: 'When a company makes a claim, it should be transparent and verifiable. Because we are both a pharmacological company and a nutritional.',
@@ -201,7 +201,7 @@ const Sciencedesktoppage = () => {
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2.png" alt='' />
+              <img src="/images/slideImg2.webp" alt='' />
             </div>
           </div>
 
@@ -219,7 +219,7 @@ const Sciencedesktoppage = () => {
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2b.png" alt='' />
+              <img src="/images/slideImg2b.webp" alt='' />
             </div>
           </div>
           <div className={styles.slideData}>
@@ -236,7 +236,7 @@ const Sciencedesktoppage = () => {
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2c.png" alt='' />
+              <img src="/images/slideImg2c.webp" alt='' />
             </div>
           </div>
 
@@ -290,7 +290,7 @@ const Sciencedesktoppage = () => {
                 </div>
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider.png' alt='' />
+                <img src='/images/BrunoPharmaSlider.webp' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>
@@ -332,7 +332,7 @@ const Sciencedesktoppage = () => {
 
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider2.png' alt='' />
+                <img src='/images/BrunoPharmaSlider2.webp' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>
@@ -375,7 +375,7 @@ const Sciencedesktoppage = () => {
 
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider3.png' alt='' />
+                <img src='/images/BrunoPharmaSlider3.webp' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>
@@ -421,7 +421,7 @@ const Sciencedesktoppage = () => {
 
               </div>
               <div className={styles.sliderContentIMG}>
-                <img src='/images/BrunoPharmaSlider4.png' alt='' />
+                <img src='/images/BrunoPharmaSlider4.webp' alt='' />
               </div>
               <div className={styles.sliderContent3}>
                 <div>

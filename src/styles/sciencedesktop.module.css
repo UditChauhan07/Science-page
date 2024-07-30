@@ -15,11 +15,6 @@
     padding: 0 20px;
 }
 
-
-
-
-
-
 .heroImgContent {
     color: black;
     max-width: 1380px !important;
@@ -129,14 +124,11 @@
 }
 
 .imgcotent {
-    /* top: 25.5rem !important; */
     left: 0 !important;
-    /* width: 35%; */
     transform: translate(0%, -50%);
     max-width: 1380px;
     margin: 0 auto !important;
     width: 100%;
-    /* padding: 0px !important; */
 }
 
 .heroImgContent {
@@ -146,7 +138,7 @@
 
 .brunoDecription {
     margin-top: 6rem !important;
-    
+
 }
 
 .heroImgContent h1 {
@@ -208,12 +200,14 @@
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     color: rgb(0, 0, 0);
 }
-.brunoDecription4{
+
+.brunoDecription4 {
     width: 100% !important;
     margin-top: 3rem !important;
     text-align: center;
     max-width: 1380px !important;
 }
+
 .brunoDecription4 p {
     font-family: 'Gotham', Times, serif;
     line-height: 24px !important;
@@ -224,6 +218,7 @@
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     color: rgb(0, 0, 0);
 }
+
 .brunoDecription h1 {
     font-size: 50px !important;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -280,7 +275,6 @@
     /* animation: float 3s infinite linear; */
     position: relative;
     float: right;
-    /* left: 5rem; */
     top: -3rem;
 
 }
@@ -529,7 +523,6 @@
     line-height: 16px;
     word-wrap: break-word;
     font-size: 23px;
-    /* padding: 113px 0px; */
 }
 
 .humanImg {
@@ -561,13 +554,9 @@
 /* Dots Blink Css Start */
 .dotsDiv {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     width: 100%;
     height: 100%;
     position: absolute;
-    /* border: 1px solid red; */
-
 }
 
 .yelloDotsBlink2 {
@@ -608,7 +597,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -651,7 +639,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -682,8 +669,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -694,7 +679,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -725,8 +709,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -737,7 +719,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -754,10 +735,6 @@
     align-items: center;
     top: 37rem;
     left: 10rem;
-
-
-
-
 }
 
 .yelloDotsBlink6::before {
@@ -772,8 +749,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -784,15 +759,10 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
 }
-
-
-
-
 
 .greenDotsBlink2 {
     border-radius: 50%;
@@ -876,7 +846,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -908,8 +877,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -920,7 +887,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -937,8 +903,6 @@
     align-items: center;
     top: 21rem;
     left: 8.5rem;
-
-
 }
 
 .greenDotsBlink5::before {
@@ -978,8 +942,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -990,7 +952,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -998,7 +959,6 @@
 
 @keyframes expand {
 
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1009,7 +969,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1042,8 +1001,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1054,7 +1011,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1087,8 +1043,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1099,7 +1053,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1132,8 +1085,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1144,7 +1095,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1178,8 +1128,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1190,7 +1138,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1223,8 +1170,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1235,7 +1180,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1269,8 +1213,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1281,7 +1223,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1314,8 +1255,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1326,7 +1265,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1348,7 +1286,6 @@
 .skyDotsBlink4::before {
     content: "";
     border: 5px solid rgba(69, 213, 253, 1);
-    ;
     border-radius: inherit;
     position: absolute;
     z-index: -10;
@@ -1358,8 +1295,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1370,7 +1305,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1402,8 +1336,6 @@
 }
 
 @keyframes expand {
-
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1414,7 +1346,6 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
@@ -1436,7 +1367,6 @@
 .skyDotsBlink6::before {
     content: "";
     border: 5px solid rgba(69, 213, 253, 1);
-    ;
     border-radius: inherit;
     position: absolute;
     z-index: -10;
@@ -1447,7 +1377,6 @@
 
 @keyframes expand {
 
-    /* Starting at 1 to prevent IOS flicker */
     1% {
         width: 0;
         height: 0;
@@ -1458,15 +1387,12 @@
         width: 300%;
         height: 300%;
         opacity: 0;
-        /* border-color:10px solid #ffda0a; */
         background-color: none;
         border-width: 2px;
     }
 }
 
 /* Dots Blink Css End */
-
-
 
 .SliderText1 {
 
@@ -1483,11 +1409,6 @@
     border-right: 4px solid #45D5FD;
     height: 140px;
 }
-
-/* .leftLine {
-    border-right: 4px solid rgb(255, 196, 0);
-    height: 140px;
-} */
 
 .humanText {
 
@@ -1545,9 +1466,6 @@
 /* ....Slider 2nd CSS Start */
 .SliderDiv2 {
     max-width: 1380px !important;
-    /* margin: 4rem 0rem 0rem 0rem !important; */
-    /* padding-left: 20px !important;
-    padding-right: 20px !important; */
     margin: 5rem auto !important;
 
 }
@@ -1576,7 +1494,8 @@
     font-size: 40px;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
-.slideContent h2{
+
+.slideContent h2 {
     color: rgba(0, 0, 0, 1);
     font-size: 40px;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -1631,7 +1550,6 @@
     margin-top: -6rem;
     margin-right: -0.7rem;
     padding: 20px !important;
-
     position: relative;
 
 }
@@ -1682,14 +1600,7 @@
     stroke: #ffffff;
 }
 
-
-
-
 /* ....Slider 2nd CSS End */
-
-
-
-
 
 /* ....Slider 3nd CSS Start */
 .nextCarousel {
@@ -1707,11 +1618,9 @@
 
 .slider3data {
     display: flex !important;
-    /* padding: 6.5rem; */
 }
 
 .sliderContent {
-    /* border: 1px solid black !important; */
     width: 35%;
     margin-right: 0rem !important;
 }
@@ -1741,7 +1650,6 @@
 }
 
 .sliderContent3 {
-    /* border: 1px solid black !important; */
     width: 35%;
     padding-right: 10px !important;
 
@@ -1771,7 +1679,6 @@
 .round {
     border-radius: 34px;
     border: 1px solid rgb(2, 2, 2);
-    /* margin-right: 2rem; */
 }
 
 .round p {
@@ -1834,27 +1741,18 @@
     background-color: black !important;
     width: 40px !important;
     height: 5px !important;
-    /* Use !important to ensure the style overrides default Bootstrap styles */
 }
 
 
 /* modale Css Start */
 .modalContent {
     width: 40%;
-    /* border-radius: 23px; */
-    /* border: solid 2px rgb(255, 0, 0); */
     display: grid;
 }
 
 .mainModalDiv {
     margin: 2rem 4rem 2rem 4rem;
     display: flex;
-    /* border: 1px solid red; */
-}
-
-.Accordian {
-    /* border: 2px solid black; */
-    /* border-radius: 15px; */
 }
 
 .stocDiv {
@@ -2005,7 +1903,6 @@
 
 .rotate90 {
     transform: rotate(90deg);
-    /* Rotate arrow 90 degrees */
 }
 
 .desclimerText {
@@ -2078,15 +1975,6 @@
     padding: 0 12px;
 
 }
-
-/* .activeAccordion {
-    background-color: rgb(255, 1, 1);
-}
-
-.inactiveAccordion {
-    background-color: rgb(0, 255, 76); 
-} */
-
 
 .modalImg {
     width: 60%;
@@ -2162,7 +2050,6 @@
     margin-bottom: 0rem;
     color: #000000;
 }
-
 
 .Accordian1 {
     align-items: baseline;
@@ -2252,6 +2139,7 @@
         line-height: 102px;
         font-size: 60px !important;
     }
+
     .brunoDecription4 h1 {
         line-height: 102px;
         font-size: 60px !important;
@@ -2293,8 +2181,6 @@
         width: 50px;
     }
 
-
-
     .spanBtn {
         line-height: 14px;
         font-size: 16px;
@@ -2322,12 +2208,7 @@
     }
 
     .slider3data {
-        /* padding: 19rem; */
         margin-top: 5rem;
-    }
-
-    .sliderContent3 {
-        /* padding: 1rem; */
     }
 
     .sliderContent3 h3 {
@@ -2476,9 +2357,6 @@
     }
 
     /* blink Css End */
-    .SliderDiv3 {
-        /* padding: 20px !important; */
-    }
 
     .sliderContentIMG {
         display: flex;
@@ -2519,14 +2397,6 @@
     }
 }
 
-/* @media(max-width:2800px) {
-    .carouselMain img{
-        margin-left: 0rem !important;
-    }
-    .imgcotent{
-        margin-left: 0rem !important;
-    }
-} */
 @media only screen and (max-width:1800px) and (min-width:1440px) {
     .container {
         max-width: 1380px !important;
@@ -2534,11 +2404,7 @@
 
 }
 
-
-
 @media(max-width:1600px) {
-
-
     .heroImgContent h1 {
         font-size: 65px !important;
     }
@@ -2656,7 +2522,6 @@
 
     /* Blink Css Start */
 
-
     /* human Tab Css End */
 
     /* slider Css start */
@@ -2736,9 +2601,6 @@
 }
 
 @media (max-width:1200px) {
-    .imgcotent {
-        /* top: 14rem !important */
-    }
 
     .heroImgContent h1 {
         font-size: 50px !important;
@@ -2751,9 +2613,6 @@
 }
 
 @media(max-width:1024px) {
-    .imgcotent {
-        /* top: 14rem !important; */
-    }
 
     .heroImgContent h1 {
         font-size: 45px !important;
@@ -2920,9 +2779,6 @@
 
 
     /* tabDiv css Start */
-
-
-
     .yellodivContent .medContent h6 {
         font-size: 16px;
     }
@@ -2956,8 +2812,6 @@
     .medcolorSky {
         height: 10px;
     }
-
-
 
     .spanBtn {
         font-size: 16px;
@@ -3079,12 +2933,6 @@
 
 @media(max-width:991px) {
 
-
-    .imgcotent {
-        /* top: 10rem !important; */
-
-    }
-
     .carouselMain img {
         width: 100% !important;
     }
@@ -3134,6 +2982,7 @@
     .brunoDecription3 h1 {
         padding-top: 3rem;
     }
+
     .brunoDecription4 h1 {
         padding-top: 3rem;
     }
@@ -3228,8 +3077,6 @@
     .medcolorSky {
         height: 10px;
     }
-
-
 
     .spanBtn {
         font-size: 16px;
@@ -3520,16 +3367,6 @@
 .carouselMain {
     background: #ffffff !important;
 
-}
-
-
-
-
-@media(max-width:850px) {
-    .imgcotent {
-        /* top: 8rem !important; */
-
-    }
 }
 
 @media only screen and (max-width:991px) and (min-width:800px) {
