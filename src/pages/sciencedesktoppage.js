@@ -451,7 +451,6 @@ const Sciencedesktoppage = () => {
                   <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
                 </svg>
-                {/* <img src='/Images/ArrowLeft.png' onClick={goToPrev2} alt='' /> */}
               </div>
 
             </div>
@@ -461,7 +460,6 @@ const Sciencedesktoppage = () => {
                   <path d="M36.834 26H6.50065" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z" fill="#7F7F7F" />
                 </svg>
-                {/* <img src='/Images/ArrowRight.png' onClick={goToNext2} alt=''/> */}
               </div>
             </div>
           </div>
@@ -471,7 +469,6 @@ const Sciencedesktoppage = () => {
 
   );
 }
-// Custom component for Previous Arrow
 const CustomPrevArrow = (props) => {
   const { className, onClick } = props;
   return (

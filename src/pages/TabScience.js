@@ -141,8 +141,6 @@ function TabScience() {
           </div>
 
           <div className={styles.modalContent}>
-            {/* <span className={styles.close} >&times;</span> */}
-
             <div className={`accordion ${styles.Accordian}`}>
               <div className="accordion-item">
                 <div className={`${styles.Accordian1} ${activeIndex === 0 ? styles.active : ''}`}>
