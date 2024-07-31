@@ -1614,6 +1614,30 @@
 /* ....Slider 2nd CSS End */
 
 /* ....Slider 3nd CSS Start */
+.forscrollbar{
+    overflow: auto;
+    height: 500px;
+    padding-right: 1rem;
+}
+
+.forscrollbar::-webkit-scrollbar {
+    width: 3px; 
+  }
+  
+  .forscrollbar::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+  
+  .forscrollbar::-webkit-scrollbar-thumb {
+    background: #7a7a7a; 
+    border-radius: 20px;
+  }
+  
+  .forscrollbar::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+  }
+
+
 .nextCarousel {
     margin-top: 9rem;
     margin-bottom: 5rem;
@@ -2579,7 +2603,7 @@
     .slideContent h1{
         font-size: 50px;
     }
-
+  
     /*Slider Css End   */
 }
 
