@@ -2321,6 +2321,9 @@
 }
 
 @media(max-width:1920px) {
+    .BuyBtn{
+        top: 10px;
+    }
     .BuyBtn button {
         font-size: 20px;
     }
@@ -2694,7 +2697,9 @@
 }
 
 @media(max-width:1024px) {
-
+.BuyBtn{
+    top: 5px !important;
+}
     .heroImgContent h1 {
         font-size: 45px !important;
     }
