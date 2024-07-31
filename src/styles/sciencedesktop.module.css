@@ -2140,7 +2140,7 @@
 
 /* Modal Css End */
 
-@media only screen and (max-width:2560px) and (min-width:1920px) {
+@media only screen and (max-width:2560px) and (min-width:1921px) {
 
     .heroImgContent h1 {
         font-size: 80px !important;
@@ -2289,10 +2289,14 @@
     }
 
     .bothButton2 {
-        margin-top: -10rem;
+        margin-top: -6rem;
         margin-right: -1.5rem;
     }
-
+.forscrollbar{
+    overflow: auto;
+    height: 650px;
+   
+}
 }
 
 @media(max-width:1920px) {
