@@ -2422,6 +2422,10 @@
     .slideContent h1{
         font-size: 60px;
     }
+    .bothButton2 {
+        margin-top: -6rem;
+        margin-right: -1.5rem;
+    }
 }
 
 @media(max-width:1600px) {
