@@ -517,6 +517,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+ 
 }
 
 .BuyBtn button {
@@ -1719,6 +1721,7 @@
 .round {
     border-radius: 34px;
     border: 1px solid rgb(2, 2, 2);
+    cursor: pointer;
 }
 
 .round p {
@@ -2034,12 +2037,12 @@
     margin: auto;
 }
 
-.modalImgTitle {
+/* .modalImgTitle {
     position: relative;
     bottom: 3rem;
-}
+} */
 
-.modalImgTitle p {
+/* .modalImgTitle p {
     text-align: center;
     background-color: rgba(86, 0, 140, 1);
     color: #ffffff;
@@ -2049,7 +2052,7 @@
     margin: auto;
     font-weight: bold;
     font-family: 'Gotham', Times, serif;
-}
+} */
 
 .medTitle {
     margin: auto;
@@ -2063,12 +2066,14 @@
 }
 
 .modaltitle h6 {
-    margin-bottom: 0rem;
+    font-size: 16px;
     font-family: 'Gotham', Times, serif;
-
+    color: black;
+    font-weight: 600;
 }
 
 .modaltitle p {
+    color: black;
     margin-bottom: 0rem;
     font-family: 'Gotham', Times, serif;
 }
@@ -2079,7 +2084,7 @@
 
 .brunoImgModal {
     position: relative;
-    left: 10px;
+    left: 15px;
 }
 
 .modaltitle {
@@ -2502,6 +2507,10 @@
 
     .humanText p {
         font-size: 13px;
+    }
+    .BuyBtn{
+        top: 10px !important;
+        
     }
 
     /* Blink Css Start */
@@ -3066,6 +3075,8 @@
 
     .BuyBtn {
         display: block;
+        top: 0px !important;
+        position: relative;
     }
 
     .BuyBtn button {
