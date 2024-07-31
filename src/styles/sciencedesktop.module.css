@@ -1617,6 +1617,7 @@
 .forscrollbar{
     overflow: auto;
     height: 500px;
+    padding-right: 1rem;
 }
 
 .forscrollbar::-webkit-scrollbar {
