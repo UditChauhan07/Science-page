@@ -298,13 +298,12 @@ const Sciencedesktoppage = () => {
                   <h3>Royal Collagen Peptides</h3>
                   <h5>The Science of Beauty</h5>
                 </div>
-                <div className={styles.roundeddiv}>
-                  <div className={styles.round}><p>Natural Vitamin C</p></div>
+                <div className={styles.forRound}>
                   <div className={styles.round}><p>Royal Collagen Peptides</p></div>
-                </div>
-                <div className={styles.roundeddiv2}>
-                  <div className={styles.round2}><p>Red Orange Complex</p></div>
-                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                  <div className={styles.round}><p>Natural Vitamin C </p></div>
+                  <div className={styles.round}><p>Red Orange</p></div>
+                  <div className={styles.round}><p>Bovine Source collagen</p></div>
+
                 </div>
                 <hr className={styles.blackHr2} />
                 <div className={styles.btnDivBuy}>
@@ -340,13 +339,11 @@ const Sciencedesktoppage = () => {
                   <h3>CholestQ10</h3>
                   <h5>The Science of Heart Health</h5>
                 </div>
-                <div className={styles.roundeddiv}>
-                  <div className={styles.round}><p>Natural Vitamin C</p></div>
-                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
-                </div>
-                <div className={styles.roundeddiv2}>
-                  <div className={styles.round2}><p>Red Orange Complex</p></div>
-                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                <div className={styles.forRound}>
+                  <div className={styles.round}><p>Coenzyme</p></div>
+                  <div className={styles.round}><p>D-alpha-tocopheryl succinate</p></div>
+                  <div className={styles.round}><p>Bergamot Orange Extract Phytosome®</p></div>
+                  <div className={styles.round}><p>Curcumin Phytosome®</p></div>
                 </div>
                 <hr className={styles.blackHr2} />
                 <div className={styles.btnDivBuy}>
@@ -381,13 +378,14 @@ const Sciencedesktoppage = () => {
                   <h3>Riboflam </h3>
                   <h5>The Science of Longevity</h5>
                 </div>
-                <div className={styles.roundeddiv}>
-                  <div className={styles.round}><p>Natural Vitamin C</p></div>
-                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
-                </div>
-                <div className={styles.roundeddiv2}>
-                  <div className={styles.round2}><p>Red Orange Complex</p></div>
-                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                <div className={styles.forRound}>
+                  <div className={styles.round}><p>Natural Astaxanthin Extract</p></div>
+                  <div className={styles.round}><p> Curcumin Phytosome</p></div>
+                  <div className={styles.round}><p>Quercetin Phytosome</p></div>
+                  <div className={styles.round}><p>Boswellia Serra Phytosome</p></div>
+                  <div className={styles.round}><p>Nucleoflam Proprietary Nucleotides</p></div>
+                  <div className={styles.round}><p>Nucleosides Yeast Extract Complex</p></div>
+
                 </div>
                 <hr className={styles.blackHr2} />
                 <div className={styles.btnDivBuy}>
@@ -399,23 +397,17 @@ const Sciencedesktoppage = () => {
               <div className={styles.sliderContent}>
                 <h6>For a Lifetime of 360º Vision Care</h6>
                 <div className={styles.forscrollbar}>
-                  <p className={styles.Pcontent}><b>For healthy cholesterol levels </b>
-                    Heart disease is one of the leading causes of death globally, so keeping cholesterol levels in check is crucial for preventing these serious health issues.
-                    The clinically proven, natural ingredients in CholestQ10® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.
+                  <p className={styles.Pcontent}><b>Eye strain, Dry Eyes, Headaches & General Fatigue</b> are all signs of Computer Vision Syndrome. Ingredients in Bluerex Vision® are clinically proven to help alleviate symptoms of digital overexposure and protect your eyes from harmful blue light before it can damage the retina.The clinically proven, natural ingredients in Bluerex Vision® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.
                   </p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Coenzyme Q10 Phytosome®</b> promotes healthy aging, heart & cardiovascular health, brain health, and all activities involving energetic expenditure.</p>
+                  <p className={styles.Pcontent}><b>Astaxanthin’s</b> potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Cardoon</b> contains active biophenols and flavonoids from an endemic variety of Cardoon leaf inhibiting the creation of fatty lipids in the liver.</p>
+                  <p className={styles.Pcontent}><b>Lutein & Zeaxanthin</b> increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Natural Vitamin (E-d-alpha-tocopheryl succinate)</b> shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
+                  <p className={styles.Pcontent}><b>Bilberry Extract</b> is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b>Bergamot Orange Extract Phytosome®</b>
-                    supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.
-                  </p>
-                  <p className={styles.Pcontent}><b>Curcumin Phytosome® (Turmeric Extract)</b>
-                    supports healthy blood vessel function and guards against chronic inflammation.
-                  </p>
+                  <p className={styles.Pcontent}><b>D-Alpha Tocopheryl Succinate,</b> a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
+                  <p className={styles.Pcontent}><b>Docosahexaenoic acid (DHA),</b> naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
                 </div>
 
               </div>
@@ -427,13 +419,12 @@ const Sciencedesktoppage = () => {
                   <h3>Blurex </h3>
                   <h5>The Science of Sight</h5>
                 </div>
-                <div className={styles.roundeddiv}>
-                  <div className={styles.round}><p>Natural Vitamin C</p></div>
-                  <div className={styles.round}><p>Royal Collagen Peptides</p></div>
-                </div>
-                <div className={styles.roundeddiv2}>
-                  <div className={styles.round2}><p>Red Orange Complex</p></div>
-                  <div className={styles.round2}><p>Bovine Source collagen</p></div>
+                <div className={styles.forRound}>
+                  <div className={styles.round}><p>Astaxanthin</p></div>
+                  <div className={styles.round}><p>Lutein & Zeaxanthin</p></div>
+                  <div className={styles.round}><p>D-Alpha Tocopheryl Succinate</p></div>
+                  <div className={styles.round}><p>Docosahexaenoic acid</p></div>
+                  <div className={styles.round}><p>Bilberry Extract </p></div>
                 </div>
                 <hr className={styles.blackHr2} />
                 <div className={styles.btnDivBuy}>
