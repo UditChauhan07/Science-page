@@ -9,6 +9,9 @@ function TabScience() {
   const [selectedOption2, setSelectedOption2] = useState("1");
   const [selectedDay, setSelectedDay] = useState("30 Day");
   const [isVisible, setIsVisible] = useState(false);
+  const [modalImage, setModalImage] = useState('/images/modalImgBrunoMd.webp');
+  const [modalTitle, setModalTitle] = useState('Royal Collagen Peptides');
+  const [modalsubTitle, setModalsubTitle] = useState('The Science of Beauty');
 
 
   const toggleVisibility = () => {
@@ -42,7 +45,12 @@ function TabScience() {
   }
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = (imageSrc, title, subTitle) => {
+    setModalImage(imageSrc);
+    setModalTitle(title);
+    setModalsubTitle(subTitle)
+    setShow(true);
+  };
 
   const slides = [
     {
@@ -124,20 +132,20 @@ function TabScience() {
 
         </Modal.Header>
         <div className={styles.mainModalDiv}>
-         
+
           <div className={styles.modalImg}>
-            <div className={styles.modalImgTitle}>
+            {/* <div className={styles.modalImgTitle}>
           <p>Save an additional 10% use HEART at checkout</p>
-          </div>
-          <div className={styles.modalContentData}>
-            <div className={styles.brunoImgModal}>
-              <img src='/images/modalImgBrunoMd.webp'/>
+          </div> */}
+            <div className={styles.modalContentData}>
+              <div className={styles.brunoImgModal}>
+                <img src={modalImage} alt='' />
               </div>
-            <div className={styles.modaltitle}>
-              <h6>Royal Collagen Peptides</h6>
-              <p>The Science of Beauty</p>
+              <div className={styles.modaltitle}>
+                <h6>{modalTitle}</h6>
+                <p>{modalsubTitle}</p>
+              </div>
             </div>
-          </div>
           </div>
 
           <div className={styles.modalContent}>
@@ -294,7 +302,7 @@ function TabScience() {
                     <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcoloryellow}></div>
-                      <div><button onClick={handleShow}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd.webp', 'Royal Collagen Peptides','The Science of Beauty')}>Buy Now</button></div>
                     </div>
                   </div>
 
@@ -315,7 +323,7 @@ function TabScience() {
                     <p>5 IN 1 Heart, Liver, HDL, LDL,TG</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorGreen}></div>
-                      <div><button onClick={handleShow}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd2.png', 'CholestQ10 60 v-caps', 'The Science of Heart Health')}>Buy Now</button></div>
                     </div>
 
                   </div>
@@ -336,7 +344,7 @@ function TabScience() {
                     <p>5 IN 1 Mental, Cardio, Liver, Digestive</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorOrange}></div>
-                      <div><button onClick={handleShow}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd3.png', 'Riboflam 90 v-caps', 'The Science of Longevity')}>Buy Now</button></div>
                     </div>
 
                   </div>
@@ -357,7 +365,7 @@ function TabScience() {
                     <p>5 IN 1 Blue Light & Macula Shield,360° Eye Health, Computer Vision Syndrome</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorSky}></div>
-                      <div><button onClick={handleShow}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.png', 'Bluerex vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
                     </div>
                   </div>
                 </div>

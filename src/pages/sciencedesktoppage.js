@@ -303,7 +303,6 @@ const Sciencedesktoppage = () => {
                   <div className={styles.round}><p>Natural Vitamin C </p></div>
                   <div className={styles.round}><p>Red Orange</p></div>
                   <div className={styles.round}><p>Bovine Source collagen</p></div>
-
                 </div>
                 <hr className={styles.blackHr2} />
                 <div className={styles.btnDivBuy}>
