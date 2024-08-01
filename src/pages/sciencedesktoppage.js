@@ -291,11 +291,11 @@ const Sciencedesktoppage = () => {
               <div className={styles.sliderContent}>
                 <h6>For Healthy Skin, Hair & Bones</h6>
                 <div className={styles.forscrollbar}>
-                  <p className={styles.Pcontent}><b className={hoveredIndex === 0 ? styles.highlightedHeading : styles.heading}>Bruno MD Royal Collagen Peptides</b> are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
+                  <p className={styles.Pcontent}><b >Bruno MD Royal Collagen Peptides</b> are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
                   <hr className={styles.blackHr} />
                   <p className={styles.Pcontent}><b className={hoveredIndex === 1 ? styles.highlightedHeading : styles.heading}>Natural Vitamin C</b> Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
                   <hr className={styles.blackHr} />
-                  <p className={styles.Pcontent}><b >Royal Collagen Peptides</b> increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
+                  <p className={styles.Pcontent}><b className={hoveredIndex === 0 ? styles.highlightedHeading : styles.heading} >Royal Collagen Peptides</b> increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
                   <hr className={styles.blackHr} />
                   <p className={styles.Pcontent}><b className={hoveredIndex === 2 ? styles.highlightedHeading : styles.heading}>Red Orange Complex</b>  maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
                   <hr className={styles.blackHr} />
