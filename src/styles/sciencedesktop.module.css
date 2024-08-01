@@ -8,29 +8,35 @@
 /* Keyframes for zooming animation */
 @keyframes zoomInOut {
     0% {
-      transform: scale(1); /* Original size */
-      background-color: transparent;
+        transform: scale(1);
+        /* Original size */
+        background-color: transparent;
     }
+
     50% {
-      transform: scale(1.1); /* Slightly larger */
-      background-color: rgb(55, 36, 107);
-      color: white;
-     /* Semi-transparent yellow */
+        transform: scale(1.1);
+        /* Slightly larger */
+        background-color: rgb(55, 36, 107);
+        color: white;
+        /* Semi-transparent yellow */
     }
+
     100% {
-      transform: scale(1); /* Back to original size */
-      background-color: transparent;
+        transform: scale(1);
+        /* Back to original size */
+        background-color: transparent;
     }
-  }
-  
-  .heading {
+}
+
+.heading {
     transition: background-color 0.5s ease, transform 0.5s ease;
-  }
-  
-  .highlightedHeading {
-    animation: zoomInOut 3s ease-in-out infinite; /* Apply zooming animation */
-  }
-  
+}
+
+.highlightedHeading {
+    animation: zoomInOut 3s ease-in-out infinite;
+    /* Apply zooming animation */
+}
+
 .carouselMain img {
     width: 100%;
     max-width: 1640px;
@@ -69,10 +75,12 @@
     padding: 8px 16px;
     color: #ffffff;
 }
-.modalBody p{
+
+.modalBody p {
     font-family: 'Gotham', Times, serif;
     color: #000;
 }
+
 .modalBody::-webkit-scrollbar {
     width: 3px;
 }
@@ -95,11 +103,13 @@
     height: 300px;
     padding: 0rem 1rem 0rem 0rem;
 }
-.modalHeader h1{
+
+.modalHeader h1 {
     color: #000;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
 }
-.modalHeader h2{
+
+.modalHeader h2 {
     font-size: 26px;
     color: #000;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -547,7 +557,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
- 
+
 }
 
 .BuyBtn button {
@@ -1650,28 +1660,28 @@
 /* ....Slider 2nd CSS End */
 
 /* ....Slider 3nd CSS Start */
-.forscrollbar{
+.forscrollbar {
     overflow: auto;
     height: 500px;
     padding-right: 1rem;
 }
 
 .forscrollbar::-webkit-scrollbar {
-    width: 3px; 
-  }
-  
-  .forscrollbar::-webkit-scrollbar-track {
+    width: 3px;
+}
+
+.forscrollbar::-webkit-scrollbar-track {
     background: #afafaf;
-  }
-  
-  .forscrollbar::-webkit-scrollbar-thumb {
-    background: #000000; 
+}
+
+.forscrollbar::-webkit-scrollbar-thumb {
+    background: #000000;
     border-radius: 20px;
-  }
-  
-  .forscrollbar::-webkit-scrollbar-thumb:hover {
+}
+
+.forscrollbar::-webkit-scrollbar-thumb:hover {
     background: #828282;
-  }
+}
 
 
 .nextCarousel {
@@ -1746,12 +1756,14 @@
     margin-top: 3rem;
     gap: 1rem;
 }
-.roundeddiv1{
+
+.roundeddiv1 {
     display: flex;
     justify-content: left;
     gap: 1rem;
     margin-top: 1rem;
 }
+
 .round {
     border-radius: 34px;
     border: 1px solid rgb(2, 2, 2);
@@ -1765,17 +1777,20 @@
     font-family: 'Gotham', Times, serif;
     color: #000000;
 }
-.forRound{
+
+.forRound {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
 }
-.roundeddiv2{
+
+.roundeddiv2 {
     /* display: flex; */
     /* flex-direction: column; */
     /* gap: 1rem; */
 }
+
 .round2 {
     margin-top: 1rem;
     border-radius: 34px;
@@ -2196,6 +2211,31 @@
 /* Modal Css End */
 
 @media only screen and (max-width:2560px) and (min-width:1921px) {
+    .BuyBtn {
+        margin-top: 10px;
+    }
+
+   
+
+    .skyDotsBlink2 {
+        left: 5rem;
+    }
+
+    .skyDotsBlink3 {
+        left: 8rem;
+    }
+
+    .skyDotsBlink4 {
+        left: 11rem;
+    }
+
+    .skyDotsBlink5 {
+        left: 14rem;
+    }
+
+    .skyDotsBlink6 {
+        left: 17rem;
+    }
 
     .heroImgContent h1 {
         font-size: 80px !important;
@@ -2347,17 +2387,19 @@
         margin-top: -6rem;
         margin-right: -1.5rem;
     }
-.forscrollbar{
-    overflow: auto;
-    height: 650px;
-   
-}
+
+    .forscrollbar {
+        overflow: auto;
+        height: 650px;
+
+    }
 }
 
 @media(max-width:1920px) {
-    .BuyBtn{
+    .BuyBtn {
         top: 10px;
     }
+
     .BuyBtn button {
         font-size: 20px;
     }
@@ -2477,9 +2519,11 @@
         margin-top: 6rem;
         margin-bottom: 6rem;
     }
-    .slideContent h1{
+
+    .slideContent h1 {
         font-size: 60px;
     }
+
     .bothButton2 {
         margin-top: -6rem;
         margin-right: -1.5rem;
@@ -2545,9 +2589,10 @@
     .humanText p {
         font-size: 13px;
     }
-    .BuyBtn{
+
+    .BuyBtn {
         top: 10px !important;
-        
+
     }
 
     /* Blink Css Start */
@@ -2671,10 +2716,11 @@
         margin-top: -9rem;
         margin-right: -1.3rem;
     }
-    .slideContent h1{
+
+    .slideContent h1 {
         font-size: 50px;
     }
-  
+
     /*Slider Css End   */
 }
 
@@ -2731,9 +2777,10 @@
 }
 
 @media(max-width:1024px) {
-.BuyBtn{
-    top: 5px !important;
-}
+    .BuyBtn {
+        top: 5px !important;
+    }
+
     .heroImgContent h1 {
         font-size: 45px !important;
     }
@@ -2900,7 +2947,7 @@
 
     /* tabDiv css Start */
     .yellodivContent .medContent h6 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .medContent p {
@@ -3000,7 +3047,8 @@
     .slideContent h3 {
         font-size: 35px;
     }
-    .slide2Img{
+
+    .slide2Img {
         height: 400px;
     }
 
@@ -3224,7 +3272,7 @@
         height: 85px;
 
     }
-  
+
 
     .SliderText3 {
         height: 85px;
@@ -3485,7 +3533,7 @@
     .pcontent {
         height: 130px;
     }
-   
+
 
     /* SliderContent 3 CSS ENd */
 
