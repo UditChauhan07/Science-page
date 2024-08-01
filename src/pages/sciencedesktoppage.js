@@ -204,7 +204,10 @@ const Sciencedesktoppage = () => {
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2.webp" alt='' />
+            <video width="" height="100%" loop autoPlay muted >
+                <source src="/images/slidevideo1.mp4" type="video/mp4" />
+                <source src="/images/slidevideo1.mp4" type="video/ogg" />
+              </video>
             </div>
           </div>
 
@@ -222,7 +225,10 @@ const Sciencedesktoppage = () => {
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2b.webp" alt='' />
+            <video width="" height="100%" loop autoPlay muted >
+                <source src="/images/slidevideo3.mp4" type="video/mp4" />
+                <source src="/images/slidevideo3.mp4" type="video/ogg" />
+              </video>
             </div>
           </div>
           <div className={styles.slideData}>
@@ -240,7 +246,10 @@ const Sciencedesktoppage = () => {
             </div>
 
             <div className={styles.slide2Img}>
-              <img src="/images/slideImg2c.webp" alt='' />
+            <video width="" height="100%" loop autoPlay muted >
+                <source src="/images/slidevideo2.mp4" type="video/mp4" />
+                <source src="/images/slidevideo2.mp4" type="video/ogg" />
+              </video>
             </div>
           </div>
 
@@ -376,8 +385,8 @@ const Sciencedesktoppage = () => {
                   <p className={styles.Pcontent}><b className={hoveredIndex === 4 ? styles.highlightedHeading : styles.heading}>Boswellia Serra Phytosome,</b> commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
                   <hr className={styles.blackHr} />
                   <p className={styles.Pcontent}> <b className={hoveredIndex === 3 ? styles.highlightedHeading : styles.heading}>Nucleoflam Proprietary Nucleotides</b>
-                   <b> & </b>
-                   <b className={hoveredIndex === 5 ? styles.highlightedHeading : styles.heading}>Nucleosides Yeast Extract Complex</b> are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.
+                    <b> & </b>
+                    <b className={hoveredIndex === 5 ? styles.highlightedHeading : styles.heading}>Nucleosides Yeast Extract Complex</b> are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.
                   </p>
                   <p className={styles.Pcontent}><b className={hoveredIndex === 2 ? styles.highlightedHeading : styles.heading}>Quercitin Phytosome</b> blocks inflammatory enzymes and the creation of cytokines and, like Astaxanthin, is a potent antioxidant, but you’ll need to eat 100 kilos of broccoli each day to get enough. Riboflam delivers 2000% more quercitin than standard supplements.
                   </p>
