@@ -205,8 +205,8 @@ const Sciencedesktoppage = () => {
 
             <div className={styles.slide2Img}>
             <video width="" height="100%" loop autoPlay muted >
-                <source src="/images/slidevideo1.mp4" type="video/mp4" />
-                <source src="/images/slidevideo1.mp4" type="video/ogg" />
+                <source src="/images/slidevideoA.mp4" type="video/mp4" />
+                <source src="/images/slidevideoA.mp4" type="video/ogg" />
               </video>
             </div>
           </div>
