@@ -9,7 +9,7 @@ function TabScience() {
   const [selectedOption2, setSelectedOption2] = useState("1");
   const [selectedDay, setSelectedDay] = useState("30 Day");
   const [isVisible, setIsVisible] = useState(false);
-  const [modalImage, setModalImage] = useState('/images/modalImgBrunoMd.webp');
+  const [modalImage, setModalImage] = useState('/images/modalImgBrunoMd (1).webp');
   const [modalTitle, setModalTitle] = useState('Royal Collagen Peptides');
   const [modalsubTitle, setModalsubTitle] = useState('The Science of Beauty');
 
@@ -302,7 +302,7 @@ function TabScience() {
                     <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcoloryellow}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd.webp', 'Royal Collagen Peptides','The Science of Beauty')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd (1).webp', 'Royal Collagen Peptides','The Science of Beauty')}>Buy Now</button></div>
                     </div>
                   </div>
 
