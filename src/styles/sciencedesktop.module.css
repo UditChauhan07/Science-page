@@ -1571,6 +1571,11 @@
 
 .slide2Img {
     width: 35%;
+    overflow: hidden;
+    height: 500px;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
 }
 
 .slide2Img img {
@@ -2995,6 +3000,9 @@
     .slideContent h3 {
         font-size: 35px;
     }
+    .slide2Img{
+        height: 400px;
+    }
 
     /* slide Content Css End */
 
@@ -3216,6 +3224,7 @@
         height: 85px;
 
     }
+  
 
     .SliderText3 {
         height: 85px;

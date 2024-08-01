@@ -323,7 +323,7 @@ function TabScience() {
                     <p>5 IN 1 Heart, Liver, HDL, LDL,TG</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorGreen}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd2.png', 'CholestQ10 60 v-caps', 'The Science of Heart Health')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd2.webp', 'CholestQ10 60 v-caps', 'The Science of Heart Health')}>Buy Now</button></div>
                     </div>
 
                   </div>
@@ -344,7 +344,7 @@ function TabScience() {
                     <p>5 IN 1 Mental, Cardio, Liver, Digestive</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorOrange}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd3.png', 'Riboflam 90 v-caps', 'The Science of Longevity')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd3.webp', 'Riboflam 90 v-caps', 'The Science of Longevity')}>Buy Now</button></div>
                     </div>
 
                   </div>
@@ -365,7 +365,7 @@ function TabScience() {
                     <p>5 IN 1 Blue Light & Macula Shield, 360° Eye Health, Computer Vision Syndrome</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorSky}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.png', 'Bluerex vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
                     </div>
                   </div>
                 </div>
