@@ -107,7 +107,7 @@ const Sciencedesktoppage = () => {
   return (
 
     <div className={styles.leptop}>
-      <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
+      <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}   centered >
         <Modal.Header className={styles.modalHeader} closeButton>
           <Modal.Title>
             <h1>{slides[activeSlideIndex]?.title}</h1>
