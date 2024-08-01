@@ -365,7 +365,7 @@ function TabScience() {
                     <p>5 IN 1 Blue Light & Macula Shield, 360° Eye Health, Computer Vision Syndrome</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorSky}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex Vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
                     </div>
                   </div>
                 </div>
