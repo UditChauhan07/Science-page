@@ -2,6 +2,35 @@
     padding: 0 !important;
 }
 
+
+/* HighlightComponent.module.css */
+
+/* Keyframes for zooming animation */
+@keyframes zoomInOut {
+    0% {
+      transform: scale(1); /* Original size */
+      background-color: transparent;
+    }
+    50% {
+      transform: scale(1.1); /* Slightly larger */
+      background-color: rgb(55, 36, 107);
+      color: white;
+     /* Semi-transparent yellow */
+    }
+    100% {
+      transform: scale(1); /* Back to original size */
+      background-color: transparent;
+    }
+  }
+  
+  .heading {
+    transition: background-color 0.5s ease, transform 0.5s ease;
+  }
+  
+  .highlightedHeading {
+    animation: zoomInOut 3s ease-in-out infinite; /* Apply zooming animation */
+  }
+  
 .carouselMain img {
     width: 100%;
     max-width: 1640px;
@@ -2634,7 +2663,7 @@
 
     .bothButton2 {
         position: relative;
-        /* margin-top: -8rem; */
+        margin-top: -9rem;
         margin-right: -1.3rem;
     }
     .slideContent h1{

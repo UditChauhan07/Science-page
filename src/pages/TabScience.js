@@ -360,9 +360,9 @@ function TabScience() {
                     <img src='/images/medBottel3.webp' alt='' />
                   </div>
                   <div className={styles.medContent}>
-                    <h6>Bluerex vision 60 softgels </h6>
+                    <h6>Bluerex Vision 60 softgels </h6>
                     <b>Bruno MD</b>
-                    <p>5 IN 1 Blue Light & Macula Shield,360° Eye Health, Computer Vision Syndrome</p>
+                    <p>5 IN 1 Blue Light & Macula Shield, 360° Eye Health, Computer Vision Syndrome</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorSky}></div>
                       <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.png', 'Bluerex vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
