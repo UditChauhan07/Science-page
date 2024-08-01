@@ -2269,23 +2269,27 @@
     .orangeDotsBlink2 {
         left: 13.5rem;
     }
+
     .orangeDotsBlink3 {
         top: 15rem;
         left: 12rem;
     }
+
     .orangeDotsBlink4 {
         top: 20rem;
         left: 7rem;
     }
+
     .orangeDotsBlink5 {
         top: 26rem;
         left: 7rem;
     }
+
     .orangeDotsBlink6 {
         top: 33rem;
         left: 8.5rem;
     }
-    
+
 
 
     .skyDotsBlink2 {
@@ -2407,7 +2411,7 @@
     }
 
     .sliderContent p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 22px;
     }
 
@@ -2467,6 +2471,10 @@
 }
 
 @media(max-width:1920px) {
+    .Pcontent {
+        font-size: 18px;
+    }
+
     .BuyBtn {
         top: 10px;
     }
