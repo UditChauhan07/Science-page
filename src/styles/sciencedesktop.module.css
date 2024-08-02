@@ -1905,7 +1905,7 @@
     text-decoration: line-through;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     padding-left: 4px;
 }
@@ -2179,6 +2179,16 @@
     font-weight: bold;
     font-size: 16px;
     font-family: 'Gotham', Times, serif;
+}
+.dollar{
+    font-size: 13px;
+    top: -3px;
+    position: relative;
+}
+.cents{
+    font-size: 13px;
+    top: -3px;
+    position: relative;
 }
 
 .Accordian2 {
