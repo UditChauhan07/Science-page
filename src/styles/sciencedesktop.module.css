@@ -2859,6 +2859,19 @@
     .BuyBtn {
         top: 5px !important;
     }
+.modalContentData{
+    right: 2rem;
+    position: relative;
+}
+.modaltitle{
+    padding: 10px;
+}
+.modaltitle h6{
+    margin-bottom: 0rem;
+}
+.modaltitle p{
+    font-size: 13px;
+}
 
     .heroImgContent h1 {
         font-size: 45px !important;
@@ -3182,6 +3195,10 @@
 }
 
 @media(max-width:991px) {
+    .modaltitle p{
+        font-size: 11px;
+        
+    }
 
     .carouselMain img {
         width: 100% !important;
