@@ -1,6 +1,32 @@
 .container {
     padding: 0 !important;
 }
+.cutomMainDiv{
+    display: flex;
+    align-items: center;
+}
+.customSelectnew{
+    height: 25px;
+    background: #f0f1f2;
+    border: .5px solid #bbb;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 6px;
+}
+.qty{
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 10px; */
+    line-height: 10px;
+    padding: 5px;
+    margin: auto;
+}
+.selectDivnew{
+    outline: none;
+    background: none;
+    border: none;
+    color: #000;
+}
 
 
 /* HighlightComponent.module.css */
