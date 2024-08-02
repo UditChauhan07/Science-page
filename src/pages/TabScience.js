@@ -52,6 +52,7 @@ function TabScience() {
     setShow(true);
   };
 
+
   const slides = [
     {
       image: "/images/humantab.webp",
@@ -70,6 +71,7 @@ function TabScience() {
       className5: "yelloDotsBlink5",
       className6: "yelloDotsBlink6",
     },
+
     {
       image: "/images/humantab.webp",
       text1: " SUPPORT CARDIOVASCULAR HEALTH",
@@ -302,7 +304,7 @@ function TabScience() {
                     <p>5 IN 1 Skin, Hair, Nail, Joint & Bone Health</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcoloryellow}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd (1).webp', 'Royal Collagen Peptides','The Science of Beauty')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd (1).webp', 'Royal Collagen Peptides', 'The Science of Beauty')}>Buy Now</button></div>
                     </div>
                   </div>
 
@@ -365,7 +367,7 @@ function TabScience() {
                     <p>5 IN 1 Blue Light & Macula Shield, 360° Eye Health, Computer Vision Syndrome</p>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorSky}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex Vision 60 softgels','The Science of Sight')}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex Vision 60 softgels', 'The Science of Sight')}>Buy Now</button></div>
                     </div>
                   </div>
                 </div>
