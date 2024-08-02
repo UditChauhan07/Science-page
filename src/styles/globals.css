@@ -2774,8 +2774,6 @@ footer ul a {
 .modal-lg,
 .modal-xl {
   --bs-modal-width: 1000px !important;
-
-
 }
 
 /* accordian css  Start */
@@ -2886,4 +2884,9 @@ input[type=radio] {
   opacity: var(--bs-btn-close-opacity);
 }
 
-
+@media(max-width:1024px) {
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 700px !important;
+  }
+}
