@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import styles from '../styles/sciencedesktop.module.css'
@@ -14,9 +15,6 @@ const Sciencedesktoppage = () => {
   // .............new modal....
   const [show2, setShow2] = useState();
   const [activeIndex, setActiveIndex] = useState(1);
-  const [selectedOption, setSelectedOption] = useState("1");
-  const [selectedOption2, setSelectedOption2] = useState("1");
-  const [selectedDay, setSelectedDay] = useState("30 Day");
   const [isVisible, setIsVisible] = useState(false);
   const [modalImage2, setModalImage2] = useState('/images/modalImgBrunoMd (1).webp');
   const [modalTitle2, setModalTitle2] = useState('Royal Collagen Peptides');
@@ -97,136 +95,7 @@ const Sciencedesktoppage = () => {
 
 
   // modal function End.../
-  const sliderData = [
-    {
-      title: 'For Healthy Skin, Hair & Bones',
-      description: [
-        {
-          heading: 'Bruno MD Royal Collagen Peptides',
-          text: 'Bruno MD Royal Collagen Peptides are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production. Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.'
-        },
-        {
-          heading: 'Natural Vitamin C',
-          text: 'Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.'
-        },
-        {
-          heading: 'Royal Collagen Peptides',
-          text: 'Royal Collagen Peptides increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones.'
-        },
-        {
-          heading: 'Red Orange Complex',
-          text: 'Maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.'
-        },
-        {
-          heading: 'Bovine Source collagen',
-          text: 'From free-range EU-certified sources is organic, non-GMO, halal, and kosher-certified, raised exclusively on a plant-based diet also provides the full bouquet of 18 essential and non-essential amino acids.'
-        },
-      ],
-      imageSrc: '/images/BrunoPharmaSlider.webp',
-      buyNowImage: '/images/modalImgBrunoMd (1).webp',
-      buyNowTitle: 'Royal Collagen Peptides',
-      buyNowSubtitle: 'The Science of Beauty',
-    },
-    {
-      title: 'For Healthy Cholesterol levels',
-      description: [
-        {
-          heading: 'Heart disease',
-          text: 'Is one of the leading causes of death globally, so keeping cholesterol levels in check is crucial for preventing these serious health issues. The clinically proven, natural ingredients in CholestQ10® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.'
-        },
-        {
-          heading: 'Coenzyme Q10',
-          text: 'Phytosome® promotes healthy aging, heart & cardiovascular health, brain health, and all activities involving energetic expenditure.'
-        },
-        {
-          heading: 'Cardoon',
-          text: 'Contains active biophenols and flavonoids from an endemic variety of Cardoon leaf, inhibiting the creation of fatty lipids in the liver.'
-        },
-        {
-          heading: 'Natural Vitamin (E-d-alpha-tocopheryl succinate)',
-          text: 'Shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.'
-        },
-        {
-          heading: 'Bergamot Orange Extract Phytosome®',
-          text: 'Supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.'
-        },
-        {
-          heading: 'Curcumin Phytosome® (Turmeric Extract)',
-          text: 'Supports healthy blood vessel function and guards against chronic inflammation.'
-        },
-      ],
-      imageSrc: '/images/BrunoPharmaSlider2.webp',
-      buyNowImage: '/images/modalImgBrunoMd2.webp',
-      buyNowTitle: 'CholestQ10 60 v-caps',
-      buyNowSubtitle: 'The Science of Heart Health',
-    },
-    {
-      title: 'For a Healthy Inflammatory Response',
-      description: [
-        {
-          heading: 'For a healthy inflammatory response',
-          text: 'Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check. The clinically proven, natural ingredients in Riboflam® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.'
-        },
-        {
-          heading: 'Natural Astaxanthin Extract',
-          text: 'Is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.'
-        },
-        {
-          heading: 'Curcumin Phytosome',
-          text: 'Comes from turmeric, which has been used in Asian cooking and cures since ancient times. It supports a healthy inflammation and immune response. Bruno MD’s Curcumin Phytosome is the #1 recommended formulation by the prestigious Cleveland Clinic.'
-        },
-        {
-          heading: 'Boswellia Serra Phytosome',
-          text: 'Commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.'
-        },
-        {
-          heading: 'Nucleoflam Proprietary Nucleotides & Nucleosides Yeast Extract Complex',
-          text: 'Are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.'
-        },
-        {
-          heading: 'Quercitin Phytosome',
-          text: 'Blocks inflammatory enzymes and the creation of cytokines and, like Astaxanthin, is a potent antioxidant, but you’ll need to eat 100 kilos of broccoli each day to get enough. Riboflam delivers 2000% more quercitin than standard supplements.'
-        },
-      ],
-      imageSrc: '/images/BrunoPharmaSlider3.webp',
-      buyNowImage: '/images/modalImgBrunoMd3.webp',
-      buyNowTitle: 'Riboflam 90 v-caps',
-      buyNowSubtitle: 'The Science of Longevity',
-    },
-    {
-      title: 'For a Lifetime of 360º Vision Care',
-      description: [
-        {
-          heading: 'Eye strain, Dry Eyes, Headaches & General Fatigue',
-          text: 'Are all signs of Computer Vision Syndrome. Ingredients in Bluerex Vision® are clinically proven to help alleviate symptoms of digital overexposure and protect your eyes from harmful blue light before it can damage the retina. The clinically proven, natural ingredients in Bluerex Vision® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.'
-        },
-        {
-          heading: 'Astaxanthin’s',
-          text: 'Potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.'
-        },
-        {
-          heading: 'Lutein & Zeaxanthin',
-          text: 'Increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.'
-        },
-        {
-          heading: 'D-Alpha Tocopheryl Succinate',
-          text: 'A natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.'
-        },
-        {
-          heading: 'Docosahexaenoic acid (DHA)',
-          text: 'Naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.'
-        },
-        {
-          heading: 'Bilberry Extract',
-          text: 'Is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature.'
-        },
-      ],
-      imageSrc: '/images/BrunoPharmaSlider4.webp',
-      buyNowImage: '/images/modalImgBrunoMd4.webp',
-      buyNowTitle: 'Bluerex Vision 60 softgels',
-      buyNowSubtitle: 'The Science of Sight',
-    },
-  ];
+
 
   const slides = [
     {
@@ -458,6 +327,28 @@ const Sciencedesktoppage = () => {
 
 
       <div className={styles.nextCarousel}>
+        <div className={styles.bothButton2Main}>
+        <div className={styles.bothButton2}>
+          <div className={styles.LeftBtn}>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" className={styles.svgIcon} onClick={goToPrev2}>
+                <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
+              </svg>
+            </div>
+
+          </div>
+          <div className={styles.RightBtn}>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" onClick={goToNext2}>
+                <path d="M36.834 26H6.50065" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z" fill="#7F7F7F" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        </div>
+
         <div className={`container ${styles.SliderDiv3}`}>
           <div className={`container ${styles.brunoDecription4}`}>
             <h1>Clinical Studies</h1>
@@ -513,37 +404,23 @@ const Sciencedesktoppage = () => {
                       <div className={`accordion-content ${styles.accordionContent}`}>
                         <div className={styles.stocDiv}>
                           <h6 className={styles.stock}>In Stock.</h6>
-                          {/* <div className={styles.customSelect}>
-                            <select className={styles.selectDiv} value={selectedOption} onChange={handleSelectChange}>
-                              <option value="1" className={styles.qty}>
-                                Qty:1
-                              </option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                            <p className={styles.unit}>1 Unit</p>
-
-                          </div> */}
                           <div className={styles.cutomMainDiv}>
-                          <div className={styles.customSelectnew}>
-                            <div className={styles.qty}>Qty:</div>
-                            <select className={styles.selectDivnew} >
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="3">4</option>
-                              <option value="3">5</option>
-                              <option value="3">6</option>
-                              <option value="3">7</option>
-                              <option value="3">8</option>
-                              <option value="3">9</option>
-                              <option value="3">10</option>
-
-                            </select>
-                           
-                          </div>
-                          <p className={styles.unit}>1 Unit</p>
+                            <div className={styles.customSelectnew}>
+                              <div className={styles.qty}>Qty:</div>
+                              <select className={styles.selectDivnew} >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="3">4</option>
+                                <option value="3">5</option>
+                                <option value="3">6</option>
+                                <option value="3">7</option>
+                                <option value="3">8</option>
+                                <option value="3">9</option>
+                                <option value="3">10</option>
+                              </select>
+                            </div>
+                            <p className={styles.unit}>1 Unit</p>
                           </div>
                           <div className={styles.addCartButton}><div>ADD TO CART</div> </div>
                         </div>
@@ -615,29 +492,26 @@ const Sciencedesktoppage = () => {
                           <div className={styles.stocDiv3}>
                             <h6 className={styles.stock2}>In Stock.</h6>
                             <div className={styles.cutomMainDiv}>
-                          <div className={styles.customSelectnew}>
-                            <div className={styles.qty}>Qty:</div>
-                            <select className={styles.selectDivnew} >
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="3">4</option>
-                              <option value="3">5</option>
-                              <option value="3">6</option>
-                              <option value="3">7</option>
-                              <option value="3">8</option>
-                              <option value="3">9</option>
-                              <option value="3">10</option>
-
-                            </select>
-                           
-                          </div>
-                          <p className={styles.unit}>1 Unit</p>
-                          </div>
-
+                              <div className={styles.customSelectnew}>
+                                <div className={styles.qty}>Qty:</div>
+                                <select className={styles.selectDivnew} >
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="3">4</option>
+                                  <option value="3">5</option>
+                                  <option value="3">6</option>
+                                  <option value="3">7</option>
+                                  <option value="3">8</option>
+                                  <option value="3">9</option>
+                                  <option value="3">10</option>
+                                </select>
+                              </div>
+                              <p className={styles.unit}>1 Unit</p>
+                            </div>
 
                             <div className={styles.customSelect3}>
-                              <select className={styles.selectDiv3} value={selectedDay} onChange={handleDayChange}>
+                              <select className={styles.selectDiv3} >
                                 <option value="30 Day">30 Day</option>
                                 <option value="60 Day">60 Day</option>
                                 <option value="90 Day">90 Day</option>
@@ -660,7 +534,7 @@ const Sciencedesktoppage = () => {
 
 
           <Slider ref={c => (slider2 = c)}{...settings}>
-            <div className={styles.slider3data}>
+            <div className={`container ${styles.slider3data}`}>
               <div className={styles.sliderContent}>
                 <h6>For Healthy Skin, Hair & Bones</h6>
                 <div className={styles.forscrollbar}>
@@ -841,31 +715,9 @@ const Sciencedesktoppage = () => {
             </div>
 
           </Slider>
-          <div className={styles.bothButton2}>
-            <div className={styles.LeftBtn}>
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" className={styles.svgIcon} onClick={goToPrev2}>
-                  <path d="M15.166 26L45.4994 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
-                </svg>
-              </div>
-
-            </div>
-            <div className={styles.RightBtn}>
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none" onClick={goToNext2}>
-                  <path d="M36.834 26H6.50065" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z" fill="#7F7F7F" />
-                </svg>
-              </div>
-            </div>
-          </div>
-
 
         </div>
-
       </div>
-
     </div>
 
   );

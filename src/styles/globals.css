@@ -2885,8 +2885,9 @@ input[type=radio] {
 }
 
 @media(max-width:1024px) {
+
   .modal-lg,
   .modal-xl {
     --bs-modal-width: 700px !important;
   }
-}
+}  

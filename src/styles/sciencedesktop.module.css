@@ -1,37 +1,12 @@
 .container {
     padding: 0 !important;
 }
-.cutomMainDiv{
-    display: flex;
-    align-items: center;
-}
-.customSelectnew{
-    height: 25px;
-    background: #f0f1f2;
-    border: .5px solid #bbb;
-    border-radius: 10px;
-    display: flex;
-    padding: 0 6px;
-}
-.qty{
-    font-style: normal;
-    font-weight: 700;
-    /* font-size: 10px; */
-    line-height: 10px;
-    padding: 5px;
-    margin: auto;
-}
-.selectDivnew{
-    outline: none;
-    background: none;
-    border: none;
-    color: #000;
-}
 
 
 /* HighlightComponent.module.css */
 
 /* Keyframes for zooming animation */
+
 @keyframes zoomInOut {
     0% {
         transform: scale(1);
@@ -1625,15 +1600,16 @@
     margin-top: 2rem;
     margin-right: 1.2rem;
 }
-
+.bothButton2Main{
+    text-align: center;
+    /* width: 100%; */
+}
 .bothButton2 {
-    float: right;
     gap: 2rem;
     display: flex;
-    margin-top: -6rem;
-    margin-right: -0.7rem;
-    padding: 20px !important;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1380px;
 
 }
 
@@ -1714,12 +1690,14 @@
     margin-top: 9rem;
     margin-bottom: 5rem;
     background-color: rgba(244, 244, 244, 1);
+    display:flex;
+    align-items: center;
 }
 
 .SliderDiv3 {
     margin: auto !important;
-    width: 100% !important;
-    max-width: 1380px !important;
+    width: 80% !important;
+    /* max-width: 1380px !important; */
     padding: 20px;
 }
 
@@ -2091,11 +2069,7 @@
 
 }
 
-.customSelect3 {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-}
+
 
 .selectDiv3 {
     height: 25px;
@@ -2199,6 +2173,56 @@
     background-color: rgb(255, 255, 255);
 }
 
+/* slecctDiv Css Start */
+.cutomMainDiv {
+    display: flex;
+}
+.customSelectnew{
+    height: 25px;
+    background: #f0f1f2;
+    border: .5px solid #bbb;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 6px;
+}
+.selectDivnew{
+    outline: none;
+    background: none;
+    border: none;
+    color: #000;
+}
+.qty{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 5px;
+    margin: auto;
+}
+.unit{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    margin: auto 5px;
+}
+.customSelect3{
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    width: 80px;
+    height: 25px;
+    background: #f0f1f2;
+    color: #000;
+    border: .5px solid #bbb;
+    border-radius: 10px;
+    text-align: center;
+}
+/* slecctDiv Css End */
+
+
+
 .Accordian1 label {
     flex-direction: column;
     align-items: flex-start;
@@ -2206,12 +2230,14 @@
     font-size: 16px;
     font-family: 'Gotham', Times, serif;
 }
-.dollar{
+
+.dollar {
     font-size: 13px;
     top: -3px;
     position: relative;
 }
-.cents{
+
+.cents {
     font-size: 13px;
     top: -3px;
     position: relative;
@@ -2495,8 +2521,11 @@
     }
 
     .bothButton2 {
-        margin-top: -6rem;
-        margin-right: -1.5rem;
+        position: absolute;
+        text-align: center;
+        padding: 20px !important;
+        width: 100%;
+        align-items: center;
     }
 
     .forscrollbar {
@@ -2642,6 +2671,11 @@
     .bothButton2 {
         margin-top: -6rem;
         margin-right: -1.5rem;
+        position: absolute;
+        text-align: center;
+        padding: 20px !important;
+        width: 100%;
+        align-items: center;
     }
 }
 
@@ -2827,9 +2861,11 @@
     }
 
     .bothButton2 {
-        position: relative;
-        margin-top: -9rem;
-        margin-right: -1.3rem;
+        position: absolute;
+        text-align: center;
+        padding: 20px !important;
+        width: 100%;
+        align-items: center;
     }
 
     .slideContent h1 {
@@ -2851,7 +2887,7 @@
     }
 
     .nextCarousel {
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
 
     .brunoDecription2 {
@@ -2895,7 +2931,8 @@
     .BuyBtn {
         top: 5px !important;
     }
-    .mainModalDiv{
+
+    .mainModalDiv {
         margin: 2rem;
     }
 

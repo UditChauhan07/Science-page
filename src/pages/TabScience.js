@@ -5,9 +5,7 @@ function TabScience() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [show, setShow] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
-  const [selectedOption, setSelectedOption] = useState("1");
-  const [selectedOption2, setSelectedOption2] = useState("1");
-  const [selectedDay, setSelectedDay] = useState("30 Day");
+ 
   const [isVisible, setIsVisible] = useState(false);
   const [modalImage, setModalImage] = useState('/images/modalImgBrunoMd (1).webp');
   const [modalTitle, setModalTitle] = useState('Royal Collagen Peptides');
@@ -17,22 +15,7 @@ function TabScience() {
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
   };
-  // Function For Quantity Change Start //
-  const handleSelectChange = (event) => {
-    setSelectedOption(event.target.value);
-  };
-  // Function For Quantity Change End //
 
-  // Function For Quantity Change Start //
-  const handleSelectChange2 = (event) => {
-    setSelectedOption2(event.target.value);
-  };
-  // Function For Quantity Change End //
-  // Function For Day Change Start //
-  const handleDayChange = (event) => {
-    setSelectedDay(event.target.value);
-  };
-  // Function For Day Change End //
 
 
   const handleRadioChange = (index) => {
@@ -307,17 +290,25 @@ function TabScience() {
                   <div className={`accordion-content ${styles.accordionContent}`}>
                     <div className={styles.stocDiv}>
                       <h6 className={styles.stock}>In Stock.</h6>
-                      <div className={styles.customSelect}>
-                        <select className={styles.selectDiv} value={selectedOption} onChange={handleSelectChange}>
-                          <option value="1" className={styles.qty}>
-                            Qty:1
-                          </option>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                        </select>
-                        <p className={styles.unit}>1 Unit</p>
-                      </div>
+                      <div className={styles.cutomMainDiv}>
+                          <div className={styles.customSelectnew}>
+                            <div className={styles.qty}>Qty:</div>
+                            <select className={styles.selectDivnew} >
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="3">4</option>
+                              <option value="3">5</option>
+                              <option value="3">6</option>
+                              <option value="3">7</option>
+                              <option value="3">8</option>
+                              <option value="3">9</option>
+                              <option value="3">10</option>
+                            </select>
+                           
+                          </div>
+                          <p className={styles.unit}>1 Unit</p>
+                          </div>
                       <div className={styles.addCartButton}><div>ADD TO CART</div> </div>
                     </div>
                   </div>
@@ -387,17 +378,27 @@ function TabScience() {
                       )}
                       <div className={styles.stocDiv3}>
                         <h6 className={styles.stock2}>In Stock.</h6>
-                        <div className={styles.customSelect2}>
-                          <select className={styles.selectDiv2} value={selectedOption2} onChange={handleSelectChange2}>
-                            <option value="1">Qty: 1</option>
-                            <option value="2">Qty: 2</option>
-                            <option value="3">Qty: 3</option>
-                          </select>
+                        <div className={styles.cutomMainDiv}>
+                          <div className={styles.customSelectnew}>
+                            <div className={styles.qty}>Qty:</div>
+                            <select className={styles.selectDivnew} >
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="3">4</option>
+                              <option value="3">5</option>
+                              <option value="3">6</option>
+                              <option value="3">7</option>
+                              <option value="3">8</option>
+                              <option value="3">9</option>
+                              <option value="3">10</option>
+                            </select>
+                          </div>
                           <p className={styles.unit}>1 Unit</p>
-                        </div>
+                          </div>
 
                         <div className={styles.customSelect3}>
-                          <select className={styles.selectDiv3} value={selectedDay} onChange={handleDayChange}>
+                          <select className={styles.selectDiv3} >
                             <option value="30 Day">30 Day</option>
                             <option value="60 Day">60 Day</option>
                             <option value="90 Day">90 Day</option>

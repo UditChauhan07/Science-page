@@ -37,7 +37,7 @@ const ScienceVideo = () => {
           />
         </video>
 
-        <video className={styles.DeskShow} width="100%" height="100%" controls loop autoPlay muted>
+        {/* <video className={styles.DeskShow} width="100%" height="100%" controls loop autoPlay muted>
           <source
             src="/images/Science Masthead web.mp4"
             type="video/mp4"
@@ -46,7 +46,7 @@ const ScienceVideo = () => {
             src="/images/Science Masthead web.mp4"
             type="video/ogg"
           />
-        </video>
+        </video> */}
       </div>
     )
   );
