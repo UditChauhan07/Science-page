@@ -1,0 +1,148 @@
+.MobTab {
+    display: none;
+}
+@media (max-width: 767px) {
+    .MobTab {
+        display: block;
+    }
+
+    .mydiv {
+        display: none;
+    }
+
+    .bottelTab {
+        display: flex;
+        margin: 1rem;
+        gap: 1rem;
+
+    }
+
+    .bottelTab2 {
+        display: flex;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .TabClick {
+        border: 1px solid #D7D2F0;
+        border-radius: 50px;
+        width: 50%;
+        display: flex;
+        background-color: #F6F6F9;
+    }
+    .activeTab{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .tabImgDiv {
+        border: 1px solid #D7D2F0;
+        padding: 10px;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        display: flex;
+        margin: 0rem;
+    }
+
+    .tabImgDiv img {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .TabImgTitle {
+        margin: auto;
+    }
+
+    .TabClick h1 {
+        font-family: 'Gotham', Times, serif;
+        font-size: 12px;
+        margin-bottom: 0rem;
+        gap: 10px;
+        margin-left: 10px;
+        font-weight: bold;
+        line-height: 15px;
+        /* text-align: left; */
+    }
+    .TabingDetailsDiv{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        margin: 1rem;
+    }
+    .humanDecribtionDiv{
+        overflow: auto;
+        height: 387px;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .humanDecribtion h1{
+        font-family: 'Gotham', Times, serif;
+        margin-top: 1rem;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight:bold;
+    }
+    .humanDecribtion p{
+        font-family: 'Gotham', Times, serif;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .tabHR{
+        border-bottom: 3px solid gray;
+    }
+    .activeTab1 {
+        border: 1px solid #6f329e;
+        background-color: rgb(252, 252, 252);
+      }
+      
+      .activeTab2 {
+        border: 1px solid #094495;
+        background-color: rgb(252, 252, 252);
+
+      }
+      
+      .activeTab3 {
+        border: 1px solid #f18358;
+        background-color: rgb(252, 252, 252);
+
+      }
+      
+      .activeTab4 {
+        border: 1px solid #45d5fd;
+        background-color: rgb(252, 252, 252);
+
+      }
+      .tabHR1 {
+        border-bottom: 3px solid #6f329e;
+      }
+      
+      .tabHR2 {
+        border-bottom: 3px solid #094495;
+      }
+      
+      .tabHR3 {
+        border-bottom: 3px solid #f18358;
+      }
+      
+      .tabHR4 {
+        border-bottom: 3px solid #45d5fd;;
+      }
+      .mobBuybtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mobBuybtn button{
+        font-family: 'Gotham', Times, serif;
+        font-size: 16px;
+        line-height: 30px;
+        border: none;
+        border-radius: 34px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        width: 50%;
+      }
+}

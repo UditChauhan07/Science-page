@@ -69,7 +69,7 @@ const Tabs = () => {
             <button className={`${styles.arrowR} ${styles.arrowRight}`} onClick={handleNextClick}><MdKeyboardArrowRight/>
               
             </button>
-            {/* <div className={styles.activeTabIndicator} style={{ left: `${styles.activeTab * 25}%` }} /> */}
+           
           </div>
         </div>
       </div>
@@ -81,11 +81,7 @@ const Tabs = () => {
     <button className={styles.tabsBuyNowBTn}>
       Buy Now
     </button>
-
-{/* <SliderTabs></SliderTabs> */}
-
     </>
   );
 };
-// Tabs.hideLayout = true;
 export default Tabs;
