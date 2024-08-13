@@ -28,6 +28,7 @@
         border-radius: 50px;
         width: 50%;
         display: flex;
+        gap: 10px;
         background-color: #F6F6F9;
     }
     .activeTab{
@@ -38,7 +39,7 @@
         border: 1px solid #D7D2F0;
         padding: 10px;
         border-radius: 50px;
-        width: 50px;
+        width: 55px;
         height: 50px;
         align-items: center;
         display: flex;
@@ -59,10 +60,9 @@
         font-family: 'Gotham', Times, serif;
         font-size: 12px;
         margin-bottom: 0rem;
-        gap: 10px;
-        margin-left: 10px;
         font-weight: bold;
         line-height: 15px;
+        width: 75%;
         /* text-align: left; */
     }
     .TabingDetailsDiv{
@@ -74,9 +74,30 @@
     .humanDecribtionDiv{
         overflow: auto;
         height: 387px;
-        padding: 10px;
+        padding: 0px 10px 10px 10px;
         width: 50%;
     }
+
+    .humanDecribtionDiv::-webkit-scrollbar {
+      width: 3px; 
+    }
+    
+    .humanDecribtionDiv::-webkit-scrollbar-track {
+      background: #afafaf; 
+    }
+    
+    .humanDecribtionDiv::-webkit-scrollbar-thumb {
+      background: #000000; 
+      border-radius: 20px;
+    }
+    
+    .humanDecribtionDiv::-webkit-scrollbar-thumb:hover {
+      background: #828282;
+    }
+
+
+
+
 
     .humanDecribtion h1{
         font-family: 'Gotham', Times, serif;
@@ -91,7 +112,7 @@
         line-height: 15px;
     }
     .tabHR{
-        border-bottom: 3px solid gray;
+        border-bottom: 1px solid gray;
     }
     .activeTab1 {
         border: 1px solid #6f329e;
@@ -116,24 +137,25 @@
 
       }
       .tabHR1 {
-        border-bottom: 3px solid #6f329e;
+        border-bottom: 1px solid #6f329e;
       }
       
       .tabHR2 {
-        border-bottom: 3px solid #094495;
+        border-bottom: 1px solid #094495;
       }
       
       .tabHR3 {
-        border-bottom: 3px solid #f18358;
+        border-bottom: 1px solid #f18358;
       }
       
       .tabHR4 {
-        border-bottom: 3px solid #45d5fd;;
+        border-bottom: 1px solid #45d5fd;;
       }
       .mobBuybtn{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 2rem;
       }
       .mobBuybtn button{
         font-family: 'Gotham', Times, serif;
@@ -143,6 +165,6 @@
         border-radius: 34px;
         background-color: black;
         color: rgb(255, 255, 255);
-        width: 50%;
+        width: 66%;
       }
 }

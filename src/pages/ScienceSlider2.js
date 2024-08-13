@@ -457,7 +457,7 @@ const ScienceSlider2 = () => {
                                 </div>
                                 <div className={styles.sliderContent3}>
                                     <div>
-                                        <h3>Blurex </h3>
+                                        <h3>Bluerex </h3>
                                         <h5>The Science of Sight</h5>
                                     </div>
                                     <div className={styles.forRound}>
