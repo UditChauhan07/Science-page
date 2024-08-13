@@ -94,7 +94,7 @@ const Sciencedesktoppage = () => {
         </div>
 
       </Modal>
-      <Carousel fade={true} interval={400000000} controls={false} pause={false} className={styles.carousel}>
+      <Carousel fade={true} interval={4000} controls={false} pause={false} className={styles.carousel}>
         {slides.map((slide, index) => (
           <Carousel.Item key={index}>
             <div className={styles.carouselMain}>

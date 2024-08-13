@@ -71,6 +71,7 @@
 
 .pcontent::-webkit-scrollbar-thumb {
     background: #000000;
+    -webkit-background-clip: padding-box;
     border-radius: 20px;
 }
 
@@ -281,6 +282,10 @@
 }
 
 @media (max-width:767px) {
+    .brunoDecription3 {
+        margin-top: 0rem !important
+    }
+
     .brunoDecription3 h1 {
         font-size: 30px !important;
         margin-bottom: 0rem;
