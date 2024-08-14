@@ -188,6 +188,12 @@
   }
 }
 
+@media only screen and (max-width:550px) and (min-width:426px) {
+  .TabimgHuman {
+    width: 45%;
+  }
+}
+
 @media (max-width: 425px) {
   .TabimgHuman {
     width: 45%;
@@ -198,6 +204,7 @@
   .TabimgHuman {
     width: 50%;
   }
+
   .humanDecribtionDiv {
     height: 340px;
   }

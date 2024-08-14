@@ -925,7 +925,10 @@
     .sliderContent3 h5 {
         font-size: 16px;
     }
+    .roundBtn p{
+        padding: 5px;
 
+    }
     .round p {
         font-size: 12px;
         /* line-height: 30px; */
