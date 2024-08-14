@@ -13,7 +13,8 @@
   .fixedAnnouncementBar{
     background-color: #3a3a3a;
     color: #FFFFFF;
-    font-family: var(--bmd-font-Secondary);
+    /* font-family: var(--bmd-font-Secondary); */
+    font-family: 'Gotham', Times, serif;
     font-size: var(--bmd-12px);
     margin: 0;
     padding: 8px;
@@ -31,14 +32,14 @@
   }
   @media screen and (max-width: 500px) {
     .announcementBar , .fixedAnnouncementBar{
-      font-size: 10px;
+      font-size: 12px;
         background-color: #ab19c2;
         font-size: 13px;
       
     }
     @media screen and (max-width: 475px) {
       .announcementBar {
-        background-color: #ab19c2;
+        background-color: #37246B;
         font-size: 13px;
       }
       .fixedAnnouncementBar{

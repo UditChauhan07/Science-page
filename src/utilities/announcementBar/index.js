@@ -28,7 +28,8 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         onClick={ModalHandler}
       >
         <div>
-          <p>{announcement}</p>
+          {/* <p>{announcement}</p> */}
+          <marquee>{announcement}</marquee>
         </div>
       </section>
     )
@@ -42,7 +43,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         }}
       >
         <div>
-          <p>{announcement}</p>
+          <marquee>{announcement}</marquee>
           
         </div>
       </section>
