@@ -9,7 +9,7 @@ const MobileTabScience = () => {
     {
       title: 'Royal Collagen Peptides',
       tabImage: 'images/Tab1.png',
-      videoSrc: 'images/Science-BlueR.webm',
+      videoSrc: 'images/Science-BluRV1.gif',
       content: [
         { heading: 'YOUTHFUL SKIN, HAIR & NAILS', description: 'Stimulates collagen production in fibroblasts to help reduce wrinkles and promote growth and health of hair and nails.' },
         { heading: 'JOINTS AND CARTILAGE', description: 'Stimulates collagen production in chondrocytes to support joint and collagen function' },
@@ -21,7 +21,7 @@ const MobileTabScience = () => {
     {
       title: 'CholestQ10 60 v-caps',
       tabImage: 'images/Tab2.png',
-      videoSrc: 'images/Science-BlueR2.webm',
+      videoSrc: 'images/Science-BluRV2.gif',
       content: [
         { heading: 'SUPPORT CARDIOVASCULAR HEALTH', description: 'Clinically-proven ingredients help support healthy cholesterol levels.' },
         { heading: 'FATTY LIPIDS', description: 'Clinically-proven ingredients inhibit the creation of fatty lipids in the liver.' },
@@ -33,7 +33,7 @@ const MobileTabScience = () => {
     {
       title: 'Riboflam 90 v-caps',
       tabImage: 'images/Tab3.png',
-      videoSrc: 'images/Science-BlueR3.webm',
+      videoSrc: 'images/Science-BluRV3.gif',
       content: [
         { heading: 'EXERCISE PAIN RELIEF', description: 'Clinically-proven ingredients help relieve post-exercise pain naturally' },
         { heading: 'IMMUNITY', description: 'Stimulates overall immune health, which is directly linked to your body’s ability to fight inflammation and work better, and longer' },
@@ -45,7 +45,7 @@ const MobileTabScience = () => {
     {
       title: 'Bluerex Vision 60 softgels',
       tabImage: 'images/Tab4.png',
-      videoSrc: 'images/Science-BlueR4.webm',
+      videoSrc: 'images/Science-BluRV4.gif',
       content: [
         { heading: 'SHIELDS THE FRONT OF THE EYE', description: 'Protects the front of the eye, and lens, and strengthens ciliary muscles' },
         { heading: 'SHIELDS THE BACK OF THE EYE', description: 'Protects the retina from blue light damage and oxidative stress' },
@@ -97,10 +97,11 @@ const MobileTabScience = () => {
       <div className={styles.bottelDecribtion}>
         <div className={styles.TabingDetailsDiv}>
           <div className={styles.TabimgHuman}>
-            <video autoPlay loop muted key={tabData[activeTab].videoSrc}>
+            {/* <video autoPlay loop muted key={tabData[activeTab].videoSrc}>
               <source src={tabData[activeTab].videoSrc} type="video/webm" />
               <source src={tabData[activeTab].videoSrc} type="video/mp4" />
-            </video>
+            </video> */}
+             <img src={tabData[activeTab].videoSrc} alt="Active Tab GIF" className={styles.gifImage} />
           </div>
           <div className={styles.humanDecribtionDiv}>
             {tabData[activeTab].content.map((item, index) => (
