@@ -33,7 +33,7 @@ const MobileTabScience = () => {
     {
       title: 'Riboflam 90 v-caps',
       tabImage: 'images/Tab3.png',
-      videoSrc: 'images/Science-BluRV3.gif',
+      videoSrc: 'images/Science-BlurV2.gif',
       content: [
         { heading: 'EXERCISE PAIN RELIEF', description: 'Clinically-proven ingredients help relieve post-exercise pain naturally' },
         { heading: 'IMMUNITY', description: 'Stimulates overall immune health, which is directly linked to your body’s ability to fight inflammation and work better, and longer' },
@@ -45,7 +45,7 @@ const MobileTabScience = () => {
     {
       title: 'Bluerex Vision 60 softgels',
       tabImage: 'images/Tab4.png',
-      videoSrc: 'images/Science-BluRV4.gif',
+      videoSrc: 'images/Science-BluRV3.gif',
       content: [
         { heading: 'SHIELDS THE FRONT OF THE EYE', description: 'Protects the front of the eye, and lens, and strengthens ciliary muscles' },
         { heading: 'SHIELDS THE BACK OF THE EYE', description: 'Protects the retina from blue light damage and oxidative stress' },
