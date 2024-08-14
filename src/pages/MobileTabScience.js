@@ -9,7 +9,7 @@ const MobileTabScience = () => {
     {
       title: 'Royal Collagen Peptides',
       tabImage: 'images/Tab1.png',
-      videoSrc: 'images/Science-BluRV1.gif',
+      videoSrc: 'images/Science-BlurV.gif',
       content: [
         { heading: 'YOUTHFUL SKIN, HAIR & NAILS', description: 'Stimulates collagen production in fibroblasts to help reduce wrinkles and promote growth and health of hair and nails.' },
         { heading: 'JOINTS AND CARTILAGE', description: 'Stimulates collagen production in chondrocytes to support joint and collagen function' },
@@ -21,7 +21,7 @@ const MobileTabScience = () => {
     {
       title: 'CholestQ10 60 v-caps',
       tabImage: 'images/Tab2.png',
-      videoSrc: 'images/Science-BluRV2.gif',
+      videoSrc: 'images/Science-BluRV1.gif',
       content: [
         { heading: 'SUPPORT CARDIOVASCULAR HEALTH', description: 'Clinically-proven ingredients help support healthy cholesterol levels.' },
         { heading: 'FATTY LIPIDS', description: 'Clinically-proven ingredients inhibit the creation of fatty lipids in the liver.' },
