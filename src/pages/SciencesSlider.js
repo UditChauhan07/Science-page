@@ -4,7 +4,39 @@ import styles from "../styles/SciencesSlider.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
 const SciencesSlider = () => {
-
+    const slideData = [
+        {
+            title: "Better by Nature",
+            subtitle: "Making Phytosome",
+            content: [
+                "The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.",
+                "The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.",
+                "The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body."
+            ],
+            videoSrc: "/images/slidevideoA.mp4"
+        },
+        {
+            title: "Biomimicry",
+            subtitle: "Delivering More",
+            content: [
+                "Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous.",
+                "For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream.",
+                "No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck. With the curcumin molecule hidden inside, the lipid can pass through the gut and into your bloodstream with 3000% more bioavailability. Phytosome sets the new standard in prescription-grade natural ingredients."
+            ],
+            videoSrc: "/images/slidevideo3.mp4"
+        },
+        {
+            title: "Phospholipids",
+            subtitle: "Nature’s Delivery Truck",
+            content: [
+                "The phospholipid shell in phytosomes mimics the natural structure of cell membranes, which enables them to bypass the digestive and hepatic barriers by selectively releasing their active compounds into the bloodstream.",
+                "This enhances their therapeutic value and decreases the amount required to deliver therapeutic effects.",
+                "Phytosome technology has been used to deliver a wide range of active ingredients, including antioxidants, anti-inflammatory compounds, vitamins, and minerals. It also provides a novel delivery option for poorly soluble substances, allowing for more efficient and effective delivery of these compounds to targeted tissues.",
+                "Overall, phytosome technology represents an innovative approach to enhancing the bioavailability of plant-based compounds and improving their therapeutic value."
+            ],
+            videoSrc: "/images/slidevideo2.mp4"
+        }
+    ];
     // .......Slider 1st Function Start.///
 
     const goToPrev = () => {
@@ -31,72 +63,29 @@ const SciencesSlider = () => {
                 <p>Up to 3000% higher bioavailability</p>
             </div>
             <div className={`container ${styles.SliderDiv2}`}>
-                <Slider ref={c => (slider = c)} {...settings}>
-                    <div className={styles.slideData}>
-                        <div className={styles.contentbackdiv}>
-                            <div className={styles.slideContent} >
-                                <h1><b>Better by Nature</b> </h1>
-                                <h2> Making Phytosome</h2>
-                                <div className={styles.pcontent} >
-                                    <p>The process of phytosome formation involves the covalent binding of one or more plant constituents with phospholipids. This process helps to protect the plant extract from degradation and increases its stability.</p>
-                                    <p> The phospholipid coating also enables the extract to bypass the digestive system &apos;s harsh environment and be more easily absorbed by the body&apos;s cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.</p>
-                                    <p>The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin&apos;s barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body.</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div className={styles.slide2Img}>
-                            <video width="" height="100%" loop autoPlay muted >
-                                <source src="/images/slidevideoA.mp4" type="video/mp4" />
-                                <source src="/images/slidevideoA.mp4" type="video/ogg" />
-                            </video>
+            <Slider ref={c => (slider = c)} {...settings}>
+        {slideData.map((slide, index) => (
+            <div className={styles.slideData} key={index}>
+                <div className={styles.contentbackdiv}>
+                    <div className={styles.slideContent}>
+                        <h1><b>{slide.title}</b></h1>
+                        <h2>{slide.subtitle}</h2>
+                        <div className={styles.pcontent}>
+                            {slide.content.map((text, i) => (
+                                <p key={i}>{text}</p>
+                            ))}
                         </div>
                     </div>
-
-                    <div className={styles.slideData}>
-                        <div className={styles.contentbackdiv}>
-                            <div className={styles.slideContent}>
-                                <h1><b>Biomimicry</b></h1>
-                                <h2>Delivering More</h2>
-                                <div className={styles.pcontent}>
-                                    <p>Phytosome technology is a form of biomimicry. Our bodies have evolved to view beneficial plant-based polyphenols as useless or dangerous.</p>
-                                    <p> For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream. </p>
-                                    <p>No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck.With the curcumin molecule hidden inside, the lipid can pass through the gut and into your bloodstream with 3000% more bioavailability. Phytosome sets the new standard in prescription-grade natural ingredients. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={styles.slide2Img}>
-                            <video width="" height="100%" loop autoPlay muted >
-                                <source src="/images/slidevideo3.mp4" type="video/mp4" />
-                                <source src="/images/slidevideo3.mp4" type="video/ogg" />
-                            </video>
-                        </div>
-                    </div>
-                    <div className={styles.slideData}>
-                        <div className={styles.contentbackdiv}>
-                            <div className={styles.slideContent}>
-                                <h1><b>Phospholipids</b></h1>
-                                <h2>Nature’s Delivery Truck</h2>
-                                <div className={styles.pcontent}>
-                                    <p>The phospholipid shell in phytosomes mimics the natural structure of cell membranes, which enables them to bypass the digestive and hepatic barriers by selectively releasing their active compounds into the bloodstream.</p>
-                                    <p>This enhances their therapeutic value and decreases the amount required to deliver therapeutic effects.</p>
-                                    <p>Phytosome technology has been used to deliver a wide range of active ingredients, including antioxidants, anti-inflammatory compounds, vitamins, and minerals.It also provides a novel delivery option for poorly soluble substances, allowing for more efficient and effective delivery of these compounds to targeted tissues.</p>
-                                    <p>Overall, phytosome technology represents an innovative approach to enhancing the bioavailability of plant-based compounds and improving their therapeutic value.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={styles.slide2Img}>
-                            <video width="" height="100%" loop autoPlay muted >
-                                <source src="/images/slidevideo2.mp4" type="video/mp4" />
-                                <source src="/images/slidevideo2.mp4" type="video/ogg" />
-                            </video>
-                        </div>
-                    </div>
-
-                </Slider>
+                </div>
+                <div className={styles.slide2Img}>
+                    <video width="" height="100%" loop autoPlay muted>
+                        <source src={slide.videoSrc} type="video/mp4" />
+                        <source src={slide.videoSrc} type="video/ogg" />
+                    </video>
+                </div>
+            </div>
+        ))}
+    </Slider>
                 <div className={styles.bothButton}>
                     <div className={styles.LeftBtn}>
                         <div>
