@@ -21,11 +21,6 @@
     padding: 0rem 1rem 0rem 0rem;
 }
 
-.modalBody p {
-    font-family: 'Gotham', Times, serif;
-    color: #000;
-}
-
 .modalBody::-webkit-scrollbar {
     width: 3px;
 }
@@ -336,7 +331,16 @@
 
 @media only screen and (max-width: 767px) {
     .RectangleDiv {
-        display: none;
+        /* display: none; */
+    }
+    .Rectangle1 img{
+        height: 120px;
+    }
+    .Rectangle2 img{
+        height: 120px;
+    }
+    .carouselMain{
+        padding: 0px;
     }
 }
 @media (max-width:670px){
