@@ -4,7 +4,7 @@ import styles from './SciencnewVideo.module.css'
 const ScienceNewVideo = () => {
   return (
     <div>
-            <div className={`container ${styles.brunoDecription}`}>
+      <div className={`container ${styles.brunoDecription}`}>
         <h1>We are <b>Bruno MD</b></h1>
         <p>Science and the Human Connection</p>
 
@@ -16,12 +16,12 @@ const ScienceNewVideo = () => {
         </video>
       </div>
       <div className={styles.PhytoVideoTag1}>
-        <video width="100%" height="100%" loop autoPlay muted controls playsinline>
-        <source src='/images/Science Masthead Portrait720New.mp4' type=''/>
+        <video width="100%" height="100%" autoPlay={true} muted playsInline controls loop>
+          <source src='/images/Science Masthead Portrait720New.mp4' type='' />
           <source src="/images/Science Masthead Portrait720New.mp4" type="" />
         </video>
       </div>
-     
+
     </div>
   )
 }
