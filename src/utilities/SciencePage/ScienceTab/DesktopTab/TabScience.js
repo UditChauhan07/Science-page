@@ -114,9 +114,12 @@ function TabScience() {
 
   return (
 
-   
+
     <div>
-     
+      <p className={styles.tooltip}>
+        Complete heart, liver, & cholesterol care (HDL, LDL, TG)
+        <span className={styles.tooltiptext}>Tooltip text</span>
+      </p>
       {/* Modal start */}
 
       <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
@@ -298,8 +301,8 @@ function TabScience() {
       {/* Human Tab Section Start */}
       <div className={`container ${styles.brunoDecription2}`}>
         <div className={styles.bruno3000}>
-        <h1> Phytosome® Technology </h1>
-        <p> 3000% higher bioavailability</p>
+          <h1> Phytosome® Technology </h1>
+          <p> 3000% higher bioavailability</p>
         </div>
       </div>
       <div className={styles.imgRotation}>
@@ -318,7 +321,13 @@ function TabScience() {
                   <div className={styles.medContent}>
                     <h6>Royal Collagen Peptides</h6>
                     <b>Bruno MD</b>
-                    <p>5-in-1 Skin, Hair, Nail, Joint & Bone Health</p>
+                    {/* <p>5-in-1 Skin, Hair, Nail, Joint & Bone Health</p> */}
+
+                    <div className={styles.box}>
+                      <p class={styles.tooltip2}> 5-in-1 Skin, Hair, Nail, Joint & Bone Health
+                        <span>5-in-1 Skin, Hair, Nail, Joint & Bone Health</span>   
+                      </p>
+                    </div>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcoloryellow}></div>
                       <div><button onClick={() => handleShow('/images/modalImgBrunoMd (1).webp', 'Royal Collagen Peptides', 'The Science of Beauty')}>Buy Now</button></div>
@@ -339,7 +348,12 @@ function TabScience() {
                   <div className={styles.medContent}>
                     <h6>CholestQ10 60 v-caps</h6>
                     <b>Bruno MD</b>
-                    <p>Complete heart, liver, & cholesterol care (HDL, LDL, TG)</p>
+                    <div className={styles.box}>
+                      <p class={styles.tooltip2}> Complete heart, liver, & cholesterol care (HDL, LDL, TG)
+                        <span>Complete heart, liver, & cholesterol care (HDL, LDL, TG)</span>   
+                      </p>
+                    </div>
+
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorGreen}></div>
                       <div><button onClick={() => handleShow('/images/modalImgBrunoMd2.webp', 'CholestQ10 60 v-caps', 'The Science of Heart Health')}>Buy Now</button></div>
@@ -360,7 +374,11 @@ function TabScience() {
                   <div className={styles.medContent}>
                     <h6>Riboflam 90 v-caps</h6>
                     <b>Bruno MD</b>
-                    <p>Immunity + inflammation, cardio, liver, digestive health</p>
+                    <div className={styles.box}>
+                      <p class={styles.tooltip2}> Immunity + inflammation, cardio, liver, digestive health
+                        <span>Immunity + inflammation, cardio, liver, digestive health</span>   
+                      </p>
+                    </div>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorOrange}></div>
                       <div><button onClick={() => handleShow('/images/modalImgBrunoMd3.webp', 'Riboflam 90 v-caps', 'The Science of Longevity')}>Buy Now</button></div>
@@ -381,7 +399,12 @@ function TabScience() {
                   <div className={styles.medContent}>
                     <h6>Bluerex Vision 60 softgels </h6>
                     <b>Bruno MD</b>
-                    <p>Dry eye, Computer Vision Syndrome, macular health, blue light shield</p>
+                    <div className={styles.box}>
+                      <p class={styles.tooltip2}> Dry eye, Computer Vision Syndrome, macular health, blue light shield
+                        <span>Dry eye, Computer Vision Syndrome, macular health, blue light shield</span>   
+                      </p>
+                    </div>
+
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcolorSky}></div>
                       <div><button onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex Vision 60 softgels', 'The Science of Sight')}>Buy Now</button></div>
@@ -442,7 +465,7 @@ function TabScience() {
         <img src='/images/rotaionImg1.webp' />
       </div>
       {/* Human Tab Section End */}
-      <MobileTabScience/>
+      <MobileTabScience />
     </div>
   )
 }
