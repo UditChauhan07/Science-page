@@ -92,7 +92,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 34px;
     border: 2px solid rgba(241, 131, 88, 1);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .tabdiv33 {
@@ -1975,7 +1975,7 @@
     .humanText p {
         font-size: 12px;
         overflow: auto;
-        height: 65px;
+        height: 90px;
         margin-bottom: 0rem;
     }
 
@@ -2060,9 +2060,9 @@
     }
 
     .medContent p {
-        width: 100%;
+        width: 95%;
         letter-spacing: 0px;
-        min-height: 40px;
+        min-height: 39px;
         font-size: 12px;
     }
 
