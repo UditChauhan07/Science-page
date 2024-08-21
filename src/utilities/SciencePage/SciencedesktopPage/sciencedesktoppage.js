@@ -1,23 +1,36 @@
 
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
-import styles from '../styles/sciencedesktop.module.css'
-import Modal from 'react-bootstrap/Modal';
+import styles from './sciencedesktop.module.css'
+// import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TabScience from '@/pages/TabScience';
-import ScienceSlider2 from './ScienceSlider2';
-import SciencesSlider from './SciencesSlider';
-import ScienceNewVideo from './ScienceNewVideo';
+import TabScience from '../ScienceTab/DesktopTab/TabScience';
+import ScienceSlider2 from '@/utilities/SciencePage/SliderPage/ScienceSlider2';
+import SciencesSlider from '@/utilities/SciencePage/SliderPage/SciencesSlider';
+import ScienceNewVideo from '@/utilities/SciencePage/ScienceVideo/ScienceNewVideo';
+import Modal from '../ModalSciencePage/Modal';
+
+
 const Sciencedesktoppage = () => {
   const [show, setShow] = useState();
   const [activeSlideIndex, setActiveSlideIndex] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleShow = (index) => {
+    setActiveSlideIndex(index);
+    setIsModalOpen(true);
+  };
 
   // ....Modal function Start..//
-  const handleClose = () => setShow(false);
-  const handleShow = (index) => {
-    setShow(true);
-    setActiveSlideIndex(index);
-  };
+  // const handleClose = () => setShow(false);
+  // const handleShow = (index) => {
+  //   setShow(true);
+  //   setActiveSlideIndex(index);
+  // };
   // modal function End.../
 
   const slides = [
@@ -77,23 +90,27 @@ const Sciencedesktoppage = () => {
   return (
 
     <div className={styles.leptop}>
-      <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
-        <Modal.Header className={styles.modalHeader} closeButton>
-          <Modal.Title>
+
+      {/* Custom Modal */}
+      {isModalOpen && (
+        <Modal show={isModalOpen} onClose={handleCloseModal}>
+          <div className={styles.modalHeader}>
             <h1>{slides[activeSlideIndex]?.title}</h1>
             <h2>{slides[activeSlideIndex]?.subtitle}</h2>
-          </Modal.Title>
-        </Modal.Header>
-        <div className={styles.modalBody}>
-          <p>{slides[activeSlideIndex]?.readmore}</p>
-          <p>{slides[activeSlideIndex]?.readmore2}</p>
-          <p>{slides[activeSlideIndex]?.readmore3}</p>
-          <p>{slides[activeSlideIndex]?.readmore4}</p>
-          <p>{slides[activeSlideIndex]?.readmore5}</p>
-          <p>{slides[activeSlideIndex]?.readmore6}</p>
-        </div>
+          </div>
+          <div className={styles.modalBody}>
+            <p>{slides[activeSlideIndex]?.readmore}</p>
+            <p>{slides[activeSlideIndex]?.readmore2}</p>
+            <p>{slides[activeSlideIndex]?.readmore3}</p>
+            <p>{slides[activeSlideIndex]?.readmore4}</p>
+            <p>{slides[activeSlideIndex]?.readmore5}</p>
+            <p>{slides[activeSlideIndex]?.readmore6}</p>
+          </div>
+        </Modal>
+      )}
+      {/* End of Custom Modal */}
 
-      </Modal>
+
       <Carousel fade={true} interval={4000} controls={false} pause={false} className={styles.carousel}>
         {slides.map((slide, index) => (
           <Carousel.Item key={index}>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import styles from '../styles/sciencedesktop.module.css'
-import styles from "../styles/SciencesSlider.module.css"
+import styles from "./SciencesSlider.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
 const SciencesSlider = () => {
@@ -59,7 +59,7 @@ const SciencesSlider = () => {
     return (
         <div>
             <div className={`container ${styles.brunoDecription3}`}>
-                <h1>Phytosome® Technology</h1>
+                <h1>Phytosome Technology</h1>
                 <p>Up to 3000% higher bioavailability</p>
             </div>
             <div className={`container ${styles.SliderDiv2}`}>

@@ -1632,11 +1632,6 @@
         left: 17rem;
     }
 
-
-
-
-
-
 }
 
 @media (max-width:1920px) {
@@ -1646,7 +1641,7 @@
 
     .medContent h6 {
         font-size: 18px;
-        width: 75%;
+        width: 100%;
     }
 
     .medContent p {
@@ -2277,6 +2272,8 @@
     .tabMain{
         display: none;
     }
+    .modalContent{
+width: 100%;    }
   }
 
 
