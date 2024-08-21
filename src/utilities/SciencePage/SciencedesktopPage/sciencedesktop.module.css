@@ -221,11 +221,11 @@
     }
 
     .Rectangle1 img {
-        height: 350px;
+        -webkit-height: 350px;
     }
 
     .Rectangle2 img {
-        height: 350px;
+        -webkit-height: 350px;
     }
 
 
@@ -334,10 +334,10 @@
         /* display: none; */
     }
     .Rectangle1 img{
-        height: 120px;
+        -webkit-height: 120px;
     }
     .Rectangle2 img{
-        height: 120px;
+        -webkit-height: 120px;
     }
     .carouselMain{
         padding: 0px;
