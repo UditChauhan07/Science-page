@@ -221,13 +221,16 @@
     }
 
     .Rectangle1 img {
-        -webkit-height: 350px;
-        -webkit-width: 100%;
+        max-height: 350px;
+        /* max-width: 68px; */
+        /* -webkit-height: 350px;
+        -webkit-width: 100%; */
     }
 
     .Rectangle2 img {
-        -webkit-height: 350px;
-        -webkit-width: 100%;
+        /* -webkit-height: 350px;
+        -webkit-width: 100%; */
+        max-height: 350px;
     }
 
 
@@ -336,10 +339,14 @@
         /* display: none; */
     }
     .Rectangle1 img{
-        -webkit-height: 120px;
-        -webkit-width: 100%;
+        max-height: 120px;
+        max-width: 67px;
+        /* -webkit-height: 120px;
+        -webkit-width: 100%; */
     }
     .Rectangle2 img{
+        max-height: 120px;
+        max-width: 67px;
         -webkit-height: 120px;
         -webkit-width: 100%;
     }
