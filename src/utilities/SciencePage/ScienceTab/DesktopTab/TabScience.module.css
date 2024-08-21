@@ -92,7 +92,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 34px;
     border: 2px solid rgba(241, 131, 88, 1);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .tabdiv33 {
