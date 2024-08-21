@@ -222,10 +222,12 @@
 
     .Rectangle1 img {
         -webkit-height: 350px;
+        -webkit-width: 100%;
     }
 
     .Rectangle2 img {
         -webkit-height: 350px;
+        -webkit-width: 100%;
     }
 
 
@@ -335,9 +337,11 @@
     }
     .Rectangle1 img{
         -webkit-height: 120px;
+        -webkit-width: 100%;
     }
     .Rectangle2 img{
         -webkit-height: 120px;
+        -webkit-width: 100%;
     }
     .carouselMain{
         padding: 0px;
