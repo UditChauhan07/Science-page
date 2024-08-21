@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 
-// import styles from '../styles/sciencedesktop.module.css'
+import styles from './ScienceSlider2.module.css';
 
-import styles from "../styles/ScienceSlider2.module.css"
 
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -82,7 +81,7 @@ const ScienceSlider2 = () => {
                         <p>Natural Ingredients, clinically proven results</p>
 
                     </div>
-                    {/* Modal start */}
+                    {/* Modal Start */}
                     <Modal show={show2} onHide={handleClose2} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
                         <Modal.Header closeButton>
 
@@ -253,7 +252,7 @@ const ScienceSlider2 = () => {
                         </div>
 
                     </Modal>
-                    {/* Modale Open */}
+                    {/* Modale End */}
 
 
                     <Slider ref={c => (slider2 = c)}{...settings}>
