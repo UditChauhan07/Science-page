@@ -198,6 +198,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
+    
 }
 
 .round {
@@ -455,7 +456,7 @@
 }
 
 .saveContent::-webkit-scrollbar-track {
-    background: #afafaf;
+    background: #ffffff;
 }
 
 .saveContent::-webkit-scrollbar-thumb {
@@ -897,6 +898,10 @@
         height: 300px;
     }
 
+    .accordionContent p {
+        padding: 0rem 0rem 0rem;
+      
+    }
     .sliderContent p {
         font-size: 14px;
         line-height: 18px;
@@ -934,7 +939,10 @@
         font-size: 12px;
         /* line-height: 30px; */
     }
-
+.forRound{
+    max-height: 267px;
+    overflow: auto;
+}
     .bothButton2Main {
         display: none;
     }
@@ -957,11 +965,19 @@
     }
     .modalImg{
         width: 100%;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     .modalContentData{
         right: 1.5rem;
         position: relative;
         margin-bottom: 1rem;
     }
-
+    
+        .modalContent {
+            width: 100%;
+        }
+   
 }
