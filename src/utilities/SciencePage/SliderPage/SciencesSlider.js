@@ -78,7 +78,7 @@ const SciencesSlider = () => {
                     </div>
                 </div>
                 <div className={styles.slide2Img}>
-                    <video width="" height="100%" loop autoPlay muted>
+                    <video width="" height="100%" autoPlay={true} muted playsInline controls loop>
                         <source src={slide.videoSrc} type="video/mp4" />
                         <source src={slide.videoSrc} type="video/ogg" />
                     </video>

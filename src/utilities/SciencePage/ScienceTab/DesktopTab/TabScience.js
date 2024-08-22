@@ -111,15 +111,8 @@ function TabScience() {
     },
   ];
 
-
   return (
-
-
     <div>
-      <p className={styles.tooltip}>
-        Complete heart, liver, & cholesterol care (HDL, LDL, TG)
-        <span className={styles.tooltiptext}>Tooltip text</span>
-      </p>
       {/* Modal start */}
 
       <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
@@ -129,9 +122,6 @@ function TabScience() {
         <div className={styles.mainModalDiv}>
 
           <div className={styles.modalImg}>
-            {/* <div className={styles.modalImgTitle}>
-          <p>Save an additional 10% use HEART at checkout</p>
-          </div> */}
             <div className={styles.modalContentData}>
               <div className={styles.brunoImgModal}>
                 <img src={modalImage} alt='' />
@@ -298,7 +288,7 @@ function TabScience() {
       </Modal>
       {/* Modale Open */}
 
-      {/* Human Tab Section Start */}
+      {/* Human  Desktop Tab Section Start */}
       <div className={`container ${styles.brunoDecription2}`}>
         <div className={styles.bruno3000}>
           <h1> Phytosome® Technology </h1>
@@ -325,7 +315,7 @@ function TabScience() {
 
                     <div className={styles.box}>
                       <p class={styles.tooltip2}> 5-in-1 Skin, Hair, Nail, Joint & Bone Health
-                        <span>5-in-1 Skin, Hair, Nail, Joint & Bone Health</span>   
+                        <span>5-in-1 Skin, Hair, Nail, Joint & Bone Health</span>
                       </p>
                     </div>
                     <div className={styles.BuyBtn}>
@@ -350,7 +340,7 @@ function TabScience() {
                     <b>Bruno MD</b>
                     <div className={styles.box}>
                       <p class={styles.tooltip2}> Complete heart, liver, & cholesterol care (HDL, LDL, TG)
-                        <span>Complete heart, liver, & cholesterol care (HDL, LDL, TG)</span>   
+                        <span>Complete heart, liver, & cholesterol care (HDL, LDL, TG)</span>
                       </p>
                     </div>
 
@@ -376,7 +366,7 @@ function TabScience() {
                     <b>Bruno MD</b>
                     <div className={styles.box}>
                       <p class={styles.tooltip2}> Immunity + inflammation, cardio, liver, digestive health
-                        <span>Immunity + inflammation, cardio, liver, digestive health</span>   
+                        <span>Immunity + inflammation, cardio, liver, digestive health</span>
                       </p>
                     </div>
                     <div className={styles.BuyBtn}>
@@ -401,7 +391,7 @@ function TabScience() {
                     <b>Bruno MD</b>
                     <div className={styles.box}>
                       <p class={styles.tooltip2}> Dry eye, Computer Vision Syndrome, macular health, blue light shield
-                        <span>Dry eye, Computer Vision Syndrome, macular health, blue light shield</span>   
+                        <span>Dry eye, Computer Vision Syndrome, macular health, blue light shield</span>
                       </p>
                     </div>
 
@@ -464,7 +454,7 @@ function TabScience() {
       <div className={styles.imgRotation2}>
         <img src='/images/rotaionImg1.webp' />
       </div>
-      {/* Human Tab Section End */}
+      {/* Human Desktop Tab Section End */}
       <MobileTabScience />
     </div>
   )
