@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 // import styles from '../styles/sciencedesktop.module.css'
 import styles from './TabScience.module.css'
-import Modal from 'react-bootstrap/Modal';
+// import Modal from 'react-bootstrap/Modal';
+import Modal from '../../ModalSciencePage/Modal';
 import MobileTabScience from '../MobileTab/MobileTabScience';
 function TabScience() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [show, setShow] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
 
   const [isVisible, setIsVisible] = useState(false);
@@ -29,13 +30,17 @@ function TabScience() {
     setCurrentIndex(index);
   }
 
-  const handleClose = () => setShow(false);
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
   const handleShow = (imageSrc, title, subTitle) => {
     setModalImage(imageSrc);
     setModalTitle(title);
     setModalsubTitle(subTitle)
-    setShow(true);
+    setIsModalOpen(true);
   };
+
 
 
   const slides = [
@@ -113,12 +118,12 @@ function TabScience() {
 
   return (
     <div>
-      {/* Modal start */}
 
-      <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
-        <Modal.Header closeButton>
 
-        </Modal.Header>
+      {/* Custom Modal Start */}
+      {isModalOpen && (
+      <Modal show={isModalOpen}
+        onClose={handleCloseModal} >
         <div className={styles.mainModalDiv}>
 
           <div className={styles.modalImg}>
@@ -286,7 +291,9 @@ function TabScience() {
         </div>
 
       </Modal>
-      {/* Modale Open */}
+ )}
+
+      {/* Custom Modal  End */}
 
       {/* Human  Desktop Tab Section Start */}
       <div className={`container ${styles.brunoDecription2}`}>

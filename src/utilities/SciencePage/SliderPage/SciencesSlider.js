@@ -63,29 +63,29 @@ const SciencesSlider = () => {
                 <p>Up to 3000% higher bioavailability</p>
             </div>
             <div className={`container ${styles.SliderDiv2}`}>
-            <Slider ref={c => (slider = c)} {...settings}>
-        {slideData.map((slide, index) => (
-            <div className={styles.slideData} key={index}>
-                <div className={styles.contentbackdiv}>
-                    <div className={styles.slideContent}>
-                        <h1><b>{slide.title}</b></h1>
-                        <h2>{slide.subtitle}</h2>
-                        <div className={styles.pcontent}>
-                            {slide.content.map((text, i) => (
-                                <p key={i}>{text}</p>
-                            ))}
+                <Slider ref={c => (slider = c)} {...settings}>
+                    {slideData.map((slide, index) => (
+                        <div className={styles.slideData} key={index}>
+                            <div className={styles.contentbackdiv}>
+                                <div className={styles.slideContent}>
+                                    <h1><b>{slide.title}</b></h1>
+                                    <h2>{slide.subtitle}</h2>
+                                    <div className={styles.pcontent}>
+                                        {slide.content.map((text, i) => (
+                                            <p key={i}>{text}</p>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.slide2Img}>
+                                <video width="" height="100%" autoPlay={true} muted playsInline controls loop>
+                                    <source src={slide.videoSrc} type="video/mp4" />
+                                    <source src={slide.videoSrc} type="video/ogg" />
+                                </video>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div className={styles.slide2Img}>
-                    <video width="" height="100%" autoPlay={true} muted playsInline controls loop>
-                        <source src={slide.videoSrc} type="video/mp4" />
-                        <source src={slide.videoSrc} type="video/ogg" />
-                    </video>
-                </div>
-            </div>
-        ))}
-    </Slider>
+                    ))}
+                </Slider>
                 <div className={styles.bothButton}>
                     <div className={styles.LeftBtn}>
                         <div>
