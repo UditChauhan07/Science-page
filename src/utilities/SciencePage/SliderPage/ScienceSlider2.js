@@ -42,6 +42,7 @@ const ScienceSlider2 = () => {
         dots: false, // Hide dots
         infinite: true,
         speed: 500,
+        autoplaySpeed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: <CustomPrevArrow />,
@@ -79,6 +80,7 @@ const ScienceSlider2 = () => {
 
                     </div>
                     {/* Modal Start */}
+
                     {isModalOpen && (
                         <Modal show={isModalOpen}
                             onClose={handleCloseModal} >
