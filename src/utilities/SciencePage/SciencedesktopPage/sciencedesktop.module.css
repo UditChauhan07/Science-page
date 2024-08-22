@@ -4,6 +4,70 @@
 
 /* ....Carousel css start */
 
+.carouselContainer {
+    position: relative;
+}
+
+.carouselBtnDiv {
+    /* border: 1px solid;  */
+    height: 20px;
+    top: 6rem;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+
+}
+
+.carouselControl {
+    position: absolute;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carouselControlLeft {
+    left: 10px;
+   
+}
+.LeftArrow{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: rgb(55 36 107 / 51%);
+}
+.LeftArrow:hover{
+    color: rgb(55, 36, 107);
+}
+.RightArrow{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1px;
+    color: rgb(55 36 107 / 51%);
+}
+.RightArrow:hover{
+    color: rgb(55, 36, 107);
+}
+.carouselControlRight {
+    right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+
+
+
+
+
 .modalHeader h1 {
     color: #000;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
@@ -235,6 +299,11 @@
 
 
 }
+@media(max-width:1920px){
+    .carouselBtnDiv{
+        top: 6.5rem;
+    }
+}
 
 @media (max-width:1600px) {
     .heroImgContent h1 {
@@ -334,33 +403,44 @@
 
 }
 
+@media(max-width:768px){
+    .carouselBtnDiv{
+       width: 65%;
+    }
+    .Rectangle1{
+        height: 150px;
+    }
+    .Rectangle2{
+        height: 150px;
+    }
+}
 @media only screen and (max-width: 767px) {
-    .RectangleDiv {
-        /* display: none; */
-    }
-    .Rectangle1 img{
-        max-height: 120px;
+
+    .Rectangle1 img {
+        max-height: 100px;
         max-width: 67px;
-        /* -webkit-height: 120px;
-        -webkit-width: 100%; */
+
     }
-    .Rectangle2 img{
-        max-height: 120px;
+
+    .Rectangle2 img {
+        max-height: 100px;
         max-width: 67px;
-        -webkit-height: 120px;
-        -webkit-width: 100%;
+
     }
-    .carouselMain{
+
+    .carouselMain {
         padding: 0px;
     }
 }
-@media (max-width:670px){
-    .heroImgContent h1{
+
+@media (max-width:670px) {
+    .heroImgContent h1 {
         text-shadow: 0px 0px 0px rgba(240, 240, 240, 0.25);
         -webkit-text-stroke: 0.3px #b7b7b7;
     }
+
     .imgcotent {
-        transform: translate(0%,-9%);
+        transform: translate(0%, -9%);
     }
 }
 
