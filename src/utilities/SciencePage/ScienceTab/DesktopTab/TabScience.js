@@ -116,10 +116,7 @@ function TabScience() {
 
 
     <div>
-      <p className={styles.tooltip}>
-        Complete heart, liver, & cholesterol care (HDL, LDL, TG)
-        <span className={styles.tooltiptext}>Tooltip text</span>
-      </p>
+   
       {/* Modal start */}
 
       <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg" aria-labelledby="contained-modal-title-vcenter" centered >
