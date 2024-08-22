@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
-// import styles from '../styles/sciencedesktop.module.css'
 import styles from './TabScience.module.css'
-// import Modal from 'react-bootstrap/Modal';
 import Modal from '../../ModalSciencePage/Modal';
 import MobileTabScience from '../MobileTab/MobileTabScience';
+
 function TabScience() {
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
-
   const [isVisible, setIsVisible] = useState(false);
   const [modalImage, setModalImage] = useState('/images/modalImgBrunoMd (1).webp');
   const [modalTitle, setModalTitle] = useState('Royal Collagen Peptides');
@@ -123,7 +122,7 @@ function TabScience() {
       {/* Custom Modal Start */}
       {isModalOpen && (
       <Modal show={isModalOpen}
-        onClose={handleCloseModal} >
+        onClose={handleCloseModal}>
         <div className={styles.mainModalDiv}>
 
           <div className={styles.modalImg}>
