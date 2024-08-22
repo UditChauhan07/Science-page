@@ -10,7 +10,7 @@ const ScienceNewVideo = () => {
 
       </div>
       <div className={styles.PhytoVideoTag}>
-        <video width="100%" height="100%" loop autoPlay muted controls>
+        <video width="100%" height="100%" autoPlay={true} muted playsInline controls loop>
           <source src="/images/Science Masthead web.mp4" type="video/mp4" />
           <source src="/images/Science Masthead web.mp4" type="video/ogg" />
         </video>

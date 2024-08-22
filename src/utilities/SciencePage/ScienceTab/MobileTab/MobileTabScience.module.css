@@ -52,10 +52,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 2px;
   }
 
   .TabImgTitle {
-    margin: auto;
+    margin: auto 0rem;
+    white-space: nowrap;
   }
 
   .TabClick h1 {
@@ -531,11 +533,18 @@
   .TabimgHuman {
     width: 45%;
   }
+  .TabImgTitle {
+    white-space:unset;
+  }
+
 }
 
 @media (max-width: 425px) {
   .TabimgHuman {
     width: 45%;
+  }
+  .TabImgTitle {
+    white-space:unset;
   }
 }
 

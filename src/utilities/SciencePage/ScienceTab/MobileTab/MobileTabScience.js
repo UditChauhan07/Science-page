@@ -132,10 +132,7 @@ const MobileTabScience = () => {
       <div className={styles.bottelDecribtion}>
         <div className={styles.TabingDetailsDiv}>
           <div className={styles.TabimgHuman}>
-            {/* <video autoPlay loop muted key={tabData[activeTab].videoSrc}>
-              <source src={tabData[activeTab].videoSrc} type="video/webm" />
-              <source src={tabData[activeTab].videoSrc} type="video/mp4" />
-            </video> */}
+
             <img src={tabData[activeTab].videoSrc} alt="Active Tab GIF" className={styles.gifImage} />
           </div>
           <div className={styles.humanDecribtionDiv}>
@@ -156,9 +153,6 @@ const MobileTabScience = () => {
         <div className={styles.mainModalDiv}>
 
           <div className={styles.modalImg}>
-            {/* <div className={styles.modalImgTitle}>
-<p>Save an additional 10% use HEART at checkout</p>
-</div> */}
             <div className={styles.modalContentData}>
               <div className={styles.brunoImgModal}>
                 <img src={modalImage} alt='' />
