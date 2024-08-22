@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import styles from './ScienceSlider2.module.css'
 import Modal from '../ModalSciencePage/Modal';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
 const ScienceSlider2 = () => {

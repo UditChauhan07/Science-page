@@ -174,15 +174,9 @@ function RouteGuard({ children, version }) {
         "/scienceNew",
         "/scienceNew01",
         "/ScienceNewVersionPage",
-        "/science-phytosome",
         "/science-video",
-        "/science-clinical",
-        "/science-human",
-        "/Endeavor",
-        "/science-tab",
-        "/science-tab?tab=0",
-        "/science-tab?tab=1",
-        "/science-tab?tab=2",
+        "/Endeavor"
+        
 
 
       ];
