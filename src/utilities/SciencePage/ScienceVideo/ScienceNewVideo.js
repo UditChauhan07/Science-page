@@ -10,13 +10,13 @@ const ScienceNewVideo = () => {
 
       </div>
       <div className={styles.PhytoVideoTag}>
-        <video width="100%" height="100%" autoPlay={true} muted playsInline controls loop>
+        <video width="100%" height="100%" autoPlay={true} muted playsInline  loop>
           <source src="/images/Science Masthead web.mp4" type="video/mp4" />
           <source src="/images/Science Masthead web.mp4" type="video/ogg" />
         </video>
       </div>
       <div className={styles.PhytoVideoTag1}>
-        <video width="100%" height="100%" autoPlay={true} muted playsInline controls loop>
+        <video width="100%" height="100%" autoPlay={true} muted playsInline  loop>
           <source src='/images/Science Masthead Portrait720New.mp4' type='' />
           <source src="/images/Science Masthead Portrait720New.mp4" type="" />
         </video>
