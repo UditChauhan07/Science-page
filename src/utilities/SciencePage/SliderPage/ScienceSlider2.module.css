@@ -13,7 +13,8 @@
     align-items: center;
     /* max-width: 1380px; */
 }
-.bothButton3{
+
+.bothButton3 {
     display: none;
 
 }
@@ -92,9 +93,11 @@
 .slider3data {
     display: flex !important;
 }
-.slider2Details{
+
+.slider2Details {
     display: contents;
 }
+
 .sliderContent {
     width: 35%;
     margin-right: 0rem !important;
@@ -198,7 +201,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
-    
+
 }
 
 .round {
@@ -900,8 +903,9 @@
 
     .accordionContent p {
         padding: 0rem 0rem 0rem;
-      
+
     }
+
     .sliderContent p {
         font-size: 14px;
         line-height: 18px;
@@ -931,18 +935,22 @@
     .sliderContent3 h5 {
         font-size: 16px;
     }
-    .roundBtn p{
+
+    .roundBtn p {
         padding: 5px;
 
     }
+
     .round p {
         font-size: 12px;
         /* line-height: 30px; */
     }
-.forRound{
-    max-height: 267px;
-    overflow: auto;
-}
+
+    .forRound {
+        max-height: 230px;
+        overflow: auto;
+    }
+
     .bothButton2Main {
         display: none;
     }
@@ -959,25 +967,28 @@
         position: relative;
         bottom: 5rem;
     }
-    .mainModalDiv{
+
+    .mainModalDiv {
         display: block;
-       
+
     }
-    .modalImg{
+
+    .modalImg {
         width: 100%;
         margin: auto;
         align-items: center;
         display: flex;
         justify-content: center;
     }
-    .modalContentData{
+
+    .modalContentData {
         right: 1.5rem;
         position: relative;
         margin-bottom: 1rem;
     }
-    
-        .modalContent {
-            width: 100%;
-        }
-   
+
+    .modalContent {
+        width: 100%;
+    }
+
 }
