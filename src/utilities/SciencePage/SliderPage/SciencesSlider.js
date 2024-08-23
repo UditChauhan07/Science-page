@@ -15,7 +15,7 @@ const SciencesSlider = () => {
                 "The phospholipid coating also enables the extract to bypass the digestive system's harsh environment and be more easily absorbed by the body's cells. Once the phytosome is ingested, the phospholipid coating is broken down, releasing the plant extract into the bloodstream.",
                 "The phospholipids themselves can have beneficial effects, such as supporting liver function and improving the skin's barrier function. Overall, phytosome technology improves the efficacy and safety of plant extracts by enhancing their absorption and bioavailability in the body."
             ],
-            videoSrc: "/images/slidevideoA.mp4"
+            videoSrc: "/images/SlidevideoB.mp4"
         },
         {
             title: "Biomimicry",
@@ -25,7 +25,7 @@ const SciencesSlider = () => {
                 "For this reason, nutrients such as curcumin are blocked by your gut before they can enter your bloodstream.",
                 "No matter how much curcumin you take, the benefits are limited without Phytosome technology. Phytosome uses biomimicry to wrap polyphenols in a fatty lipid, like a delivery truck. With the curcumin molecule hidden inside, the lipid can pass through the gut and into your bloodstream with 3000% more bioavailability. Phytosome sets the new standard in prescription-grade natural ingredients."
             ],
-            videoSrc: "/images/slidevideo3.mp4"
+            videoSrc: "/images/SlidevideoB2.mp4"
         },
         {
             title: "Phospholipids",
