@@ -31,7 +31,7 @@ import Collagen from "@/utilities/Collagen";
 import CollagenPeptides from "@/utilities/CollagenPeptides";
 import { HomeGallery } from "@/utilities/HomeGallery";
 import FeatureInfo from "@/utilities/FeatureInfo";
-import ScienceVideos from "@/utilities/ScienceVideos";
+// import ScienceVideos from "@/utilities/ScienceVideos";
 import ProductsBlogData from "../../../json/productBlog.json";
 
 const LandingPage = ({ page }) => {

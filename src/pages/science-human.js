@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import styles from "../styles/scienceHuman.module.css";
+// import styles from "../styles/scienceHuman.module.css";
 import Link from "next/link";
 
 const ScienceHuman = () => {

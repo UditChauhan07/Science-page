@@ -1,6 +1,6 @@
 import React from 'react'
 // import styles from '../styles/sciencedesktop.module.css'
-import styles from '../styles/SciencnewVideo.module.css'
+// import styles from '../styles/SciencnewVideo.module.css'
 const ScienceNewVideo = () => {
   return (
     <div>
