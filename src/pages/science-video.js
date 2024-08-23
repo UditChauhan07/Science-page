@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import styles from '../styles/sciencePhytosome.module.css';
+// import styles from '../styles/sciencePhytosome.module.css';
 import { useRouter } from 'next/router';
-import ScienceTab from '.././utilities/Sections/ScienceNewVersionPage/ScienceTabs/ScienceTab';
+// import ScienceTab from '.././utilities/Sections/ScienceNewVersionPage/ScienceTabs/ScienceTab';
 
 const ScienceVideo = () => {
   const [isVisible, setIsVisible] = useState(true);
