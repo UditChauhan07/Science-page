@@ -2760,7 +2760,7 @@ footer ul a {
 .carousel-indicators [data-bs-target] {
   margin-left: 10px !important;
   margin-right: 10px !important;
-  width: 10% !important;
+  width: 7% !important;
   height: 3px !important;
   background-color: rgb(55, 36, 107) !important;
   background-clip: padding-box;
@@ -2908,6 +2908,11 @@ input[type=radio] {
 @media (max-width:430px) {
   .carousel-indicators {
     bottom: -6rem !important;
+  }
+}
+@media (max-width:37px){
+  .carousel-indicators [data-bs-target] {
+    width: 7% !important;
   }
 }
 @media(max-width:320px){
