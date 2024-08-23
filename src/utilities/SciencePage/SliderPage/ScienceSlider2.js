@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
+
 const ScienceSlider2 = () => {
     const [selectedKeyword, setSelectedKeyword] = useState('');
     const [activeIndex, setActiveIndex] = useState(1);
@@ -13,11 +14,16 @@ const ScienceSlider2 = () => {
     const [modalImage2, setModalImage2] = useState('/images/modalImgBrunoMd (1).webp');
     const [modalTitle2, setModalTitle2] = useState('Royal Collagen Peptides');
     const [modalsubTitle2, setModalsubTitle2] = useState('The Science of Beauty');
+
+    //..... MouseEnter Function Start ....//
+
     const handleMouseEnter = (keyword, sectionId) => {
         setSelectedKeyword(keyword);
         document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
     };
+    //..... MouseEnter Function End ....//
 
+    // ..... Accordian and Modal Function Start .....//
     const toggleVisibility = () => {
         setIsVisible(!isVisible);
     };
@@ -31,7 +37,9 @@ const ScienceSlider2 = () => {
         setModalsubTitle2(subTitle2)
         setIsModalOpen(true)
     }
-    // .......Slider 2nd Function Start..///
+    // ..... Accordian and Modal Function Start .....//
+
+    //..... Slider2 Function Start .....///
     const goToPrev2 = () => {
         slider2.slickPrev();
     };
@@ -39,9 +47,9 @@ const ScienceSlider2 = () => {
         slider2.slickNext();
     };
     let slider2;
-    // .......Slider 2nd Function End.///
+
     const settings = {
-        dots: false, // Hide dots
+        dots: false,
         infinite: true,
         speed: 500,
         autoplaySpeed: 2000,
@@ -50,6 +58,8 @@ const ScienceSlider2 = () => {
         prevArrow: <CustomPrevArrow />,
         nextArrow: <CustomNextArrow />,
     };
+    //..... Slider2 Function End .....///
+
     return (
         <div>
             <div className={styles.nextCarousel}>
@@ -62,7 +72,6 @@ const ScienceSlider2 = () => {
                                     <path d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z" fill="#7F7F7F" />
                                 </svg>
                             </div>
-
                         </div>
                         <div className={styles.RightBtn}>
                             <div>
@@ -79,7 +88,6 @@ const ScienceSlider2 = () => {
                     <div className={`container ${styles.brunoDecription4}`}>
                         <h1>Clinical Studies</h1>
                         <p>Natural Ingredients, clinically proven results</p>
-
                     </div>
                     {/* Modal Start */}
 
@@ -87,7 +95,6 @@ const ScienceSlider2 = () => {
                         <Modal show={isModalOpen}
                             onClose={handleCloseModal} >
                             <div className={styles.mainModalDiv}>
-
                                 <div className={styles.modalImg}>
                                     <div className={styles.modalContentData}>
                                         <div className={styles.brunoImgModal}>
@@ -99,7 +106,6 @@ const ScienceSlider2 = () => {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className={styles.modalContent}>
                                     <div className={`accordion ${styles.Accordian}`}>
                                         <div className="accordion-item">
@@ -157,8 +163,7 @@ const ScienceSlider2 = () => {
                                                     id="section2"
                                                     name="accordion"
                                                     checked={activeIndex === 1}
-                                                    onChange={() => handleRadioChange(1)}
-                                                />
+                                                    onChange={() => handleRadioChange(1)} />
                                                 <label className="accordion-button" htmlFor="section2">  SUBSCRIBE & SAVE 20%
                                                     <div className={styles.price}>
                                                         <span className={styles.dollar}>$</span>
@@ -241,9 +246,7 @@ const ScienceSlider2 = () => {
                                                             </div>
                                                             <div className={styles.addCartButton}><div>SUBSCRIBE</div> </div>
                                                         </div>
-
                                                     </div>
-
                                                 </div>
                                             )}
                                         </div>
@@ -252,9 +255,7 @@ const ScienceSlider2 = () => {
                             </div>
                         </Modal>
                     )}
-                    {/* Modal End */}
-
-
+                    {/*..... Modal End .....*/}
 
                     <Slider ref={c => (slider2 = c)}{...settings}>
                         <div className={`container ${styles.slider3data}`}>
@@ -265,15 +266,15 @@ const ScienceSlider2 = () => {
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-2">
                                         <b className={selectedKeyword === 'Natural' ? styles.highlightedHeading : ''}>Natural Vitamin C </b>
-                                         Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
+                                        Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-1">
                                         <b className={selectedKeyword === 'Royal Collagen' ? styles.highlightedHeading : ''}>Royal Collagen Peptides </b>
-                                         increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
+                                        increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-3">
                                         <b className={selectedKeyword === 'Red Orange' ? styles.highlightedHeading : ''}>Red Orange Complex </b>
-                                         maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+                                        maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-4">
                                         <b className={selectedKeyword === 'Bovine' ? styles.highlightedHeading : ''}>Bovine Source collagen </b>
@@ -326,14 +327,14 @@ const ScienceSlider2 = () => {
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-6">
                                         <b className={selectedKeyword === 'E-d-alpha-tocopheryl' ? styles.highlightedHeading : ''}>Natural Vitamin (E-d-alpha-tocopheryl succinate) </b>
-                                         shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
+                                        shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-7">
                                         <b className={selectedKeyword === 'Bergamot Orange' ? styles.highlightedHeading : ''}>Bergamot Orange Extract Phytosome® </b>
-                                         supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.</p>
+                                        supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.</p>
                                     <p className={styles.Pcontent} id="page-8">
                                         <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading : ''}>Curcumin Phytosome® (Turmeric Extract) </b>
-                                         supports healthy blood vessel function and guards against chronic inflammation.</p>
+                                        supports healthy blood vessel function and guards against chronic inflammation.</p>
                                 </div>
 
                             </div>
@@ -362,7 +363,6 @@ const ScienceSlider2 = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div className={styles.slider3data}>
                             <div className={styles.sliderContent}>
@@ -372,14 +372,14 @@ const ScienceSlider2 = () => {
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-9">
                                         <b className={selectedKeyword === 'Natural Astaxanthin' ? styles.highlightedHeading : ''}>Natural Astaxanthin Extract </b>
-                                         is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.  </p>
+                                        is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.  </p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-10">
                                         <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading : ''}>Curcumin Phytosome</b> comes from turmeric, which has been used in Asian cooking and cures since ancient times. It supports a healthy inflammation and immune response. Bruno MD’s Curcumin Phytosome is the #1 recommended formulation by the prestigious Cleveland Clinic.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-12">
                                         <b className={selectedKeyword === 'Boswellia Serra' ? styles.highlightedHeading : ''}>Boswellia Serra Phytosome, </b>
-                                         commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
+                                        commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-13">
                                         <b className={selectedKeyword === 'Nucleoflam' ? styles.highlightedHeading : ''}>Nucleoflam Proprietary Nucleotides</b>
@@ -414,7 +414,6 @@ const ScienceSlider2 = () => {
                                             <p onMouseEnter={() => handleMouseEnter('Nucleoflam', 'page-13')}>Nucleoflam Proprietary Nucleotides</p></div>
                                         <div className={styles.round}>
                                             <p onMouseEnter={() => handleMouseEnter('Nucleosides', 'page-13')}>Nucleosides Yeast Extract Complex</p></div>
-
                                     </div>
                                     <hr className={styles.blackHr2} />
                                     <div className={styles.btnDivBuy}>
@@ -432,24 +431,23 @@ const ScienceSlider2 = () => {
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-14">
                                         <b className={selectedKeyword === 'Astaxanthin' ? styles.highlightedHeading : ''}>Astaxanthin’s </b>
-                                          potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
+                                        potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-15">
                                         <b className={selectedKeyword === 'Lutein & Zeaxanthin' ? styles.highlightedHeading : ''}>Lutein & Zeaxanthin </b>
-                                          increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
+                                        increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-18">
                                         <b className={selectedKeyword === 'Bilberry Extract' ? styles.highlightedHeading : ''}>Bilberry Extract </b>
-                                         is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature</p>
+                                        is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-16">
                                         <b className={selectedKeyword === 'D-Alpha' ? styles.highlightedHeading : ''}>D-Alpha Tocopheryl Succinate, </b>
-                                          a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
+                                        a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
                                     <p className={styles.Pcontent} id="page-17">
                                         <b className={selectedKeyword === 'Docosahexaenoic' ? styles.highlightedHeading : ''}>Docosahexaenoic acid (DHA), </b>
-                                         naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
+                                        naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
                                 </div>
-
                             </div>
                             <div className={styles.slider2Details}>
                                 <div className={styles.sliderContentIMG}>
@@ -479,7 +477,6 @@ const ScienceSlider2 = () => {
                                 </div>
                             </div>
                         </div>
-
                     </Slider>
 
                     <div className={styles.bothButton2Main2}>
@@ -503,8 +500,6 @@ const ScienceSlider2 = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

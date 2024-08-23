@@ -235,7 +235,8 @@
     color: rgb(255, 255, 255);
 }
 
-/* Modal css Start */
+/* ..... Modal css Start .....*/
+
 .mainModalDiv {
     margin: 2rem 4rem 2rem 4rem;
     display: flex;
@@ -561,18 +562,7 @@
     margin: 0px 0px 10px;
 }
 
-
-
-
-
-
-
-/* Modal css End */
-
-
-
-
-
+/*..... Modal css End .....*/
 
 @media only screen and (max-width:2560px) and (min-width:1921px) {
     .bothButton2 {
@@ -608,7 +598,6 @@
         scroll-behavior: smooth;
         overflow-y: scroll;
     }
-
 
     .sliderContent3 h3 {
         font-size: 55px !important;
@@ -740,7 +729,7 @@
         font-size: 12px;
     }
 
-    /* Modal css Start */
+    /* .....Modal css Start ......*/
 
     .mainModalDiv {
         margin: 2rem;
@@ -771,13 +760,9 @@
     .modalContent {
         width: 50%;
     }
-
-
-
-    /* Modal css End */
-
-
 }
+
+/*..... Modal css End .....*/
 
 @media (max-width:991px) {
     .bothButton2 {
@@ -813,7 +798,6 @@
     }
 
     .round {
-        /* margin-bottom: 1rem; */
         width: fit-content;
         border-radius: 34px;
         border: 1px solid rgb(2, 2, 2);
@@ -835,11 +819,14 @@
         font-size: 16px;
     }
 
-    /* Modal css Start */
+    /*..... Modal css Start .....*/
     .modaltitle p {
         font-size: 11px;
     }
 }
+
+/*..... Modal css End .....*/
+
 
 @media (max-width:767px) {
     .brunoDecription4 {
@@ -851,7 +838,6 @@
         font-size: 30px !important;
         padding-top: 1rem;
         margin-bottom: 0rem;
-
     }
 
     .brunoDecription4 p {
@@ -860,6 +846,7 @@
 
     .nextCarousel {
         margin-top: 0rem;
+        margin-bottom: 3rem;
     }
 
     .slider3data {
@@ -870,7 +857,6 @@
 
     .SliderDiv3 {
         width: 100% !important;
-
     }
 
     .sliderContent {
@@ -889,7 +875,6 @@
 
     .accordionContent p {
         padding: 0rem 0rem 0rem;
-
     }
 
     .sliderContent p {
@@ -910,7 +895,6 @@
     .sliderContent3 {
         width: 65%;
         margin: auto;
-
     }
 
     .sliderContent3 h3 {
@@ -924,7 +908,6 @@
 
     .roundBtn p {
         padding: 5px;
-
     }
 
     .round p {
@@ -955,7 +938,6 @@
 
     .mainModalDiv {
         display: block;
-
     }
 
     .modalImg {

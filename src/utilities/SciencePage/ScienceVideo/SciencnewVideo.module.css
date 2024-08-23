@@ -19,9 +19,10 @@
     margin-top: 5rem;
     width: 100%;
 }
-.PhytoVideoTag1 video{
+
+.PhytoVideoTag1 video {
     margin-top: 1rem !important;
-    display:none
+    display: none
 }
 
 @media (max-width:1024px) {
@@ -38,14 +39,12 @@
     .brunoDecription h1 {
         font-size: 40px !important;
         margin-top: 5rem;
-
     }
 
     .brunoDecription p {
         width: 100%;
     }
 }
-
 
 @media (max-width:767px) {
     .brunoDecription {
@@ -57,17 +56,19 @@
         font-size: 30px !important;
         line-height: 24px;
         margin-bottom: 0rem;
-        margin-top: -5rem;
+        margin-top: -6rem;
     }
 
     .brunoDecription p {
         font-size: 12px;
         line-height: 18px;
     }
-    .PhytoVideoTag video{
+
+    .PhytoVideoTag video {
         display: none;
     }
-    .PhytoVideoTag1 video{
+
+    .PhytoVideoTag1 video {
         margin-top: 6rem !important;
         display: block !important;
     }
