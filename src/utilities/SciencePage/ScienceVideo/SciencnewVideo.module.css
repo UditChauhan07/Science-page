@@ -37,6 +37,7 @@
 @media (max-width:991px) {
     .brunoDecription h1 {
         font-size: 40px !important;
+        margin-top: 5rem;
 
     }
 
@@ -56,6 +57,7 @@
         font-size: 30px !important;
         line-height: 24px;
         margin-bottom: 0rem;
+        margin-top: -5rem;
     }
 
     .brunoDecription p {
