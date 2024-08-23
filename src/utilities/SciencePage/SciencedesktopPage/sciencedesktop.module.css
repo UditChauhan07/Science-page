@@ -362,6 +362,9 @@
         font-size: 18px;
         padding: 8px 16px;
     }
+    .carouselBtnDiv{
+        width: 65%;
+    }
 }
 
 @media (max-width:991px) {
@@ -467,6 +470,16 @@
         text-overflow: ellipsis;
         margin: 0px;
         font-family: 'Gotham', Times, serif;
+    }
+}
+
+@media (max-width:425px){
+    .carouselBtnDiv{
+        top: 3.5rem;
+        width: 75%;
+    }
+    .RightArrow{
+        margin-right: 15px;
     }
 }
 

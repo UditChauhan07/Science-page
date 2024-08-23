@@ -2883,7 +2883,11 @@ input[type=radio] {
   border-radius: .375rem;
   opacity: var(--bs-btn-close-opacity);
 }
-
+@media(max-width:1366px) {
+  .carousel-indicators {
+    bottom: -9rem !important;
+  }
+}
 @media(max-width:1024px) {
 
   .modal-lg,
@@ -2903,6 +2907,11 @@ input[type=radio] {
 
 @media (max-width:430px) {
   .carousel-indicators {
-    bottom: -5.5rem !important;
+    bottom: -6rem !important;
+  }
+}
+@media(max-width:320px){
+  .carousel-indicators [data-bs-target] {
+    width: 15px !important;
   }
 }
