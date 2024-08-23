@@ -67,7 +67,6 @@
     font-weight: bold;
     line-height: 15px;
     width: 75%;
-    /* text-align: left; */
   }
 
   .TabimgHuman {
@@ -109,10 +108,6 @@
     background: #828282;
   }
 
-
-
-
-
   .humanDecribtion h1 {
     font-family: 'Gotham', Times, serif;
     margin-top: 1rem;
@@ -145,13 +140,11 @@
   .activeTab3 {
     border: 1px solid #f18358;
     background-color: rgb(252, 252, 252);
-
   }
 
   .activeTab4 {
     border: 1px solid #45d5fd;
     background-color: rgb(252, 252, 252);
-
   }
 
   .tabHR1 {
@@ -168,7 +161,6 @@
 
   .tabHR4 {
     border-bottom: 1px solid #45d5fd;
-    ;
   }
 
   .mobBuybtn {
@@ -190,12 +182,10 @@
   }
 
 
-  /* Modal css Start */
+  /*..... Modal css Start .....*/
 
   .mainModalDiv {
     margin: 1rem 1rem 1rem 1rem;
-    /* overflow: auto; */
-    /* height: 300px; */
   }
 
   .brunoImgModal {
@@ -230,10 +220,8 @@
   }
 
   .modalContent {
-    /* width: 40%; */
     display: grid;
   }
-
 
   .Accordian1 {
     align-items: baseline;
@@ -372,8 +360,6 @@
     cursor: pointer;
   }
 
-
-
   .Accordian2 {
     align-items: baseline;
     display: flex;
@@ -400,7 +386,6 @@
     padding: 0rem 2rem 0rem 2rem;
     font-family: 'Gotham', Times, serif;
   }
-
 
   .saveContent::-webkit-scrollbar {
     width: 3px;
@@ -476,7 +461,6 @@
   .UpArrow svg path {
     fill: rgb(86, 0, 140);
     stroke: rgb(86, 0, 140);
-
   }
 
   .rotate90 {
@@ -523,11 +507,7 @@
     margin: 0px 0px 10px;
   }
 
-
-
-  /* Modal css End */
-
-
+  /*..... Modal css End .....*/
 }
 
 @media only screen and (max-width:550px) and (min-width:426px) {

@@ -38,7 +38,7 @@ const SciencesSlider = () => {
             videoSrc: "/images/slidevideo2.mp4"
         }
     ];
-    // .......Slider 1st Function Start.///
+    //..... Slider1 Function Start .....//
 
     const goToPrev = () => {
         slider.slickPrev();
@@ -47,7 +47,7 @@ const SciencesSlider = () => {
         slider.slickNext();
     };
     let slider;
-    // .......Slider 1st Function End.///
+  
     const settings = {
         dots: false, 
         infinite: true,
@@ -57,6 +57,9 @@ const SciencesSlider = () => {
         prevArrow: <CustomPrevArrow />,
         nextArrow: <CustomNextArrow />,
     };
+    //..... Slider1 Function End .....//
+
+
     return (
         <div>
             <div className={`container ${styles.brunoDecription3}`}>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from "../styles/MobileTabScience.module.css"
+// import styles from "../styles/MobileTabScience.module.css"
 
 const MobileTabScience = () => {
   const [activeTab, setActiveTab] = useState(0);

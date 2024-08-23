@@ -11,9 +11,7 @@ const MobileTabScience = () => {
   const [modalTitle, setModalTitle] = useState('Royal Collagen Peptides');
   const [modalsubTitle, setModalsubTitle] = useState('The Science of Beauty');
 
-
-
-  const handleBuyNowClick = () => {
+  const handleOpenModal = () => {
     const selectedTab = tabData[activeTab];
     setModalImage(selectedTab.modalimage);
     setModalTitle(selectedTab.title);
@@ -146,7 +144,7 @@ const MobileTabScience = () => {
           </div>
         </div>
         <div className={styles.mobBuybtn}>
-          <button onClick={handleBuyNowClick}>{tabData[activeTab].buyButton}</button>
+          <button onClick={handleOpenModal}>{tabData[activeTab].buyButton}</button>
         </div>
       </div>
       <Modal show={isModalOpen} onClose={handleCloseModal}>
@@ -173,8 +171,7 @@ const MobileTabScience = () => {
                     id="section1"
                     name="accordion"
                     checked={activeIndex === 0}
-                    onChange={() => handleRadioChange(0)}
-                  />
+                    onChange={() => handleRadioChange(0)} />
                   <label className={`accordion-button ${styles.accordianButton}`} htmlFor="section1">
                     ONE-TIME PURCHASE
                     <div className={styles.price}>
@@ -205,7 +202,6 @@ const MobileTabScience = () => {
                             <option value="3">9</option>
                             <option value="3">10</option>
                           </select>
-
                         </div>
                         <p className={styles.unit}>1 Unit</p>
                       </div>
