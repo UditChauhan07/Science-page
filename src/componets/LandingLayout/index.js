@@ -286,12 +286,12 @@ const LandingPage = ({ page }) => {
               isFontLayout={pageData.isFontLayout}
             />
           )}
-          {pageData?.ScienceVideos && (
+          {/* {pageData?.ScienceVideos && (
             <ScienceVideos
               data={pageData.ScienceVideos}
               theme={pageData.theme}
             />
-          )}
+          )} */}
           {BlogData?.Blog && (
             <LandingBlog
               data={BlogData.Blog}
