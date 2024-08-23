@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import styles from '../styles/sciencedesktop.module.css'
 import styles from "./SciencesSlider.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
@@ -50,7 +49,7 @@ const SciencesSlider = () => {
     let slider;
     // .......Slider 1st Function End.///
     const settings = {
-        dots: false, // Hide dots
+        dots: false, 
         infinite: true,
         speed: 500,
         slidesToShow: 1,

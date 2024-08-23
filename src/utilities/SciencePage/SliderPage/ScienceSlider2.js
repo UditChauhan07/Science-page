@@ -264,16 +264,16 @@ const ScienceSlider2 = () => {
                                     <p className={styles.Pcontent}><b >Bruno MD Royal Collagen Peptides</b> are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-2">
-                                        <b className={selectedKeyword === 'Natural' ? styles.highlightedHeading : ''}>Natural Vitamin C</b>
-                                        Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
+                                        <b className={selectedKeyword === 'Natural' ? styles.highlightedHeading : ''}>Natural Vitamin C </b>
+                                         Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-1">
-                                        <b className={selectedKeyword === 'Royal Collagen' ? styles.highlightedHeading : ''}>Royal Collagen Peptides</b>
-                                        increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
+                                        <b className={selectedKeyword === 'Royal Collagen' ? styles.highlightedHeading : ''}>Royal Collagen Peptides </b>
+                                         increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-3">
-                                        <b className={selectedKeyword === 'Red Orange' ? styles.highlightedHeading : ''}>Red Orange Complex</b>
-                                        maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
+                                        <b className={selectedKeyword === 'Red Orange' ? styles.highlightedHeading : ''}>Red Orange Complex </b>
+                                         maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-4">
                                         <b className={selectedKeyword === 'Bovine' ? styles.highlightedHeading : ''}>Bovine Source collagen </b>
@@ -325,15 +325,15 @@ const ScienceSlider2 = () => {
                                     <p className={styles.Pcontent}><b>Cardoon</b> contains active biophenols and flavonoids from an endemic variety of Cardoon leaf, inhibiting the creation of fatty lipids in the liver.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-6">
-                                        <b className={selectedKeyword === 'E-d-alpha-tocopheryl' ? styles.highlightedHeading : ''}>Natural Vitamin (E-d-alpha-tocopheryl succinate)</b>
-                                        shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
+                                        <b className={selectedKeyword === 'E-d-alpha-tocopheryl' ? styles.highlightedHeading : ''}>Natural Vitamin (E-d-alpha-tocopheryl succinate) </b>
+                                         shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-7">
-                                        <b className={selectedKeyword === 'Bergamot Orange' ? styles.highlightedHeading : ''}>Bergamot Orange Extract Phytosome®</b>
-                                        supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.</p>
+                                        <b className={selectedKeyword === 'Bergamot Orange' ? styles.highlightedHeading : ''}>Bergamot Orange Extract Phytosome® </b>
+                                         supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.</p>
                                     <p className={styles.Pcontent} id="page-8">
-                                        <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading : ''}>Curcumin Phytosome® (Turmeric Extract)</b>
-                                        supports healthy blood vessel function and guards against chronic inflammation.</p>
+                                        <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading : ''}>Curcumin Phytosome® (Turmeric Extract) </b>
+                                         supports healthy blood vessel function and guards against chronic inflammation.</p>
                                 </div>
 
                             </div>
@@ -371,15 +371,15 @@ const ScienceSlider2 = () => {
                                     <p className={styles.Pcontent}><b>For a healthy inflammatory response</b> Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check.The clinically proven, natural ingredients in Riboflam® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-9">
-                                        <b className={selectedKeyword === 'Natural Astaxanthin' ? styles.highlightedHeading : ''}>Natural Astaxanthin Extract</b>
-                                        is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.  </p>
+                                        <b className={selectedKeyword === 'Natural Astaxanthin' ? styles.highlightedHeading : ''}>Natural Astaxanthin Extract </b>
+                                         is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.  </p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-10">
                                         <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading : ''}>Curcumin Phytosome</b> comes from turmeric, which has been used in Asian cooking and cures since ancient times. It supports a healthy inflammation and immune response. Bruno MD’s Curcumin Phytosome is the #1 recommended formulation by the prestigious Cleveland Clinic.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-12">
-                                        <b className={selectedKeyword === 'Boswellia Serra' ? styles.highlightedHeading : ''}>Boswellia Serra Phytosome,</b>
-                                        commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
+                                        <b className={selectedKeyword === 'Boswellia Serra' ? styles.highlightedHeading : ''}>Boswellia Serra Phytosome, </b>
+                                         commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-13">
                                         <b className={selectedKeyword === 'Nucleoflam' ? styles.highlightedHeading : ''}>Nucleoflam Proprietary Nucleotides</b>
@@ -431,23 +431,23 @@ const ScienceSlider2 = () => {
                                     </p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-14">
-                                        <b className={selectedKeyword === 'Astaxanthin' ? styles.highlightedHeading : ''}>Astaxanthin’s</b>
-                                        potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
+                                        <b className={selectedKeyword === 'Astaxanthin' ? styles.highlightedHeading : ''}>Astaxanthin’s </b>
+                                          potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-15">
-                                        <b className={selectedKeyword === 'Lutein & Zeaxanthin' ? styles.highlightedHeading : ''}>Lutein & Zeaxanthin</b>
-                                        increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
+                                        <b className={selectedKeyword === 'Lutein & Zeaxanthin' ? styles.highlightedHeading : ''}>Lutein & Zeaxanthin </b>
+                                          increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-18">
-                                        <b className={selectedKeyword === 'Bilberry Extract' ? styles.highlightedHeading : ''}>Bilberry Extract</b>
-                                        is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature</p>
+                                        <b className={selectedKeyword === 'Bilberry Extract' ? styles.highlightedHeading : ''}>Bilberry Extract </b>
+                                         is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-16">
-                                        <b className={selectedKeyword === 'D-Alpha' ? styles.highlightedHeading : ''}>D-Alpha Tocopheryl Succinate,</b>
-                                        a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
+                                        <b className={selectedKeyword === 'D-Alpha' ? styles.highlightedHeading : ''}>D-Alpha Tocopheryl Succinate, </b>
+                                          a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
                                     <p className={styles.Pcontent} id="page-17">
-                                        <b className={selectedKeyword === 'Docosahexaenoic' ? styles.highlightedHeading : ''}>Docosahexaenoic acid (DHA),</b>
-                                        naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
+                                        <b className={selectedKeyword === 'Docosahexaenoic' ? styles.highlightedHeading : ''}>Docosahexaenoic acid (DHA), </b>
+                                         naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
                                 </div>
 
                             </div>

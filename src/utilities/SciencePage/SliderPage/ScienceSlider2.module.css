@@ -11,12 +11,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1380px; */
 }
 
 .bothButton3 {
     display: none;
-
 }
 
 .LeftBtn {
@@ -40,7 +38,6 @@
 .LeftBtn:hover svg path {
     fill: #ffffff;
     stroke: #ffffff;
-
 }
 
 .RightBtn {
@@ -68,7 +65,6 @@
 .SliderDiv3 {
     margin: auto !important;
     width: 80% !important;
-    /* max-width: 1380px !important; */
     padding: 20px;
 }
 
@@ -151,7 +147,6 @@
 @keyframes zoomInOut {
     0% {
         transform: scale(1);
-        /* Original size */
         background-color: transparent;
     }
 
@@ -167,7 +162,6 @@
     }
 }
 
-
 .sliderContentIMG {
     width: 30%;
 }
@@ -179,7 +173,6 @@
 .sliderContent3 {
     width: 35%;
     padding-right: 10px !important;
-
 }
 
 .sliderContent3 h3 {
@@ -201,7 +194,6 @@
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
-
 }
 
 .round {
@@ -244,7 +236,6 @@
 }
 
 /* Modal css Start */
-
 .mainModalDiv {
     margin: 2rem 4rem 2rem 4rem;
     display: flex;
@@ -284,7 +275,6 @@
     width: 40%;
     display: grid;
 }
-
 
 .Accordian1 {
     align-items: baseline;
@@ -406,7 +396,6 @@
     border-radius: 10px;
     display: flex;
     padding: 0 12px;
-
 }
 
 .addCartButton {
@@ -423,8 +412,6 @@
     margin: 20px 0;
     cursor: pointer;
 }
-
-
 
 .Accordian2 {
     align-items: baseline;
@@ -452,7 +439,6 @@
     padding: 0rem 2rem 0rem 2rem;
     font-family: 'Gotham', Times, serif;
 }
-
 
 .saveContent::-webkit-scrollbar {
     width: 3px;
@@ -943,7 +929,6 @@
 
     .round p {
         font-size: 12px;
-        /* line-height: 30px; */
     }
 
     .forRound {

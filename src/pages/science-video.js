@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
-// import styles from '../styles/sciencePhytosome.module.css';
 import { useRouter } from 'next/router';
-// import ScienceTab from '.././utilities/Sections/ScienceNewVersionPage/ScienceTabs/ScienceTab';
+
 
 const ScienceVideo = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [isSliderVisible, setIsSliderVisible] = useState(true);
-  const [activeIndex, setActiveIndex] = useState(0); // assuming activeIndex is a state variable you might want to manage
+  const [activeIndex, setActiveIndex] = useState(0);
   const router = useRouter();
 
   const handleBack = () => {
     setIsVisible(!isVisible);
     setIsSliderVisible(!isSliderVisible);
-    router.back(); // this navigates back to the previous page
+    router.back(); 
   };
 
   return (
