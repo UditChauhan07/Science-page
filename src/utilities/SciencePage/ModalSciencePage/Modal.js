@@ -8,8 +8,6 @@ const Modal = ({ show, onClose, children }) => {
     } else {
       document.body.style.overflow = 'auto';
     }
-
-    // Cleanup to ensure the style is reset when the component unmounts
     return () => {
       document.body.style.overflow = 'auto';
     };

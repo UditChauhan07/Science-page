@@ -2910,7 +2910,7 @@ input[type=radio] {
     bottom: -6rem !important;
   }
 }
-@media (max-width:37px){
+@media (max-width:375px){
   .carousel-indicators [data-bs-target] {
     width: 7% !important;
   }
