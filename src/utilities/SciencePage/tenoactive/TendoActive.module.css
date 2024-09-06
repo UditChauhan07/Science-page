@@ -216,6 +216,9 @@ width: 55%;
 }
 
 @media (max-width:768px) {
+    .brunoDecription2 h1{
+        font-size: 30px !important;
+    }
     .tendoButton button {
         font-size: 12px;
     }
@@ -248,7 +251,7 @@ width: 55%;
     }
 
     .humanMain {
-        margin: auto;
+        margin:1rem auto;
     }
     .humanMain img{
         width: 100% !important;
